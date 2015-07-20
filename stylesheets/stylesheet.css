@@ -870,7 +870,7 @@ footer a:hover {
     content: none;
   }
 }
-li.me-link{
+.nav>li.me-link{
   display: table-cell;
   width: 1%;
 }
