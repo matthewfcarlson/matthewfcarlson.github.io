@@ -874,6 +874,9 @@ footer a:hover {
   display: table-cell;
   width: 1%;
 }
+#me-links{
+font-weight:15px;
+}
 h1{
 	font-family: 'Source Sans Pro', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serifsans-serif;
 }
