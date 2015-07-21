@@ -858,4 +858,6 @@ h1{
     font-size: 20px; /*change back to 24? */
   }
 }
-
+.work-company-logo{
+	width:128px;
+}
