@@ -1,8 +1,9 @@
-.me-links>li>.icon:hover>.label{
+.me-links>li>.icon>.label{
 	opacity: 0;
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
+	text-decoration: none !important;
 }
 .me-links>li>.icon:hover>.label{
 	opacity:1;
