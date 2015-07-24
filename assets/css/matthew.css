@@ -5,9 +5,10 @@
 	-webkit-transition: top .42s ease-in-out, opacity .3s ease;
 	font-size:100%;
 	position:absolute;
-	top:150%;
+	top:50%;
 	margin:auto;
 	left: 50%;
+	font-weight:250;
 	display:block;
 	transform: translateX(-50%);
 }
