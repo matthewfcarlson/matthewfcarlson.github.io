@@ -1,10 +1,10 @@
-.me-links>li>.icon>.label{
+.me-links>li>.icon:hover>.label{
 	opacity: 0;
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
 }
-.me-links>li:hover>.icon>.label{
+.me-links>li>.icon:hover>.label{
 	opacity:1;
 	display:block;
 	position:absolute;
