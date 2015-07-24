@@ -22,4 +22,8 @@ ul.me-links{
 }
 ul.me-links>li{
 	padding:0px;
+	display: inline-block;
+}
+ul.me-links>li{
+	padding: 0 .75em 0 .75em;
 }
