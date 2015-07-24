@@ -3,7 +3,6 @@
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
-	
 	font-size:100%;
 }
 .me-links>li>.icon {
@@ -14,4 +13,13 @@
 	display:block;
 	position:absolute;
 	top:100%;
+	margin:auto;
+}
+ul.me-links{
+	cursor: default;
+	list-style: none;
+	padding-left: 0;	
+}
+ul.me-links>li{
+	padding:0px;
 }
