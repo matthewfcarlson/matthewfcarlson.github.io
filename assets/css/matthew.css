@@ -39,7 +39,7 @@ ul.me-links>li{
   transform: translateX(-50%);
 }
 .skills>li{
-	positon:relative;
+	position:relative;
 }
 .skills>li:hover>.icon:before{
 	color:white;
