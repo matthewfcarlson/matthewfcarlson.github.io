@@ -43,7 +43,10 @@ ul.me-links>li{
 }
 .skills>li:hover>.icon:before{
 	color:white;
-	transition: color .42s ease-in-out;
-	-moz-transition: color .42s ease-in-out;
-	-webkit-transition: color .42s ease-in-out;
+	transition: color 1s ease-in-out;
+	-moz-transition: color 1s ease-in-out;
+	-webkit-transition: color 1s ease-in-out;
+}
+.skills>li:hover>.label{
+	font-size: 100%;
 }
