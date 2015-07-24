@@ -5,17 +5,19 @@
 	-webkit-transition: opacity,top .42s ease-in-out;
 	font-size:100%;
 	position:absolute;
-	top:150%;
+	top:250%;
 	left:0;
 	right:0;
 	margin:auto;
 }
 .me-links>li>.icon {
 	text-decoration: none !important;
-	padding: 0 .75em 0 .75em;
+	/*padding: 0 .75em 0 .75em;*/
+	display:block;
+	width:60px;
 }
 .me-links>li>.icon:hover>.label{
-	opacity:1;
+	opacity:1.0;
 	display:block;
 	top:100%;
 }
