@@ -1,9 +1,17 @@
 .me-links>li>.icon>.label{
 	opacity: 0;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .42s ease-in-out;
+	-moz-transition: opacity .42s ease-in-out;
+	-webkit-transition: opacity .42s ease-in-out;
+	transition: top .25s;
+	-moz-transition: top .25s;
+	-webkit-transition: top .25s;
 	font-size:100%;
+	position:absolute;
+	top:150%;
+	left:0;
+	right:0;
+	margin:auto;
 }
 .me-links>li>.icon {
 	text-decoration: none !important;
@@ -12,9 +20,7 @@
 .me-links>li>.icon:hover>.label{
 	opacity:1;
 	display:block;
-	position:absolute;
 	top:100%;
-	margin:auto;
 }
 ul.me-links{
 	cursor: default;
