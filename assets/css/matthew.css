@@ -34,7 +34,7 @@ ul.me-links>li{
 }
 .skills>li>.label {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
 }
