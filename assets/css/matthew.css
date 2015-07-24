@@ -1,11 +1,8 @@
 .me-links>li>.icon>.label{
 	opacity: 0;
-	transition: opacity .42s ease-in-out;
-	-moz-transition: opacity .42s ease-in-out;
-	-webkit-transition: opacity .42s ease-in-out;
-	transition: top .25s;
-	-moz-transition: top .25s;
-	-webkit-transition: top .25s;
+	transition: opacity,top .42s ease-in-out;
+	-moz-transition: opacity,top .42s ease-in-out;
+	-webkit-transition: opacity,top .42s ease-in-out;
 	font-size:100%;
 	position:absolute;
 	top:150%;
