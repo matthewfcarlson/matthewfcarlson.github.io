@@ -1,14 +1,15 @@
 .me-links>li>.icon>.label{
 	opacity: 0;
-	transition: opacity,top .42s ease-in-out;
-	-moz-transition: opacity,top .42s ease-in-out;
-	-webkit-transition: opacity,top .42s ease-in-out;
+	transition: opacity .42s ease-in-out,top .3s ease;
+	-moz-transition: opacity.42s ease-in-out, top .3s ease;
+	-webkit-transition: opacity.42s ease-in-out, top .3s ease;
 	font-size:100%;
 	position:absolute;
 	top:250%;
-	left:0;
-	right:0;
+	left:0;	
 	margin:auto;
+	left: 50%;	
+	transform: translateX(-50%);
 }
 .me-links>li>.icon {
 	text-decoration: none !important;
