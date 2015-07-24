@@ -2228,64 +2228,67 @@
 		position: relative;
 	}
 
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
+	.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+	
+	.icon.style1:before {
+		color: #c3e895;
+	}
 
-		.icon > .label {
-			display: none;
-		}
+	.icon.style2:before {
+		color: #8addaa;
+	}
 
-		.icon.style1:before {
-			color: #c3e895;
-		}
+	.icon.style3:before {
+		color: #6bd4c8;
+	}
 
-		.icon.style2:before {
-			color: #8addaa;
-		}
+	.icon.style4:before {
+		color: #57aed3;
+	}
 
-		.icon.style3:before {
-			color: #6bd4c8;
-		}
+	.icon.style5:before {
+		color: #4a87d3;
+	}
 
-		.icon.style4:before {
-			color: #57aed3;
-		}
+	.icon.style6:before {
+		color: #6b88e6;
+	}
+	
+	.icon.style6:before {
+		color: #6b88e6;
+	}
+	.icon.style7:before {
+		color: #4D62A6;
+	}
 
-		.icon.style5:before {
-			color: #4a87d3;
-		}
+	.icon.major {
+		text-decoration: none;
+		color: #555;
+		cursor: default;
+		display: inline-block;
+		margin: 0 0 1.5em 0;
+	}
 
-		.icon.style6:before {
-			color: #6b88e6;
-		}
+	.icon.major:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
 
-		.icon.major {
-			text-decoration: none;
-			color: #555;
-			cursor: default;
-			display: inline-block;
-			margin: 0 0 1.5em 0;
-		}
-
-			.icon.major:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-			}
-
-			.icon.major:before {
-				font-size: 4em;
-				line-height: 1em;
-			}
+	.icon.major:before {
+		font-size: 4em;
+		line-height: 1em;
+	}
 
 /* Image */
 
@@ -2392,7 +2395,7 @@
 			padding-left: 0;
 		}
 
-			ul.major-icons li {
+			/*ul.major-icons li {
 				display: inline-block;
 				padding: 2.5em;
 				text-align: center;
@@ -2420,7 +2423,7 @@
 						transform: rotate(-45deg);
 						display: inline-block;
 						line-height: inherit;
-					}
+					}*/
 
 		ul.actions {
 			cursor: default;
