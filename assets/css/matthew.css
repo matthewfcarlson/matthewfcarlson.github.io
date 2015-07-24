@@ -32,3 +32,9 @@ ul.me-links>li{
 	padding:0px;
 	display: inline-block;
 }
+.skills>li>.label {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
