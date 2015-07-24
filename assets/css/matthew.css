@@ -34,9 +34,12 @@ ul.me-links>li{
 }
 .skills>li>.label {
   position: absolute;
-  top: 90%;
+  top: 75%;
   left: 50%;
   transform: translateX(-50%);
+}
+.skills>li{
+	positon:relative;
 }
 .skills>li:hover>.icon:before{
 	color:white;
