@@ -1,4 +1,4 @@
-/* ME links */
+/* -------------------Me links ------------------------------------*/
 .me-links>li>.icon>.label{
 	opacity: 0;
 	transition: top .42s ease-in-out,opacity .3s ease;
@@ -6,7 +6,7 @@
 	-webkit-transition: top .42s ease-in-out, opacity .3s ease;
 	font-size:100%;
 	position:absolute;
-	top:50%;
+	top:75%;
 	margin:auto;
 	left: 50%;
 	font-weight:250;
@@ -34,7 +34,7 @@ ul.me-links>li{
 	display: inline-block;
 }
 
-/* Skill Circles */
+/* -------------------Skill Circles-------------------------------- */
 ul.skills li {
 	display: inline-block;
 	padding: 1em;
