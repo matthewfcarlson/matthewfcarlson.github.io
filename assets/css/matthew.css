@@ -91,29 +91,31 @@ ul.skills li .icon:before {
 	color: #c3e895;
 }
 
-.skill2:before {
-	color: #8addaa;
+.skill2:before {	
+	color: #8CF497;
 }
-
 .skill3:before {
+	color: #86EAE5;
+}
+.skill4:before {
 	color: #6bd4c8;
 }
 
-.skill4:before {
+.skill5:before {
 	color: #57aed3;
 }
 
-.skill5:before {
-	color: #4a87d3;
-}
-
 .skill6:before {
-	color: #6b88e6;
+	color: #5596EA;
 }
 
 .skill7:before {
+	color: #4a87d3;
+}
+
+.skill8:before {
 	color: #6b88e6;
 }
-.skill8:before {
+.skill9:before {
 	color: #6b88e6;
 }
