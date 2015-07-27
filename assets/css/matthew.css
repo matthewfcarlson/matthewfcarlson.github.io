@@ -119,3 +119,10 @@ ul.skills li .icon:before {
 .skill9:before {
 	color: #6b88e6;
 }
+
+/* XSmall */
+@media screen and (max-width: 480px) {
+	.me-links>li>.icon {	
+		width:45px;
+	}
+}
