@@ -2,193 +2,279 @@
 
 <head>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/matthew.css" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css" />
-    <title>Finance Forecast</title>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-    <script src="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lt IE 9]>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/matthew.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css" />
+  <title>Finance Forecast</title>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  <!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 </head>
 
 <body>
-    
-    <div class="container-fluid">
-      <h1>Your 5 year financial forecast month by month</h1>
-      <div class="row">
-        <div id="options" class="col-md-12 col-lg-2">
-          <h3>Options:</h3>
-          Initial bank account<input v-model="starting.balance"/>
+
+  <div class="container-fluid">
+    <h1>Your 5 year financial forecast month by month</h1>
+    <div class="row">
+      <div id="options" class="col-md-12 col-lg-2" style="height:90vh;overflow-y:scroll">
+        <h3>Life Events:</h3>
+        <h3>Options:</h3>
+        <div class="form-group">
+          <span>Initial bank account</span>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input class="form-control" v-model="starting.balance" type="number" aria-label="Amount (to the nearest dollar)">
+          </div>
+          <span>Initial 401k account</span>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input class="form-control" v-model="starting.fourohonek" type="number" aria-label="Amount (to the nearest dollar)">
+          </div>
+          <span>Current Yearly Salary</span>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input class="form-control" v-model="starting.salary" type="number" aria-label="Amount (to the nearest dollar)">
+          </div>
+          <span>Years to simulate</span>
+          <div class="input-group">            
+            <input class="form-control" v-model="starting.years" type="number" aria-label="years">
+            <span class="input-group-addon">years</span>
+          </div>
+          <span>Salary to 401k</span>
+          <div class="input-group">            
+            <input class="form-control" v-model="starting.contribute_401k" type="number" aria-label="years">
+            <span class="input-group-addon">%</span>
+          </div>
+          <span>Time offset</span>
+          <div class="input-group">            
+            <input class="form-control" v-model="starting.time_offset" type="number" aria-label="years">
+            <span class="input-group-addon">months</span>
+          </div>
         </div>
-        <div id="chart" class="col-md-12 col-lg-10">
-            <svg></svg>
-        </div>
-          <div class="footer text-center">(c) 2017 Matthew Carlson</div>
+
       </div>
+      <div id="chart" class="col-md-12 col-lg-10">
+        <svg></svg>
+      </div>
+      <div class="footer col-md-12 text-center">(c) 2017 Matthew Carlson</div>
     </div>
+  </div>
 
-    <script>
+  <script>
+    var chart;
+    var chartData;
 
-      var chart;
-      var chartData;
-
-      var settingsApp = new Vue({
-        el: "#options",
-        data: {         
-          starting: {
-            balance: 100,
-            fourohonek: 5,            
-            percent_401k: 15,
-            years: 1,
-          },
-          incomes: [],
-          expenses: [],            
+    var settingsApp = new Vue({
+      el: "#options",
+      data: {
+        starting: {
+          balance: 100,
+          fourohonek: 5,
+          percent_401k: 10,
+          time_offset:0,
+          percent_savings: 1,
+          years: 3,
+          salary: 50000,
+          contribute_401k: 15,
         },
-        methods: {
-          load: function(){
-            console.log("Loading from localstorage");
+        incomes: [],
+        expenses: [],
+      },
+      methods: {
+        load: function () {
+          console.log("Loading from localstorage");
+        },
+        save: function () {
+          console.log("saving to localstorage");
+        },
+        setupGraph: function () {
+          var self = this;
+          nv.addGraph(function () {
+            chart = nv.models.multiBarHorizontalChart()
+              .x(function (d) {
+                return d.label
+              })
+              .y(function (d) {
+                return d.value
+              })
+              .margin({
+                top: 30,
+                right: 20,
+                bottom: 50,
+                left: 75
+              })
+              .showValues(true) //Show bar value next to each bar.
+              .showControls(true); //Allow user to switch between "Grouped" and "Stacked" mode.
+
+            chart.yAxis
+              .tickFormat(d3.format(',.2f'));
+            console.log(self.graphData);
+            chartData = d3.select('#chart svg').datum(self.graphData);
+            //self.chartData = chartData;
+            chartData.transition().duration(500).call(chart);
+
+            nv.utils.windowResize(chart.update);
+
+            return chart;
+          });
+        },
+        //called when the objects change
+        updateGraph: _.debounce(function () {
+          console.log("Updating graph");
+
+          if (chartData != null) {
+            chartData.datum(this.graphData).transition().duration(500).call(chart);
+            nv.utils.windowResize(chart.update);
+          }
+
+
+        }, 500)
+      },
+      mounted: function () {
+        this.load();
+        this.setupGraph();
+      },
+      watch: {
+        starting: {
+          handler: function (val, oldVal) {
+            settingsApp.updateGraph();
           },
-          save: function(){
-            console.log("saving to localstorage");
+          deep: true
+        },
+        incomes: {
+          handler: function (val, oldVal) {
+            settingsApp.updateGraph();
           },
-          setupGraph: function(){
-            var self = this;
-            nv.addGraph(function() {
-              chart = nv.models.multiBarHorizontalChart()
-                  .x(function(d) {
-                      return d.label
-                  })
-                  .y(function(d) {
-                      return d.value
-                  })
-                  .margin({
-                      top: 30,
-                      right: 20,
-                      bottom: 50,
-                      left: 175
-                  })
-                  .showValues(true) //Show bar value next to each bar.
-                  .showControls(true); //Allow user to switch between "Grouped" and "Stacked" mode.
+          deep: true
+        },
+        expenses: {
+          handler: function (val, oldVal) {
+            settingsApp.updateGraph();
+          },
+          deep: true
+        },
+      },
+      computed: {
+        graphData: function () {
+          var data = [{
+            "key": "Income",
+            "color": "#77d677",
+            "values": []
+          }, {
+            "key": "Expenses",
+            "color": "#d67777",
+            "values": []
+          }, {
+            "key": "Bank Account",
+            "color": "#7777db",
+            "values": []
+          }, {
+            "key": "Investments",
+            "color": "#222",
+            "values": []
+          }, {
+            "key": "Taxes",
+            "color": "#d22",
+            "values": []
+          },];
+          var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "N/A"];
+          var bankaccount = this.starting.balance;
+          var investments = this.starting.fourohonek;
+          var income = 0;
+          var salary = this.starting.salary;
+          var expenses = 0;
+          
+          var startMonth = new Date();
+          
+          startMonth.addMonths(Number(this.starting.time_offset));
+          console.log("Computing the new graph data offset "+this.starting.time_offset);
+          for (var i = 0; i < 12 * this.starting.years; i++) {
+            var taxes = 0;
+            var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
 
-              chart.yAxis
-                  .tickFormat(d3.format(',.2f'));
-              console.log(self.graphData);
-              chartData = d3.select('#chart svg').datum(self.graphData);
-              //self.chartData = chartData;
-              chartData.transition().duration(500).call(chart);
+            //INVESTMENTS
+            investments *= (1 + this.starting.percent_401k / 100);
 
-              nv.utils.windowResize(chart.update);
+            //SALARY
+            income = salary / 12;
+            var contrib_401k = income * (this.starting.contribute_401k/100);
+            income -= contrib_401k;
+            investments += contrib_401k;
+            //SALARY POST TAX
+            taxes += 0.28*income; //assuming a tax rate of 0.28
+            income *- (1-0.28);
+            
+            
 
-              return chart;
+            //EXPENSES
+
+            //BANK ACCOUNT
+            if (startMonth.getMonth() % 3 == 0) bankaccount*= 1+this.starting.percent_savings/100;
+            bankaccount += income - expenses;
+            
+           
+            data[0].values.push({
+              "label": time_str,
+              "value": income,
             });
-          },
-          updateGraph: function(){
-            console.log("Updating graph");
-            if (chartData != null){
-              chartData.datum(this.graphData).transition().duration(500).call(chart);
-              nv.utils.windowResize(chart.update);
-            }
-
+            data[1].values.push({
+              "label": time_str,
+              "value": -1 * expenses
+            });
+            data[2].values.push({
+              "label": time_str,
+              "value": bankaccount
+            });
+            data[3].values.push({
+              "label": time_str,
+              "value": investments
+            });
+            data[4].values.push({
+              "label": time_str,
+              "value": taxes
+            });
+            startMonth.addMonths(1);
           }
-        },
-        mounted: function(){
-          this.load();
-          this.setupGraph();
-        },
-        watch: {         
-          starting: {
-            handler: function (val, oldVal) {
-                settingsApp.updateGraph();
-              },
-              deep: true
-            },
-        },
-        computed: {
-          graphData: function(){
-             var data = [{
-                "key": "Income",
-                "color": "#77d677",
-                "values": []
-            }, {
-                "key": "Expenses",
-                "color": "#d67777",
-                "values": []
-            }, {
-                "key": "Bank Account",
-                "color": "#7777db",
-                "values": []
-            }, {
-                "key": "Investments",
-                "color": "#222",
-                "values": []
-            }, ];
-            var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "N/A"];
-            var bankaccount = this.starting.balance;
-            var investments = this.starting.fourohonek;
-            var income = 0;
-            var expenses = 0;
-            var startMonth = new Date();
-            console.log("Computing the new graph data");
-            for (var i = 0; i < 12 * this.starting.years; i++) {
-              var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
-              data[0].values.push({
-                    "label": time_str,
-                    "value": income,
-                });
-                data[1].values.push({
-                    "label": time_str,
-                    "value": -1 * expenses
-                });
-                data[2].values.push({
-                    "label": time_str,
-                    "value": bankaccount
-                });
-                data[3].values.push({
-                    "label": time_str,
-                    "value": investments
-                });
-                startMonth.addMonths(1);
-            }
-            //TODO save or load starting, expenses, and incomes
-            this.save();
-            console.log(data);
-            return data;
-          }
+          //TODO save or load starting, expenses, and incomes
+          this.save();
+          return data;
         }
-       });
-        Date.isLeapYear = function(year) {
-            return (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0));
-        };
+      }
+    });
+    Date.isLeapYear = function (year) {
+      return (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0));
+    };
 
-        Date.getDaysInMonth = function(year, month) {
-            return [31, (Date.isLeapYear(year) ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month];
-        };
+    Date.getDaysInMonth = function (year, month) {
+      return [31, (Date.isLeapYear(year) ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month];
+    };
 
-        Date.prototype.isLeapYear = function() {
-            return Date.isLeapYear(this.getFullYear());
-        };
+    Date.prototype.isLeapYear = function () {
+      return Date.isLeapYear(this.getFullYear());
+    };
 
-        Date.prototype.getDaysInMonth = function() {
-            return Date.getDaysInMonth(this.getFullYear(), this.getMonth());
-        };
+    Date.prototype.getDaysInMonth = function () {
+      return Date.getDaysInMonth(this.getFullYear(), this.getMonth());
+    };
 
-        Date.prototype.addMonths = function(value) {
-            var n = this.getDate();
-            this.setDate(1);
-            this.setMonth(this.getMonth() + value);
-            this.setDate(Math.min(n, this.getDaysInMonth()));
-            return this;
-        };         
+    Date.prototype.addMonths = function (value) {
+      var n = this.getDate();
+      this.setDate(1);
+      this.setMonth(this.getMonth() + value);
+      this.setDate(Math.min(n, this.getDaysInMonth()));
+      return this;
+    };
          //TODO: it should be more of a event basis: income setting: starts here, ends here
         /*function GenerateData() { //TODO: create this to be more flexible
             var data = [{
@@ -252,9 +338,7 @@
 
             return data;
         }*/
-
-        
-    </script>
+  </script>
 </body>
 
 </html>
