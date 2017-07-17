@@ -81,7 +81,7 @@
         starting: {
           balance: 100,
           fourohonek: 5,
-          percent_401k: 10,
+          percent_401k: 8,
           time_offset:0,
           percent_savings: 1,
           years: 3,
@@ -242,7 +242,7 @@
             });
             data[4].values.push({
               "label": time_str,
-              "value": taxes
+              "value": -1 * taxes
             });
             startMonth.addMonths(1);
           }
