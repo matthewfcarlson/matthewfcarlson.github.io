@@ -27,8 +27,9 @@
       <h1>Your 5 year financial forecast month by month</h1>
       <div class="row">
         <div id="options" class="col-md-12 col-lg-2">
-          Options:
-          </div>
+          <h3>Options:</h3>
+          Initial bank account<input v-model="starting.balance"/>
+        </div>
         <div id="chart" class="col-md-12 col-lg-10">
             <svg></svg>
         </div>
@@ -36,6 +37,134 @@
     </div>
 
     <script>
+
+      var chart;
+      var chartData;
+
+      var settingsApp = new Vue({
+        el: "#options",
+        data: {         
+          starting: {
+            balance: 100,
+            fourohonek: 5,            
+            percent_401k: 15,
+            years: 1,
+          },
+          incomes: [],
+          expenses: [],            
+        },
+        methods: {
+          load: function(){
+            console.log("Loading from localstorage");
+          },
+          save: function(){
+            console.log("saving to localstorage");
+          },
+          setupGraph: function(){
+            var self = this;
+            nv.addGraph(function() {
+              chart = nv.models.multiBarHorizontalChart()
+                  .x(function(d) {
+                      return d.label
+                  })
+                  .y(function(d) {
+                      return d.value
+                  })
+                  .margin({
+                      top: 30,
+                      right: 20,
+                      bottom: 50,
+                      left: 175
+                  })
+                  .showValues(true) //Show bar value next to each bar.
+                  .showControls(true); //Allow user to switch between "Grouped" and "Stacked" mode.
+
+              chart.yAxis
+                  .tickFormat(d3.format(',.2f'));
+              console.log(self.graphData);
+              chartData = d3.select('#chart svg').datum(self.graphData);
+              //self.chartData = chartData;
+              chartData.transition().duration(500).call(chart);
+
+              nv.utils.windowResize(chart.update);
+
+              return chart;
+            });
+          },
+          updateGraph: function(){
+            console.log("Updating graph");
+            if (chartData != null){
+              chartData.datum(this.graphData).transition().duration(500).call(chart);
+              nv.utils.windowResize(chart.update);
+            }
+
+          }
+        },
+        mounted: function(){
+          this.load();
+          this.setupGraph();
+        },
+        watch: {         
+          starting: {
+            handler: function (val, oldVal) {
+                settingsApp.updateGraph();
+              },
+              deep: true
+            },
+        },
+        computed: {
+          graphData: function(){
+             var data = [{
+                "key": "Income",
+                "color": "#77d677",
+                "values": []
+            }, {
+                "key": "Expenses",
+                "color": "#d67777",
+                "values": []
+            }, {
+                "key": "Bank Account",
+                "color": "#7777db",
+                "values": []
+            }, {
+                "key": "Investments",
+                "color": "#222",
+                "values": []
+            }, ];
+            var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "N/A"];
+            var bankaccount = this.starting.balance;
+            var investments = this.starting.fourohonek;
+            var income = 0;
+            var expenses = 0;
+            var startMonth = new Date();
+            console.log("Computing the new graph data");
+            for (var i = 0; i < 12 * this.starting.years; i++) {
+              var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
+              data[0].values.push({
+                    "label": time_str,
+                    "value": income,
+                });
+                data[1].values.push({
+                    "label": time_str,
+                    "value": -1 * expenses
+                });
+                data[2].values.push({
+                    "label": time_str,
+                    "value": bankaccount
+                });
+                data[3].values.push({
+                    "label": time_str,
+                    "value": investments
+                });
+                startMonth.addMonths(1);
+            }
+            //TODO save or load starting, expenses, and incomes
+            this.save();
+            console.log(data);
+            return data;
+          }
+        }
+       });
         Date.isLeapYear = function(year) {
             return (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0));
         };
@@ -58,30 +187,9 @@
             this.setMonth(this.getMonth() + value);
             this.setDate(Math.min(n, this.getDaysInMonth()));
             return this;
-        };
-         //TODO- bring in vue.js and have these settings be controlled
-        var settings = {
-            salary: 107000,
-            rent: 1000,
-            tithing: true,
-            raise_percentage: 3.2,
-            bonus_percent: 10,
-            bonus_month: 9,
-            bonus_taxes: 30,
-            rent: 1800,
-            food: 3000,
-            taxes: 28,
-            starting_balance: 27000,
-            starting_401k: 5000,
-            starting_stock: 60000,
-            percent_401k: 15,
-            promotion_raise: 15,
-            promotion_rate: 0.5, //TODO- figure out promotions
-            years: 3,
-            //TODO: market performance variable
-        };
+        };         
          //TODO: it should be more of a event basis: income setting: starts here, ends here
-        function GenerateData() { //TODO: create this to be more flexible
+        /*function GenerateData() { //TODO: create this to be more flexible
             var data = [{
                 "key": "Income",
                 "color": "#77d677",
@@ -142,39 +250,9 @@
             console.log(data);
 
             return data;
-        }
+        }*/
 
-        $(function() {
-            var data = GenerateData();
-            nv.addGraph(function() {
-                var chart = nv.models.multiBarHorizontalChart()
-                    .x(function(d) {
-                        return d.label
-                    })
-                    .y(function(d) {
-                        return d.value
-                    })
-                    .margin({
-                        top: 30,
-                        right: 20,
-                        bottom: 50,
-                        left: 175
-                    })
-                    .showValues(true) //Show bar value next to each bar.
-                .showControls(true); //Allow user to switch between "Grouped" and "Stacked" mode.
-
-                chart.yAxis
-                    .tickFormat(d3.format(',.2f'));
-
-                d3.select('#chart svg')
-                    .datum(data)
-                    .call(chart);
-
-                nv.utils.windowResize(chart.update);
-
-                return chart;
-            });
-        });
+        
     </script>
 </body>
 
