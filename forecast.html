@@ -27,6 +27,7 @@
   <div class="container-fluid">
     <h1>Your 5 year financial forecast month by month</h1>
     <div class="row">
+      <!-- TODO: move the style out into a class that only applies when not in mobile -->
       <div id="options" class="col-md-12 col-lg-2" style="height:90vh;overflow-y:scroll">
         <h3>Life Events:</h3>
         <h3>Options:</h3>
@@ -94,9 +95,11 @@
       methods: {
         load: function () {
           console.log("Loading from localstorage");
+          //TODO: implementing loading from local storage
         },
         save: function () {
           console.log("saving to localstorage");
+          //TODO: implementing saving to local storage
         },
         setupGraph: function () {
           var self = this;
@@ -203,18 +206,20 @@
             var taxes = 0;
             var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
 
-            //INVESTMENTS
-            investments *= (1 + this.starting.percent_401k / 100);
-
+           
             //SALARY
             income = salary / 12;
             var contrib_401k = income * (this.starting.contribute_401k/100);
             income -= contrib_401k;
-            investments += contrib_401k;
+            
             //SALARY POST TAX
             taxes += 0.28*income; //assuming a tax rate of 0.28
             income *- (1-0.28);
             
+             //INVESTMENTS
+            investments *= (1 + this.starting.percent_401k / 100);
+            investments += contrib_401k;
+            //TODO: figure out employeer matching for 401k
             
 
             //EXPENSES
@@ -275,69 +280,7 @@
       this.setDate(Math.min(n, this.getDaysInMonth()));
       return this;
     };
-         //TODO: it should be more of a event basis: income setting: starts here, ends here
-        /*function GenerateData() { //TODO: create this to be more flexible
-            var data = [{
-                "key": "Income",
-                "color": "#77d677",
-                "values": []
-            }, {
-                "key": "Expenses",
-                "color": "#d67777",
-                "values": []
-            }, {
-                "key": "Bank Account",
-                "color": "#7777db",
-                "values": []
-            }, {
-                "key": "Investments",
-                "color": "#222",
-                "values": []
-            }, ];
-            var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "N/A"];
-            var currentSettings = settings;
-            var bankaccount = settings.starting_balance;
-            var startMonth = new Date();
-            var investments = settings.starting_401k;
-            for (var i = 0; i < 12 * settings.years; i++) {
-                var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
-                var current_salary = settings.salary + (settings.salary * settings.raise_percentage / 100 * i / 12);
-                var contrib_401k = current_salary / 12 * (settings.percent_401k / 100);
-                investments += contrib_401k;
-                var income = (current_salary - contrib_401k) / 12 * (100 - settings.taxes) / 100;
-
-                if (startMonth.getMonth() == settings.bonus_month) income += (current_salary * settings.bonus_percent / 100 * (100 - settings.bonus_taxes) / 100);
-
-                var expenses = settings.rent + income * .1 + settings.food;
-
-                if (startMonth.getMonth() % 5 == 0) expenses += 5000;
-                bankaccount += income - expenses;
-
-                investments *= 1.04;
-
-                data[0].values.push({
-                    "label": time_str,
-                    "value": income,
-                    "salary": current_salary
-                });
-                data[1].values.push({
-                    "label": time_str,
-                    "value": -1 * expenses
-                });
-                data[2].values.push({
-                    "label": time_str,
-                    "value": bankaccount
-                });
-                data[3].values.push({
-                    "label": time_str,
-                    "value": investments
-                });
-                startMonth.addMonths(1);
-            }
-            console.log(data);
-
-            return data;
-        }*/
+       
   </script>
 </body>
 
