@@ -15,6 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script src="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh//marcuswestin/store.js@2.0.12/dist/store.modern.min.js"></script>
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
   <!--[if lt IE 9]>
@@ -29,7 +30,9 @@
     <div class="row">
       <!-- TODO: move the style out into a class that only applies when not in mobile -->
       <div id="options" class="col-md-12 col-lg-2" style="height:90vh;overflow-y:scroll">
-        <h3>Life Events:</h3>
+        <h3>Incomes:</h3>
+        <input type="checkbox"> Job
+        <h3>Expenses</h3>
         <h3>Options:</h3>
         <div class="form-group">
           <span>Initial bank account</span>
@@ -95,10 +98,15 @@
       methods: {
         load: function () {
           console.log("Loading from localstorage");
+          var newstarting = store.get('starting');
+          if (newstarting != null) this.starting = newstarting;
+
+
           //TODO: implementing loading from local storage
         },
         save: function () {
           console.log("saving to localstorage");
+          store.set('starting',this.starting);
           //TODO: implementing saving to local storage
         },
         setupGraph: function () {
