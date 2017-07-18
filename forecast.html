@@ -5,12 +5,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/matthew.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css" />
   <title>Finance Forecast</title>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
   <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script src="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.min.js"></script>
@@ -23,45 +32,53 @@
 		<![endif]-->
 </head>
 
-<body>
+<body style="margin:0">
 
   <div class="container-fluid">
-    <h1>Your 5 year financial forecast month by month</h1>
+    <h1 style="background-color:#336699; margin:0; margin-left: -15px; margin-right:-15px;padding: 15px; padding-bottom: 0.5em; color:white">Your 5 year financial forecast month by month</h1>
     <div class="row">
       <!-- TODO: move the style out into a class that only applies when not in mobile -->
-      <div id="options" class="col-md-12 col-lg-2" style="height:90vh;overflow-y:scroll">
-        <h3>Incomes:</h3>
-        <input type="checkbox"> Job
-        <h3>Expenses</h3>
-        <h3>Options:</h3>
+      <div id="options" class="col-md-12 col-lg-2" style="height:100vh;overflow-y:scroll; padding-top:15px; background-color:#eee">
+        <h3 style="margin:0">Incomes <a class="btn btn-sm btn-success">+</a></h3>
+        <ul class="list-group">
+          <li class="list-group-item" v-for="income in incomes">{{income.name}} <a class="btn btn-warning btn-xs pull-right">Edit</a></li>
+        </ul>
+        <h3 style="margin:0">Expenses <a class="btn btn-sm btn-success">+</a></h3>
+        <ul class="list-group">
+          <li class="form-group list-group-item" v-for="expense in expenses">
+            <div class="checkbox"><input v-model="expense.enabled" type="checkbox" /></div> {{expense.name}} <small>$<i>{{expense.amount}}</i></small> <a class="btn btn-warning btn-xs pull-right">Edit</a></li>
+        </ul>
+        <h3 style="margin:0">Options:</h3>
+        <ul class="list-group">
+        </ul>
         <div class="form-group">
-          <span>Initial bank account</span>
+          <span>Starting savings balance</span>
           <div class="input-group">
             <span class="input-group-addon">$</span>
-            <input class="form-control" v-model="starting.balance" type="number" aria-label="Amount (to the nearest dollar)">
-          </div>
-          <span>Initial 401k account</span>
-          <div class="input-group">
-            <span class="input-group-addon">$</span>
-            <input class="form-control" v-model="starting.fourohonek" type="number" aria-label="Amount (to the nearest dollar)">
-          </div>
-          <span>Current Yearly Salary</span>
-          <div class="input-group">
-            <span class="input-group-addon">$</span>
-            <input class="form-control" v-model="starting.salary" type="number" aria-label="Amount (to the nearest dollar)">
+            <input class="form-control" v-model="starting.balance" type="number" aria-label="years">
           </div>
           <span>Years to simulate</span>
-          <div class="input-group">            
+          <div class="input-group">
             <input class="form-control" v-model="starting.years" type="number" aria-label="years">
             <span class="input-group-addon">years</span>
           </div>
-          <span>Salary to 401k</span>
-          <div class="input-group">            
-            <input class="form-control" v-model="starting.contribute_401k" type="number" aria-label="years">
+          <span>Market Performance</span>
+          <div class="input-group">
+            <input class="form-control" v-model="starting.market" type="number" aria-label="market">
+            <span class="input-group-addon">%</span>
+          </div>
+          <span>Savings Account Return</span>
+          <div class="input-group">
+            <input class="form-control" v-model="starting.percent_savings" type="number" aria-label="market">
+            <span class="input-group-addon">%</span>
+          </div>
+          <span>401k Return</span>
+          <div class="input-group">
+            <input class="form-control" v-model="starting.percent_401k" type="number" aria-label="market">
             <span class="input-group-addon">%</span>
           </div>
           <span>Time offset</span>
-          <div class="input-group">            
+          <div class="input-group">
             <input class="form-control" v-model="starting.time_offset" type="number" aria-label="years">
             <span class="input-group-addon">months</span>
           </div>
@@ -84,29 +101,55 @@
       data: {
         starting: {
           balance: 100,
-          fourohonek: 5,
           percent_401k: 8,
-          time_offset:0,
+          time_offset: 0,
           percent_savings: 1,
           years: 3,
-          salary: 50000,
-          contribute_401k: 15,
+          market: 5,
+          version: 0.1,
         },
-        incomes: [],
-        expenses: [],
+        incomes: [{
+          type: "salary",
+          name: "Big Corp Inc.",
+          enabled: true,
+          start: new Date(),
+          amount: "50000",
+          promotions: {},
+          bonuses: {},
+          pretax: {},
+          posttax: {}
+        }],
+        investments: [],
+        expenses: [{
+          name: "Rent",
+          type: "monthly",
+          amount: "1200",
+          enabled: true,
+        },{
+          name: "Living",
+          type: "monthly",
+          amount: "2000",
+          enabled: true,
+        }],
       },
       methods: {
         load: function () {
           console.log("Loading from localstorage");
           var newstarting = store.get('starting');
-          if (newstarting != null) this.starting = newstarting;
+          if (newstarting != null) {
+            this.starting = newstarting;
+            this.expenses = store.get('expenses');
+            this.incomes = store.get('incomes');
+          }
 
 
           //TODO: implementing loading from local storage
         },
         save: function () {
           console.log("saving to localstorage");
-          store.set('starting',this.starting);
+          store.set('starting', this.starting);
+          store.set('expenses', this.expenses);
+          store.set('incomes', this.incomes);
           //TODO: implementing saving to local storage
         },
         setupGraph: function () {
@@ -198,45 +241,71 @@
             "key": "Taxes",
             "color": "#d22",
             "values": []
-          },];
-          var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "N/A"];
+          }, ];
+          var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+            "N/A"
+          ];
           var bankaccount = this.starting.balance;
-          var investments = this.starting.fourohonek;
-          var income = 0;
-          var salary = this.starting.salary;
-          var expenses = 0;
-          
+          var allIncomes = _.cloneDeep(this.incomes);
+          var allExpenses = _.cloneDeep(this.expenses);
+          var allInvestments = _.cloneDeep(this.expenses);
+          var investments = 0;
+         
+          //var expenses = 0;
+
           var startMonth = new Date();
-          
+
           startMonth.addMonths(Number(this.starting.time_offset));
-          console.log("Computing the new graph data offset "+this.starting.time_offset);
+          console.log("Computing the new graph data offset " + this.starting.time_offset);
           for (var i = 0; i < 12 * this.starting.years; i++) {
             var taxes = 0;
             var time_str = months[startMonth.getMonth()] + " " + startMonth.getFullYear();
+            var expenses = 0;
+            var income = 0;
 
-           
-            //SALARY
-            income = salary / 12;
-            var contrib_401k = income * (this.starting.contribute_401k/100);
-            income -= contrib_401k;
+
+            //INCOME
+            allIncomes.forEach(function (item) {
+              if (item.enabled == false) return;
+              if (item.start != null && item.start > startMonth) return;
+              //console.log(item);
+              if (item.type == "salary"){
+                income += Number(item.amount) / 12;
+              }
+            });
             
+            var contrib_401k = income * (0 / 100);
+            //income -= contrib_401k;
+
             //SALARY POST TAX
-            taxes += 0.28*income; //assuming a tax rate of 0.28
-            income *- (1-0.28);
-            
-             //INVESTMENTS
+            taxes += 0.28 * income; //assuming a tax rate of 0.28
+            income * -(1 - 0.28);
+
+            //INVESTMENTS
             investments *= (1 + this.starting.percent_401k / 100);
             investments += contrib_401k;
             //TODO: figure out employeer matching for 401k
-            
+
 
             //EXPENSES
-
-            //BANK ACCOUNT
-            if (startMonth.getMonth() % 3 == 0) bankaccount*= 1+this.starting.percent_savings/100;
-            bankaccount += income - expenses;
+            allExpenses.forEach(function (item) {
+              if (item.enabled == false) return;
+              if (item.start != null && item.start > startMonth) return;
+              //console.log(item);
+              if (item.type == "monthly") {
+                expenses += Number(item.amount);
+              }
+              if (item.type == "onetime") {
+                expenses += Number(item.amount);
+                item.enabled = false;
+              }
+            });
             
-           
+            //BANK ACCOUNT
+            if (startMonth.getMonth() % 3 == 0) bankaccount *= 1 + this.starting.percent_savings / 100;
+            bankaccount += income - expenses;
+
+
             data[0].values.push({
               "label": time_str,
               "value": income,
@@ -288,7 +357,6 @@
       this.setDate(Math.min(n, this.getDaysInMonth()));
       return this;
     };
-       
   </script>
 </body>
 
