@@ -35,7 +35,7 @@
 <body style="margin:0">
 
   <div class="container-fluid">
-    <h1 style="background-color:#336699; margin:0; margin-left: -15px; margin-right:-15px;padding: 15px; padding-bottom: 0.5em; color:white">Your 5 year financial forecast month by month</h1>
+    <h1 style="background-color:#336699; margin:0; margin-left: -15px; margin-right:-15px;padding: 15px; padding-bottom: 0.5em; color:white">Your Financial Forecast Month by Month</h1>
     <div class="row">
       <!-- TODO: move the style out into a class that only applies when not in mobile -->
       <div id="options" class="col-md-12 col-lg-2" style="height:100vh;overflow-y:scroll; padding-top:15px; background-color:#eee">
@@ -100,7 +100,7 @@
       el: "#options",
       data: {
         starting: {
-          balance: 100,
+          balance: 2000,
           percent_401k: 8,
           time_offset: 0,
           percent_savings: 1,
@@ -113,7 +113,7 @@
           name: "Big Corp Inc.",
           enabled: true,
           start: new Date(),
-          amount: "50000",
+          amount: 60000,
           promotions: {},
           bonuses: {},
           pretax: {},
@@ -123,12 +123,18 @@
         expenses: [{
           name: "Rent",
           type: "monthly",
-          amount: "1200",
+          amount: 1800,
           enabled: true,
         },{
           name: "Living",
           type: "monthly",
-          amount: "2000",
+          amount: 2000,
+          enabled: true,
+        },
+        {
+          name: "Tithing",
+          type: "monthly",
+          amount: "10%",
           enabled: true,
         }],
       },
