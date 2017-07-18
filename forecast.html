@@ -299,7 +299,12 @@
               if (item.start != null && item.start > startMonth) return;
               //console.log(item);
               if (item.type == "monthly") {
-                expenses += Number(item.amount);
+                if (typeof item.amount === 'string' || item.amount instanceof String)
+                {
+                  console.log(item.amount )
+                  if (item.amount.indexOf("%") > -1) expenses += income * Number(item.amount.substring(0,-1))/100;
+                }
+                else expenses += Number(item.amount);
               }
               if (item.type == "onetime") {
                 expenses += Number(item.amount);
