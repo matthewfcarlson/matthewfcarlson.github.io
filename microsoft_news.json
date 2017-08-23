@@ -1,0 +1,16 @@
+[
+  {
+    "uid": "EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_1",
+    "updateDate": "2017-08-23T00:00:00.0Z",
+    "titleText": "Microsoft will never again sneakily force Windows downloads on users",
+    "mainText": "There have been various controversies with Windows 10, from issues with privacy and telemetry, to ads and forced upgrades. Following a court case, Microsoft has vowed to never force upgrade files onto users again.",
+    "redirectionUrl": "https://betanews.com/2017/08/23/no-more-forced-windows-upgrade-downloads/"
+   },
+  {
+    "uid": "EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_2",
+    "updateDate": "2017-08-23T00:00:00.0Z",
+    "titleText": "People are going nuts over this classic game franchise getting revived by Microsoft",
+    "mainText": "It's been over a decade since the world last saw an entry in the revered \"Age of Empires\" game franchise. The studio that created the series was disbanded, its principal leaders scattered across the game industry. ",
+    "redirectionUrl": "http://www.businessinsider.com/age-of-empires-4-trailer-microsoft-2017-8"
+  }
+]
