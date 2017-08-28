@@ -1,44 +1,37 @@
 [
     {
-        "uid": "abcd3e2-0950-4a2c-9f5f-77400ce4bd0d",
-        "updateDate": "2017-08-25T10:43:41.0Z",
-        "titleText": "Microsoft Says Xbox One X Is Its Fastest-Selling Console Pre-Order Ever",
-        "mainText": "Xbox One X is sold-out at most retailers, burning through Microsoft’s early allotment which seems to indicate a solid level of interest in the new mega-console, despite what naysayers like myself may say.",
-        "redirectionUrl": "https://www.forbes.com/sites/insertcoin/2017/08/25/microsoft-says-xbox-one-x-is-its-fastest-selling-console-pre-order-ever/#54af70ad4061"
+        "uid": "21e8726d-9e1f-478e-b44e-3e5d7d0d399a",
+        "updateDate": "2017-08-28T10:10:08:70.0Z",
+        "titleText": "Valve’s Steam and Microsoft’s Halo coming to Windows Mixed Reality headsets",
+        "mainText": "Microsoft revealed new details of its Windows Mixed Reality headsets this morning. The company confirmed that headset and motion controller bundles will be available for the holiday season starting at $399 from hardware makers HP,…",
+        "redirectionUrl": "https://www.geekwire.com/2017/valves-steam-microsofts-halo-coming-windows-mixed-reality-headsets/"
     },
     {
-        "uid": "bb870abc71d-34ca-41a1-a0e5-077db29ce328",
-        "updateDate": "2017-08-25T10:43:41.0Z",
-        "titleText": "Microsoft is easing its Xbox Live ban system",
-        "mainText": "Microsoft is planning to overhaul its Xbox Live reputation system. At present the software giant issues each Xbox player with a reputation score that lets other gamers know whether opponents are well behaved or not.",
-        "redirectionUrl": "https://www.theverge.com/2017/8/24/16200136/microsoft-xbox-live-reputation-system-changes"
+        "uid": "dafa9fc3-ed44-4304-ac97-77f032272310",
+        "updateDate": "2017-08-28T10:10:08:70.0Z",
+        "titleText": "Microsoft sets $399 price for Minecraft-playing virtual reality set",
+        "mainText": "Microsoft still hopes it can put the "reality" into virtual reality sales. The Redmond, Wash-based tech giant announced Monday that its holiday season foray into what it calls mixed reality will be marked by $399 headset/controller…",
+        "redirectionUrl": "https://www.usatoday.com/story/tech/2017/08/28/microsoft-sets-399-price-minecraft-playing-virtual-reality-set/603508001/"
     },
     {
-        "uid": "Abc7da88-4edd-468e-8114-fe371dc9a175",
-        "updateDate": "2017-08-25T07:56:41.0Z",
-        "titleText": "Microsoft shows off 'Brainwave' 'real-time AI' platform on FPGAs",
-        "mainText": "On August 22, Microsoft unveiled (again) its Project Brainwave deep-learning acceleration platform for real-time artificial intelligence (AI). (I say again, because Microsoft has talked about Brainwave before -- at least a couple times in 2016.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-shows-off-brainwave-real-time-ai-platform-on-fpgas/"
+        "uid": "06adad38-170e-4d13-a398-86a0d9fa4b2d",
+        "updateDate": "2017-08-28T10:10:08:70.0Z",
+        "titleText": "Microsoft is taking a big step forward with its plan to conquer virtual reality",
+        "mainText": "Cheap VR headsets, priced at around $300, are coming to Windows 10 later this year. Microsoft just announced those headsets will support apps and games from the Steam platform, which will greatly expand selection. Plus, Microsoft…",
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-windows-10-virtual-reality-steamvr-integrated-graphics-2017-8"
     },
     {
-        "uid": "testing-3bd1-4f0d-a363-8d20cb2a16ae",
-        "updateDate": "2017-08-25T07:56:40.0Z",
-        "titleText": "Microsoft, Oracle Jump Into Blockchain On Same Day -- And Microsoft Is Clear Leader",
-        "mainText": "Enterprise-tech heavyweights Oracle and Microsoft each jumped into the red-hot market for blockchain digital technology on the very same day, and one of them looks fully prepared (that would be Microsoft) while the other looks on.",
-        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/08/22/microsoft-oracle-jump-into-blockchain-on-same-day-and-microsoft-is-clear-leader/#252f124f4b04"
+        "uid": "0fd90b9b-7161-4f22-9853-c2ca70940451",
+        "updateDate": "2017-08-28T10:10:08:70.0Z",
+        "titleText": "Microsoft Stops Selling Original Xbox One",
+        "mainText": "Last week, Microsoft claimed the Xbox One X is the "fastest selling Xbox pre-order ever" without giving out any actual numbers. But it also did something else quietly: Microsoft stopped selling the original Xbox One. According…",
+        "redirectionUrl": "https://www.pcmag.com/news/355828/microsoft-stops-selling-original-xbox-one"
     },
     {
-        "uid": "48a4e146-f0b0-40b7-8221-d07d0205b91d",
-        "updateDate": "2017-08-25T07:56:41.0Z",
-        "titleText": "Microsoft to cease work on its GigJam collaboration service",
-        "mainText": "Microsoft is throwing in the towel on its GigJam collaboration service, after its public debut two years ago. Microsoft will end the GigJam preview program on September 22, 2017, officials announced today, August 22.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-cease-work-on-its-gigjam-collaboration-service/"
-    },
-    {
-        "uid": "81383247-8eff-4e76-8bda-b2c7d3f0077e",
-        "updateDate": "2017-08-25T07:56:39.0Z",
-        "titleText": "Microsoft turns its physical stores into esports gaming arenas with new League of Legends events",
-        "mainText": "There may be some heated League of Legends competitions going on the next time you pass by a Microsoft Store. The tech giant announced today that it is partnering with ASUS Republic of Gamers and HyperX.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-turns-physical-stores-esports-gaming-arenas-new-league-legends-events/"
+        "uid": "19f9d44d-7ed5-45f9-aa8f-5526c23bbaae",
+        "updateDate": "2017-08-28T10:10:08:70.0Z",
+        "titleText": "Microsoft: FPGA Wins Versus Google TPUs For AI",
+        "mainText": "At the recent Hot Chips conference, three of the world’s largest datacenter companies detailed projects that exploit Field Programmable Gate Arrays (FPGAs) as accelerators for performance-hungry datacenter applications, particularly for Machine Learning. While Xilinx and…",
+        "redirectionUrl": "http://wedirect.me/?a=31655362450&p=1bn&v=1&x=xbSjLJ3KoPTKvbMbEOEHWA"
     }
 ]
