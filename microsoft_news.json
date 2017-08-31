@@ -1,44 +1,23 @@
 [
     {
-        "uid": "5635b14e-a600-4b3c-b5c2-2d23b6264dd0",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Microsoft and Amazon agree to enable Cortana, Alexa communication",
-        "mainText": "Microsoft and Amazon are partnering to enable their respective personal digital assistants to work together. In a deal announced on August 30, the pair committed to getting Microsoft's Cortana and Amazon's Alexa assistants to communicate with…",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-and-amazon-agree-to-enable-cortana-alexa-communication/"
+        "uid": "1b5a7c21-7c33-4c03-a3af-df7aff3b8387",
+        "updateDate": "2017-08-31T08:46:24.0Z",
+        "titleText": "Amazon’s Alexa and Microsoft’s Cortana Will Soon Be Able to Talk to Each Other",
+        "mainText": "The companies on Wednesday announced plans to allow their voice-enabled digital assistants— Microsoft’s Cortana and Amazon’s Alexa—to work together later this year. The agreement provides each assistant with capabilities they lacked, and poses new challenges to…",
+        "redirectionUrl": "https://www.wsj.com/articles/amazons-alexa-and-microsofts-cortana-will-soon-be-able-to-talk-to-each-other-1504120490?mod=e2twd"
     },
     {
-        "uid": "3c24c718-d175-47ab-ab82-40075e4fecab",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Amazon and Microsoft agree their voice assistants will talk (to eachother)",
-        "mainText": "Those betting big on AI being making voice the dominant user interface of the future are not betting so big as to believe their respective artificially intelligent voice assistants will be the sole vocal oracle… ‘Cortana, Open Alexa,’ Amazon Says. And Microsoft Agrees. <https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ny times.com%2F2017%2F08%2F30%2Ftechnology%2Famazon-alexa-microsoft-cortana .html%3Fpartner%3DIFTTT&data=02%7C01%7Cmacarl%40microsoft.com%7C2507e8b2 5fa54238f49108d4efb7d110%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C63 6397020841689612&sdata=U1XS8RKx59OLJ1eLFfn%2F1z1MKoXs3AFuNHCqN8fka78%3D& reserved=0>",
-        "redirectionUrl": "https://techcrunch.com/2017/08/30/amazon-and-microsoft-agree-their-voice-assistants-will-talk-to-each-other/"
+        "uid": "e4f8170d-3dc3-45ed-9b66-97cce3751c13",
+        "updateDate": "2017-08-31T08:46:24.0Z",
+        "titleText": "Alibaba, EY, IBM And Microsoft Use The Blockchain To Create A Transparent Supply Chain",
+        "mainText": "Global companies are looking to deploy blockchain technologies in their supply chains to give them greater transparency. Crucially, blockchain solutions have the potential to solve visibility issues that have dogged the supply chain for decades. Yesterday,…",
+        "redirectionUrl": "https://www.forbes.com/sites/jwebb/2017/08/31/alibaba-ey-ibm-and-microsoft-use-the-blockchain-to-create-a-transparent-supply-chain/#4b8c5c054b37"
     },
     {
-        "uid": "9f2ddb14-8479-4d2c-a175-0bfabc2b17c1",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Dell unveils Inspiron laptop primed for Windows mixed reality",
-        "mainText": "",
-        "redirectionUrl": "http://www.zdnet.com/article/dell-unveils-inspiron-laptop-primed-for-windows-mixed-reality/"
-    },
-    {
-        "uid": "cb3da505-c9c5-498d-a5d2-f4699d9e5233",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Microsoft Surface PCs Gain Ground in the Enterprise",
-        "mainText": "Despite some early stumbles, Microsoft's decision to enter the PC hardware market appears to be paying off. The Redmond, Wash. technology giant trails just behind Apple in the business PC laptop and desktop market, according to…",
-        "redirectionUrl": "http://www.eweek.com/pc-hardware/microsoft-surface-pcs-gain-ground-in-the-enterprise"
-    },
-    {
-        "uid": "69482516-d050-44fb-8dfd-16df409a9ae0",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Microsoft releases new Windows 10 preview without the Xbox app’s HDR screenshot feature",
-        "mainText": "Microsoft today released a new Windows 10 preview for PCs with bug fixes, improvements, and one feature removed. The company is now finalizing the Windows 10 Fall Creators Update, which is expected to arrive next…",
-        "redirectionUrl": "https://venturebeat.com/2017/08/29/microsoft-releases-new-windows-10-preview-without-the-xbox-apps-hdr-screenshot-feature/"
-    },
-    {
-        "uid": "69353c5e-82e6-47d3-af7f-0a287fa585e6",
-        "updateDate": "2017-08-30T07:12:17.0Z",
-        "titleText": "Skype launches integrated code editor for remote technical job interviews",
-        "mainText": "Remote technical interviews are often full of friction, requiring candidates to flip between their video chatting and testing apps. In a bid to solve that problem and gain a competitive edge in the crowded enterprise…",
-        "redirectionUrl": "https://www.geekwire.com/2017/skype-launches-integrated-code-editor-remote-technical-job-interviews/"
+        "uid": "c4cc2bbd-83d1-4b2f-9adc-28ee75379577",
+        "updateDate": "2017-08-31T08:46:24.0Z",
+        "titleText": "Google and Microsoft Can Use AI to Extract Many More Ad Dollar from Our Clicks",
+        "mainText": "WHEN GOOGLE AND Microsoft boast of their deep investments in artificial intelligence and machine learning, they highlight flashy ideas like unbeatable Go players and sociable chatbots. They talk less often about one of the most…",
+        "redirectionUrl": "https://www.wired.com/story/big-tech-can-use-ai-to-extract-many-more-ad-dollars-from-our-clicks"
     }
 ]
