@@ -1,30 +1,51 @@
 [
     {
-        "uid": "4fd5d765-3bda-462c-800e-c40067ad04d9",
-        "updateDate": "2017-09-05T05:52:13.0Z",
-        "titleText": "Huawei announces Microsoft cloud apps partnership",
-        "mainText": "Chinese networking giant Huawei has announced signing a memorandum of understanding (MoU) for strategic cooperation on cloud services with Microsoft. Huawei Cloud already provides Windows Server and Microsoft RDS for SQL Server, with Huawei now set…",
-        "redirectionUrl": "http://www.zdnet.com/article/huawei-announces-microsoft-cloud-apps-partnership/"
+        "uid": "08835a04-dfa6-42af-9978-d8b0849520ec",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "Microsoft says it will defend its 39 ‘dreamers’ in court if the government tries to deport them",
+        "mainText": "After the Trump administration announced Tuesday that it would begin to unwind an Obama-era program that shields younger undocumented immigrants from deportation, Microsoft vowed to defend its workers in court. The move follows a week of…",
+        "redirectionUrl": "https://www.washingtonpost.com/news/the-switch/wp/2017/09/05/microsoft-says-it-will-defend-its-39-dreamers-in-court-if-the-government-tries-to-deport-them/"
     },
     {
-        "uid": "655e152d-c333-41f9-9cea-1fd78b7eee7f",
-        "updateDate": "2017-09-05T05:52:13.0Z",
-        "titleText": "Top web browsers 2017: Microsoft returns to losing ways",
-        "mainText": "Drip. Drip. Drip. That was the sound Microsoft's browsers made last month as they leaked user share. Yet again. According to U.S. analytics vendor Net Applications, the user share of Internet Explorer (IE) and Edge -- an…",
-        "redirectionUrl": "https://www.computerworld.com/article/3199425/web-browsers/top-web-browsers-2017-microsoft-returns-to-losing-ways.html"
+        "uid": "cbd66865-93ec-4126-9347-40f595a02cdd",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "In a strong rebuke, Microsoft offered to aid employees affected by Trump’s DACA decision",
+        "mainText": "Apple and Microsoft pledged on Tuesday to protect workers who face the risk of legal trouble and perhaps deportation after President Donald Trump terminated a major immigration program that had broad support among the business…",
+        "redirectionUrl": "https://www.recode.net/2017/9/5/16255490/microsoft-satya-nadella-offered-aid-employee-worker-trump-daca-dreamer-deport?utm_campaign=tonyromm&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "031eb7bc-1106-4b16-aead-8d93602a14e8",
-        "updateDate": "2017-09-05T05:52:13.0Z",
-        "titleText": "How to choose the right Windows 10 release channel",
-        "mainText": "Once upon a time, making a choice about how you updated Windows was easy: Let Microsoft decide. The company had a release cycle, and you went along for the ride. Those days seem so quaint now.…",
-        "redirectionUrl": "https://www.computerworld.com/article/3220429/microsoft-windows/how-to-choose-the-right-windows-10-release-channel.html"
+        "uid": "07147d1b-61d6-4749-b1a2-9580ff53f67b",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "Microsoft Pushes for 'Urgent' Action to Save DACA",
+        "mainText": "Microsoft president Brad Smith said Tuesday that the federal government needs to take 'urgent' action to fix the Obama-era rule that lets children of undocumented immigrants who grew up in the U.S. stay in the… Microsoft plans Surface unveiling at fall event in London, looking for its next hardware hit <https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ge ekwire.com%2F2017%2Fmicrosoft-plans-surface-unveiling-fall-event-london- looking-next-hardware-hit%2F&data=02%7C01%7Cmacarl%40microsoft.com%7C0f3 ddfca0eea4b7bb6cd08d4f538825f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0 %7C636403070755562716&sdata=YSfhr8rVb5Ue0uY4zDpDo5j8HDKI%2FGFh9yfgc0Hg16 c%3D&reserved=0>",
+        "redirectionUrl": "http://fortune.com/2017/09/05/microsoft-daca/"
     },
     {
-        "uid": "b415600a-bf08-4622-b0fb-4f007a66dfcb",
-        "updateDate": "2017-09-05T05:52:13.0Z",
-        "titleText": "Microsoft may stand out after a record week for the tech sector",
-        "mainText": "One of the stocks driving the Nasdaq 100 to new heights may be investors' best pick in the sector now. The Nasdaq 100 hit an intraday all-time high on Friday, crossing the 6,000 mark for the…",
-        "redirectionUrl": "https://www.cnbc.com/2017/09/02/microsoft-may-stand-out-after-a-record-week-for-the-tech-sector.html"
+        "uid": "db325610-a121-4807-bb5a-bf3246558db9",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "Microsoft's annual Fall Surface reveal event looks to be in London",
+        "mainText": "Microsoft looks to be planning to unveil at least one new Surface device in London at the end of October. Microsoft's annual Future Decoded event is slated for London from October 31 to November 1. Microsoft…",
+        "redirectionUrl": "http://www.zdnet.com/article/microsofts-annual-fall-surface-reveal-event-looks-to-be-in-london/"
+    },
+    {
+        "uid": "a691a487-5239-4de1-b09e-cee4defb801f",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "EY teams up with Maersk, Microsoft on blockchain-based marine insurance",
+        "mainText": "Consultancy EY, data security firm Guardtime, Microsoft and ship operator Maersk have joined to build a blockchain-based marine insurance platform that will be the first real-world use of the nascent technology in the shipping industry. EY…",
+        "redirectionUrl": "http://www.reuters.com/article/us-blockchain-insurance-marine/ey-teams-up-with-maersk-microsoft-on-blockchain-based-marine-insurance-idUSKCN1BG3B6?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
+    },
+    {
+        "uid": "267f34bc-e4ec-40cb-92cc-ba752ce8b260",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "Microsoft extends by three months its Windows 10 S-to-Pro free upgrade offer",
+        "mainText": "Microsoft is adding three more months to the period during which customers purchasing Windows 10 S devices will be able to upgrade to Windows 10 Pro for free. Earlier this year, when introducing Windows 10 S,…",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-extends-by-three-months-its-windows-10-s-to-pro-free-upgrade-offer/"
+    },
+    {
+        "uid": "2e6b9984-a360-4828-abd7-e15f0293c163",
+        "updateDate": "2017-09-06T06:49:14.0Z",
+        "titleText": "Microsoft adds new Insider Lab for Enterprise for testing Windows 10 Enterprise features",
+        "mainText": "Microsoft is looking to get more enterprise customers to test some of the more time- and resource- intensive features in Windows 10 Enterprise Insider builds. Via a new 'Windows Insider Lab for Enterprise,' Microsoft is looking to…",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-adds-new-insider-lab-for-enterprise-for-testing-windows-10-enterprise-features/"
     }
 ]
