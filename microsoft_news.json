@@ -1,86 +1,23 @@
 [
     {
-        "uid": "d5651754-fb6f-4e13-a7d2-a2494a113e6f",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Microsoft may be repositioning some (or all) of Skype for Business as Teams",
-        "mainText": "A number of Office 365 users received a big surprise today when trying to log onto Skype for Business. They saw a message indicating 'Skype for Business is now Microsoft Teams.' There has been no official…",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-may-be-repositioning-some-or-all-of-skype-for-business-as-teams/"
+        "uid": "445b62bb-2a67-4387-8d07-bb428eb37b44",
+        "updateDate": "2017-09-08T03:01:53.0Z",
+        "titleText": "Microsoft aims to take the work out of data wrangling with coming 'Pendleton' tool",
+        "mainText": "With its growing emphasis on all things AI -- coupled with its history as a tool vendor -- it's not surprising that Microsoft is working on tools not just for traditional programmers, but also data…",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-aims-to-take-the-work-out-of-data-wrangling-with-coming-pendleton-tool/"
     },
     {
-        "uid": "508faf3f-42b4-4f14-9c66-048aeecc4f24",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Microsoft gets Adobe to use Azure for another app",
-        "mainText": "Microsoft on Thursday announced a strengthened partnership with Adobe , building on the deal the two companies last year. Microsoft Azure is becoming the 'preferred' public cloud for the Adobe Sign e- signature tool, and Adobe…",
-        "redirectionUrl": "http://wedirect.me/?a=31760768574&p=1bn&v=1&x=a-YVo7L2s1uHpyQU3DpN7g"
+        "uid": "1998717c-edc9-4647-94f4-c5a6d9eacf9d",
+        "updateDate": "2017-09-08T03:01:53.0Z",
+        "titleText": "Disney Movies Anywhere drops Microsoft as a partner",
+        "mainText": "Disney has recently sent out emails to its Movies Anywhere users telling them that the service no longer supports Microsoft's Movies and TV store. The Movies Anywhere app gives you a way to stream all…",
+        "redirectionUrl": "https://www.engadget.com/2017/09/08/disney-movies-anywhere-drops-microsoft/?sr_source=Twitter"
     },
     {
-        "uid": "0e8bacda-f5ac-4ec2-b13b-b12359d03f77",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Microsoft, Adobe advance partnership with new cross-cloud productivity integrations",
-        "mainText": "Microsoft and Adobe are expanding on their year-old partnership by agreeing to integrate some of their key productivity services across their respective cloud services. On September 7, representatives from the two companies said that Adobe Sign,…",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-adobe-advance-partnership-with-new-cross-cloud-productivity-integrations/"
-    },
-    {
-        "uid": "acafcf46-7491-4296-95a7-984052d01b07",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Cortana: anticipating a true conversational interface for Windows",
-        "mainText": "This last month Microsoft, with a variety of partners, announced a series of low cost VR/MR headsets due to market largely targeting consumers by the 4th quarter.   MR…",
-        "redirectionUrl": "https://www.computerworld.com/article/3223184/microsoft-windows/cortana-anticipating-a-true-conversational-interface-for-windows.html"
-    },
-    {
-        "uid": "12caaff3-681c-4e62-8624-9b72fee4a35b",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Microsoft's Azure App Service developer platform now available on Linux",
-        "mainText": "Microsoft is making its Azure App Service generally available on Linux as of today, September 6. Azure App Service is Microsoft's cloud application development, update and hosting service. It enables developers to create cloud apps for…",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-azure-app-service-developer-platform-now-available-on-linux/"
-    },
-    {
-        "uid": "521229f4-39a3-464e-aaa0-7ad8c7c3f3a5",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "How Microsoft Teamed With A “Wedding Crashers” Producer For A New Creative Ad Model",
-        "mainText": "As Super Bowl ads go, it’s a pretty damn good one. Microsoft’s 2014 big game ad opens on Steve Gleason, the former NFLer living with ALS, controlling his computer with his eyes. It asks, “What…",
-        "redirectionUrl": "https://www.fastcompany.com/40463464/how-microsoft-teamed-with-a-wedding-crashers-producer-for-a-new-creative-ad-model?partner=rss&utm_content=buffer23cd6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
-    },
-    {
-        "uid": "474d63ba-febf-447f-a3da-23ef9d04454f",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "The story behind Microsoft CEO Satya Nadella’s new book, ‘Hit Refresh’",
-        "mainText": "In exactly 20 days, “Hit Refresh,” Microsoft CEO Satya Nadella’s new book, hits the shelves. With the first books having just arrived in his office, Nadella today penned a LinkedIn blog post detailing some of the… Competitors",
-        "redirectionUrl": "https://www.geekwire.com/2017/story-behind-microsoft-ceo-satya-nadellas-new-book-hit-refresh/"
-    },
-    {
-        "uid": "8b44ea97-4045-4bb0-9183-c23a060ea89f",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Amazon Announces Plans for Huge New North America Offices",
-        "mainText": "Amazon said on Thursday that it was searching for a second headquarters in North America, a huge new development that would cost as much as $5 billion to build and run, and would house as…",
-        "redirectionUrl": "https://www.nytimes.com/2017/09/07/technology/amazon-headquarters-north-america.html?mcubz=0&_r=0"
-    },
-    {
-        "uid": "18a90d2f-2f16-497a-a364-9a9d36ddfa35",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "IBM to Invest $240 Million to Develop AI Research Lab With MIT",
-        "mainText": "IBM will spend $240 million over 10 years to develop an artificial intelligence research lab with the Massachusetts Institute of Technology, pooling the organizations’ resources as competition intensifies to produce breakthroughs in the field. The MIT-IBM…",
-        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-09-07/ibm-to-invest-240-million-to-develop-ai-research-lab-with-mit?cmpid=socialflow-twitter-business&utm_content=business&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social"
-    },
-    {
-        "uid": "518b4a86-33c6-4c07-8ed5-a22a0fa9571c",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Google Cloud Platform Expands Market Opportunity With New Tiers",
-        "mainText": "Cloud computing provides the foundation for modern enterprises that span start-ups to mega corporations and the government. The cloud computing launched as a cheaper alternative to scale data center compute and storage but evolved into…",
-        "redirectionUrl": "https://www.forbes.com/sites/maribellopez/2017/09/07/google-cloud-platform-expands-market-opportunity-with-new-tiers/#32559301614d"
-    },
-    {
-        "uid": "103b4bba-8418-4312-8b2a-f2f95b20ef90",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Google is trying to poach Microsoft Azure partners by sending them free Chromebooks",
-        "mainText": "Google is trying to attract Microsoft Azure customers over to its Cloud service in an unusual way: by sending free Chromebooks to Azure customers as part of its pitch to convince them to switch over…",
-        "redirectionUrl": "https://www.theverge.com/2017/9/6/16263048/google-cloud-microsoft-azure-chromebook-free-pitch?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
-    },
-    {
-        "uid": "aef050f4-60c5-4c98-898c-b3bae210ea4b",
-        "updateDate": "2017-09-07T06:11:37.0Z",
-        "titleText": "Apple’s culture of secrets is why it won’t win the AI race",
-        "mainText": "There’s a reason why Apple’s successes and failures always seem to surprise some people. It’s a company of secrets. The business behind the iPhone is beyond selfish when it comes to sharing ideas. Sure it’s…",
-        "redirectionUrl": "https://thenextweb.com/apple/2017/09/06/apples-culture-of-secrets-is-why-it-wont-win-the-ai-race/"
+        "uid": "c7dab074-de53-4d8c-831e-e5f35b3e3176",
+        "updateDate": "2017-09-08T03:01:53.0Z",
+        "titleText": "Microsoft and Facebook team up to give AI developers more flexibility",
+        "mainText": "Building a neural network is hard. Most developers working on artificial intelligence projects are forced to commit early to a framework developed by experts in the field, and if they later realize they needed to…",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-facebook-team-give-ai-developers-flexibility/"
     }
 ]
