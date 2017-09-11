@@ -1,23 +1,58 @@
 [
     {
-        "uid": "445b62bb-2a67-4387-8d07-bb428eb37b44",
-        "updateDate": "2017-09-08T03:01:53.0Z",
-        "titleText": "Microsoft aims to take the work out of data wrangling with coming 'Pendleton' tool",
-        "mainText": "With its growing emphasis on all things AI -- coupled with its history as a tool vendor -- it's not surprising that Microsoft is working on tools not just for traditional programmers, but also data…",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-aims-to-take-the-work-out-of-data-wrangling-with-coming-pendleton-tool/"
+        "uid": "4a41173f-415a-4138-9ab0-11faeb6284ae",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft Teams opens conversations to outsiders with new guest access feature",
+        "mainText": "Microsoft today announced that it’s rolling out guest access for Teams so companies using the collaboration software can now invite guests from outside their companies to join their conversations. Teams, which requires an Office 365…",
+        "redirectionUrl": "https://venturebeat.com/2017/09/11/microsoft-teams-opens-conversations-to-outsiders-with-new-guest-access-feature/"
     },
     {
-        "uid": "1998717c-edc9-4647-94f4-c5a6d9eacf9d",
-        "updateDate": "2017-09-08T03:01:53.0Z",
-        "titleText": "Disney Movies Anywhere drops Microsoft as a partner",
-        "mainText": "Disney has recently sent out emails to its Movies Anywhere users telling them that the service no longer supports Microsoft's Movies and TV store. The Movies Anywhere app gives you a way to stream all…",
-        "redirectionUrl": "https://www.engadget.com/2017/09/08/disney-movies-anywhere-drops-microsoft/?sr_source=Twitter"
+        "uid": "b5426822-7858-4e09-a868-7d9afcdcfa77",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft Teams adds guest access and support for more developer tools",
+        "mainText": "Microsoft today announced that 125,000 organizations in 181 markets now use Teams, its Slack competitor for Office 365 subscribers. That’s up from the 30,000 organizations in 145 markets that had adopted the service by the…",
+        "redirectionUrl": "https://techcrunch.com/2017/09/11/microsoft-teams-gets-guest-access-and-support-for-more-developer-tools/"
     },
     {
-        "uid": "c7dab074-de53-4d8c-831e-e5f35b3e3176",
-        "updateDate": "2017-09-08T03:01:53.0Z",
-        "titleText": "Microsoft and Facebook team up to give AI developers more flexibility",
-        "mainText": "Building a neural network is hard. Most developers working on artificial intelligence projects are forced to commit early to a framework developed by experts in the field, and if they later realize they needed to…",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-facebook-team-give-ai-developers-flexibility/"
+        "uid": "7a6bbaa0-2848-4c86-9f62-60ed9627bdde",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft lays out its strategy for the chat wars with $5 billion Slack",
+        "mainText": "When Microsoft entered the market for work chat apps, it created ripples across the industry: $5 billion startup Slack took out a full-page ad in the New York Times welcoming its new rival Microsoft Teams…",
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-teams-used-by-125000-organizations-gets-guest-access-2017-9"
+    },
+    {
+        "uid": "df6c76f1-f094-4ffb-a4aa-9ffae10b1e41",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft launches My Workspace toolbar app for Office365 users on macOS",
+        "mainText": "Microsoft has launched a new toolbar app for macOS called My Workspace that plugs into Office 365, bringing quick access to apps, files, and information to the macOS menu bar. The free product is a Garage…",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-launches-my-workspace-toolbar-app-for-office365-users-on-macos"
+    },
+    {
+        "uid": "246769bd-0f49-4957-bdf1-f3417a353c0e",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Windows 10’s Built-In Linux Shell Could Be Abused to Hide Malware, Researchers Say",
+        "mainText": "Microsoft surprised the technology world last year when it announced that users will be able to run native Linux applications in Windows 10 without virtualization. While this feature is meant to help developers, researchers believe…",
+        "redirectionUrl": "https://motherboard.vice.com/en_us/article/xwwexa/windows-10s-built-in-linux-shell-could-be-abused-to-hide-malware-researchers-say"
+    },
+    {
+        "uid": "0ceb983e-5e2d-45d1-bfda-edbb80fa74fa",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft Outlook for Android now supports add-ins like Evernote and Trello",
+        "mainText": "Microsoft is rolling out add-in support to Outlook for Android this week, more than six months after first debuting mobile add-ins on iOS. The first set of Outlook for Android add-ins includes Evernote, Microsoft Dynamics…",
+        "redirectionUrl": "https://www.theverge.com/2017/9/11/16286392/microsoft-outlook-android-add-ins-support?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "f234c123-c89a-4539-95c3-5658bae7a78d",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Windows Store device limit per Microsoft account raised to 2,000",
+        "mainText": "Back in 2013, Microsoft announced that you could install Windows 8/8.1 apps on up to 81 devices under the same Microsoft account. However, slightly before the launch of Windows 10, the company significantly decreased this…",
+        "redirectionUrl": "https://www.neowin.net/news/windows-store-device-limit-per-microsoft-account-raised-to-2000"
+    },
+    {
+        "uid": "5d1f6961-a026-4f63-bdc2-6ef28411af94",
+        "updateDate": "2017-09-11T06:49:49.0Z",
+        "titleText": "Microsoft And Google Race To Build The World's Smartest Cloud",
+        "mainText": "There’s no shortage of reasons for moving your business to cloud storage, provided that you haven’t already done so. Cloud-based platforms such as Amazon Web Services and Microsoft Azure offer a multitude of advantages to…",
+        "redirectionUrl": "https://www.forbes.com/sites/haroldstark/2017/09/09/microsoft-and-google-race-to-build-the-worlds-smartest-cloud/"
     }
 ]
