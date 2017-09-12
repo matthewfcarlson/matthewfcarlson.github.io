@@ -1,58 +1,51 @@
 [
     {
-        "uid": "1ae13190-65d2-441b-95f2-f169c5aa17b8",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft Teams opens conversations to outsiders with new guest access feature",
-        "mainText": "Microsoft today announced that it’s rolling out guest access for Teams so companies using the collaboration software can now invite guests from outside their companies to join their conversations. Teams, which requires an Office 365.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/11/microsoft-teams-opens-conversations-to-outsiders-with-new-guest-access-feature/"
+        "uid": "485fb8a8-1491-433f-8acf-b74a58d2a2f6",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Apple, Microsoft, Uber and other tech giants are rising to the defense of Dreamers",
+        "mainText": "Apple, Amazon, Facebook, Microsoft and Uber each are providing legal aid to employees affected by President Donald Trump’s decision to unwind a federal program that spares undocumented young adults from deportation. In addition,.",
+        "redirectionUrl": "https://www.recode.net/2017/9/12/16287240/apple-amazon-facebook-google-microsoft-uber-daca-dreamers-immigration?utm_campaign=tonyromm&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "34103212-0b89-4b92-a9ad-b2988e191668",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft Teams adds guest access and support for more developer tools",
-        "mainText": "Microsoft today announced that 125,000 organizations in 181 markets now use Teams, its Slack competitor for Office 365 subscribers. That’s up from the 30,000 organizations in 145 markets that had adopted the service by the.",
-        "redirectionUrl": "https://techcrunch.com/2017/09/11/microsoft-teams-gets-guest-access-and-support-for-more-developer-tools/"
+        "uid": "2fdff777-be43-42bf-bbbf-1c2e26967435",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Microsoft adds 57 Story Remix effects to Photos app, coming to Fall update",
+        "mainText": "Microsoft has rolled out an update for the Photos app with the Story Remix special effects feature. The app has been updated to version 2017.39081.13910.0 and for now, is only available for Windows Insiders in.",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-adds-57-story-remix-effects-to-photos-app-coming-to-fall-update"
     },
     {
-        "uid": "981a57aa-bd23-4b89-a8c1-c9e1acac8f08",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft lays out its strategy for the chat wars with $5 billion Slack",
-        "mainText": "When Microsoft entered the market for work chat apps, it created ripples across the industry: $5 billion startup Slack took out a full-page ad in the New York Times welcoming its new rival Microsoft Teams.",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-teams-used-by-125000-organizations-gets-guest-access-2017-9"
+        "uid": "ba024de1-fe5b-44e4-b110-76fa56a01b80",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Windows 10: Microsoft promises to fix an ongoing game-stuttering problem",
+        "mainText": "If your PC games have been plagued by starts, stops, and other 'stuttering' issues, you're not alone. Microsoft has identified 'several different problem sources' that can cause stutter within the current Windows 10 Creators Update,.",
+        "redirectionUrl": "https://www.pcworld.com/article/3223909/windows/windows-10-microsoft-promises-to-fix-an-ongoing-game-stuttering-problem.html"
     },
     {
-        "uid": "211f95e4-76b7-42d2-8d6b-67963d38c8ab",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft launches My Workspace toolbar app for Office365 users on macOS",
-        "mainText": "Microsoft has launched a new toolbar app for macOS called My Workspace that plugs into Office 365, bringing quick access to apps, files, and information to the macOS menu bar. The free product is a Garage.",
-        "redirectionUrl": "https://www.neowin.net/news/microsoft-launches-my-workspace-toolbar-app-for-office365-users-on-macos"
+        "uid": "31fbb191-e0fa-415d-83be-c633eaf9b3f1",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Microsoft releases Language Community app so you can help translate Windows",
+        "mainText": "Microsoft has just rolled out the new Language Community app that lets you submit better translations for settings and apps in Windows 10. In fact, it will even sync suggestions from other users and allow.",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-releases-language-community-app-so-you-can-help-translate-windows"
     },
     {
-        "uid": "aedef351-73ee-4821-aab2-2f5e722d58bb",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Windows 10’s Built-In Linux Shell Could Be Abused to Hide Malware, Researchers Say",
-        "mainText": "Microsoft surprised the technology world last year when it announced that users will be able to run native Linux applications in Windows 10 without virtualization. While this feature is meant to help developers, researchers believe.",
-        "redirectionUrl": "https://motherboard.vice.com/en_us/article/xwwexa/windows-10s-built-in-linux-shell-could-be-abused-to-hide-malware-researchers-say"
+        "uid": "07c7b205-9fbb-431b-bcef-b32046e38c58",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Microsoft Azure gets a new VM family for bursty workloads",
+        "mainText": "Microsoft today announced the preview launch of a new family of virtual machines for its Azure cloud computing platform that’s specifically geared toward bursty workloads. Microsoft argues that these so- called B-series machines, which are currently.",
+        "redirectionUrl": "https://techcrunch.com/2017/09/11/azure-gets-bursty/"
     },
     {
-        "uid": "477d9726-3140-44fd-a8ab-681324ddbc17",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft Outlook for Android now supports add-ins like Evernote and Trello",
-        "mainText": "Microsoft is rolling out add-in support to Outlook for Android this week, more than six months after first debuting mobile add-ins on iOS. The first set of Outlook for Android add-ins includes Evernote, Microsoft Dynamics.",
-        "redirectionUrl": "https://www.theverge.com/2017/9/11/16286392/microsoft-outlook-android-add-ins-support?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "6defc2d9-958b-42bb-b06a-c0f5b9c3b50f",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Microsoft’s custom Chainsmokers Xbox One S is designed for your inner EDM bro",
+        "mainText": "In the event that you happen to be in the market for an offensive piece of living room electronics, Microsoft has teamed up with DJ duo The Chainsmokers to design a one-of-a-kind Xbox One S.",
+        "redirectionUrl": "https://www.theverge.com/circuitbreaker/2017/9/11/16290464/microsoft-xbox-one-s-chainsmokers-custom-console-giveaway?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "77ef27d1-368f-46a9-bb9d-f29916877907",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Windows Store device limit per Microsoft account raised to 2,000",
-        "mainText": "Back in 2013, Microsoft announced that you could install Windows 8/8.1 apps on up to 81 devices under the same Microsoft account. However, slightly before the launch of Windows 10, the company significantly decreased this.",
-        "redirectionUrl": "https://www.neowin.net/news/windows-store-device-limit-per-microsoft-account-raised-to-2000"
-    },
-    {
-        "uid": "7be5447f-c4ee-4098-9d82-d094542cbc59",
-        "updateDate": "2017-09-11T06:52:41.0Z",
-        "titleText": "Microsoft And Google Race To Build The World's Smartest Cloud",
-        "mainText": "There’s no shortage of reasons for moving your business to cloud storage, provided that you haven’t already done so. Cloud-based platforms such as Amazon Web Services and Microsoft Azure offer a multitude of advantages to.",
-        "redirectionUrl": "https://www.forbes.com/sites/haroldstark/2017/09/09/microsoft-and-google-race-to-build-the-worlds-smartest-cloud/"
+        "uid": "4c0735af-79f1-42d1-bbf5-1c906e328554",
+        "updateDate": "2017-09-12T06:49:00.0Z",
+        "titleText": "Microsoft China Veteran Poached by JD.com in Cloud-Services Coup",
+        "mainText": "",
+        "redirectionUrl": "https://www.wsj.com/articles/microsoft-china-veteran-poached-by-jd-com-in-cloud-services-coup-1505214367?mod=e2twd"
     }
 ]
