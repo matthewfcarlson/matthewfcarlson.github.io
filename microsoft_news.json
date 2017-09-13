@@ -1,51 +1,30 @@
 [
     {
-        "uid": "d6e6f530-9c21-40fc-8911-8b6bdcadae1c",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Apple, Microsoft, Uber and other tech giants are rising to the defense of Dreamers",
-        "mainText": "Apple, Amazon, Facebook, Microsoft and Uber each are providing legal aid to employees affected by President Donald Trump’s decision to unwind a federal program that spares undocumented young adults from deportation. In addition,.",
-        "redirectionUrl": "https://www.recode.net/2017/9/12/16287240/apple-amazon-facebook-google-microsoft-uber-daca-dreamers-immigration?utm_campaign=tonyromm&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "d8d983f4-0f81-440b-906a-9c37c82d3327",
+        "updateDate": "2017-09-13T05:21:11.0Z",
+        "titleText": "Windows 10 Fall Creators Update will include new privacy prompts for apps",
+        "mainText": "Microsoft has been gradually tweaking its Windows 10 privacy controls this year. The software giant addressed some initial concerns in the Windows 10 Creators Update with simplified data collection levels, and eventually revealed what data.",
+        "redirectionUrl": "https://www.theverge.com/2017/9/13/16300638/microsoft-windows-10-fall-creators-update-privacy-prompts?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "216f974f-0123-449f-9012-601a69180697",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Microsoft adds 57 Story Remix effects to Photos app, coming to Fall update",
-        "mainText": "Microsoft has rolled out an update for the Photos app with the Story Remix special effects feature. The app has been updated to version 2017.39081.13910.0 and for now, is only available for Windows Insiders in.",
-        "redirectionUrl": "https://www.neowin.net/news/microsoft-adds-57-story-remix-effects-to-photos-app-coming-to-fall-update"
+        "uid": "b6d579c7-e3fb-41c2-aa89-424bbcbee3d5",
+        "updateDate": "2017-09-13T05:21:11.0Z",
+        "titleText": "Microsoft to make more privacy tweaks to Windows 10 Fall Creators Update",
+        "mainText": "Microsoft is continuing to try to fine-tune the privacy settings with Windows 10 with a few new additional options that will be part of the Fall Creators Update. The additional tweaks, which Microsoft announced on September.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-make-more-privacy-tweaks-to-windows-10-fall-creators-update/"
     },
     {
-        "uid": "76077036-f32e-484a-82ad-92664a5e4aff",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Windows 10: Microsoft promises to fix an ongoing game-stuttering problem",
-        "mainText": "If your PC games have been plagued by starts, stops, and other 'stuttering' issues, you're not alone. Microsoft has identified 'several different problem sources' that can cause stutter within the current Windows 10 Creators Update,.",
-        "redirectionUrl": "https://www.pcworld.com/article/3223909/windows/windows-10-microsoft-promises-to-fix-an-ongoing-game-stuttering-problem.html"
+        "uid": "9d3b7717-6538-4dde-8202-fb34b9166a6c",
+        "updateDate": "2017-09-13T05:21:11.0Z",
+        "titleText": "Microsoft releases new Windows 10 preview with shell, input, Edge, gaming, and device improvements",
+        "mainText": "Microsoft today released a new Windows 10 preview for PCs with shell, input, Edge, gaming, and device improvements. The company is simultaneously finalizing the Windows 10 Fall Creators Update, which is expected to arrive on.",
+        "redirectionUrl": "https://venturebeat.com/2017/09/12/microsoft-releases-new-windows-10-preview-with-shell-input-edge-gaming-and-device-improvements/"
     },
     {
-        "uid": "151025f2-2ebc-4fd6-945c-6866daf43f47",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Microsoft releases Language Community app so you can help translate Windows",
-        "mainText": "Microsoft has just rolled out the new Language Community app that lets you submit better translations for settings and apps in Windows 10. In fact, it will even sync suggestions from other users and allow.",
-        "redirectionUrl": "https://www.neowin.net/news/microsoft-releases-language-community-app-so-you-can-help-translate-windows"
-    },
-    {
-        "uid": "11d52c9d-d0fe-4851-9497-bb1f3fdabc84",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Microsoft Azure gets a new VM family for bursty workloads",
-        "mainText": "Microsoft today announced the preview launch of a new family of virtual machines for its Azure cloud computing platform that’s specifically geared toward bursty workloads. Microsoft argues that these so- called B-series machines, which are currently.",
-        "redirectionUrl": "https://techcrunch.com/2017/09/11/azure-gets-bursty/"
-    },
-    {
-        "uid": "e1b5635c-4e3a-4ce6-8cc8-ac81bd849a5c",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Microsoft’s custom Chainsmokers Xbox One S is designed for your inner EDM bro",
-        "mainText": "In the event that you happen to be in the market for an offensive piece of living room electronics, Microsoft has teamed up with DJ duo The Chainsmokers to design a one-of-a-kind Xbox One S.",
-        "redirectionUrl": "https://www.theverge.com/circuitbreaker/2017/9/11/16290464/microsoft-xbox-one-s-chainsmokers-custom-console-giveaway?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
-    },
-    {
-        "uid": "8ab71846-1858-4a20-b57c-95b6b80c518c",
-        "updateDate": "2017-09-12T06:50:10.0Z",
-        "titleText": "Microsoft China Veteran Poached by JD.com in Cloud-Services Coup",
-        "mainText": "",
-        "redirectionUrl": "https://www.wsj.com/articles/microsoft-china-veteran-poached-by-jd-com-in-cloud-services-coup-1505214367?mod=e2twd"
+        "uid": "5a8b9e59-77d5-403f-9b5f-cc17847c1a1c",
+        "updateDate": "2017-09-13T05:21:11.0Z",
+        "titleText": "Will Microsoft embrace topic computing?",
+        "mainText": "Microsoft has quietly introduced, as part of the Microsoft Graph, the concept of topic, enabling developers to generate a list of people within an organization who are involved with a specific topic. The Microsoft Graph,.",
+        "redirectionUrl": "https://www.computerworld.com/article/3222837/it-industry/will-microsoft-embrace-topic-computing.html#tk.rss_itindustry"
     }
 ]
