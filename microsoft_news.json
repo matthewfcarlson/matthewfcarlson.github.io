@@ -1,30 +1,37 @@
 [
     {
-        "uid": "d8d983f4-0f81-440b-906a-9c37c82d3327",
-        "updateDate": "2017-09-13T05:21:11.0Z",
-        "titleText": "Windows 10 Fall Creators Update will include new privacy prompts for apps",
-        "mainText": "Microsoft has been gradually tweaking its Windows 10 privacy controls this year. The software giant addressed some initial concerns in the Windows 10 Creators Update with simplified data collection levels, and eventually revealed what data.",
-        "redirectionUrl": "https://www.theverge.com/2017/9/13/16300638/microsoft-windows-10-fall-creators-update-privacy-prompts?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "8488b7cc-9cd9-445c-a274-310e93c98330",
+        "updateDate": "2017-09-14T04:31:31.0Z",
+        "titleText": "Bing’s Steve Sirich: Search Is A Key Component Of Microsoft’s Digital Transformation",
+        "mainText": "",
+        "redirectionUrl": "http://www.huffingtonpost.com/entry/video-bings-steve-sirich-search-is-a-key-component_us_59ba0d0ee4b02c642e4a13e5"
     },
     {
-        "uid": "b6d579c7-e3fb-41c2-aa89-424bbcbee3d5",
-        "updateDate": "2017-09-13T05:21:11.0Z",
-        "titleText": "Microsoft to make more privacy tweaks to Windows 10 Fall Creators Update",
-        "mainText": "Microsoft is continuing to try to fine-tune the privacy settings with Windows 10 with a few new additional options that will be part of the Fall Creators Update. The additional tweaks, which Microsoft announced on September.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-make-more-privacy-tweaks-to-windows-10-fall-creators-update/"
+        "uid": "becb1abd-88c5-4e03-8cda-90812cd4af1f",
+        "updateDate": "2017-09-14T04:31:31.0Z",
+        "titleText": "Microsoft Adds Cloud Security to Keep Out Hackers -- and Government Snoops",
+        "mainText": "Microsoft Corp., working with chipmaker Intel Corp., is offering a cloud-computing service with more powerful encryption to secure data from hackers – and protect it from secret government data- gathering. Called Azure confidential computing, the technology encrypts.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-09-14/microsoft-adds-cloud-security-to-keep-out-hackers-and-government-snoops"
     },
     {
-        "uid": "9d3b7717-6538-4dde-8202-fb34b9166a6c",
-        "updateDate": "2017-09-13T05:21:11.0Z",
-        "titleText": "Microsoft releases new Windows 10 preview with shell, input, Edge, gaming, and device improvements",
-        "mainText": "Microsoft today released a new Windows 10 preview for PCs with shell, input, Edge, gaming, and device improvements. The company is simultaneously finalizing the Windows 10 Fall Creators Update, which is expected to arrive on.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/12/microsoft-releases-new-windows-10-preview-with-shell-input-edge-gaming-and-device-improvements/"
+        "uid": "5bd16383-1964-4235-9121-ac6bdec83321",
+        "updateDate": "2017-09-14T04:31:31.0Z",
+        "titleText": "Delta Sky Club at Sea-Tac Airport takes off with new addition of Microsoft devices and technology",
+        "mainText": "Travelers with access to the Delta Sky Club at Seattle-Tacoma International Airport’s Concourse S will now also have access to information and entertainment via Microsoft devices and technology. “Delta Sky Club, Built on Microsoft Technologies” launched.",
+        "redirectionUrl": "https://www.geekwire.com/2017/delta-sky-club-sea-tac-airport-takes-off-new-addition-microsoft-devices-technology/"
     },
     {
-        "uid": "5a8b9e59-77d5-403f-9b5f-cc17847c1a1c",
-        "updateDate": "2017-09-13T05:21:11.0Z",
-        "titleText": "Will Microsoft embrace topic computing?",
-        "mainText": "Microsoft has quietly introduced, as part of the Microsoft Graph, the concept of topic, enabling developers to generate a list of people within an organization who are involved with a specific topic. The Microsoft Graph,.",
-        "redirectionUrl": "https://www.computerworld.com/article/3222837/it-industry/will-microsoft-embrace-topic-computing.html#tk.rss_itindustry"
+        "uid": "2466a4a3-021d-4d1f-8262-fde5c0d27c1d",
+        "updateDate": "2017-09-14T04:31:31.0Z",
+        "titleText": "Microsoft Edge passes 330 million active devices",
+        "mainText": "At its Microsoft Edge Web Summit 2017 event today, Microsoft announced that Edge now has 330 million active devices. Charles Morris, lead of Microsoft Edge’s web ecosystem team, revealed the milestone onstage. The figure is.",
+        "redirectionUrl": "https://venturebeat.com/2017/09/13/microsoft-edge-passes-330-million-active-devices/"
+    },
+    {
+        "uid": "214c4cc4-6a07-4ea7-a334-8db1f374de83",
+        "updateDate": "2017-09-14T04:31:31.0Z",
+        "titleText": "Amperity reveals marketing automation platform and Microsoft partnership as it aims to becomeSeattle’s next great startup",
+        "mainText": "Amperity has top talent, solid venture investment, and a tested solution to a pressing problem. Now the company is coming out of stealth mode to share its vision with the world as it aims to.",
+        "redirectionUrl": "https://www.geekwire.com/2017/amperity-reveals-marketing-automation-platform-microsoft-partnership-aims-become-seattles-next-great-startup/"
     }
 ]
