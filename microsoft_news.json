@@ -1,37 +1,44 @@
 [
     {
-        "uid": "8488b7cc-9cd9-445c-a274-310e93c98330",
-        "updateDate": "2017-09-14T04:31:31.0Z",
-        "titleText": "Bing’s Steve Sirich: Search Is A Key Component Of Microsoft’s Digital Transformation",
-        "mainText": "",
-        "redirectionUrl": "http://www.huffingtonpost.com/entry/video-bings-steve-sirich-search-is-a-key-component_us_59ba0d0ee4b02c642e4a13e5"
+        "uid": "70db24ad-abca-4db2-86d7-bc207604261b",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "Microsoft CEO Satya Nadella recounts his first time meeting Steve Ballmer in 1992",
+        "mainText": "Satya Nadella’s first encounter with Steve Ballmer went down probably just as you’d expect. Nadella spoke at the opening launch event for the Global Innovation Exchange, a new U.S.-China tech institute supported in part by $40.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-ceo-satya-nadella-recounts-first-time-meeting-steve-ballmer-1992/"
     },
     {
-        "uid": "becb1abd-88c5-4e03-8cda-90812cd4af1f",
-        "updateDate": "2017-09-14T04:31:31.0Z",
-        "titleText": "Microsoft Adds Cloud Security to Keep Out Hackers -- and Government Snoops",
-        "mainText": "Microsoft Corp., working with chipmaker Intel Corp., is offering a cloud-computing service with more powerful encryption to secure data from hackers – and protect it from secret government data- gathering. Called Azure confidential computing, the technology encrypts.",
-        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-09-14/microsoft-adds-cloud-security-to-keep-out-hackers-and-government-snoops"
+        "uid": "87006a6c-7259-4186-9fc9-1cc4ab4159bc",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "U.S.-China tech institute GIX names building after former Microsoft CEO Steve Ballmer",
+        "mainText": "As GIX prepares to welcome its first class, the new joint U.S.-China technology innovation institute is adding some key partners while tipping its hat to a Microsoft legend. The Global Innovation Exchange (GIX) held a grand.",
+        "redirectionUrl": "https://www.geekwire.com/2017/u-s-china-tech-institute-co-funded-microsoft-names-building-steve-ballmer/"
     },
     {
-        "uid": "5bd16383-1964-4235-9121-ac6bdec83321",
-        "updateDate": "2017-09-14T04:31:31.0Z",
-        "titleText": "Delta Sky Club at Sea-Tac Airport takes off with new addition of Microsoft devices and technology",
-        "mainText": "Travelers with access to the Delta Sky Club at Seattle-Tacoma International Airport’s Concourse S will now also have access to information and entertainment via Microsoft devices and technology. “Delta Sky Club, Built on Microsoft Technologies” launched.",
-        "redirectionUrl": "https://www.geekwire.com/2017/delta-sky-club-sea-tac-airport-takes-off-new-addition-microsoft-devices-technology/"
+        "uid": "a73ca074-9fa2-4696-b866-4e7a04a28b5a",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "Microsoft’s AI chief wants to launch a chatbot in every country with more than 100M people",
+        "mainText": "Microsoft has launched conversational chatbots in several countries so far, starting three years ago with Xiaoice in China, which quickly became a cultural phenomenon in the country. Since then the Redmond- based company has launched chatbots.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-ai-chief-wants-launch-chatbot-every-country-100m-people/"
     },
     {
-        "uid": "2466a4a3-021d-4d1f-8262-fde5c0d27c1d",
-        "updateDate": "2017-09-14T04:31:31.0Z",
-        "titleText": "Microsoft Edge passes 330 million active devices",
-        "mainText": "At its Microsoft Edge Web Summit 2017 event today, Microsoft announced that Edge now has 330 million active devices. Charles Morris, lead of Microsoft Edge’s web ecosystem team, revealed the milestone onstage. The figure is.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/13/microsoft-edge-passes-330-million-active-devices/"
+        "uid": "bc172f9c-f156-4709-aa58-0ea4bb86fb5a",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "Xbox One’s ‘Intelligent Delivery’ system will free up hard drive space",
+        "mainText": "Microsoft has been working on a new feature for Xbox One and Xbox One X that stands to save users a ton of storage space. Called Intelligent Delivery, the system allows for game data to.",
+        "redirectionUrl": "https://www.engadget.com/2017/09/14/xbox-one-intelligent-delivery-free-up-hard-drive/?utm_source=dlvr.it&utm_medium=twitter"
     },
     {
-        "uid": "214c4cc4-6a07-4ea7-a334-8db1f374de83",
-        "updateDate": "2017-09-14T04:31:31.0Z",
-        "titleText": "Amperity reveals marketing automation platform and Microsoft partnership as it aims to becomeSeattle’s next great startup",
-        "mainText": "Amperity has top talent, solid venture investment, and a tested solution to a pressing problem. Now the company is coming out of stealth mode to share its vision with the world as it aims to.",
-        "redirectionUrl": "https://www.geekwire.com/2017/amperity-reveals-marketing-automation-platform-microsoft-partnership-aims-become-seattles-next-great-startup/"
+        "uid": "301bb200-24e3-4dc0-ad01-f59c39dacc35",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "Microsoft Readies New 'Project Honolulu' GUI Tools for Windows Server",
+        "mainText": "Microsoft is getting ready to release a preview of Project Honolulu, a graphical management tool set for the upcoming Windows Server version 1709 release and other editions of the operating system software, the company said.",
+        "redirectionUrl": "http://www.eweek.com/enterprise-apps/microsoft-readies-new-project-honolulu-gui-tools-for-windows-server"
+    },
+    {
+        "uid": "c80aa9ca-24d8-426d-80f8-1b8a569a9e9c",
+        "updateDate": "2017-09-18T08:50:34.0Z",
+        "titleText": "Microsoft Pix camera app now can snap documents, too",
+        "mainText": "We're using our phone cameras to photograph a lot more than friends and flowers. It's good for taking pictures of restaurant receipts, shopping lists, maps and other documents whose information we want tucked away in.",
+        "redirectionUrl": "https://www.cnet.com/news/microsoft-pix-camera-app-can-snap-documents-whiteboards/"
     }
 ]
