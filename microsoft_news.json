@@ -1,44 +1,30 @@
 [
     {
-        "uid": "70db24ad-abca-4db2-86d7-bc207604261b",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "Microsoft CEO Satya Nadella recounts his first time meeting Steve Ballmer in 1992",
-        "mainText": "Satya Nadella’s first encounter with Steve Ballmer went down probably just as you’d expect. Nadella spoke at the opening launch event for the Global Innovation Exchange, a new U.S.-China tech institute supported in part by $40.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-ceo-satya-nadella-recounts-first-time-meeting-steve-ballmer-1992/"
+        "uid": "7ce23665-2092-4d62-ae01-8efa360dfcac",
+        "updateDate": "2017-09-18T08:50:35.0Z",
+        "titleText": "Satya Nadella Rewrites Microsoft’s Code",
+        "mainText": "Satya Nadella’s corner office, on the fifth floor of Building 34 at Microsoft’s Redmond, Washington, headquarters, features a can’t-miss 84-inch Surface touch-screen computer that dominates one wall. But what demands even more attention are the.",
+        "redirectionUrl": "https://www.fastcompany.com/40457458/satya-nadella-rewrites-microsofts-code?utm_content=buffer361f9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
     },
     {
-        "uid": "87006a6c-7259-4186-9fc9-1cc4ab4159bc",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "U.S.-China tech institute GIX names building after former Microsoft CEO Steve Ballmer",
-        "mainText": "As GIX prepares to welcome its first class, the new joint U.S.-China technology innovation institute is adding some key partners while tipping its hat to a Microsoft legend. The Global Innovation Exchange (GIX) held a grand.",
-        "redirectionUrl": "https://www.geekwire.com/2017/u-s-china-tech-institute-co-funded-microsoft-names-building-steve-ballmer/"
+        "uid": "01d76637-79af-4803-a5db-56b446a8ebfb",
+        "updateDate": "2017-09-18T08:50:35.0Z",
+        "titleText": "Bing launches Google-like fact-checking label",
+        "mainText": "Bing is taking action against fake news, in a similar fashion to what Google has already done. Microsoft's search engine is adding a 'Fact Check' label to the search results 'to help users find fact checking.",
+        "redirectionUrl": "http://mashable.com/2017/09/18/bing-google-fact-checking-label/?utm_cid=mash-com-Tw-tech-link%23sd613jsnjlqd#svdmQWZo05q6"
     },
     {
-        "uid": "a73ca074-9fa2-4696-b866-4e7a04a28b5a",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "Microsoft’s AI chief wants to launch a chatbot in every country with more than 100M people",
-        "mainText": "Microsoft has launched conversational chatbots in several countries so far, starting three years ago with Xiaoice in China, which quickly became a cultural phenomenon in the country. Since then the Redmond- based company has launched chatbots.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-ai-chief-wants-launch-chatbot-every-country-100m-people/"
+        "uid": "6a51311c-45c3-4b47-a470-7f2955f1b02c",
+        "updateDate": "2017-09-18T08:50:35.0Z",
+        "titleText": "Microsoft is being forced to build its own power station in Dublin",
+        "mainText": "Microsoft is being forced to build its own powerstation in Dublin for its data centres because the local electricity grid can't cope, according to The Irish Independent. The US tech giant is planning to install 16.",
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-is-being-forced-to-build-its-own-power-station-in-dublin-2017-9"
     },
     {
-        "uid": "bc172f9c-f156-4709-aa58-0ea4bb86fb5a",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "Xbox One’s ‘Intelligent Delivery’ system will free up hard drive space",
-        "mainText": "Microsoft has been working on a new feature for Xbox One and Xbox One X that stands to save users a ton of storage space. Called Intelligent Delivery, the system allows for game data to.",
-        "redirectionUrl": "https://www.engadget.com/2017/09/14/xbox-one-intelligent-delivery-free-up-hard-drive/?utm_source=dlvr.it&utm_medium=twitter"
-    },
-    {
-        "uid": "301bb200-24e3-4dc0-ad01-f59c39dacc35",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "Microsoft Readies New 'Project Honolulu' GUI Tools for Windows Server",
-        "mainText": "Microsoft is getting ready to release a preview of Project Honolulu, a graphical management tool set for the upcoming Windows Server version 1709 release and other editions of the operating system software, the company said.",
-        "redirectionUrl": "http://www.eweek.com/enterprise-apps/microsoft-readies-new-project-honolulu-gui-tools-for-windows-server"
-    },
-    {
-        "uid": "c80aa9ca-24d8-426d-80f8-1b8a569a9e9c",
-        "updateDate": "2017-09-18T08:50:34.0Z",
-        "titleText": "Microsoft Pix camera app now can snap documents, too",
-        "mainText": "We're using our phone cameras to photograph a lot more than friends and flowers. It's good for taking pictures of restaurant receipts, shopping lists, maps and other documents whose information we want tucked away in.",
-        "redirectionUrl": "https://www.cnet.com/news/microsoft-pix-camera-app-can-snap-documents-whiteboards/"
+        "uid": "c2014050-38c4-4df6-aaab-8a7878b6ea6f",
+        "updateDate": "2017-09-18T08:50:35.0Z",
+        "titleText": "How Microsoft Is Hiding Inside Apple",
+        "mainText": "As Apple rolls out the latest version of iOS to the public, developers around the world are updating applications to iOS 11, ensuring both continuity and compatibility of the code as well as keeping users.",
+        "redirectionUrl": "https://www.forbes.com/sites/ewanspence/2017/09/17/microsoft-todo-apple-iphonex-ios11-cloud/"
     }
 ]
