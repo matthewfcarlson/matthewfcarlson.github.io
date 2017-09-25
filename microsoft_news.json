@@ -1,44 +1,86 @@
 [
     {
-        "uid": "909807f3-c0f5-4304-af43-c8a563fa558d",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "Microsoft and Facebook’s transatlantic internet cable Marea is now complete",
-        "mainText": "A new subsea cable connecting North America with mainland Europe has been completed, promising to meet the growing demand for cloud services with a capacity of 160 terabits per second The 6,600km (4,000 miles) transatlantic cable,.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/22/microsoft-and-facebook-backed-marea-trans-atlantic-cable-is-now-complete/"
+        "uid": "2c91daaf-b7b7-4127-ab1e-8cf3f1ebdaa9",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft's Nadella Wants to Help Coders Take a Quantum Leap",
+        "mainText": "Forty-two years ago this summer a two-person company called Micro-Soft shipped its first product. It was a version of the programming language BASIC for the Altair 8800, one of the first successful personal computers. The.",
+        "redirectionUrl": "https://www.wired.com/story/microsofts-nadella-wants-to-help-coders-take-a-quantum-leap"
     },
     {
-        "uid": "5b686bae-1076-41a7-ae41-e434c8969a68",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "Microsoft to open flagship London brick-and-mortar retail store",
-        "mainText": "",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-open-flagship-london-brick-and-mortar-retail-store/"
+        "uid": "3354e7b5-0d02-4f32-9bb4-2e0139743974",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "The Microsoft Graph is about to light up a new way for business users to search",
+        "mainText": "In May 2017, SharePoint execs said Microsoft was working on a new search experience across Office. At Ignite this week, Microsoft officials are filling in the details about exactly what this is going to mean. At.",
+        "redirectionUrl": "http://www.zdnet.com/article/the-microsoft-graph-is-about-to-light-up-a-new-way-for-business-users-to-search/"
     },
     {
-        "uid": "785a11b9-f29a-4be9-8905-447f6284d501",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "Windows Store Rebranded to Microsoft Store",
-        "mainText": "It's been a little over two years since Windows 10 launched, and Microsoft decided it's now time to change the name of its app and music store it we all know as the Windows Store..",
-        "redirectionUrl": "https://www.pcmag.com/news/356377/windows-store-rebranded-to-microsoft-store"
+        "uid": "45ddbdd2-0832-43f1-8a7e-7d2dcb61277e",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft makes Teams primary teamwork hub, replacing Skype for Business",
+        "mainText": "Microsoft Corp’s Teams application will be replacing Skype for Business as the company’s primary teamwork software, Microsoft said on Monday, in its latest effort to defend against the threat of upstart Slack in the workplace.",
+        "redirectionUrl": "https://www.reuters.com/article/us-microsoft-teams/microsoft-makes-teams-primary-teamwork-hub-replacing-skype-for-business-idUSKCN1C01RH"
     },
     {
-        "uid": "33631fff-a859-4a62-be54-7a57c885911e",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "Microsoft Is Expanding Its Azure Cloud Computing Data Centers",
-        "mainText": "Microsoft has added additional data center capacity to two of its cloud 'regions' in the U.S. and Europe, and plans to do the same to all of its data centers going forward. Customers can preview this.",
-        "redirectionUrl": "http://fortune.com/2017/09/22/microsoft-cloud-data-center-expansion/"
+        "uid": "261e0415-eaa0-4d27-b9cb-a4dd5f786c58",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft replacing Skype for Business with Teams",
+        "mainText": "The move announced at Microsoft’s Ignite annual conference shows the growing importance of Teams, Microsoft’s answer to Slack. Microsoft is ending Skype’s foray into business communications, packaging its communications tools into Microsoft Teams, the company’s challenge.",
+        "redirectionUrl": "http://www.seattletimes.com/business/microsoft/microsoft-replacing-skype-for-business-with-teams/?utm_source=dlvr.it&utm_medium=twitter&utm_campaign=RSS_microsoft"
     },
     {
-        "uid": "93590583-e0da-443c-805e-e2ac06e89bac",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "Microsoft waffles regarding what's next for Dynamics 365 for SMBs",
-        "mainText": "Microsoft's rollout of its Dynamics 365 CRM/ERP offerings has been a rather confusing one. This week, following the Directions North America 2017 event for Microsoft Dynamics 365 SMB users, some partners and customers seemed even.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-waffles-regarding-whats-next-for-dynamics-365-for-smbs/"
+        "uid": "bed61b8f-9463-4295-b942-b30872d23921",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft takes its first steps of its plan to migrate Skype for Business users to Teams",
+        "mainText": "It's happening: Skype for Business Online is on its way to being replaced by Microsoft Teams. Microsoft accidentally leaked word of its plans to migrate its Skype for Business customers to its Teams chat-based collaboration service.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-takes-its-first-steps-of-its-plan-to-migrate-skype-for-business-users-to-teams/"
     },
     {
-        "uid": "989e28cb-a980-4ab9-b958-b160951816a9",
-        "updateDate": "2017-09-22T10:05:35.0Z",
-        "titleText": "One year later, Microsoft AI and Research grows to 8k people in massive bet on artificial intelligence",
-        "mainText": "Microsoft’s first mission statement envisioned a computer on every desk and in every home, but Bill Gates also had another goal: that computers would someday be able to see, hear, communicate and understand humans and.",
-        "redirectionUrl": "https://www.geekwire.com/2017/one-year-later-microsoft-ai-research-grows-8k-people-massive-bet-artificial-intelligence/"
+        "uid": "a5384e29-1db9-40ad-8c10-5808e8b89331",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft Aims to Make Business AI Cheaper, Faster, Simpler",
+        "mainText": "Microsoft Corp. MSFT plans Monday to unveil its first product in a new line of software aimed at taking on International Business Machines Corp. IBM -0.09% and others in the growing market to apply artificial.",
+        "redirectionUrl": "https://www.wsj.com/articles/microsoft-aims-to-make-business-ai-cheaper-faster-simpler-1506344400"
+    },
+    {
+        "uid": "7a7b732e-2d9d-4528-a55b-501af1558f5d",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft unveils its next-generation AI developer tools",
+        "mainText": "Microsoft is adding to its AI development tool stable with new Azure Machine Learning tools. Microsoft is taking the wraps off what it's calling its 'next generation of Azure Machine Learning' at its Ignite IT Pro.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-unveils-its-next-generation-ai-developer-tools/"
+    },
+    {
+        "uid": "4ae8fb52-81a7-4e67-8ed7-95470e9ce0ac",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft finally starts doing something with LinkedIn by integrating it into Office 365",
+        "mainText": "Last year, Microsoft bought LinkedIn for $26.2 billion, but even though the acquisition has long closed, Microsoft hasn’t yet done much with all of the data it gets from the social network. At its Ignite.",
+        "redirectionUrl": "https://techcrunch.com/2017/09/25/microsoft-finally-starts-doing-something-with-linkedin-by-integrating-it-into-office-365/"
+    },
+    {
+        "uid": "869df87c-5031-4c47-98e9-7ce81f247797",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft just unleashed three long-anticipated secret weapons in the cloud wars",
+        "mainText": "Microsoft will unveil its latest arsenal in the cloud wars on Monday as it opens Ignite, one of the company's largest customer conferences. Microsoft is using the Orlando event to officially and formally release some much-anticipated.",
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-releases-sql-server-2017-azure-stack-oracle-database-migration-tool-2017-9"
+    },
+    {
+        "uid": "513d83d9-4a1e-4014-bedd-4565df22e963",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft links its new Cosmos DB database to serverless technology for Azure developers",
+        "mainText": "Microsoft’s strategy for helping its customers use one of the more exciting developments in cloud computing — serverless technologies — continues to evolve, and the company is ready to expand Azure Functions to several other.",
+        "redirectionUrl": "https://www.geekwire.com/2017/azure-developers-using-serverless-tech-can-now-work-microsofts-new-cosmos-db-database/"
+    },
+    {
+        "uid": "01b32bf8-d170-4271-a534-b7263bf98aa5",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "More Windows 10 S PCs, starting at $275, are on the way",
+        "mainText": "Microsoft's PC maker partners are readying some new low-end devices running Windows 10 S, which they may be marketing as suited for 'frontline' service workers. New Windows 10 S devices are coming from HP, Lenovo and.",
+        "redirectionUrl": "http://www.zdnet.com/article/more-windows-10-s-pcs-starting-at-275-are-on-the-way/"
+    },
+    {
+        "uid": "a61d2263-80cb-4087-922d-8f00fd37315b",
+        "updateDate": "2017-09-25T04:59:48.0Z",
+        "titleText": "Microsoft launches new healthcare division based on artificial intelligence software",
+        "mainText": "Microsoft is setting up a new healthcare department at its Cambridge research facility, as part of plans to use its artificial intelligence software to enter the health market. The computer giant has created the division as.",
+        "redirectionUrl": "http://www.telegraph.co.uk/technology/2017/09/24/microsoft-launches-new-healthcare-division-based-artificial/"
     }
 ]
