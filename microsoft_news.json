@@ -1,86 +1,79 @@
 [
     {
-        "uid": "2c91daaf-b7b7-4127-ab1e-8cf3f1ebdaa9",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft's Nadella Wants to Help Coders Take a Quantum Leap",
-        "mainText": "Forty-two years ago this summer a two-person company called Micro-Soft shipped its first product. It was a version of the programming language BASIC for the Altair 8800, one of the first successful personal computers. The.",
-        "redirectionUrl": "https://www.wired.com/story/microsofts-nadella-wants-to-help-coders-take-a-quantum-leap"
+        "uid": "d3887755-7682-425a-a120-2320fcfd7ff2",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Microsoft announces Office 2019",
+        "mainText": "At Ignite, its enterprise technology conference in Orlando today, Microsoft announced Office 2019. The next version of the productivity suite will be released in the second half of 2018, with previews arriving in the middle.",
+        "redirectionUrl": "https://venturebeat.com/2017/09/26/microsoft-announces-office-2019/"
     },
     {
-        "uid": "3354e7b5-0d02-4f32-9bb4-2e0139743974",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "The Microsoft Graph is about to light up a new way for business users to search",
-        "mainText": "In May 2017, SharePoint execs said Microsoft was working on a new search experience across Office. At Ignite this week, Microsoft officials are filling in the details about exactly what this is going to mean. At.",
-        "redirectionUrl": "http://www.zdnet.com/article/the-microsoft-graph-is-about-to-light-up-a-new-way-for-business-users-to-search/"
+        "uid": "bbe1a182-2119-4f93-95cd-f4617cd26be1",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Microsoft commits to deliver next Office client, servers by second half2018",
+        "mainText": "Microsoft is going to ship new on-premises releases of Office client, SharePoint Server, Exchange Server and Skype for Business Server in the second half of calendar 2018. Microsoft officials announced its plans during its Ignite IT.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-commits-to-deliver-next-office-client-servers-by-second-half-2018/"
     },
     {
-        "uid": "45ddbdd2-0832-43f1-8a7e-7d2dcb61277e",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft makes Teams primary teamwork hub, replacing Skype for Business",
-        "mainText": "Microsoft Corp’s Teams application will be replacing Skype for Business as the company’s primary teamwork software, Microsoft said on Monday, in its latest effort to defend against the threat of upstart Slack in the workplace.",
-        "redirectionUrl": "https://www.reuters.com/article/us-microsoft-teams/microsoft-makes-teams-primary-teamwork-hub-replacing-skype-for-business-idUSKCN1C01RH"
+        "uid": "ae9dcac4-b211-4b87-b1ed-7d16eb9a1137",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Microsoft CEO Nadella's 'Hit Refresh': Is a cultural revolution enough to refresh Microsoft?",
+        "mainText": "In my decades of writing about Microsoft, I've had the opportunity to interview all three of the company's CEOs: The brash and brainy Bill Gates, the bombastic, take-no-prisoners Steve Ballmer and the understated yet thoughtful.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-ceo-nadellas-hit-refresh-is-a-cultural-revolution-enough-to-refresh-microsoft/"
     },
     {
-        "uid": "261e0415-eaa0-4d27-b9cb-a4dd5f786c58",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft replacing Skype for Business with Teams",
-        "mainText": "The move announced at Microsoft’s Ignite annual conference shows the growing importance of Teams, Microsoft’s answer to Slack. Microsoft is ending Skype’s foray into business communications, packaging its communications tools into Microsoft Teams, the company’s challenge.",
-        "redirectionUrl": "http://www.seattletimes.com/business/microsoft/microsoft-replacing-skype-for-business-with-teams/?utm_source=dlvr.it&utm_medium=twitter&utm_campaign=RSS_microsoft"
+        "uid": "fa6ea4ec-fe50-4ba6-b70e-b2e2c2e05e82",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Microsoft’s Nadella gives some glimpses behind the curtain in ‘Hit Refresh’",
+        "mainText": "The day he introduced himself to his Microsoft co-workers as their new chief executive, Satya Nadella knew he faced a skeptical audience. Employees were demoralized. Internal polls showed they were unhappy with the direction of the.",
+        "redirectionUrl": "http://www.seattletimes.com/business/microsoft/microsofts-nadella-gives-some-glimpses-behind-the-curtain-in-hit-refresh/?utm_content=bufferf6a2d&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
     },
     {
-        "uid": "bed61b8f-9463-4295-b942-b30872d23921",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft takes its first steps of its plan to migrate Skype for Business users to Teams",
-        "mainText": "It's happening: Skype for Business Online is on its way to being replaced by Microsoft Teams. Microsoft accidentally leaked word of its plans to migrate its Skype for Business customers to its Teams chat-based collaboration service.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-takes-its-first-steps-of-its-plan-to-migrate-skype-for-business-users-to-teams/"
+        "uid": "d29d787a-936a-4c23-a88b-19cf4fa25bf7",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "A Rare Joint Interview with Microsoft CEO Satya Nadella and Bill Gates",
+        "mainText": "In February 2014, Satya Nadella became the third CEO of Microsoft . Nadella, more soft-spoken than his predecessors, Bill Gates and Steve Ballmer, assumed the company’s helm amid one of its stormiest chapters. Ballmer, toward.",
+        "redirectionUrl": "https://www.wsj.com/articles/a-rare-joint-interview-with-microsoft-ceo-satya-nadella-and-bill-gates-1506358852?mod=e2twd"
     },
     {
-        "uid": "a5384e29-1db9-40ad-8c10-5808e8b89331",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft Aims to Make Business AI Cheaper, Faster, Simpler",
-        "mainText": "Microsoft Corp. MSFT plans Monday to unveil its first product in a new line of software aimed at taking on International Business Machines Corp. IBM -0.09% and others in the growing market to apply artificial.",
-        "redirectionUrl": "https://www.wsj.com/articles/microsoft-aims-to-make-business-ai-cheaper-faster-simpler-1506344400"
+        "uid": "c037d287-bdbb-4ca7-a575-3ada1d8ebb2b",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Here's the Complicated Back Story of Microsoft and HPE's Latest Collaboration",
+        "mainText": "Microsoft is betting that new data center hardware from long-time partners Hewlett-Packard Enterprise, Dell, and Lenovo will boost its Azure cloud against rival Amazon. These machines, which Microsoft execs said are now available after a long.",
+        "redirectionUrl": "http://fortune.com/2017/09/26/hpe-microsoft-azure-stack-hardware/"
     },
     {
-        "uid": "7a7b732e-2d9d-4528-a55b-501af1558f5d",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft unveils its next-generation AI developer tools",
-        "mainText": "Microsoft is adding to its AI development tool stable with new Azure Machine Learning tools. Microsoft is taking the wraps off what it's calling its 'next generation of Azure Machine Learning' at its Ignite IT Pro.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-unveils-its-next-generation-ai-developer-tools/"
+        "uid": "0479e2d6-3755-4bef-b036-2e36b2191de3",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Microsoft’s new coding language is made for quantum computers",
+        "mainText": "When one of the first personal computers, the Altair 8800 came along in 1976, Microsoft was ready with a programming language, Altair BASIC. It wants to be equally prepared when quantum computers go mainstream, so.",
+        "redirectionUrl": "https://www.engadget.com/2017/09/26/microsoft-new-coding-language-is-made-for-quantum-computers/?utm_source=dlvr.it&utm_medium=twitter"
     },
     {
-        "uid": "4ae8fb52-81a7-4e67-8ed7-95470e9ce0ac",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft finally starts doing something with LinkedIn by integrating it into Office 365",
-        "mainText": "Last year, Microsoft bought LinkedIn for $26.2 billion, but even though the acquisition has long closed, Microsoft hasn’t yet done much with all of the data it gets from the social network. At its Ignite.",
-        "redirectionUrl": "https://techcrunch.com/2017/09/25/microsoft-finally-starts-doing-something-with-linkedin-by-integrating-it-into-office-365/"
+        "uid": "5a650b31-f5fd-49d2-b017-c8972dd68d90",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Bill Gates switches to Android phone",
+        "mainText": "",
+        "redirectionUrl": "http://www.bbc.co.uk/news/technology-41399823?utm_source=dlvr.it&utm_medium=twitter"
     },
     {
-        "uid": "869df87c-5031-4c47-98e9-7ce81f247797",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft just unleashed three long-anticipated secret weapons in the cloud wars",
-        "mainText": "Microsoft will unveil its latest arsenal in the cloud wars on Monday as it opens Ignite, one of the company's largest customer conferences. Microsoft is using the Orlando event to officially and formally release some much-anticipated.",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-releases-sql-server-2017-azure-stack-oracle-database-migration-tool-2017-9"
+        "uid": "6d7dd0f5-8021-413f-878d-e7483851dfa2",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Samsung is reportedly working on a mixed reality headset for Microsoft's Windows",
+        "mainText": "",
+        "redirectionUrl": "http://www.businessinsider.com/samsung-mixed-reality-headset-microsoft-windows-2017-9"
     },
     {
-        "uid": "513d83d9-4a1e-4014-bedd-4565df22e963",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft links its new Cosmos DB database to serverless technology for Azure developers",
-        "mainText": "Microsoft’s strategy for helping its customers use one of the more exciting developments in cloud computing — serverless technologies — continues to evolve, and the company is ready to expand Azure Functions to several other.",
-        "redirectionUrl": "https://www.geekwire.com/2017/azure-developers-using-serverless-tech-can-now-work-microsofts-new-cosmos-db-database/"
+        "uid": "647deabf-0e22-4ebc-b456-60d7d2212523",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Clemson Athletics Goes 'All In' On Microsoft for Social Content",
+        "mainText": "The blast of cannon fire is unnerving—a martial deviation from an otherwise celebratory medley of passion, pride, tradition, and unbridled youth. Tiny cheerleaders tumble in synchronicity through the 90- degree heat and into the arms of.",
+        "redirectionUrl": "https://www.pcmag.com/video/356414/clemson-athletics-goes-all-in-on-microsoft-for-social-cont"
     },
     {
-        "uid": "01b32bf8-d170-4271-a534-b7263bf98aa5",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "More Windows 10 S PCs, starting at $275, are on the way",
-        "mainText": "Microsoft's PC maker partners are readying some new low-end devices running Windows 10 S, which they may be marketing as suited for 'frontline' service workers. New Windows 10 S devices are coming from HP, Lenovo and.",
-        "redirectionUrl": "http://www.zdnet.com/article/more-windows-10-s-pcs-starting-at-275-are-on-the-way/"
-    },
-    {
-        "uid": "a61d2263-80cb-4087-922d-8f00fd37315b",
-        "updateDate": "2017-09-25T04:59:48.0Z",
-        "titleText": "Microsoft launches new healthcare division based on artificial intelligence software",
-        "mainText": "Microsoft is setting up a new healthcare department at its Cambridge research facility, as part of plans to use its artificial intelligence software to enter the health market. The computer giant has created the division as.",
-        "redirectionUrl": "http://www.telegraph.co.uk/technology/2017/09/24/microsoft-launches-new-healthcare-division-based-artificial/"
+        "uid": "b6bd28b1-50b3-440d-b7e6-b7e61f8921e9",
+        "updateDate": "2017-09-26T06:39:47.0Z",
+        "titleText": "Apple, Google, And Microsoft Ranked Three Most Valuable Global Brands Of 2017",
+        "mainText": "Over the last 18 years, Interbrand has been ranking the value of global brands, and for the last five years Apple and Google have held the top two positions. The newest Best Global Brands report.",
+        "redirectionUrl": "https://www.fastcompany.com/40472610/apple-google-and-microsoft-ranked-three-most-valuable-global-brands-of-2017"
     }
 ]
