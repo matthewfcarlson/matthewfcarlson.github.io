@@ -1,79 +1,58 @@
 [
     {
-        "uid": "d3887755-7682-425a-a120-2320fcfd7ff2",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Microsoft announces Office 2019",
-        "mainText": "At Ignite, its enterprise technology conference in Orlando today, Microsoft announced Office 2019. The next version of the productivity suite will be released in the second half of 2018, with previews arriving in the middle.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/26/microsoft-announces-office-2019/"
-    },
-    {
-        "uid": "bbe1a182-2119-4f93-95cd-f4617cd26be1",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Microsoft commits to deliver next Office client, servers by second half2018",
-        "mainText": "Microsoft is going to ship new on-premises releases of Office client, SharePoint Server, Exchange Server and Skype for Business Server in the second half of calendar 2018. Microsoft officials announced its plans during its Ignite IT.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-commits-to-deliver-next-office-client-servers-by-second-half-2018/"
-    },
-    {
-        "uid": "ae9dcac4-b211-4b87-b1ed-7d16eb9a1137",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Microsoft CEO Nadella's 'Hit Refresh': Is a cultural revolution enough to refresh Microsoft?",
-        "mainText": "In my decades of writing about Microsoft, I've had the opportunity to interview all three of the company's CEOs: The brash and brainy Bill Gates, the bombastic, take-no-prisoners Steve Ballmer and the understated yet thoughtful.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-ceo-nadellas-hit-refresh-is-a-cultural-revolution-enough-to-refresh-microsoft/"
-    },
-    {
-        "uid": "fa6ea4ec-fe50-4ba6-b70e-b2e2c2e05e82",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Microsoft’s Nadella gives some glimpses behind the curtain in ‘Hit Refresh’",
-        "mainText": "The day he introduced himself to his Microsoft co-workers as their new chief executive, Satya Nadella knew he faced a skeptical audience. Employees were demoralized. Internal polls showed they were unhappy with the direction of the.",
-        "redirectionUrl": "http://www.seattletimes.com/business/microsoft/microsofts-nadella-gives-some-glimpses-behind-the-curtain-in-hit-refresh/?utm_content=bufferf6a2d&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
-    },
-    {
-        "uid": "d29d787a-936a-4c23-a88b-19cf4fa25bf7",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "A Rare Joint Interview with Microsoft CEO Satya Nadella and Bill Gates",
-        "mainText": "In February 2014, Satya Nadella became the third CEO of Microsoft . Nadella, more soft-spoken than his predecessors, Bill Gates and Steve Ballmer, assumed the company’s helm amid one of its stormiest chapters. Ballmer, toward.",
-        "redirectionUrl": "https://www.wsj.com/articles/a-rare-joint-interview-with-microsoft-ceo-satya-nadella-and-bill-gates-1506358852?mod=e2twd"
-    },
-    {
-        "uid": "c037d287-bdbb-4ca7-a575-3ada1d8ebb2b",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Here's the Complicated Back Story of Microsoft and HPE's Latest Collaboration",
-        "mainText": "Microsoft is betting that new data center hardware from long-time partners Hewlett-Packard Enterprise, Dell, and Lenovo will boost its Azure cloud against rival Amazon. These machines, which Microsoft execs said are now available after a long.",
-        "redirectionUrl": "http://fortune.com/2017/09/26/hpe-microsoft-azure-stack-hardware/"
-    },
-    {
-        "uid": "0479e2d6-3755-4bef-b036-2e36b2191de3",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Microsoft’s new coding language is made for quantum computers",
-        "mainText": "When one of the first personal computers, the Altair 8800 came along in 1976, Microsoft was ready with a programming language, Altair BASIC. It wants to be equally prepared when quantum computers go mainstream, so.",
-        "redirectionUrl": "https://www.engadget.com/2017/09/26/microsoft-new-coding-language-is-made-for-quantum-computers/?utm_source=dlvr.it&utm_medium=twitter"
-    },
-    {
-        "uid": "5a650b31-f5fd-49d2-b017-c8972dd68d90",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Bill Gates switches to Android phone",
+        "uid": "fed0ddc0-a678-4efb-a5dd-07ba81f5fa52",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Microsoft C.E.O. Says Tech’s Progress on Gender Equality Is ‘Not Sufficient’",
         "mainText": "",
-        "redirectionUrl": "http://www.bbc.co.uk/news/technology-41399823?utm_source=dlvr.it&utm_medium=twitter"
+        "redirectionUrl": "https://www.nytimes.com/2017/09/26/business/satya-nadella-microsoft-gender-equality.html?smid=tw-nytimesbits&smtyp=cur"
     },
     {
-        "uid": "6d7dd0f5-8021-413f-878d-e7483851dfa2",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Samsung is reportedly working on a mixed reality headset for Microsoft's Windows",
-        "mainText": "",
-        "redirectionUrl": "http://www.businessinsider.com/samsung-mixed-reality-headset-microsoft-windows-2017-9"
+        "uid": "488e2859-aaa9-4e79-b591-279f6d51e8c7",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "These Companies Pledged $300 Million to Boost Computer Science in Schools",
+        "mainText": "A group of major companies led by the technology industry announced plans Tuesday to commit more than $300 million over five years to boost computer science programs among younger students. Amazon.com, Facebook, Alphabet, Microsoft, and Salesforce.com.",
+        "redirectionUrl": "http://fortune.com/2017/09/26/computer-science-schools/?utm_campaign=fortunemagazine&utm_source=twitter.com&utm_medium=social&xid=soc_socialflow_twitter_FORTUNE"
     },
     {
-        "uid": "647deabf-0e22-4ebc-b456-60d7d2212523",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Clemson Athletics Goes 'All In' On Microsoft for Social Content",
-        "mainText": "The blast of cannon fire is unnerving—a martial deviation from an otherwise celebratory medley of passion, pride, tradition, and unbridled youth. Tiny cheerleaders tumble in synchronicity through the 90- degree heat and into the arms of.",
-        "redirectionUrl": "https://www.pcmag.com/video/356414/clemson-athletics-goes-all-in-on-microsoft-for-social-cont"
+        "uid": "143584bb-50e0-4828-b482-4ae915aa5063",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Ivanka Trump spearheads $200M STEM effort",
+        "mainText": "President Donald Trump will direct the Education Department to invest a minimum of $200 million in grant funding each year to expand STEM and computer science education in schools, the White House announced Monday. The effort,.",
+        "redirectionUrl": "http://www.cnn.com/2017/09/25/politics/ivanka-trump-stem-computer-science/index.html?sr=twCNN092517ivanka-trump-stem-computer-science0213PMVODtop"
     },
     {
-        "uid": "b6bd28b1-50b3-440d-b7e6-b7e61f8921e9",
-        "updateDate": "2017-09-26T06:39:47.0Z",
-        "titleText": "Apple, Google, And Microsoft Ranked Three Most Valuable Global Brands Of 2017",
-        "mainText": "Over the last 18 years, Interbrand has been ranking the value of global brands, and for the last five years Apple and Google have held the top two positions. The newest Best Global Brands report.",
-        "redirectionUrl": "https://www.fastcompany.com/40472610/apple-google-and-microsoft-ranked-three-most-valuable-global-brands-of-2017"
+        "uid": "819f7464-3759-4f48-b638-bd501b1c5244",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Artificial Intelligence and Hybrid Cloud Take Center Stage at Microsoft Ignite",
+        "mainText": "Microsoft is placing its bets on Artificial intelligence (AI) and hybrid cloud. At Ignite 2017 in Orlando, Redmond emphasized on how AI has become the key ingredient of everything it's developing. Azure Stack, the hybrid.",
+        "redirectionUrl": "https://www.forbes.com/sites/janakirammsv/2017/09/27/artificial-intelligence-and-hybrid-cloud-take-center-stage-at-microsoft-ignite/#72d936b4416d"
+    },
+    {
+        "uid": "e475e6c5-735f-4974-b192-0be7f040a208",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Microsoft's Linux love deepens: It's now one of Open Source Initiative's big backers",
+        "mainText": "Microsoft Azure gave Microsoft reason to love rather than loathe Linux, and the company has now gone a step further in embracing open source by sponsoring the Open Source Initiative -- a group that began.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsofts-linux-love-deepens-its-now-one-of-open-source-initiatives-big-backers/"
+    },
+    {
+        "uid": "d97cbf86-e1ba-4a03-8237-e25162763bf5",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Microsoft creates custom Xbox One S in honor of Paul Walker",
+        "mainText": "Microsoft has revealed a special Xbox One S created in honor of late Fast and Furious actor Paul Walker. The custom-made console is bright green and blue. It’s modeled after Walker’s first car from The.",
+        "redirectionUrl": "https://www.theverge.com/2017/9/27/16372786/microsoft-custom-xbox-one-honor-paul-walker-fast-furious?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "b9651f33-6c56-4336-b7ba-301991db5e9f",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Microsoft’s LTE Surface Pro expected to launch on December 1st",
+        "mainText": "Microsoft announced the Surface Pro with LTE support earlier this year, and it’s now expected to make the device available in December. Neowin reports that Microsoft’s Tim Golik, a Surface Pro program manager, revealed a.",
+        "redirectionUrl": "https://www.theverge.com/2017/9/27/16372838/microsoft-surface-pro-lte-release-date?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "7310d887-d880-4a83-a0d1-5d9857b75e16",
+        "updateDate": "2017-09-27T03:07:24.0Z",
+        "titleText": "Microsoft tries to stem its self-made collaboration-tool confusion",
+        "mainText": "Choice is good. But too much choice, especially when it comes to collaboration tools, has been a problem for Microsoft. This isn't news to customers, partners or Microsoft execs themselves. But at the company's Ignite IT.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-tries-to-stem-its-self-made-collaboration-tool-confusion/"
     }
 ]
