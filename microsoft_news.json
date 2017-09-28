@@ -1,58 +1,51 @@
 [
     {
-        "uid": "fed0ddc0-a678-4efb-a5dd-07ba81f5fa52",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Microsoft C.E.O. Says Tech’s Progress on Gender Equality Is ‘Not Sufficient’",
-        "mainText": "",
-        "redirectionUrl": "https://www.nytimes.com/2017/09/26/business/satya-nadella-microsoft-gender-equality.html?smid=tw-nytimesbits&smtyp=cur"
+        "uid": "b7d014bb-823b-4f4b-bb20-a2a44ec27775",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Microsoft CEO Satya Nadella: America's immigration policy is one of our biggest competitive advantages",
+        "mainText": "We sat down with Microsoft CEO Satya Nadella to talk about how America's immigration policy is actually a major competitive advantage for companies. Nadella is also the author of  Hit Refresh . Following is a.",
+        "redirectionUrl": "http://www.businessinsider.com/america-immigration-policy-advantage-microsoft-ceo-satya-nadella-daca-dreamers-trump-2017-9"
     },
     {
-        "uid": "488e2859-aaa9-4e79-b591-279f6d51e8c7",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "These Companies Pledged $300 Million to Boost Computer Science in Schools",
-        "mainText": "A group of major companies led by the technology industry announced plans Tuesday to commit more than $300 million over five years to boost computer science programs among younger students. Amazon.com, Facebook, Alphabet, Microsoft, and Salesforce.com.",
-        "redirectionUrl": "http://fortune.com/2017/09/26/computer-science-schools/?utm_campaign=fortunemagazine&utm_source=twitter.com&utm_medium=social&xid=soc_socialflow_twitter_FORTUNE"
+        "uid": "bef6bbaa-6807-4930-a3ee-ecaff281ea2e",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Ford Designers Use Microsoft Hololens Augmented Reality to Make Better Cars",
+        "mainText": "Augmented reality is just starting its long-anticipated march into humanity’s eyeballs, but if you don’t plan on dropping $1,000 for an iPhone X , you can still reap the benefits. All you need is a.",
+        "redirectionUrl": "https://www.wired.com/story/ford-design-microsoft-hololens/"
     },
     {
-        "uid": "143584bb-50e0-4828-b482-4ae915aa5063",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Ivanka Trump spearheads $200M STEM effort",
-        "mainText": "President Donald Trump will direct the Education Department to invest a minimum of $200 million in grant funding each year to expand STEM and computer science education in schools, the White House announced Monday. The effort,.",
-        "redirectionUrl": "http://www.cnn.com/2017/09/25/politics/ivanka-trump-stem-computer-science/index.html?sr=twCNN092517ivanka-trump-stem-computer-science0213PMVODtop"
+        "uid": "c4ce0e5d-b480-42c9-ab7d-0d6440b732b9",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Microsoft releases new Windows 10 preview with Fluent Design, Edge, and input improvements",
+        "mainText": "After releasing a Fall Creators Update build yesterday, Microsoft today released a new Windows 10 preview for PCs with Fluent Design, Edge, and input improvements. While yesterday’s build was part of finalizing the Windows 10.",
+        "redirectionUrl": "https://venturebeat.com/2017/09/27/microsoft-releases-new-windows-10-preview-with-fluent-design-edge-and-input-improvements/"
     },
     {
-        "uid": "819f7464-3759-4f48-b638-bd501b1c5244",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Artificial Intelligence and Hybrid Cloud Take Center Stage at Microsoft Ignite",
-        "mainText": "Microsoft is placing its bets on Artificial intelligence (AI) and hybrid cloud. At Ignite 2017 in Orlando, Redmond emphasized on how AI has become the key ingredient of everything it's developing. Azure Stack, the hybrid.",
-        "redirectionUrl": "https://www.forbes.com/sites/janakirammsv/2017/09/27/artificial-intelligence-and-hybrid-cloud-take-center-stage-at-microsoft-ignite/#72d936b4416d"
+        "uid": "3c9ed671-bfdb-4e72-9a94-a7894d0ad3f5",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Microsoft search engine Bing to focus on PC search market: CEO",
+        "mainText": "Microsoft Corp Chief Executive Officer Satya Nadella said on Wednesday the company’s search engine, Bing, will focus on expanding in the PC search market after losing its deal with Apple Inc’s voice assistant Siri. “Bing is.",
+        "redirectionUrl": "http://www.reuters.com/article/us-microsoft-nadella-reuters-newsmaker/microsoft-search-engine-bing-to-focus-on-pc-search-market-ceo-idUSKCN1C235Y?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
     },
     {
-        "uid": "e475e6c5-735f-4974-b192-0be7f040a208",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Microsoft's Linux love deepens: It's now one of Open Source Initiative's big backers",
-        "mainText": "Microsoft Azure gave Microsoft reason to love rather than loathe Linux, and the company has now gone a step further in embracing open source by sponsoring the Open Source Initiative -- a group that began.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-linux-love-deepens-its-now-one-of-open-source-initiatives-big-backers/"
+        "uid": "0497b96b-c227-4617-a4e4-82b5c8e1e353",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Microsoft readies new Dynamics 365-branded HCM apps, virtual customer service agents",
+        "mainText": "Microsoft is expanding its Dynamics 365 ERP/CRM portfolio with more apps in the human capital management (HCM) space. Microsoft introduced its first dedicated HCM application in April, called Dynamics 365 for Talent. That application, which became.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-readies-new-dynamics-365-branded-hcm-apps-virtual-customer-service-agents/"
     },
     {
-        "uid": "d97cbf86-e1ba-4a03-8237-e25162763bf5",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Microsoft creates custom Xbox One S in honor of Paul Walker",
-        "mainText": "Microsoft has revealed a special Xbox One S created in honor of late Fast and Furious actor Paul Walker. The custom-made console is bright green and blue. It’s modeled after Walker’s first car from The.",
-        "redirectionUrl": "https://www.theverge.com/2017/9/27/16372786/microsoft-custom-xbox-one-honor-paul-walker-fast-furious?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "39ef463f-4894-4bba-8a72-9514f4ef01de",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "Microsoft’s Margo Day: A History of Passion for Tech and Learning",
+        "mainText": "Margo Day is an industry veteran with 33 years experience in the technology business. Roughly half of that time has been at Microsoft , where she currently serves a VP of U.S. Education. You might think.",
+        "redirectionUrl": "http://www.huffingtonpost.com/entry/microsofts-margo-day-a-history-of-passion-for-tech_us_59ca69ece4b0b7022a646de6"
     },
     {
-        "uid": "b9651f33-6c56-4336-b7ba-301991db5e9f",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Microsoft’s LTE Surface Pro expected to launch on December 1st",
-        "mainText": "Microsoft announced the Surface Pro with LTE support earlier this year, and it’s now expected to make the device available in December. Neowin reports that Microsoft’s Tim Golik, a Surface Pro program manager, revealed a.",
-        "redirectionUrl": "https://www.theverge.com/2017/9/27/16372838/microsoft-surface-pro-lte-release-date?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
-    },
-    {
-        "uid": "7310d887-d880-4a83-a0d1-5d9857b75e16",
-        "updateDate": "2017-09-27T03:07:24.0Z",
-        "titleText": "Microsoft tries to stem its self-made collaboration-tool confusion",
-        "mainText": "Choice is good. But too much choice, especially when it comes to collaboration tools, has been a problem for Microsoft. This isn't news to customers, partners or Microsoft execs themselves. But at the company's Ignite IT.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-tries-to-stem-its-self-made-collaboration-tool-confusion/"
+        "uid": "ed04e4bb-7f40-41fb-8945-d358a4faec90",
+        "updateDate": "2017-09-28T03:05:15.0Z",
+        "titleText": "We knocked on the door at Microsoft’s mysterious small-town office, and here’s what we found",
+        "mainText": "Microsoft’s office in Silverdale, Wash., a town of close to 20,000 people on the Kitsap Peninsula across Puget Sound from Seattle, is far from the tech giant’s massive headquarters campus in Redmond — in more.",
+        "redirectionUrl": "https://www.geekwire.com/2017/knocked-door-microsofts-mysterious-small-town-office-heres-found/"
     }
 ]
