@@ -1,51 +1,30 @@
 [
     {
-        "uid": "b7d014bb-823b-4f4b-bb20-a2a44ec27775",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Microsoft CEO Satya Nadella: America's immigration policy is one of our biggest competitive advantages",
-        "mainText": "We sat down with Microsoft CEO Satya Nadella to talk about how America's immigration policy is actually a major competitive advantage for companies. Nadella is also the author of  Hit Refresh . Following is a.",
-        "redirectionUrl": "http://www.businessinsider.com/america-immigration-policy-advantage-microsoft-ceo-satya-nadella-daca-dreamers-trump-2017-9"
+        "uid": "98331a58-38b6-4045-bd9c-db1755a1b76a",
+        "updateDate": "2017-09-29T02:58:19.0Z",
+        "titleText": "Microsoft's Satya Nadella shares the leadership lesson in watching Amazon win the cloud business",
+        "mainText": "At a public talk in New York yesterday (Sept. 27) to promote his new book, Microsoft chief Satya Nadella revealed what he learned about leadership in 2009, after watching the tech giant fall woefully behind.",
+        "redirectionUrl": "https://qz.com/1089902/microsoft-ceo-satya-nadella-on-the-leadership-lesson-in-watching-amazon-win-the-cloud-business/"
     },
     {
-        "uid": "bef6bbaa-6807-4930-a3ee-ecaff281ea2e",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Ford Designers Use Microsoft Hololens Augmented Reality to Make Better Cars",
-        "mainText": "Augmented reality is just starting its long-anticipated march into humanity’s eyeballs, but if you don’t plan on dropping $1,000 for an iPhone X , you can still reap the benefits. All you need is a.",
-        "redirectionUrl": "https://www.wired.com/story/ford-design-microsoft-hololens/"
+        "uid": "fe559ddf-45d3-4577-8056-31ef8a9efffc",
+        "updateDate": "2017-09-29T02:58:19.0Z",
+        "titleText": "Acknowledging Fears, Microsoft’s Nadella Remains Optimistic About AI",
+        "mainText": "Microsoft Corp. is optimistic about emerging technologies under the leadership of chief executive Satya Nadella, who says artificial intelligence could be an influential catalyst for human empowerment and inclusion. Mr. Nadella, speaking.",
+        "redirectionUrl": "https://blogs.wsj.com/cio/2017/09/28/acknowledging-fears-microsofts-nadella-remains-optimistic-about-ai/?mod=WSJBlog"
     },
     {
-        "uid": "c4ce0e5d-b480-42c9-ab7d-0d6440b732b9",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Microsoft releases new Windows 10 preview with Fluent Design, Edge, and input improvements",
-        "mainText": "After releasing a Fall Creators Update build yesterday, Microsoft today released a new Windows 10 preview for PCs with Fluent Design, Edge, and input improvements. While yesterday’s build was part of finalizing the Windows 10.",
-        "redirectionUrl": "https://venturebeat.com/2017/09/27/microsoft-releases-new-windows-10-preview-with-fluent-design-edge-and-input-improvements/"
+        "uid": "95b82bef-972a-4922-bbe0-d485518c4c0e",
+        "updateDate": "2017-09-29T02:58:19.0Z",
+        "titleText": "Is Windows' footprint shrinking? It was 1.5bn users but now Nadella says it's 1bn",
+        "mainText": "Microsoft CEO Satya Nadella says there are now one billion Windows users across the world. Nadella gave the new figure in an interview with Bloomberg for the launch of his new book Hit Refresh. Asked about the.",
+        "redirectionUrl": "http://www.zdnet.com/article/is-windows-footprint-shrinking-it-was-1-5bn-users-but-now-nadella-says-its-1bn/"
     },
     {
-        "uid": "3c9ed671-bfdb-4e72-9a94-a7894d0ad3f5",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Microsoft search engine Bing to focus on PC search market: CEO",
-        "mainText": "Microsoft Corp Chief Executive Officer Satya Nadella said on Wednesday the company’s search engine, Bing, will focus on expanding in the PC search market after losing its deal with Apple Inc’s voice assistant Siri. “Bing is.",
-        "redirectionUrl": "http://www.reuters.com/article/us-microsoft-nadella-reuters-newsmaker/microsoft-search-engine-bing-to-focus-on-pc-search-market-ceo-idUSKCN1C235Y?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
-    },
-    {
-        "uid": "0497b96b-c227-4617-a4e4-82b5c8e1e353",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Microsoft readies new Dynamics 365-branded HCM apps, virtual customer service agents",
-        "mainText": "Microsoft is expanding its Dynamics 365 ERP/CRM portfolio with more apps in the human capital management (HCM) space. Microsoft introduced its first dedicated HCM application in April, called Dynamics 365 for Talent. That application, which became.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-readies-new-dynamics-365-branded-hcm-apps-virtual-customer-service-agents/"
-    },
-    {
-        "uid": "39ef463f-4894-4bba-8a72-9514f4ef01de",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "Microsoft’s Margo Day: A History of Passion for Tech and Learning",
-        "mainText": "Margo Day is an industry veteran with 33 years experience in the technology business. Roughly half of that time has been at Microsoft , where she currently serves a VP of U.S. Education. You might think.",
-        "redirectionUrl": "http://www.huffingtonpost.com/entry/microsofts-margo-day-a-history-of-passion-for-tech_us_59ca69ece4b0b7022a646de6"
-    },
-    {
-        "uid": "ed04e4bb-7f40-41fb-8945-d358a4faec90",
-        "updateDate": "2017-09-28T03:05:15.0Z",
-        "titleText": "We knocked on the door at Microsoft’s mysterious small-town office, and here’s what we found",
-        "mainText": "Microsoft’s office in Silverdale, Wash., a town of close to 20,000 people on the Kitsap Peninsula across Puget Sound from Seattle, is far from the tech giant’s massive headquarters campus in Redmond — in more.",
-        "redirectionUrl": "https://www.geekwire.com/2017/knocked-door-microsofts-mysterious-small-town-office-heres-found/"
+        "uid": "dea8eb4a-3670-453e-bcf4-d6ac0232e353",
+        "updateDate": "2017-09-29T02:58:19.0Z",
+        "titleText": "Microsoft Ignite 2017: It's all about choice, from SQL Server 2017 to Azure Machine Learning",
+        "mainText": "Microsoft is getting really serious about giving customers choices. That much was clear at this week's combined Microsoft Ignite and Envision events in Orlando and, in particular, in announcements around databases, data-integration, machine learning (ML),.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-ignite-2017-ms-stresses-choice-from-sql-server-2017-to-azure-machine-learning/"
     }
 ]
