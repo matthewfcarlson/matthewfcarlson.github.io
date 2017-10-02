@@ -1,30 +1,23 @@
 [
     {
-        "uid": "98331a58-38b6-4045-bd9c-db1755a1b76a",
-        "updateDate": "2017-09-29T02:58:19.0Z",
-        "titleText": "Microsoft's Satya Nadella shares the leadership lesson in watching Amazon win the cloud business",
-        "mainText": "At a public talk in New York yesterday (Sept. 27) to promote his new book, Microsoft chief Satya Nadella revealed what he learned about leadership in 2009, after watching the tech giant fall woefully behind.",
-        "redirectionUrl": "https://qz.com/1089902/microsoft-ceo-satya-nadella-on-the-leadership-lesson-in-watching-amazon-win-the-cloud-business/"
+        "uid": "c5ce30cc-1dec-46f0-88a2-3279761bbe38",
+        "updateDate": "2017-10-02T04:59:18.0Z",
+        "titleText": "Microsoft opens up testing of Azure Data Box, its Amazon Snowball rival",
+        "mainText": "Microsoft is accepting testers into a preview program for its Azure Data Box data-transfer appliance. Azure Data Box weighs 45 pounds and is ruggedized, tamper resistant and manageable, according to the company's announcement about the preview.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-opens-up-testing-of-azure-data-box-its-amazon-snowball-rival/"
     },
     {
-        "uid": "fe559ddf-45d3-4577-8056-31ef8a9efffc",
-        "updateDate": "2017-09-29T02:58:19.0Z",
-        "titleText": "Acknowledging Fears, Microsoft’s Nadella Remains Optimistic About AI",
-        "mainText": "Microsoft Corp. is optimistic about emerging technologies under the leadership of chief executive Satya Nadella, who says artificial intelligence could be an influential catalyst for human empowerment and inclusion. Mr. Nadella, speaking.",
-        "redirectionUrl": "https://blogs.wsj.com/cio/2017/09/28/acknowledging-fears-microsofts-nadella-remains-optimistic-about-ai/?mod=WSJBlog"
+        "uid": "4b35b512-b792-45fa-95f8-8ffac9cc7e7c",
+        "updateDate": "2017-10-02T04:59:18.0Z",
+        "titleText": "How Microsoft built the world’s most powerful game console",
+        "mainText": "When designer Bryan Sparks explains the inspiration for the look and feel of the modern Xbox, he says he and his team went back to 1968, when a certain landmark Stanley Kubrick film hit theaters.",
+        "redirectionUrl": "https://www.theverge.com/2017/10/2/16347446/microsoft-xbox-one-x-design-sony-playstation-4-pro-console-generations?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "95b82bef-972a-4922-bbe0-d485518c4c0e",
-        "updateDate": "2017-09-29T02:58:19.0Z",
-        "titleText": "Is Windows' footprint shrinking? It was 1.5bn users but now Nadella says it's 1bn",
-        "mainText": "Microsoft CEO Satya Nadella says there are now one billion Windows users across the world. Nadella gave the new figure in an interview with Bloomberg for the launch of his new book Hit Refresh. Asked about the.",
-        "redirectionUrl": "http://www.zdnet.com/article/is-windows-footprint-shrinking-it-was-1-5bn-users-but-now-nadella-says-its-1bn/"
-    },
-    {
-        "uid": "dea8eb4a-3670-453e-bcf4-d6ac0232e353",
-        "updateDate": "2017-09-29T02:58:19.0Z",
-        "titleText": "Microsoft Ignite 2017: It's all about choice, from SQL Server 2017 to Azure Machine Learning",
-        "mainText": "Microsoft is getting really serious about giving customers choices. That much was clear at this week's combined Microsoft Ignite and Envision events in Orlando and, in particular, in announcements around databases, data-integration, machine learning (ML),.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-ignite-2017-ms-stresses-choice-from-sql-server-2017-to-azure-machine-learning/"
+        "uid": "7cd7db56-cf00-42be-bc6d-a6a1fbf27e06",
+        "updateDate": "2017-10-02T04:59:18.0Z",
+        "titleText": "The Amazing Ways Microsoft Uses AI To Drive Business Success",
+        "mainText": "The adoption of AI in business and society is being spurred on by tech giants with resources to design, build and roll out services affordable and simple enough for everyday use. Microsoft is one of.",
+        "redirectionUrl": "https://www.forbes.com/sites/bernardmarr/2017/10/02/the-amazing-ways-microsoft-uses-ai-to-drive-business-success/"
     }
 ]
