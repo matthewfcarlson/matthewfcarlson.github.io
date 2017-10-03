@@ -1,23 +1,51 @@
 [
     {
-        "uid": "c5ce30cc-1dec-46f0-88a2-3279761bbe38",
-        "updateDate": "2017-10-02T04:59:18.0Z",
-        "titleText": "Microsoft opens up testing of Azure Data Box, its Amazon Snowball rival",
-        "mainText": "Microsoft is accepting testers into a preview program for its Azure Data Box data-transfer appliance. Azure Data Box weighs 45 pounds and is ruggedized, tamper resistant and manageable, according to the company's announcement about the preview.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-opens-up-testing-of-azure-data-box-its-amazon-snowball-rival/"
+        "uid": "7f95be89-9f16-419b-b6b4-5781a87aa4f8",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft axes Groove Music service",
+        "mainText": "Microsoft is to close its last remaining music streaming and download service, Groove Music. From 31 December, customers will no longer be able to buy music downloads, and streaming subscriptions will end. People will be prompted.",
+        "redirectionUrl": "http://www.bbc.co.uk/news/technology-41483492?utm_source=dlvr.it&utm_medium=twitter"
     },
     {
-        "uid": "4b35b512-b792-45fa-95f8-8ffac9cc7e7c",
-        "updateDate": "2017-10-02T04:59:18.0Z",
-        "titleText": "How Microsoft built the world’s most powerful game console",
-        "mainText": "When designer Bryan Sparks explains the inspiration for the look and feel of the modern Xbox, he says he and his team went back to 1968, when a certain landmark Stanley Kubrick film hit theaters.",
-        "redirectionUrl": "https://www.theverge.com/2017/10/2/16347446/microsoft-xbox-one-x-design-sony-playstation-4-pro-console-generations?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "2d95fc9c-e931-4ea9-94ca-cf1edee67055",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft to end Groove streaming service; offers Spotify migration",
+        "mainText": "Microsoft Corp said on Monday it would discontinue its Groove Music Pass subscription service, allowing its existing customers to move their playlists and music collections to Spotify. The Groove Music app will no longer offer the.",
+        "redirectionUrl": "http://www.reuters.com/article/us-microsoft-groove/microsoft-to-end-groove-streaming-service-offers-spotify-migration-idUSKCN1C72PS?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
     },
     {
-        "uid": "7cd7db56-cf00-42be-bc6d-a6a1fbf27e06",
-        "updateDate": "2017-10-02T04:59:18.0Z",
-        "titleText": "The Amazing Ways Microsoft Uses AI To Drive Business Success",
-        "mainText": "The adoption of AI in business and society is being spurred on by tech giants with resources to design, build and roll out services affordable and simple enough for everyday use. Microsoft is one of.",
-        "redirectionUrl": "https://www.forbes.com/sites/bernardmarr/2017/10/02/the-amazing-ways-microsoft-uses-ai-to-drive-business-success/"
+        "uid": "5cf908db-5099-475f-9d9c-b3d133b4de67",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft to shutter its Groove Music service and migrate users to Spotify",
+        "mainText": "Microsoft officials have decided to discontinue the Microsoft Groove Music Pass subscription service, and migrate existing customers of it to Spotify. Groove Music Pass -- the Microsoft streaming music service formerly known as Zune Music and.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-shutter-its-groove-music-service-and-migrate-users-to-spotify/"
+    },
+    {
+        "uid": "631bf395-d699-4cbb-8771-4b3d2d5ed43f",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft's CEO Satya Nadella broke unspoken rules on his rise to CEO",
+        "mainText": "Satya Nadella is the third CEO of Microsoft. He's also a husband and a father of special-needs kids. He's an immigrant. And he's pretty close to doing something that, until he took the job just over.",
+        "redirectionUrl": "https://www.cnbc.com/2017/10/02/microsoft-ceo-satya-nadella-broke-unspoken-rules-on-rise-to-ceo.html"
+    },
+    {
+        "uid": "d950c203-26a2-453d-a207-eedc5150871a",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft In Talks to Extend 'Battlegrounds' Exclusive Deal",
+        "mainText": "The creator of the hit video game PlayerUnknown’s Battlegrounds is in talks with Microsoft Corp. about extending their agreement to publish the game exclusively on Xbox, according to people familiar with the matter. South Korea’s Bluehole.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-10-02/microsoft-is-said-in-talks-to-extend-battlegrounds-exclusive"
+    },
+    {
+        "uid": "bd4ae4fd-c4f2-476d-b7be-2411eae8cffe",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Why Microsoft's CTO Spends His Spare Time Photographing Women in Tech",
+        "mainText": "In July of last year, Kevin Scott decided to take a month off to relax, since he'd been going non-stop 'for the past 10 years.' But as it turns out, Scott's not so great at.",
+        "redirectionUrl": "http://fortune.com/2017/10/03/microsoft-cto-grace-hopper-photos/"
+    },
+    {
+        "uid": "3fdda0b5-c639-45cc-9b68-8d0824323777",
+        "updateDate": "2017-10-03T04:33:01.0Z",
+        "titleText": "Microsoft has bought 65 acres of land in the heart of Silicon Valley",
+        "mainText": "Although Microsoft already occupies an office in Silicon Valley, it has decided to expand its reach in the area, by purchasing 65 acres of land in San Jose, which is considered the economic center of.",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-has-bought-65-acres-of-land-in-the-heart-of-silicon-valley"
     }
 ]
