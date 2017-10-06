@@ -1,44 +1,44 @@
 [
     {
-        "uid": "de2dcd24-50b5-40e0-a74c-edbbaa79d5c6",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Microsoft is bringing one of Apple's best features to Windows 10 with a new web browser for phones",
-        "mainText": "If you're living your best Apple life, you probably know all about Handoff — a feature that lets you easily open your iPhone's active browser tab or document on your Mac, and vice versa. Now, Microsoft.",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-edge-comes-to-iphone-and-android-2017-10?utm_content=buffer07eda&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+        "uid": "8cb82153-fc14-4a68-a73c-9481ac931596",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "Microsoft starts letting Windows 10 users control smart home devices from their PC",
+        "mainText": "Windows 10 users are going to be able to treat their PCs more like smart home hubs. Windows Central reports today that Microsoft has added a 'connected home' section to Cortana. From this new menu,.",
+        "redirectionUrl": "https://www.theverge.com/circuitbreaker/2017/10/6/16435390/microsoft-cortana-smart-home-hub-update?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "44a65909-87fa-495d-8c7a-0ea932df0001",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Microsoft is bringing new Edge apps to iOS, Android",
-        "mainText": "Microsoft is taking the next step in its quest to try to keep Windows PCs relevant by bringing Edge to iOS and Android. Microsoft isn't doing this in the way many had thought it might. The.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-is-bringing-new-edge-apps-to-ios-android/"
+        "uid": "3e1fbb17-25b5-43a1-9675-d2c656d6a5e1",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "Windows On Snapdragon: the promise and problem of building an iPad Pro killer",
+        "mainText": "One of the potentially biggest moves this decade for Windows is the platform's move to include ARM as well as x86 support. This joint project by Microsoft and Qualcomm could be fascinating and very successful.",
+        "redirectionUrl": "https://www.computerworld.com/article/3230512/microsoft-windows/windows-on-snapdragon-the-promise-and-problem-of-building-an-ipad-pro-killer.html"
     },
     {
-        "uid": "d6eda2e4-678d-4acc-98eb-cc77815afaf2",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Windows XP users: Your last supported refuge in Firefox ends in 2018, says Mozilla",
-        "mainText": "Firefox-maker Mozilla is finally pulling the plug on support for Windows XP and Vista, removing the last remaining supported browser for the old operating systems. Firefox 52, released earlier this year, was the last fully supported.",
-        "redirectionUrl": "http://www.zdnet.com/article/windows-xp-users-your-last-supported-refuge-in-firefox-ends-in-2018-says-mozilla/"
-    },
-    {
-        "uid": "3006d0c6-9e92-41e9-9f9a-436c16471770",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Why Microsoft thinks customization is the secret to a better Xbox One dashboard design",
-        "mainText": "Microsoft’s broader Xbox strategy for the last few years has involved a strong focus on hardware, resulting in last year’s cheaper Xbox One S and the upcoming release next month of the more powerful Xbox.",
-        "redirectionUrl": "https://www.theverge.com/2017/10/5/16426122/microsoft-xbox-one-dashboard-design-ui-refresh-interview-customization?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
-    },
-    {
-        "uid": "0dcd271b-27e7-47a5-b825-85bab94da666",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Microsoft adds support for Java to its Azure Functions serverless service",
+        "uid": "9374ec73-6b5f-42b7-9edf-4806588af9f7",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "Why the Internet is worried that Microsoft's consumer services are doomed",
         "mainText": "",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-adds-support-java-azure-functions-serverless-service/"
+        "redirectionUrl": "https://www.pcworld.com/article/3230486/windows/microsoft-why-its-consumer-services-could-be-doomed.html?utm_source=dlvr.it&utm_medium=twitter#tk.rss_all"
     },
     {
-        "uid": "9dd9c3d7-acd5-4997-ae16-d6b443ffd6d0",
-        "updateDate": "2017-10-05T03:00:32.0Z",
-        "titleText": "Microsoft, Machine Learning, And 'Data Wrangling': ML Leverages Business Intelligence For B2B",
-        "mainText": "David A. Teich , Contributor “Data wrangling” was an interesting phrase to hear in the machine learning (ML) presentations at Microsoft Ignite. Interesting because data wrangling is from business intelligence (BI), not from artificial intelligence.",
-        "redirectionUrl": "https://www.forbes.com/sites/tiriasresearch/2017/10/04/microsoft-machine-learning-and-data-wrangling-ml-leverages-business-intelligence-for-b2b/"
+        "uid": "2f757122-4dcc-4053-95a2-eeedda0a95c7",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "HP put another nail in the coffin for Microsoft's Windows phones",
+        "mainText": "",
+        "redirectionUrl": "http://www.businessinsider.com/hp-discontinues-elite-x3-windows-10-mobile-phone-2017-10"
+    },
+    {
+        "uid": "65148162-3fe9-475c-a7d8-edb2295f1829",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "Microsoft could become the 'Ticketmaster of eSports,' analyst says",
+        "mainText": "Microsoft's growth could get a boost from its latest Xbox launch as well as its exploration of the growing esports industry, according to one Wall Street analyst. Canaccord Genuity upgraded Microsoft shares to buy from hold.",
+        "redirectionUrl": "https://www.cnbc.com/2017/10/05/microsoft-could-become-the-ticketmaster-of-esports-analyst-says.html"
+    },
+    {
+        "uid": "7550071f-0315-4328-88c8-a877d85004e7",
+        "updateDate": "2017-10-06T04:41:25.0Z",
+        "titleText": "Microsoft to help expand rural broadband in 6 states",
+        "mainText": "Microsoft announced Thursday it is teaming up with communities in six states to to invest in technology and related jobs in rural and smaller metropolitan areas. Company president Brad Smith launched the TechSpark program Thursday in.",
+        "redirectionUrl": "https://www.washingtonpost.com/business/technology/microsoft-to-help-expand-rural-broadband-in-6-states/2017/10/05/f4ba0852-aa26-11e7-9a98-07140d2eed02_story.html?utm_term=.9eeebadc87cf"
     }
 ]
