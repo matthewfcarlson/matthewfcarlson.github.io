@@ -1,44 +1,58 @@
 [
     {
-        "uid": "8cb82153-fc14-4a68-a73c-9481ac931596",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "Microsoft starts letting Windows 10 users control smart home devices from their PC",
-        "mainText": "Windows 10 users are going to be able to treat their PCs more like smart home hubs. Windows Central reports today that Microsoft has added a 'connected home' section to Cortana. From this new menu,.",
-        "redirectionUrl": "https://www.theverge.com/circuitbreaker/2017/10/6/16435390/microsoft-cortana-smart-home-hub-update?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "967cded3-37c7-4185-a469-d211d2654793",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft just bought all the electricity from this wind farm for 15 years to power cloud computing",
+        "mainText": "Microsoft has struck a deal with GE to buy all of the output from its new 37-megawatt wind farm in Ireland for the next 15 years. Microsoft says GE's wind farm, which is located in the.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-just-bought-all-the-electricity-from-this-wind-farm-for-15-years-to-power-cloud-computing/"
     },
     {
-        "uid": "3e1fbb17-25b5-43a1-9675-d2c656d6a5e1",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "Windows On Snapdragon: the promise and problem of building an iPad Pro killer",
-        "mainText": "One of the potentially biggest moves this decade for Windows is the platform's move to include ARM as well as x86 support. This joint project by Microsoft and Qualcomm could be fascinating and very successful.",
-        "redirectionUrl": "https://www.computerworld.com/article/3230512/microsoft-windows/windows-on-snapdragon-the-promise-and-problem-of-building-an-ipad-pro-killer.html"
+        "uid": "3dd11a2f-f33e-4da5-8681-47a80f4025b9",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft is going to buy all the wind power from this GE site",
+        "mainText": "Microsoft and General Electric (GE) have entered into a 15-year power purchase agreement in Ireland, it was announced Monday. The deal means that the tech giant will purchase all the wind energy produced at GE's new,.",
+        "redirectionUrl": "https://www.cnbc.com/2017/10/09/microsoft-is-going-to-buy-all-the-wind-power-from-this-ge-site.html"
     },
     {
-        "uid": "9374ec73-6b5f-42b7-9edf-4806588af9f7",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "Why the Internet is worried that Microsoft's consumer services are doomed",
+        "uid": "25da9dde-ac56-45ef-acda-3052b48d9413",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft gives up on Windows 10 Mobile",
+        "mainText": "Microsoft appears to have abandoned its smartphone operating system ambitions. The company's Windows 10 chief has tweeted that developing new features and hardware for the Mobile version of the OS was no longer a 'focus'. Joe Belfiore.",
+        "redirectionUrl": "http://www.bbc.co.uk/news/technology-41551546?ocid=socialflow_twitter"
+    },
+    {
+        "uid": "e77e4b3c-bb06-4e2b-834c-90efecca7587",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft exec says Windows 10 Mobile is no longer a 'focus'",
+        "mainText": "It's no secret that work on Windows 10 Mobile has wound down given the lack of new devices and software features (talk of mobile Windows updates was virtually absent at Build, for example), but what's.",
+        "redirectionUrl": "https://www.engadget.com/2017/10/08/microsoft-exec-says-windows-10-mobile-is-no-longer-a-focus/"
+    },
+    {
+        "uid": "eb517b32-32e2-45db-9d70-6e7ec8506302",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft Blockchain Strategy Seems to be Paying Off",
+        "mainText": "A few weeks ago, I wrote about the release of Microsoft’s Coco Framework, the latest addition to the Redmond giant blockchain stack. In that article, I mentioned that Microsoft was, slowly and steadily, building one.",
+        "redirectionUrl": "https://medium.com/@jrodthoughts/microsoft-blockchain-strategy-seems-to-be-paying-off-66104ca04c46"
+    },
+    {
+        "uid": "1c23c2c1-39c5-4236-9797-e4e7dff37a88",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "How Azure Stack Helps Microsoft Deliver The Promise Of Intelligent Cloud And Edge",
+        "mainText": "Last month at the Ignite conference, Microsoft has announced the commercial availability of Azure Stack, the long-awaited hybrid cloud platform from Redmond. The product that was supposed to be shipped almost a year ago got delayed.",
+        "redirectionUrl": "https://www.forbes.com/sites/janakirammsv/2017/10/08/how-azure-stack-helps-microsoft-deliver-the-promise-of-intelligent-cloud-and-edge/"
+    },
+    {
+        "uid": "b6aa708a-9001-4057-8e21-43dda32bd1f7",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft mixed reality guru Alex Kipman believes communication will be VR’s killer app",
+        "mainText": "When Microsoft announced its Windows Mixed Reality platform last week, it talked about how the combination of virtual reality and augmented reality (which Microsoft calls mixed reality) would create a new era in computing. Alex Kipman,.",
+        "redirectionUrl": "https://venturebeat.com/2017/10/08/microsoft-mixed-reality-guru-alex-kipman-believes-communication-will-be-vrs-killer-app/"
+    },
+    {
+        "uid": "0f1f6a24-98c2-498a-bc90-a416bf66b346",
+        "updateDate": "2017-10-09T03:02:42.0Z",
+        "titleText": "Microsoft's biggest fans are getting worried the company doesn't care about them anymore",
         "mainText": "",
-        "redirectionUrl": "https://www.pcworld.com/article/3230486/windows/microsoft-why-its-consumer-services-could-be-doomed.html?utm_source=dlvr.it&utm_medium=twitter#tk.rss_all"
-    },
-    {
-        "uid": "2f757122-4dcc-4053-95a2-eeedda0a95c7",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "HP put another nail in the coffin for Microsoft's Windows phones",
-        "mainText": "",
-        "redirectionUrl": "http://www.businessinsider.com/hp-discontinues-elite-x3-windows-10-mobile-phone-2017-10"
-    },
-    {
-        "uid": "65148162-3fe9-475c-a7d8-edb2295f1829",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "Microsoft could become the 'Ticketmaster of eSports,' analyst says",
-        "mainText": "Microsoft's growth could get a boost from its latest Xbox launch as well as its exploration of the growing esports industry, according to one Wall Street analyst. Canaccord Genuity upgraded Microsoft shares to buy from hold.",
-        "redirectionUrl": "https://www.cnbc.com/2017/10/05/microsoft-could-become-the-ticketmaster-of-esports-analyst-says.html"
-    },
-    {
-        "uid": "7550071f-0315-4328-88c8-a877d85004e7",
-        "updateDate": "2017-10-06T04:41:25.0Z",
-        "titleText": "Microsoft to help expand rural broadband in 6 states",
-        "mainText": "Microsoft announced Thursday it is teaming up with communities in six states to to invest in technology and related jobs in rural and smaller metropolitan areas. Company president Brad Smith launched the TechSpark program Thursday in.",
-        "redirectionUrl": "https://www.washingtonpost.com/business/technology/microsoft-to-help-expand-rural-broadband-in-6-states/2017/10/05/f4ba0852-aa26-11e7-9a98-07140d2eed02_story.html?utm_term=.9eeebadc87cf"
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-windows-10-might-be-losing-consumers-2017-10"
     }
 ]
