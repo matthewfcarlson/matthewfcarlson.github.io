@@ -1,58 +1,37 @@
 [
     {
-        "uid": "967cded3-37c7-4185-a469-d211d2654793",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft just bought all the electricity from this wind farm for 15 years to power cloud computing",
-        "mainText": "Microsoft has struck a deal with GE to buy all of the output from its new 37-megawatt wind farm in Ireland for the next 15 years. Microsoft says GE's wind farm, which is located in the.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-just-bought-all-the-electricity-from-this-wind-farm-for-15-years-to-power-cloud-computing/"
-    },
-    {
-        "uid": "3dd11a2f-f33e-4da5-8681-47a80f4025b9",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft is going to buy all the wind power from this GE site",
-        "mainText": "Microsoft and General Electric (GE) have entered into a 15-year power purchase agreement in Ireland, it was announced Monday. The deal means that the tech giant will purchase all the wind energy produced at GE's new,.",
-        "redirectionUrl": "https://www.cnbc.com/2017/10/09/microsoft-is-going-to-buy-all-the-wind-power-from-this-ge-site.html"
-    },
-    {
-        "uid": "25da9dde-ac56-45ef-acda-3052b48d9413",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft gives up on Windows 10 Mobile",
-        "mainText": "Microsoft appears to have abandoned its smartphone operating system ambitions. The company's Windows 10 chief has tweeted that developing new features and hardware for the Mobile version of the OS was no longer a 'focus'. Joe Belfiore.",
-        "redirectionUrl": "http://www.bbc.co.uk/news/technology-41551546?ocid=socialflow_twitter"
-    },
-    {
-        "uid": "e77e4b3c-bb06-4e2b-834c-90efecca7587",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft exec says Windows 10 Mobile is no longer a 'focus'",
-        "mainText": "It's no secret that work on Windows 10 Mobile has wound down given the lack of new devices and software features (talk of mobile Windows updates was virtually absent at Build, for example), but what's.",
-        "redirectionUrl": "https://www.engadget.com/2017/10/08/microsoft-exec-says-windows-10-mobile-is-no-longer-a-focus/"
-    },
-    {
-        "uid": "eb517b32-32e2-45db-9d70-6e7ec8506302",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft Blockchain Strategy Seems to be Paying Off",
-        "mainText": "A few weeks ago, I wrote about the release of Microsoft’s Coco Framework, the latest addition to the Redmond giant blockchain stack. In that article, I mentioned that Microsoft was, slowly and steadily, building one.",
-        "redirectionUrl": "https://medium.com/@jrodthoughts/microsoft-blockchain-strategy-seems-to-be-paying-off-66104ca04c46"
-    },
-    {
-        "uid": "1c23c2c1-39c5-4236-9797-e4e7dff37a88",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "How Azure Stack Helps Microsoft Deliver The Promise Of Intelligent Cloud And Edge",
-        "mainText": "Last month at the Ignite conference, Microsoft has announced the commercial availability of Azure Stack, the long-awaited hybrid cloud platform from Redmond. The product that was supposed to be shipped almost a year ago got delayed.",
-        "redirectionUrl": "https://www.forbes.com/sites/janakirammsv/2017/10/08/how-azure-stack-helps-microsoft-deliver-the-promise-of-intelligent-cloud-and-edge/"
-    },
-    {
-        "uid": "b6aa708a-9001-4057-8e21-43dda32bd1f7",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft mixed reality guru Alex Kipman believes communication will be VR’s killer app",
-        "mainText": "When Microsoft announced its Windows Mixed Reality platform last week, it talked about how the combination of virtual reality and augmented reality (which Microsoft calls mixed reality) would create a new era in computing. Alex Kipman,.",
-        "redirectionUrl": "https://venturebeat.com/2017/10/08/microsoft-mixed-reality-guru-alex-kipman-believes-communication-will-be-vrs-killer-app/"
-    },
-    {
-        "uid": "0f1f6a24-98c2-498a-bc90-a416bf66b346",
-        "updateDate": "2017-10-09T03:02:42.0Z",
-        "titleText": "Microsoft's biggest fans are getting worried the company doesn't care about them anymore",
+        "uid": "e3958019-75d8-4900-a5a9-60d3a2e80c92",
+        "updateDate": "2017-10-10T02:58:06.0Z",
+        "titleText": "Microsoft is holding a $3.5 million competition to find the next great garage startup — 'like AmericanIdol'",
         "mainText": "",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-windows-10-might-be-losing-consumers-2017-10"
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-ventures-head-nagraj-kashyap-startup-contest-2017-10"
+    },
+    {
+        "uid": "ebe1dd58-42b8-4f91-a608-f66f634538f3",
+        "updateDate": "2017-10-10T02:58:06.0Z",
+        "titleText": "Microsoft sets up $3.5 million competition for artificial-intelligence startups",
+        "mainText": "Microsoft Ventures will invest $3.5?million in artificial-intelligence startups after competitions for the money in North America, Europe and Israel. Plans for the Innovate.Ai awards come as Microsoft ramps up its corporate focus on software that.",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-sets-up-3-5-million-competition-for-artificial-intelligence-startups/?utm_content=buffer273d1&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
+    },
+    {
+        "uid": "870302db-9f1b-4500-be83-2a569f8b25eb",
+        "updateDate": "2017-10-10T02:58:06.0Z",
+        "titleText": "Microsoft is now rolling out Cortana inside of Skype",
+        "mainText": "Microsoft is starting to roll out Cortana inside of Skype, letting its smart assistant jump into private and group chats to offer assistance in making plans and looking up information. Cortana will be available on.",
+        "redirectionUrl": "https://www.theverge.com/2017/10/10/16452326/cortana-skype-integration-launches?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "e99e48e3-dc67-4a77-a616-b5701dea584b",
+        "updateDate": "2017-10-10T02:58:06.0Z",
+        "titleText": "Nokia pulls out of OZO VR hardware, lays off 310, steps up in health and patents",
+        "mainText": "Nokia, the once-mighty phone maker that eventually retreated to a business based around networking equipment and targeted verticals like health and imaging, is thinking its business strategy once again. Today, the company announced that it.",
+        "redirectionUrl": "https://techcrunch.com/2017/10/10/nokia-pulls-out-of-ozo-vr-hardware-lays-off-310-steps-up-in-health-and-patents/"
+    },
+    {
+        "uid": "fe91115a-68ff-4b8b-b034-87f6909c7b86",
+        "updateDate": "2017-10-10T02:58:06.0Z",
+        "titleText": "The World's Best Employers 2017: Alphabet And Microsoft Lead",
+        "mainText": "Some companies offer employees free gourmet meals. Others boast sleep pods and paid paternity leave. It’s perks like these that help a company top of the list of Forbes’ first-ever Global 2000 list of the World’s.",
+        "redirectionUrl": "https://www.forbes.com/sites/kristinstoller/2017/10/10/worlds-best-employers-2017/"
     }
 ]
