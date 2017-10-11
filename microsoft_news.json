@@ -1,37 +1,44 @@
 [
     {
-        "uid": "e3958019-75d8-4900-a5a9-60d3a2e80c92",
-        "updateDate": "2017-10-10T02:58:06.0Z",
-        "titleText": "Microsoft is holding a $3.5 million competition to find the next great garage startup — 'like AmericanIdol'",
-        "mainText": "",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-ventures-head-nagraj-kashyap-startup-contest-2017-10"
+        "uid": "4ebe7f54-3f02-4de4-967a-e9a7c337c252",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "Microsoft: We'll have two thirds of Office users in the cloud by fiscal2019",
+        "mainText": "During Microsoft's most recent earnings call, officials said that commercial Office 365 revenues for the first time were greater than non-subscription/perpetual Office ones. Currently, according to Microsoft, more than half of all commercial (business) Office users.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-well-have-two-thirds-of-office-users-in-the-cloud-by-fiscal-2019/"
     },
     {
-        "uid": "ebe1dd58-42b8-4f91-a608-f66f634538f3",
-        "updateDate": "2017-10-10T02:58:06.0Z",
-        "titleText": "Microsoft sets up $3.5 million competition for artificial-intelligence startups",
-        "mainText": "Microsoft Ventures will invest $3.5?million in artificial-intelligence startups after competitions for the money in North America, Europe and Israel. Plans for the Innovate.Ai awards come as Microsoft ramps up its corporate focus on software that.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-sets-up-3-5-million-competition-for-artificial-intelligence-startups/?utm_content=buffer273d1&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
+        "uid": "c9685425-07d4-49a5-a6e2-5e1b401ac239",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "Microsoft and Facebook's open AI ecosystem gains more support",
+        "mainText": "Artificial intelligence has helped jump start everything from self-driving cars to soft robotics. As if that wasn't enough, it's also tearing down language barriers to bring the world closer together. But, at the same time,.",
+        "redirectionUrl": "https://www.engadget.com/2017/10/11/microsoft-facebooks-ai-onxx-partners/?sr_source=Twitter"
     },
     {
-        "uid": "870302db-9f1b-4500-be83-2a569f8b25eb",
-        "updateDate": "2017-10-10T02:58:06.0Z",
-        "titleText": "Microsoft is now rolling out Cortana inside of Skype",
-        "mainText": "Microsoft is starting to roll out Cortana inside of Skype, letting its smart assistant jump into private and group chats to offer assistance in making plans and looking up information. Cortana will be available on.",
-        "redirectionUrl": "https://www.theverge.com/2017/10/10/16452326/cortana-skype-integration-launches?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "45694d0d-e6f5-4683-ae5d-05f844f9b91f",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "Microsoft just ended support for Office 2007 and Outlook 2007",
+        "mainText": "Microsoft is urging customers still on Outlook 2007 and Office 2007 to upgrade as each of the products ran out of extended support on Tuesday. That means no more security updates, feature updates, support or technical.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-just-ended-support-for-office-2007-and-outlook-2007/"
     },
     {
-        "uid": "e99e48e3-dc67-4a77-a616-b5701dea584b",
-        "updateDate": "2017-10-10T02:58:06.0Z",
-        "titleText": "Nokia pulls out of OZO VR hardware, lays off 310, steps up in health and patents",
-        "mainText": "Nokia, the once-mighty phone maker that eventually retreated to a business based around networking equipment and targeted verticals like health and imaging, is thinking its business strategy once again. Today, the company announced that it.",
-        "redirectionUrl": "https://techcrunch.com/2017/10/10/nokia-pulls-out-of-ozo-vr-hardware-lays-off-310-steps-up-in-health-and-patents/"
+        "uid": "a3c1b889-a52f-431b-8464-277a79c79846",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "Microsoft’s SDK for the Windows 10 Fall Creators Update now generally available",
+        "mainText": "All developers interested in building apps for the Windows 10 Fall Creators Update can now download the software-development kit now that it is generally available, Microsoft announced Tuesday. First announced earlier this year at Microsoft Build,.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-sdk-windows-10-fall-creators-update-now-generally-available/"
     },
     {
-        "uid": "fe91115a-68ff-4b8b-b034-87f6909c7b86",
-        "updateDate": "2017-10-10T02:58:06.0Z",
-        "titleText": "The World's Best Employers 2017: Alphabet And Microsoft Lead",
-        "mainText": "Some companies offer employees free gourmet meals. Others boast sleep pods and paid paternity leave. It’s perks like these that help a company top of the list of Forbes’ first-ever Global 2000 list of the World’s.",
-        "redirectionUrl": "https://www.forbes.com/sites/kristinstoller/2017/10/10/worlds-best-employers-2017/"
+        "uid": "67039194-deb0-4bce-8657-ca1dd2fd4440",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "Microsoft sunsets Windows 10's first feature upgrade",
+        "mainText": "Microsoft today will deliver the final security update for Windows 10's first feature upgrade, the version released in November 2015. Windows 10 1511 -- Microsoft labels its feature upgrades in a yymm format -- will receive.",
+        "redirectionUrl": "https://www.computerworld.com/article/3231661/microsoft-windows/microsoft-sunsets-windows-10s-first-feature-upgrade.html"
+    },
+    {
+        "uid": "d6795c1a-da26-46fb-80a5-67afbce09d27",
+        "updateDate": "2017-10-11T03:03:39.0Z",
+        "titleText": "With the end of Windows on phones, how does Microsoft avoid being the next IBM?",
+        "mainText": "For fans of the platform, the official confirmation that Windows on phones isn't under active development any longer—security bugs will be fixed, but new features and new hardware aren't on the cards—isn't a big surprise..",
+        "redirectionUrl": "https://arstechnica.com/gadgets/2017/10/with-the-end-of-windows-on-phones-how-does-microsoft-avoid-being-the-next-ibm/"
     }
 ]
