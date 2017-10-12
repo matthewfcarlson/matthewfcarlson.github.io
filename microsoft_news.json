@@ -1,44 +1,58 @@
 [
     {
-        "uid": "4ebe7f54-3f02-4de4-967a-e9a7c337c252",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "Microsoft: We'll have two thirds of Office users in the cloud by fiscal2019",
-        "mainText": "During Microsoft's most recent earnings call, officials said that commercial Office 365 revenues for the first time were greater than non-subscription/perpetual Office ones. Currently, according to Microsoft, more than half of all commercial (business) Office users.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-well-have-two-thirds-of-office-users-in-the-cloud-by-fiscal-2019/"
+        "uid": "4856581e-81cb-4859-b745-9d385141f4bf",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "AWS and Microsoft double down on deep learning with Gluon, a simplified ML model builder",
+        "mainText": "AWS and Microsoft may be arch rivals when it comes to competing for business in cloud storage and services, but when it comes to breaking ground in newer areas where volumes of data make a.",
+        "redirectionUrl": "https://techcrunch.com/2017/10/12/aws-and-microsoft-double-down-on-deep-learning-with-gluon-a-simplified-ml-model-builder/"
     },
     {
-        "uid": "c9685425-07d4-49a5-a6e2-5e1b401ac239",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "Microsoft and Facebook's open AI ecosystem gains more support",
-        "mainText": "Artificial intelligence has helped jump start everything from self-driving cars to soft robotics. As if that wasn't enough, it's also tearing down language barriers to bring the world closer together. But, at the same time,.",
-        "redirectionUrl": "https://www.engadget.com/2017/10/11/microsoft-facebooks-ai-onxx-partners/?sr_source=Twitter"
+        "uid": "54814475-6335-49fa-b607-5c3ab6616699",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "AWS, Microsoft launch deep learning interface Gluon",
+        "mainText": "Amazon Web Services and Microsoft have teamed up to launch an open-source, deep learning library called Gluon that the companies say will make machine learning accessible to more developers. The library gives developers an interface where.",
+        "redirectionUrl": "http://www.zdnet.com/article/aws-microsoft-launch-deep-learning-interface-gluon/"
     },
     {
-        "uid": "45694d0d-e6f5-4683-ae5d-05f844f9b91f",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "Microsoft just ended support for Office 2007 and Outlook 2007",
-        "mainText": "Microsoft is urging customers still on Outlook 2007 and Office 2007 to upgrade as each of the products ran out of extended support on Tuesday. That means no more security updates, feature updates, support or technical.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-just-ended-support-for-office-2007-and-outlook-2007/"
+        "uid": "7c74872e-39dd-495f-ac61-560d3be3877c",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "Three technologies Microsoft CEO Satya Nadella thinks will shape the future",
+        "mainText": "Microsoft’s View Mixed Reality Feature for Windows 10. (Microsoft Photo) With a rueful smile, Microsoft CEO Satya Nadella acknowledged on stage at the GeekWire Summit that “one of the (really bizarre) things to do is speculate.",
+        "redirectionUrl": "https://www.geekwire.com/2017/three-technologies-microsoft-ceo-satya-nadella-thinks-will-shape-future/"
     },
     {
-        "uid": "a3c1b889-a52f-431b-8464-277a79c79846",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "Microsoft’s SDK for the Windows 10 Fall Creators Update now generally available",
-        "mainText": "All developers interested in building apps for the Windows 10 Fall Creators Update can now download the software-development kit now that it is generally available, Microsoft announced Tuesday. First announced earlier this year at Microsoft Build,.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-sdk-windows-10-fall-creators-update-now-generally-available/"
+        "uid": "5498eb19-7267-4eea-aaa3-0f3d8cc54ada",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "Microsoft Announces 4 New Xbox One S Bundles",
+        "mainText": "We are fast approaching that time of year where everyone has to start thinking about buying nice things for other people. It's also a key time for games console sales, and Microsoft is attempting to.",
+        "redirectionUrl": "https://www.pcmag.com/news/356738/microsoft-announces-4-new-xbox-one-s-bundles"
     },
     {
-        "uid": "67039194-deb0-4bce-8657-ca1dd2fd4440",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "Microsoft sunsets Windows 10's first feature upgrade",
-        "mainText": "Microsoft today will deliver the final security update for Windows 10's first feature upgrade, the version released in November 2015. Windows 10 1511 -- Microsoft labels its feature upgrades in a yymm format -- will receive.",
-        "redirectionUrl": "https://www.computerworld.com/article/3231661/microsoft-windows/microsoft-sunsets-windows-10s-first-feature-upgrade.html"
+        "uid": "f0357d02-9f0e-4db2-a037-fc8e6cbde738",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "Microsoft Windows might get easier to navigate with new Cortana Follow Me",
+        "mainText": "Noted Microsoft watcher WalkingCat has spotted a really nifty upcoming feature for Windows called Follow Me, that uses the Cortana for guided navigation. WalkingCat posted a one minute video on Twitter showing the Cortana voice.",
+        "redirectionUrl": "https://www.theverge.com/2017/10/12/16463610/cortana-follow-me-microsoft-windows?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "d6795c1a-da26-46fb-80a5-67afbce09d27",
-        "updateDate": "2017-10-11T03:03:39.0Z",
-        "titleText": "With the end of Windows on phones, how does Microsoft avoid being the next IBM?",
-        "mainText": "For fans of the platform, the official confirmation that Windows on phones isn't under active development any longer—security bugs will be fixed, but new features and new hardware aren't on the cards—isn't a big surprise..",
-        "redirectionUrl": "https://arstechnica.com/gadgets/2017/10/with-the-end-of-windows-on-phones-how-does-microsoft-avoid-being-the-next-ibm/"
+        "uid": "18b91eb0-1679-4edd-87fd-481a4b3c9504",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "Microsoft and Facebook's next big thing looks a lot like a famous '90s Microsoft flop",
+        "mainText": "",
+        "redirectionUrl": "http://www.businessinsider.com/microsoft-facebook-next-big-thing-looks-like-microsoft-bob-2017-10"
+    },
+    {
+        "uid": "d9a30bab-6667-4725-83a6-b8d4a8c5767f",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "Bing search updates bring Netflix recommendations, tabbed organization",
+        "mainText": "Bing users in search of their next Netflix binge may now have an easier time finding the perfect show. Microsoft announced a few updates to its search engine through a blog post, with one of.",
+        "redirectionUrl": "https://arstechnica.com/gadgets/2017/10/bing-search-updates-bring-netflix-recommendations-tabbed-organization/?utm_source=dlvr.it&utm_medium=twitter"
+    },
+    {
+        "uid": "a95a2de7-2998-47c9-a3e1-e719acc5fc5e",
+        "updateDate": "2017-10-12T03:05:14.0Z",
+        "titleText": "How Amazon, Google, Microsoft, And IBM Sell AI As A Service",
+        "mainText": "",
+        "redirectionUrl": "https://www.fastcompany.com/40474593/how-amazon-google-microsoft-and-ibm-sell-ai-as-a-service"
     }
 ]
