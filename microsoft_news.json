@@ -1,58 +1,51 @@
 [
     {
-        "uid": "4856581e-81cb-4859-b745-9d385141f4bf",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "AWS and Microsoft double down on deep learning with Gluon, a simplified ML model builder",
-        "mainText": "AWS and Microsoft may be arch rivals when it comes to competing for business in cloud storage and services, but when it comes to breaking ground in newer areas where volumes of data make a.",
-        "redirectionUrl": "https://techcrunch.com/2017/10/12/aws-and-microsoft-double-down-on-deep-learning-with-gluon-a-simplified-ml-model-builder/"
+        "uid": "24aa4c56-7fb9-4858-b3f1-7fc10924861b",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Microsoft’s quantum future: Satya Nadella gives company alums a glimpse of what’s coming",
+        "mainText": "Will Microsoft’s quantum computing technology be a hardware division unto itself, like Xbox, or something that the company offers to original equipment manufacturers (OEMs), like its traditional Windows business for PCs? “It’s not OEM-ready yet,” joked.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-quantum-future-satya-nadella-gives-company-alums-glimpse-whats-next/"
     },
     {
-        "uid": "54814475-6335-49fa-b607-5c3ab6616699",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "AWS, Microsoft launch deep learning interface Gluon",
-        "mainText": "Amazon Web Services and Microsoft have teamed up to launch an open-source, deep learning library called Gluon that the companies say will make machine learning accessible to more developers. The library gives developers an interface where.",
-        "redirectionUrl": "http://www.zdnet.com/article/aws-microsoft-launch-deep-learning-interface-gluon/"
+        "uid": "71b65f6d-3ee4-4165-afcf-2c3b31f06c59",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "How to Get Cortana to Keep Track of Your Favorite Teams",
+        "mainText": "Q. How do I make the Windows Cortana program on my PC collect news and scores for specific sports teams? A. You can set Cortana, Microsoft’s virtual assistant for Windows 10 desktop and mobile systems, to.",
+        "redirectionUrl": "https://www.nytimes.com/2017/10/13/technology/personaltech/microsoft-cortana-favorite-teams.html?partner=IFTTT"
     },
     {
-        "uid": "7c74872e-39dd-495f-ac61-560d3be3877c",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "Three technologies Microsoft CEO Satya Nadella thinks will shape the future",
-        "mainText": "Microsoft’s View Mixed Reality Feature for Windows 10. (Microsoft Photo) With a rueful smile, Microsoft CEO Satya Nadella acknowledged on stage at the GeekWire Summit that “one of the (really bizarre) things to do is speculate.",
-        "redirectionUrl": "https://www.geekwire.com/2017/three-technologies-microsoft-ceo-satya-nadella-thinks-will-shape-future/"
+        "uid": "b40b5e01-377e-48dc-9bdc-a04190478f61",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Microsoft Edge browser preview makes its way to Android",
+        "mainText": "Windows Phone is on its way out. To no one's surprise, Microsoft's Joe Belfiore recently confirmed its demise. In its place, the company has adopted a more pragmatic approach that embeds pieces of its Windows.",
+        "redirectionUrl": "https://www.engadget.com/2017/10/13/microsoft-edge-android-preview/?utm_source=dlvr.it&utm_medium=twitter"
     },
     {
-        "uid": "5498eb19-7267-4eea-aaa3-0f3d8cc54ada",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "Microsoft Announces 4 New Xbox One S Bundles",
-        "mainText": "We are fast approaching that time of year where everyone has to start thinking about buying nice things for other people. It's also a key time for games console sales, and Microsoft is attempting to.",
-        "redirectionUrl": "https://www.pcmag.com/news/356738/microsoft-announces-4-new-xbox-one-s-bundles"
+        "uid": "7a31593a-0de1-433b-89cc-fcd026c18067",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Microsoft proves it can be just as pretentious as Apple",
+        "mainText": "I used to believe that Apple owned pretentiousness. It could describe products in ways that made you feel that its creators really believe themselves artists, rather than mundane craftspeople. Or the even lower-lifes known as nerds. Who.",
+        "redirectionUrl": "https://www.cnet.com/news/microsoft-proves-it-can-be-just-as-pretentious-as-apple/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+cnet%2Fsecurity+%28InSecurity+Complex%29#ftag=CAD590a51e"
     },
     {
-        "uid": "f0357d02-9f0e-4db2-a037-fc8e6cbde738",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "Microsoft Windows might get easier to navigate with new Cortana Follow Me",
-        "mainText": "Noted Microsoft watcher WalkingCat has spotted a really nifty upcoming feature for Windows called Follow Me, that uses the Cortana for guided navigation. WalkingCat posted a one minute video on Twitter showing the Cortana voice.",
-        "redirectionUrl": "https://www.theverge.com/2017/10/12/16463610/cortana-follow-me-microsoft-windows?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "64facb91-8ef9-40fa-b262-a86d1948aead",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Microsoft Edge found better than Chrome & Firefox against phishing attacks",
+        "mainText": "Renowned cybersecurity consultancy NSS Labs this week published two Web Browser Security Comparative Reports on socially engineered malware (SEM) and phishing attacks. The reports consider the relative security of a number of browsers with respect.",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-edge-found-better-than-chrome--firefox-against-phishing-attacks"
     },
     {
-        "uid": "18b91eb0-1679-4edd-87fd-481a4b3c9504",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "Microsoft and Facebook's next big thing looks a lot like a famous '90s Microsoft flop",
-        "mainText": "",
-        "redirectionUrl": "http://www.businessinsider.com/microsoft-facebook-next-big-thing-looks-like-microsoft-bob-2017-10"
+        "uid": "bc423898-8e6c-41a6-89cb-2d896479ea24",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Why Amazon Won't Catch #1 Microsoft In The Cloud: Because It's All About Software",
+        "mainText": "While I might not be the brightest bulb in the chandelier, only a fool would pretend not to recognize the extraordinary innovations and achievements Amazon Web Services has achieved with its revolutionary cloud-computing business. Without question,.",
+        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/10/12/why-amazon-wont-catch-1-microsoft-in-the-cloud-because-its-all-about-software/"
     },
     {
-        "uid": "d9a30bab-6667-4725-83a6-b8d4a8c5767f",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "Bing search updates bring Netflix recommendations, tabbed organization",
-        "mainText": "Bing users in search of their next Netflix binge may now have an easier time finding the perfect show. Microsoft announced a few updates to its search engine through a blog post, with one of.",
-        "redirectionUrl": "https://arstechnica.com/gadgets/2017/10/bing-search-updates-bring-netflix-recommendations-tabbed-organization/?utm_source=dlvr.it&utm_medium=twitter"
-    },
-    {
-        "uid": "a95a2de7-2998-47c9-a3e1-e719acc5fc5e",
-        "updateDate": "2017-10-12T03:05:14.0Z",
-        "titleText": "How Amazon, Google, Microsoft, And IBM Sell AI As A Service",
-        "mainText": "",
-        "redirectionUrl": "https://www.fastcompany.com/40474593/how-amazon-google-microsoft-and-ibm-sell-ai-as-a-service"
+        "uid": "cd7e0c85-9996-421f-aab9-d486a93f016c",
+        "updateDate": "2017-10-13T03:05:44.0Z",
+        "titleText": "Microsoft built tree houses for its employees",
+        "mainText": "Microsoft has built some tree houses for its employees. One sits in a Pacific Northwest Douglas fir, while another is 12 feet above the ground and features charred-wood walls and a high ceiling complete with.",
+        "redirectionUrl": "https://www.theverge.com/2017/10/13/16468582/microsoft-tree-houses-employees-redmond-campus?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
     }
 ]
