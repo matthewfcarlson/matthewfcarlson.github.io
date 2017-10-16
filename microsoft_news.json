@@ -1,51 +1,30 @@
 [
     {
-        "uid": "24aa4c56-7fb9-4858-b3f1-7fc10924861b",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Microsoft’s quantum future: Satya Nadella gives company alums a glimpse of what’s coming",
-        "mainText": "Will Microsoft’s quantum computing technology be a hardware division unto itself, like Xbox, or something that the company offers to original equipment manufacturers (OEMs), like its traditional Windows business for PCs? “It’s not OEM-ready yet,” joked.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsofts-quantum-future-satya-nadella-gives-company-alums-glimpse-whats-next/"
+        "uid": "bf7ddd10-0758-4b0f-a876-f954f8967a04",
+        "updateDate": "2017-10-16T04:40:39.0Z",
+        "titleText": "Microsoft Claims Another Cloud Win as Symantec Moves Onto Azure",
+        "mainText": "Symantec, a security software specialist, is turning to Microsoft's public cloud in an effort to cut its own data center costs. The news was disclosed by Microsoft early Monday. Some workloads will remain on Symantec's own.",
+        "redirectionUrl": "http://fortune.com/2017/10/16/microsoft-azure-cloud-symantec/"
     },
     {
-        "uid": "71b65f6d-3ee4-4165-afcf-2c3b31f06c59",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "How to Get Cortana to Keep Track of Your Favorite Teams",
-        "mainText": "Q. How do I make the Windows Cortana program on my PC collect news and scores for specific sports teams? A. You can set Cortana, Microsoft’s virtual assistant for Windows 10 desktop and mobile systems, to.",
-        "redirectionUrl": "https://www.nytimes.com/2017/10/13/technology/personaltech/microsoft-cortana-favorite-teams.html?partner=IFTTT"
+        "uid": "7fb3588d-b949-4149-982b-dd65c0675ada",
+        "updateDate": "2017-10-16T04:40:39.0Z",
+        "titleText": "Microsoft shows off its Fluent Design changes to Windows 10",
+        "mainText": "Microsoft first unveiled its Fluent Design language earlier this year, promising subtle changes to the company’s software in the future. The first part of Fluent Design will appear in the Windows 10 Fall Creators Update.",
+        "redirectionUrl": "https://www.theverge.com/2017/10/16/16481202/microsoft-windows-10-fall-creators-update-fluent-design?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "b40b5e01-377e-48dc-9bdc-a04190478f61",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Microsoft Edge browser preview makes its way to Android",
-        "mainText": "Windows Phone is on its way out. To no one's surprise, Microsoft's Joe Belfiore recently confirmed its demise. In its place, the company has adopted a more pragmatic approach that embeds pieces of its Windows.",
-        "redirectionUrl": "https://www.engadget.com/2017/10/13/microsoft-edge-android-preview/?utm_source=dlvr.it&utm_medium=twitter"
+        "uid": "4f01ff8a-38fd-4341-a49d-f6fd5f858689",
+        "updateDate": "2017-10-16T04:40:39.0Z",
+        "titleText": "Windows Subsystem for Linux graduates in Windows 10 Fall Creators Update",
+        "mainText": "Interested in running Linux on Windows 10 with Windows Subsystem for Linux (WSL), but nervous about it being both a beta and only available in Windows 10 developer mode? Your worries are over. In the.",
+        "redirectionUrl": "http://www.zdnet.com/article/windows-subsystem-for-linux-graduates-in-windows-10-fall-creators-update/"
     },
     {
-        "uid": "7a31593a-0de1-433b-89cc-fcd026c18067",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Microsoft proves it can be just as pretentious as Apple",
-        "mainText": "I used to believe that Apple owned pretentiousness. It could describe products in ways that made you feel that its creators really believe themselves artists, rather than mundane craftspeople. Or the even lower-lifes known as nerds. Who.",
-        "redirectionUrl": "https://www.cnet.com/news/microsoft-proves-it-can-be-just-as-pretentious-as-apple/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+cnet%2Fsecurity+%28InSecurity+Complex%29#ftag=CAD590a51e"
-    },
-    {
-        "uid": "64facb91-8ef9-40fa-b262-a86d1948aead",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Microsoft Edge found better than Chrome & Firefox against phishing attacks",
-        "mainText": "Renowned cybersecurity consultancy NSS Labs this week published two Web Browser Security Comparative Reports on socially engineered malware (SEM) and phishing attacks. The reports consider the relative security of a number of browsers with respect.",
-        "redirectionUrl": "https://www.neowin.net/news/microsoft-edge-found-better-than-chrome--firefox-against-phishing-attacks"
-    },
-    {
-        "uid": "bc423898-8e6c-41a6-89cb-2d896479ea24",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Why Amazon Won't Catch #1 Microsoft In The Cloud: Because It's All About Software",
-        "mainText": "While I might not be the brightest bulb in the chandelier, only a fool would pretend not to recognize the extraordinary innovations and achievements Amazon Web Services has achieved with its revolutionary cloud-computing business. Without question,.",
-        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/10/12/why-amazon-wont-catch-1-microsoft-in-the-cloud-because-its-all-about-software/"
-    },
-    {
-        "uid": "cd7e0c85-9996-421f-aab9-d486a93f016c",
-        "updateDate": "2017-10-13T03:05:44.0Z",
-        "titleText": "Microsoft built tree houses for its employees",
-        "mainText": "Microsoft has built some tree houses for its employees. One sits in a Pacific Northwest Douglas fir, while another is 12 feet above the ground and features charred-wood walls and a high ceiling complete with.",
-        "redirectionUrl": "https://www.theverge.com/2017/10/13/16468582/microsoft-tree-houses-employees-redmond-campus?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "e135110c-279b-4657-b37c-1c4e10f5c867",
+        "updateDate": "2017-10-16T04:40:39.0Z",
+        "titleText": "Microsoft's New Android Invasion",
+        "mainText": "Following on from Joe Belfiore’s announcement that Windows 10 For Mobile has been effectively killed (security updates and patches will continue, but there will be no new features added), there has been a renewed online.",
+        "redirectionUrl": "https://www.forbes.com/sites/ewanspence/2017/10/15/microsoft-android-launcher-edge-browser-new-app/"
     }
 ]
