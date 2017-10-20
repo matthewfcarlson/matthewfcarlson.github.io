@@ -1,37 +1,51 @@
 [
     {
-        "uid": "e4a00383-03f5-4d47-b2a5-23760371eb1e",
-        "updateDate": "2017-10-19T03:02:59.0Z",
-        "titleText": "Satya Nadella, the full GeekWire Summit interview: Microsoft’s transformation and the future of tech",
-        "mainText": "Satya Nadella is most well known for transforming Microsoft as its third, and current, CEO. He’s taken the company in a new and exciting direction, doubling its stock price and heading new initiatives into bleeding-edge.",
-        "redirectionUrl": "https://www.geekwire.com/2017/qa-micosoft-ceo-satya-nadella-on-his-love-of-cricket-his-leadership-style-and-the-future-of-technology/"
+        "uid": "269dd625-bf4d-48b1-a531-7f4b687ec85b",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Packers, Microsoft join in $10M tech venture near Lambeau Field",
+        "mainText": "",
+        "redirectionUrl": "http://fox6now.com/2017/10/19/packers-microsoft-join-in-tech-venture-near-lambeau-field/"
     },
     {
-        "uid": "1c9abc18-de61-465d-b0e6-539956f4e54e",
-        "updateDate": "2017-10-19T03:02:59.0Z",
-        "titleText": "Nintendo Switch outsells Sony and Microsoft heading into the holiday season",
-        "mainText": "Nintendo’s Switch has claimed another month. The home console/portable hybrid was the top-selling system in September in the U.S., according to the industry-tracking firm The NPD Group. But it wasn’t the only successful Nintendo product of.",
-        "redirectionUrl": "https://venturebeat.com/2017/10/19/nintendo-switch-outsells-sony-and-microsoft-heading-into-the-holiday-season/"
+        "uid": "617e09da-38a6-4ab0-82e9-30eb9bf08a8d",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Packers, Microsoft bring touch of Silicon Valley to Titletown District",
+        "mainText": "The next Bill Gates might be in Green Bay or Appleton or De Pere, waiting for his or her opportunity. If so, the Green Bay Packers and Microsoft Corp. will be there to give a boost..",
+        "redirectionUrl": "http://www.greenbaypressgazette.com/story/news/2017/10/19/packers-microsoft-bring-touch-silicon-valley-titletown-district/763041001/"
     },
     {
-        "uid": "0ae7de98-2cec-44aa-b22f-1167b7b73a08",
-        "updateDate": "2017-10-19T03:02:59.0Z",
-        "titleText": "Does Windows 10's Security Boost Make Antivirus Obsolete?",
-        "mainText": "With the Windows 10 Creators Update this spring, the venerable Windows Defender got a new name— Microsoft Windows Defender Security Center —and a leap in functionality. In addition to antivirus, it manages Windows Firewall, SmartScreen.",
-        "redirectionUrl": "https://www.pcmag.com/article/356835/does-windows-10s-security-boost-make-antivirus-obsolete"
+        "uid": "6514a518-b2f4-4172-b9ff-87e27ded7660",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Microsoft Joins the Home-Speaker Party With Invoke",
+        "mainText": "Similar to Amazon’s original Echo, the Invoke is a Pringles can-size speaker that can play music, check traffic and answer questions about sports scores or historical facts. Microsoft and Harman Kardon announced plans in May to.",
+        "redirectionUrl": "https://www.wsj.com/articles/microsoft-joins-the-home-speaker-party-with-invoke-1508504400?mod=e2twd"
     },
     {
-        "uid": "a9fe0adc-4214-4456-bbdc-c745323f0cf2",
-        "updateDate": "2017-10-19T03:02:59.0Z",
-        "titleText": "Developers rejoice: Microsoft, Google, Mozilla are putting all their web API docs in one place",
-        "mainText": "Three big browser makers have agreed to put their cross-browser documentation on the Mozilla Developer Network (MDN) wiki. Mozilla's MDN Web Docs will now be home to documentation about web APIs and information on Chrome, Edge,.",
-        "redirectionUrl": "http://www.zdnet.com/article/developers-rejoice-microsoft-google-mozilla-are-putting-all-their-web-api-docs-in-one-place/"
+        "uid": "ae59c38c-f41e-480b-b9e1-36074dc3b7eb",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "My week with Harman Kardon's Cortana-powered Invoke speaker",
+        "mainText": "During the past week, I've said 'Hey Cortana' more times than I have over the past couple of years combined. I've been testing the Harman Kardon Invoke speaker, which is powered by Cortana and includes a.",
+        "redirectionUrl": "http://www.zdnet.com/article/my-week-with-harman-kardons-cortana-powered-invoke-speaker/"
     },
     {
-        "uid": "1d802dba-8441-4579-81f0-b294067b10f8",
-        "updateDate": "2017-10-19T03:02:59.0Z",
-        "titleText": "Adobe Photoshop adds support for Microsoft's Surface Dial",
-        "mainText": "As part of its Creative Cloud 2018 rollout, Adobe has revealed that Microsoft's Surface Dial, seemingly made for Photoshop CC, is finally supported by the app. Adobe notes that for now, it's shipping as a.",
-        "redirectionUrl": "https://www.engadget.com/2017/10/18/adobe-photoshop-surface-dial/?utm_source=dlvr.it&utm_medium=twitter"
+        "uid": "c6adb57a-1608-4796-bce1-5b1e2febf3ea",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Microsoft Releases Visio Online With Stack of Diagramming Templates",
+        "mainText": "The wait's finally over. Visio Online, the browser-based version of Microsoft's diagramming software, is now generally available, ending a public beta that began in December 2016. 'Visio Online comes with a host of templates for a.",
+        "redirectionUrl": "http://www.eweek.com/enterprise-apps/microsoft-releases-visio-online-with-stack-of-diagramming-templates"
+    },
+    {
+        "uid": "d994da3c-f3f4-4986-94b5-b83192a1379d",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Microsoft's Windows Server 1709: What's missing",
+        "mainText": "Alongside the Windows 10 Fall Creators Update, Microsoft delivered its first feature update for Windows Server 2016 this week. While some administrators are just starting to kick the tires, they've already noticed a few surprise omissions.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsofts-windows-server-1709-whats-missing/"
+    },
+    {
+        "uid": "faba6121-b45e-4959-8a5e-1473fcb9ce18",
+        "updateDate": "2017-10-20T02:58:43.0Z",
+        "titleText": "Microsoft’s Market Value Hits a Dot-Com Era Milestone: $600 Billion",
+        "mainText": "The firm is the third-largest S&P 500 company in market value, trailing Apple (about $800 billion) and Google’s parent company, Alphabet, (about $690 billion). In July, fellow technology and internet stalwarts Facebook and Amazon.com joined.",
+        "redirectionUrl": "https://blogs.wsj.com/moneybeat/2017/10/19/microsofts-market-value-hits-a-dot-com-era-milestone-600-billion/"
     }
 ]
