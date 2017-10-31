@@ -1,51 +1,37 @@
 [
     {
-        "uid": "2645a8cc-ad0b-46c0-8dfc-428c75c4f133",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Skype’s big redesign publicly launches to all desktop users",
-        "mainText": "Earlier this year, Skype introduced a revamped version of its application offering a heavier focus on media sharing and social expression tools, in an effort to better compete with more modern social communication services, like.",
-        "redirectionUrl": "https://techcrunch.com/2017/10/30/skypes-big-redesign-publicly-launches-to-all-desktop-users/"
+        "uid": "6c65ba3f-4f78-40b3-a9d9-7862f8588e63",
+        "updateDate": "2017-10-31T02:58:58.0Z",
+        "titleText": "Microsoft to release Surface Pro with LTE Advanced in December, looking to continue recent growth",
+        "mainText": "Microsoft will begin shipping a new version of its Surface Pro tablet with LTE Advanced mobile connectivity for businesses in early December, the company’s devices chief Panos Panay announced this morning at its Future Decoded.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-release-surface-pro-lte-advanced-december-looking-continue-recent-growth/"
     },
     {
-        "uid": "803a9d10-ba3c-4322-8e38-b2f67b3006d2",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Microsoft's updated Skype Desktop app for Windows, Mac sheds 'preview'tag",
-        "mainText": "Microsoft's redesigned version of its Skype consumer application for Windows and Mac desktop users is no longer in preview as of today, October 30. Like the new and still-evolving Skype for mobile client, the new desktop.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-updated-skype-desktop-app-for-windows-mac-sheds-preview-tag/"
+        "uid": "c32e8a32-83aa-43df-8f4c-6fceeadd21e0",
+        "updateDate": "2017-10-31T02:58:58.0Z",
+        "titleText": "Microsoft Surface Pro with LTE coming December",
+        "mainText": "Microsoft is going all in on helping people work from pretty much anywhere in the world. The company's most advacned, most connected tablet yet, the Surface Pro with LTE Advanced, will be shipping to business customers.",
+        "redirectionUrl": "https://www.cnet.com/news/microsoft-surface-pro-with-lte-coming-december/#ftag=CAD590a51e"
     },
     {
-        "uid": "212085df-a393-4279-9723-15d17b9a01db",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Microsoft to Save All Xbox Settings in the Cloud",
-        "mainText": "Nintendo is slowly dragging itself into the 21st century by decoupling saves and settings from actual hardware. Meanwhile, Microsoft is racing ahead of the pack and transferring even more of your games console data to.",
-        "redirectionUrl": "https://www.pcmag.com/news/357064/microsoft-to-save-all-xbox-settings-in-the-cloud"
+        "uid": "c408b716-cec1-48b7-98b1-92621b7054ee",
+        "updateDate": "2017-10-31T02:58:58.0Z",
+        "titleText": "Microsoft to add free premium features to Outlook.com for Office 365 consumer subscribers",
+        "mainText": "Microsoft is starting to roll out to Office 365 Home and Office 365 Personal subscribers some premium capabilities for their Outlook.com accounts for free. Among the features that these users of Microsoft's consumer-focused Office 365 users.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-to-add-free-premium-features-to-outlook-com-for-office-365-consumer-subscribers/"
     },
     {
-        "uid": "5e23e167-ff93-4613-b1f9-01f8fc2bb7f6",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "The Amazing Ways Microsoft Uses AI To Drive Business Success",
-        "mainText": "The adoption of AI in business and society is being spurred on by tech giants with resources to design, build and roll out services affordable and simple enough for everyday use. Microsoft is one of.",
-        "redirectionUrl": "https://www.huffingtonpost.com/entry/the-amazing-ways-microsoft-uses-ai-to-drive-business_us_59f1b640e4b005e7823347b8"
+        "uid": "5e9214ce-6365-4a69-93f8-8c42ac96b2b1",
+        "updateDate": "2017-10-31T02:58:58.0Z",
+        "titleText": "Microsoft Is Getting Hungry for Fuel Cells",
+        "mainText": "Microsoft Corp. is moving to use fuel cells at its power-hungry server farms, saying the technology may double the efficiency of energy used. The software company is testing how it can use the devices to generate.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-10-31/fuel-cells-backed-by-microsoft-for-power-hungry-data-centers"
     },
     {
-        "uid": "4d1ca427-9df5-4281-9e03-7aad66985d33",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Microsoft commercial cloud, Azure vs. Amazon Web Services is nice storyline, but misguided comparison",
-        "mainText": "One storyline following earnings from Microsoft and Amazon revolved around pitting Azure vs. Amazon Web Services, but the comparison falls apart based on product portfolio. Why? First, Microsoft's commercial cloud and AWS are apples and oranges..",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-commercial-cloud-azure-vs-amazon-web-services-nice-storyline-but-misguided-comparison/"
-    },
-    {
-        "uid": "2d4fdfcb-c617-43da-899e-2f5415a27c24",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Latest Surface Hardware Promotes Microsoft's Future Success",
-        "mainText": "Microsoft is expected to announce the availability of an LTE Surface tablet later this week at its Future Decoded, reports Ars Technica and others. The Surface Pro was announced in June 2017 and support for.",
-        "redirectionUrl": "https://www.forbes.com/sites/ewanspence/2017/10/29/new-surface-pro-lte-windows10-leak-rumor/"
-    },
-    {
-        "uid": "7f872b6c-2b08-42c2-a4ed-3d41e860728c",
-        "updateDate": "2017-10-30T02:59:27.0Z",
-        "titleText": "Chevron Signs Seven Year Deal With Microsoft In One Of Cloud's Biggest Wins Yet",
-        "mainText": "Energy giant Chevron has selected Microsoft as its preferred cloud provider in one of the biggest head- to-head wins yet in a developing race between tech leaders for cloud computing customers. Under the terms of the seven-year.",
-        "redirectionUrl": "https://www.forbes.com/sites/alexkonrad/2017/10/30/chevron-partners-with-microsoft-in-cloud/#6de7329b684d"
+        "uid": "d31601c2-39fb-4a77-93be-6db9dc8ec193",
+        "updateDate": "2017-10-31T02:58:58.0Z",
+        "titleText": "Microsoft And Eastern Washington University Collaborate on Bachelor of Science in Data Analytics",
+        "mainText": "A constant refrain in business is that too many university graduates have a foundation in theory but not in practice. Within the BI community there’s also a regular expression of the need for far more.",
+        "redirectionUrl": "https://www.forbes.com/sites/tiriasresearch/2017/10/30/microsoft-and-eastern-washington-university-collaborate-on-bachelor-of-science-in-data-analytics/"
     }
 ]
