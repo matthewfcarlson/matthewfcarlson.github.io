@@ -1,86 +1,51 @@
 [
     {
-        "uid": "ba1c1f42-59a7-4883-a97d-5df919e1d42b",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft 365 Business Is About to Disrupt a Whole Lot of SMB Apps",
-        "mainText": "Microsoft 365 Business could become the only platform your small business needs to run daily operations. Generally available starting today in the US, UK, and Canada, Microsoft's new holistic cloud solution for small to midsize.",
-        "redirectionUrl": "https://www.pcmag.com/news/357050/microsoft-365-business-is-about-to-disrupt-a-whole-lot-of-sm"
+        "uid": "5738ee16-e519-48a7-9455-e143e3697ae8",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Microsoft’s Augmented-Reality Strategy: Pilots Over Zombie Hunters",
+        "mainText": "When Japan Airlines Co. sent Takashi Wada to Microsoft Corp.’s headquarters two years ago to try its HoloLens augmented-reality headset, the pilot grudgingly wondered why he needed to travel nearly 5,000 miles to.",
+        "redirectionUrl": "https://www.wsj.com/articles/microsofts-augmented-reality-strategy-pilots-over-zombie-hunters-1509627600"
     },
     {
-        "uid": "65fa9100-aa4a-44aa-a97d-1ea37dfaa080",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft adds more business apps to Office 365 Business Premium subscriptions",
-        "mainText": "Microsoft is adding more new business applications to its Office 365 Business Premium and Microsoft 365 Business plans. Office 365 Business Premium the most comprehensive and costly Office 365 subscription plans for small- and mid-size businesses.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-adds-more-business-apps-to-office-365-business-premium-subscriptions/"
+        "uid": "a076630a-f177-47ca-b556-9b80b6bd6231",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Tech companies join in support 'Dreamers,' challenging Trump",
+        "mainText": "Alphabet Inc’s Google, Microsoft Corp and other major tech companies were poised on Wednesday to join a legal challenge against a decision to end protections against deportation for immigrants brought into the United States illegally.",
+        "redirectionUrl": "http://www.reuters.com/article/us-usa-immigration-dreamers/tech-companies-join-in-support-dreamers-challenging-trump-idUSKBN1D15VM?feedType=RSS&feedName=topNews&utm_source=twitter&utm_medium=Social"
     },
     {
-        "uid": "27f6c85a-d7b8-456b-9617-df5d02a7e503",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft expands HoloLens headsets to 29 new European markets",
-        "mainText": "Nearly two years on from Microsoft unveiling its HoloLens augmented reality headsets, we don’t have a firm number of how many units have been sold, but we do know that Microsoft is banking on the.",
-        "redirectionUrl": "https://techcrunch.com/2017/11/01/microsoft-expands-hololens-headsets-to-29-new-european-markets/"
+        "uid": "0f127352-ae06-4208-bbdf-bfc498cc4b23",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Meet Project Honolulu, Microsoft’s new Windows Server management GUI",
+        "mainText": "I’m a firm believer that PowerShell knowledge is required if you work in Windows administration. That’s become especially true over the last three to four years as Microsoft has invested a good deal of time.",
+        "redirectionUrl": "https://www.computerworld.com/article/3235616/data-center/meet-project-honolulu-microsoft-s-new-windows-server-management-gui.html#tk.twt_ctw"
     },
     {
-        "uid": "cd591fce-be03-473f-a7f5-2ae9c53cc164",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft’s new HoloLens business push includes 29 new countries",
-        "mainText": "Microsoft first unveiled its HoloLens headset almost three years ago, and the company continues to sell them to developers and commercial customers. While HoloLens seemed like a product that would change a lot over time,.",
-        "redirectionUrl": "https://www.theverge.com/2017/11/1/16589262/microsoft-hololens-business-new-markets?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "673c00aa-8421-4e97-b19c-83db6f23d6a1",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Xbox One X will support 1440p monitors",
+        "mainText": "With less than a week to go until its release, more details are emerging about the Xbox One X. We've known all along that Microsoft's all-powerful console would output at native 4K on a 4K.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/02/xbox-one-x-1440p-native-support/?sr_source=Twitter"
     },
     {
-        "uid": "2265537e-75dd-4b95-acea-e65fb3d40614",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft Patents Expanding Headphone Port",
-        "mainText": "If you listen to Apple's marketing machine, removing the headphone port from the iPhone was 'courageous.' For consumers, it was a frustration that left us carrying around dongles or investing in expensive wireless headphones and.",
-        "redirectionUrl": "https://www.pcmag.com/news/357115/microsoft-patents-expanding-headphone-port"
+        "uid": "296a003c-0c26-4d80-94a1-5d8d6a228080",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Microsoft plans to triple Azure cloud computing capacity in China over the next six months",
+        "mainText": "The company that operates Microsoft’s Azure cloud computing business in China is planning a huge increase in capacity heading into next year, CEO Satya Nadella announced Wednesday at an event in China. 21Vianet, which is the.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-plans-triple-azure-cloud-computing-capacity-china-next-six-months/"
     },
     {
-        "uid": "89e30e48-f4b4-4d4c-95d0-508e054eab4e",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "How Microsoft Is Revolutionizing The Cloud: Satya Nadella's Strategy To Blow Past $20 Billion",
-        "mainText": "While Microsoft's posting of $5 billion in quarterly cloud revenue was a remarkable achievement, that milestone's already been forgotten in Redmond as Satya Nadella's company redefines how business customers think about the cloud and raise.",
-        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/11/01/how-microsoft-is-revolutionizing-the-cloud-satya-nadellas-strategy-to-blow-past-20-billion/"
+        "uid": "467af89d-2101-4ad8-aa75-b5de5f5796d3",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Microsoft inks major wind power deal with Swedish utility firm Vattenfall",
+        "mainText": "State-owned Swedish energy company Vattenfall has signed a 10-year deal to power Microsoft's international data center operations in the Netherlands using wind power. Microsoft will receive all the energy output from a new onshore wind farm.",
+        "redirectionUrl": "https://www.cnbc.com/2017/11/02/microsoft-inks-major-wind-power-deal-with-swedens-vattenfall.html"
     },
     {
-        "uid": "e7fd7ff2-789a-49b4-85c8-90a7ca7231dd",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft says demand for Xbox One X is 'exactly where we anticipated, even more'",
-        "mainText": "",
-        "redirectionUrl": "https://www.cnbc.com/2017/11/01/microsoft-says-demand-for-xbox-one-x-is-super-high.html"
-    },
-    {
-        "uid": "d25243da-13f0-49dc-8e27-6a4ef0dce869",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft's 'CrystalNet' Azure-network emulator may be available to customers one day",
-        "mainText": "Microsoft has developed a 'cloud-scale emulator' meant to help engineers eliminate cloud networking downtime. Microsoft's emulator, which it has dubbed CrystalNet, was one of the company's discussion topics at the ACM Annual Symposium on Operating Systems.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-crystalnet-azure-network-emulator-may-be-available-to-customers-one-day/"
-    },
-    {
-        "uid": "64b8f5bc-72af-480f-92d3-59adb56e5018",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft launches a revamped version of Mixer into beta",
-        "mainText": "Microsoft today announced the launch of a new beta version of its mobile gameplay streaming app, Mixer, for both iOS and Android. The company says the new app features an entirely different codebase that will.",
-        "redirectionUrl": "https://techcrunch.com/2017/10/31/microsoft-launches-a-revamped-version-of-mixer-into-beta/"
-    },
-    {
-        "uid": "ad8c90d7-cef6-4a9a-8e42-29dcc14a5468",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft says 40 percent of all VMs in Azure now are running Linux",
-        "mainText": "Forty percent of all virtual machines in Microsoft's Azure cloud are now running Linux. That stat is courtesy of a tweet on October 31 from the Microsoft Developer UK account. The tweet, hashtagged as #FutureDecoded, seemingly.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-says-40-percent-of-all-vms-in-azure-now-are-running-linux/"
-    },
-    {
-        "uid": "b2d44237-bbff-460d-977b-e58b7332c856",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "Microsoft exec Julie Larson-Green leaving company after 25 years",
-        "mainText": "Larson-Green was an instrumental figure within Microsoft for decades, serving recently as the chief experience officer of the Office team. Longtime Microsoft executive Julie Larson-Green is stepping down from the company after nearly 25 years. Larson-Green was.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-exec-julie-larson-green-leaving-company-after-25-years/?utm_content=buffer09b7c&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
-    },
-    {
-        "uid": "82e5710b-2eb7-4031-8d28-0bb4c49c3891",
-        "updateDate": "2017-11-01T03:00:04.0Z",
-        "titleText": "United Technologies Picks Microsoft for Cloud as Internet of Things Heats Up",
-        "mainText": "United Technologies Corp., the maker of Otis elevators, Pratt & Whitney jet engines and Carrier air conditioners, will use Microsoft Corp.’s Azure cloud and Dynamics 365 customer relationship management tools as it works to optimize.",
-        "redirectionUrl": "https://blogs.wsj.com/cio/2017/10/31/united-technologies-picks-microsoft-for-cloud-as-internet-of-things-heats-up/?mod=WSJBlog"
+        "uid": "a246a56a-77f3-48b4-a123-28cb747ad147",
+        "updateDate": "2017-11-02T02:58:20.0Z",
+        "titleText": "Microsoft focuses on mixed reality in Vancouver, B.C., expansion",
+        "mainText": "Microsoft is continuing its push to build actual and virtual technology ties with its neighbors to the North, announcing several initiatives Wednesday in Vancouver, B.C. Fifty new engineering and design workers will be hired in the.",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-focuses-on-mixed-reality-in-vancouver-b-c-expansion/"
     }
 ]
