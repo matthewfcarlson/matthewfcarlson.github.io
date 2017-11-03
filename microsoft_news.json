@@ -1,51 +1,58 @@
 [
     {
-        "uid": "5738ee16-e519-48a7-9455-e143e3697ae8",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Microsoft’s Augmented-Reality Strategy: Pilots Over Zombie Hunters",
-        "mainText": "When Japan Airlines Co. sent Takashi Wada to Microsoft Corp.’s headquarters two years ago to try its HoloLens augmented-reality headset, the pilot grudgingly wondered why he needed to travel nearly 5,000 miles to.",
-        "redirectionUrl": "https://www.wsj.com/articles/microsofts-augmented-reality-strategy-pilots-over-zombie-hunters-1509627600"
+        "uid": "5ee3fd25-8fe9-4139-b8b0-4d656a6d67be",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Microsoft Xbox One X Review: Prep Yourself for the 4K, High-Performance Future",
+        "mainText": "SINCE THE DAYS of the NES, most every successful gaming console has basically been released twice. You’d get a big, loud, and expensive box at launch, then a few years later, a smaller, quieter, lower- cost.",
+        "redirectionUrl": "https://www.wired.com/2017/11/review-microsoft-xbox-one-x/?utm_medium=twitter&utm_source=dlvr.it"
     },
     {
-        "uid": "a076630a-f177-47ca-b556-9b80b6bd6231",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Tech companies join in support 'Dreamers,' challenging Trump",
-        "mainText": "Alphabet Inc’s Google, Microsoft Corp and other major tech companies were poised on Wednesday to join a legal challenge against a decision to end protections against deportation for immigrants brought into the United States illegally.",
-        "redirectionUrl": "http://www.reuters.com/article/us-usa-immigration-dreamers/tech-companies-join-in-support-dreamers-challenging-trump-idUSKBN1D15VM?feedType=RSS&feedName=topNews&utm_source=twitter&utm_medium=Social"
+        "uid": "7bd76134-8448-4edf-951f-b4bc5d02f218",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Xbox One X review: This is the ultimate Xbox",
+        "mainText": "This is the Xbox One X. It’s the fastest and smallest Xbox and the first to offer games in 4K. At $499 the higher resolution comes at a steep price. After a week with the.",
+        "redirectionUrl": "https://techcrunch.com/2017/11/03/xbox-one-x-review-this-is-the-ultimate-xbox/"
     },
     {
-        "uid": "0f127352-ae06-4208-bbdf-bfc498cc4b23",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Meet Project Honolulu, Microsoft’s new Windows Server management GUI",
-        "mainText": "I’m a firm believer that PowerShell knowledge is required if you work in Windows administration. That’s become especially true over the last three to four years as Microsoft has invested a good deal of time.",
-        "redirectionUrl": "https://www.computerworld.com/article/3235616/data-center/meet-project-honolulu-microsoft-s-new-windows-server-management-gui.html#tk.twt_ctw"
+        "uid": "69d01c64-9ff0-4134-8f08-8fbd15bab880",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Apple CEO Cook breathes new life into old iPhones",
+        "mainText": "(Reuters) - By delivering solid financial results that beat Wall Street’s expectations for both revenues and profits on Thursday, Apple Inc’s CEO Tim Cook put to rest concerns that the company’s flagship device, the iPhone.",
+        "redirectionUrl": "http://www.reuters.com/article/us-apple-results-strategy/apple-ceo-cook-breathes-new-life-into-old-iphones-idUSKBN1D306R?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
     },
     {
-        "uid": "673c00aa-8421-4e97-b19c-83db6f23d6a1",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Xbox One X will support 1440p monitors",
-        "mainText": "With less than a week to go until its release, more details are emerging about the Xbox One X. We've known all along that Microsoft's all-powerful console would output at native 4K on a 4K.",
-        "redirectionUrl": "https://www.engadget.com/2017/11/02/xbox-one-x-1440p-native-support/?sr_source=Twitter"
+        "uid": "238bf00d-1794-4630-a7d1-ace45ab7c936",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Skype Interviews adds code snapshots and group video calling",
+        "mainText": "Conducting an interview with a coding candidate can be tough, especially when the applicant can't easily make it to the office to tackle a project. Skype Interviews was created to aid the process, and new.",
+        "redirectionUrl": "https://www.neowin.net/news/skype-interviews-adds-code-snapshots-and-group-video-calling"
     },
     {
-        "uid": "296a003c-0c26-4d80-94a1-5d8d6a228080",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Microsoft plans to triple Azure cloud computing capacity in China over the next six months",
-        "mainText": "The company that operates Microsoft’s Azure cloud computing business in China is planning a huge increase in capacity heading into next year, CEO Satya Nadella announced Wednesday at an event in China. 21Vianet, which is the.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-plans-triple-azure-cloud-computing-capacity-china-next-six-months/"
+        "uid": "14e1b2e0-a2b4-434e-b949-4b99d6bd7699",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Microsoft's Bulks Up Azure SQL for Big Data and AI Era",
+        "mainText": "The company offers more cloud-based database options to enterprises beset by big data and AI challenges. Microsoft is making it easier for enterprises and database administrators (DBAs) to harness the cloud to power their cutting-edge, data-intensive.",
+        "redirectionUrl": "http://www.eweek.com/cloud/microsoft-s-bulks-up-azure-sql-for-big-data-and-ai-era"
     },
     {
-        "uid": "467af89d-2101-4ad8-aa75-b5de5f5796d3",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Microsoft inks major wind power deal with Swedish utility firm Vattenfall",
-        "mainText": "State-owned Swedish energy company Vattenfall has signed a 10-year deal to power Microsoft's international data center operations in the Netherlands using wind power. Microsoft will receive all the energy output from a new onshore wind farm.",
-        "redirectionUrl": "https://www.cnbc.com/2017/11/02/microsoft-inks-major-wind-power-deal-with-swedens-vattenfall.html"
+        "uid": "d92d79b5-cafa-413a-b72b-44071cff7fbe",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "What's new in Microsoft's Windows 10 IoT Fall Creators Update release",
+        "mainText": "Windows 10 isn't just for PCs. It's also available on other Microsoft device types, including Internet of Things (IoT) devices. On November 2, Microsoft officials detailed some of the features that are part of the latest.",
+        "redirectionUrl": "http://www.zdnet.com/article/whats-new-in-microsofts-windows-10-iot-fall-creators-update-release/"
     },
     {
-        "uid": "a246a56a-77f3-48b4-a123-28cb747ad147",
-        "updateDate": "2017-11-02T02:58:20.0Z",
-        "titleText": "Microsoft focuses on mixed reality in Vancouver, B.C., expansion",
-        "mainText": "Microsoft is continuing its push to build actual and virtual technology ties with its neighbors to the North, announcing several initiatives Wednesday in Vancouver, B.C. Fifty new engineering and design workers will be hired in the.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-focuses-on-mixed-reality-in-vancouver-b-c-expansion/"
+        "uid": "d0e9275d-a47f-4f56-8088-84f620b34d88",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Windows 10 Fluent Design: Microsoft's new-look Mail, Calendar now open to all",
+        "mainText": "Microsoft is rolling out a new version of the Mail and Calendar apps for Windows 10 with a design refresh shaped by Fluent Design. Microsoft has been testing the new-look apps with Windows Insiders for the.",
+        "redirectionUrl": "http://www.zdnet.com/article/windows-10-fluent-design-microsofts-new-look-mail-calendar-now-open-to-all/"
+    },
+    {
+        "uid": "7b9c4e1d-2013-4fcf-b971-b2ce5c34e94a",
+        "updateDate": "2017-11-03T06:22:50.0Z",
+        "titleText": "Traditional Tech Said to Push New Sales Incentives to Drive Cloud Use",
+        "mainText": "Microsoft Corp., Oracle Corp. and IBM — looking to stoke demand for cloud computing services — are said to be shifting incentives for their sales representatives, pushing them to ensure customers become active users over.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-02/traditional-tech-said-to-push-new-sales-incentives-to-drive-cloud-use"
     }
 ]
