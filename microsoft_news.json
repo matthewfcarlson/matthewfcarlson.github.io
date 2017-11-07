@@ -1,23 +1,51 @@
 [
     {
-        "uid": "7343354a-d4ef-4a9a-9d3f-80f7c54efbcc",
-        "updateDate": "2017-11-06T04:05:21.0Z",
-        "titleText": "Microsoft Shifts to Make More of Its Own Video Game Software",
-        "mainText": "As Microsoft Corp. begins selling a new Xbox console, the focus of its video-game unit is shifting toward software and services. The company plans to increase investment in developing in-house video games, including starting or acquiring.",
-        "redirectionUrl": "https://www.bloomberg.com/amp/news/articles/2017-11-06/microsoft-boosts-video-game-investment-as-focus-shifts-to-software"
+        "uid": "52e6305d-d125-4af6-a0b6-01cf7b537575",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "REVIEW: The new $500 Xbox One is incredibly powerful and far too expensive",
+        "mainText": "The new, $500 Xbox One X is the most powerful home video game console ever made. With its beefy internals, the Xbox One X is more powerful than most home computers. It can power 4K.",
+        "redirectionUrl": "http://www.businessinsider.com/xbox-one-x-review-2017-11"
     },
     {
-        "uid": "5c57593c-505d-484d-a4f8-352a22b5b7a1",
-        "updateDate": "2017-11-06T04:05:21.0Z",
-        "titleText": "Microsoft Hopes for Videogame Turnaround With Xbox One X",
-        "mainText": "Microsoft Corp. debuts its new Xbox One X console Tuesday, hoping a focus on live services and high- end hardware can reverse its flagging fortunes in the videogame business. Microsoft in September promoted Xbox chief Phil.",
-        "redirectionUrl": "https://www.wsj.com/articles/microsoft-hopes-for-videogame-turnaround-with-xbox-one-x-1509976801"
+        "uid": "4f72d10d-4d48-4288-b151-7a9dc761141b",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "Microsoft will create game studios to ensure more Xbox One exclusives",
+        "mainText": "Microsoft's Xbox One X is launching this week. It's the most powerful video game console ever made, but we don't know who will end up buying the $500 mid-generation system, or any Xbox over a.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/07/microsoft-will-create-game-studios-to-ensure-more-xbox-one-exclu/?sr_source=Twitter"
     },
     {
-        "uid": "78f9a80a-5e1a-4a81-b942-365a40ead82b",
-        "updateDate": "2017-11-06T04:05:21.0Z",
-        "titleText": "Review: Microsoft Surface Pro (2017)",
-        "mainText": "It’s been five years since Microsoft’s first debuted the Surface tablet. At the time, a slim slate that could also replace your laptop was a crazy idea. But the thinking around that concept—and the PC.",
-        "redirectionUrl": "https://www.wired.com/2017/11/review-microsoft-surface-pro-2017/"
+        "uid": "63064ea4-941f-43b0-8ea5-8b50e0c4d0ed",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "Xbox One X positions Microsoft to appeal to serious gamers",
+        "mainText": "Microsoft's Xbox One X debuts Tuesday, with a $499 price tag and a promise of more power than ever before. The moment of truth has arrived for Microsoft’s newest gaming console – its most expensive and.",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/xbox-one-x-positions-microsoft-to-appeal-to-serious-gamers/?utm_content=bufferf46d8&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
+    },
+    {
+        "uid": "9b6837d2-926f-4431-b6f6-1ed158faed74",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "The Top 5 Cloud-Computing Vendors: #1 Microsoft, #2 Amazon, #3 IBM, #4 Salesforce, #5 SAP",
+        "mainText": "As businesses move beyond cloud experiments to deeply strategic deployments, the balance of power in the Cloud Wars Top 10 is shifting toward those tech providers that can move those business customers past the infrastructure.",
+        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/11/07/the-top-5-cloud-computing-vendors-1-microsoft-2-amazon-3-ibm-4-salesforce-5-sap/"
+    },
+    {
+        "uid": "5bc05b96-13b8-4ddf-a9d0-5c973a2acf53",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "India's ride hailing firm Ola ties up with Microsoft for connected car platform",
+        "mainText": "Indian ride hailing service Ola has tied up with Microsoft Corp to build a new connected vehicle platform and will also use the U.S tech gaint’s Azure cloud computing service to power its in-car entertainment. Corporate",
+        "redirectionUrl": "http://www.reuters.com/article/us-ola-microsoft/indias-ride-hailing-firm-ola-ties-up-with-microsoft-for-connected-car-platform-idUSKBN1D70S5?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
+    },
+    {
+        "uid": "5260edf5-10d8-4c2d-8c59-3e35b8e6583b",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "Satya Nadella's weakness shows he's human like the rest of us",
+        "mainText": "Satya Nadella grew up in the southern Indian city of Hyderabad and studied engineering at the Manipal Institute of Technology, before moving to the US and finding his way to the corner office at Microsoft.",
+        "redirectionUrl": "https://qz.com/1122209/microsofts-satya-nadella-on-cricket-india-and-the-future-of-ai/"
+    },
+    {
+        "uid": "d3dadf9f-04a1-44bc-8faf-f0ed69c9789d",
+        "updateDate": "2017-11-07T05:56:42.0Z",
+        "titleText": "Microsoft acqui-hires cinemagraphic photo app Swng",
+        "mainText": "",
+        "redirectionUrl": "https://techcrunch.com/2017/11/06/microsoft-acqui-hires-cinemagraphic-photo-app-swng/"
     }
 ]
