@@ -1,51 +1,30 @@
 [
     {
-        "uid": "52e6305d-d125-4af6-a0b6-01cf7b537575",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "REVIEW: The new $500 Xbox One is incredibly powerful and far too expensive",
-        "mainText": "The new, $500 Xbox One X is the most powerful home video game console ever made. With its beefy internals, the Xbox One X is more powerful than most home computers. It can power 4K.",
-        "redirectionUrl": "http://www.businessinsider.com/xbox-one-x-review-2017-11"
+        "uid": "b14a1758-44be-4c9f-8eba-81d5538bedd8",
+        "updateDate": "2017-11-08T04:00:15.0Z",
+        "titleText": "Microsoft introduces new secure firmware spec via the Open Compute Project",
+        "mainText": "Microsoft is extending its Open Compute Project (OCP) contributions with a new security-focused component. Microsoft's 'Project Cerberus' is a cryptographic microcontroller that is designed to intercept accesses from the host to flash over the SPI bus,.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-introduces-new-secure-firmware-spec-via-the-open-compute-project/"
     },
     {
-        "uid": "4f72d10d-4d48-4288-b151-7a9dc761141b",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "Microsoft will create game studios to ensure more Xbox One exclusives",
-        "mainText": "Microsoft's Xbox One X is launching this week. It's the most powerful video game console ever made, but we don't know who will end up buying the $500 mid-generation system, or any Xbox over a.",
-        "redirectionUrl": "https://www.engadget.com/2017/11/07/microsoft-will-create-game-studios-to-ensure-more-xbox-one-exclu/?sr_source=Twitter"
+        "uid": "54498dde-2f86-4626-ba79-0dfe9f73cce9",
+        "updateDate": "2017-11-08T04:00:15.0Z",
+        "titleText": "Microsoft Enabling Automatic Database Tuning in Azure SQL DB in 2018",
+        "mainText": "Microsoft's automated and AI-enabled database tuning technology will become the new default configuration on the Azure SQL cloud database in January 2018. Delivering consistent database performance is the goal of a new feature Microsoft will.",
+        "redirectionUrl": "http://www.eweek.com/cloud/microsoft-enabling-automatic-database-tuning-in-azure-sql-db-in-2018"
     },
     {
-        "uid": "63064ea4-941f-43b0-8ea5-8b50e0c4d0ed",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "Xbox One X positions Microsoft to appeal to serious gamers",
-        "mainText": "Microsoft's Xbox One X debuts Tuesday, with a $499 price tag and a promise of more power than ever before. The moment of truth has arrived for Microsoft’s newest gaming console – its most expensive and.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/xbox-one-x-positions-microsoft-to-appeal-to-serious-gamers/?utm_content=bufferf46d8&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
+        "uid": "f759466d-6613-4035-9d61-c3060066e72c",
+        "updateDate": "2017-11-08T04:00:15.0Z",
+        "titleText": "Xbox One X: Microsoft 'not leaving current players behind'",
+        "mainText": "The world's most powerful console, the Xbox One X, has hit the shelves but it will set you back £450. But is it worth the hype and will it close the gap on PlayStation? 'It's about giving.",
+        "redirectionUrl": "http://www.bbc.co.uk/newsbeat/article/41905792/xbox-one-x-microsoft-not-leaving-current-players-behind"
     },
     {
-        "uid": "9b6837d2-926f-4431-b6f6-1ed158faed74",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "The Top 5 Cloud-Computing Vendors: #1 Microsoft, #2 Amazon, #3 IBM, #4 Salesforce, #5 SAP",
-        "mainText": "As businesses move beyond cloud experiments to deeply strategic deployments, the balance of power in the Cloud Wars Top 10 is shifting toward those tech providers that can move those business customers past the infrastructure.",
-        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/11/07/the-top-5-cloud-computing-vendors-1-microsoft-2-amazon-3-ibm-4-salesforce-5-sap/"
-    },
-    {
-        "uid": "5bc05b96-13b8-4ddf-a9d0-5c973a2acf53",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "India's ride hailing firm Ola ties up with Microsoft for connected car platform",
-        "mainText": "Indian ride hailing service Ola has tied up with Microsoft Corp to build a new connected vehicle platform and will also use the U.S tech gaint’s Azure cloud computing service to power its in-car entertainment. Corporate",
-        "redirectionUrl": "http://www.reuters.com/article/us-ola-microsoft/indias-ride-hailing-firm-ola-ties-up-with-microsoft-for-connected-car-platform-idUSKBN1D70S5?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
-    },
-    {
-        "uid": "5260edf5-10d8-4c2d-8c59-3e35b8e6583b",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "Satya Nadella's weakness shows he's human like the rest of us",
-        "mainText": "Satya Nadella grew up in the southern Indian city of Hyderabad and studied engineering at the Manipal Institute of Technology, before moving to the US and finding his way to the corner office at Microsoft.",
-        "redirectionUrl": "https://qz.com/1122209/microsofts-satya-nadella-on-cricket-india-and-the-future-of-ai/"
-    },
-    {
-        "uid": "d3dadf9f-04a1-44bc-8faf-f0ed69c9789d",
-        "updateDate": "2017-11-07T05:56:42.0Z",
-        "titleText": "Microsoft acqui-hires cinemagraphic photo app Swng",
-        "mainText": "",
-        "redirectionUrl": "https://techcrunch.com/2017/11/06/microsoft-acqui-hires-cinemagraphic-photo-app-swng/"
+        "uid": "2b2efc75-6f7f-47cc-af66-649a9aff01ec",
+        "updateDate": "2017-11-08T04:00:15.0Z",
+        "titleText": "Microsoft offers new guidelines for a 'highly secure' Windows 10 device",
+        "mainText": "Microsoft tries hard to keep its devices and the Windows 10 operating system safe from outside attacks. But devices using Windows 10 still face threats if not properly secured. To that end, Microsoft has published.",
+        "redirectionUrl": "https://www.neowin.net/news/microsoft-offers-new-guidelines-for-a-highly-secure-windows-10-device"
     }
 ]
