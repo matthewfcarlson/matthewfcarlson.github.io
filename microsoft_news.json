@@ -1,30 +1,37 @@
 [
     {
-        "uid": "b14a1758-44be-4c9f-8eba-81d5538bedd8",
-        "updateDate": "2017-11-08T04:00:15.0Z",
-        "titleText": "Microsoft introduces new secure firmware spec via the Open Compute Project",
-        "mainText": "Microsoft is extending its Open Compute Project (OCP) contributions with a new security-focused component. Microsoft's 'Project Cerberus' is a cryptographic microcontroller that is designed to intercept accesses from the host to flash over the SPI bus,.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-introduces-new-secure-firmware-spec-via-the-open-compute-project/"
+        "uid": "bb0f8bd0-60d5-4d1e-9ff5-b8400f935012",
+        "updateDate": "2017-11-09T04:03:57.0Z",
+        "titleText": "Microsoft adds AI-powered LinkedIn resume assistant to Word",
+        "mainText": "We're starting to see more results from Microsoft acquiring LinkedIn last year, like the new employment information features brought over to Outlook.com members. Now the company that build Office is bringing AI to your job.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/08/microsoft-ai-linkedin-resume-assistant-word/?sr_source=Twitter"
     },
     {
-        "uid": "54498dde-2f86-4626-ba79-0dfe9f73cce9",
-        "updateDate": "2017-11-08T04:00:15.0Z",
-        "titleText": "Microsoft Enabling Automatic Database Tuning in Azure SQL DB in 2018",
-        "mainText": "Microsoft's automated and AI-enabled database tuning technology will become the new default configuration on the Azure SQL cloud database in January 2018. Delivering consistent database performance is the goal of a new feature Microsoft will.",
-        "redirectionUrl": "http://www.eweek.com/cloud/microsoft-enabling-automatic-database-tuning-in-azure-sql-db-in-2018"
+        "uid": "1babde02-f551-462e-bf4f-10b0b379a46f",
+        "updateDate": "2017-11-09T04:03:57.0Z",
+        "titleText": "LinkedIn brings resume help to Microsoft Word",
+        "mainText": "A new Office 365 feature, called Resume Assistant, will give suggestions and allow users to see data from LinkedIn as they revise or create new resumes. It’s not quite the same as the departed Clippy, the. Microsoft Office 365 users to get LinkedIn-powered Resume Assistant <https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.zdn et.com%2Farticle%2Fmicrosoft-office-365-users-to-get-linkedin-powered-re sume-assistant%2F&data=02%7C01%7Cmacarl%40microsoft.com%7Ce7e62fd658f44a aa876708d5278b2319%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C63645840 2137518463&sdata=t9b092wyDu%2FQJcUkCcmvCZ80dxHzVtTC9McVUSRtnzU%3D&reserv ed=0>",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/linkedin-brings-resume-help-to-microsoft-word/?utm_content=buffereaa9e&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
     },
     {
-        "uid": "f759466d-6613-4035-9d61-c3060066e72c",
-        "updateDate": "2017-11-08T04:00:15.0Z",
-        "titleText": "Xbox One X: Microsoft 'not leaving current players behind'",
-        "mainText": "The world's most powerful console, the Xbox One X, has hit the shelves but it will set you back £450. But is it worth the hype and will it close the gap on PlayStation? 'It's about giving.",
-        "redirectionUrl": "http://www.bbc.co.uk/newsbeat/article/41905792/xbox-one-x-microsoft-not-leaving-current-players-behind"
+        "uid": "51b07e0b-e1fc-4bfc-bc19-02799d18b827",
+        "updateDate": "2017-11-09T04:03:57.0Z",
+        "titleText": "Xbox One X Sales Have Been 'Incredible,' GameStop Already Sold Out",
+        "mainText": "This week, Microsoft's released its biggest gaming project since the original Xbox One: the Xbox One X, a beast of a console designed for 4K gaming, meant to operate like a high-end gaming PC in.",
+        "redirectionUrl": "https://www.forbes.com/sites/davidthier/2017/11/09/xbox-one-x-sales-have-been-incredible-gamestop-alreadu-sold-out/"
     },
     {
-        "uid": "2b2efc75-6f7f-47cc-af66-649a9aff01ec",
-        "updateDate": "2017-11-08T04:00:15.0Z",
-        "titleText": "Microsoft offers new guidelines for a 'highly secure' Windows 10 device",
-        "mainText": "Microsoft tries hard to keep its devices and the Windows 10 operating system safe from outside attacks. But devices using Windows 10 still face threats if not properly secured. To that end, Microsoft has published.",
-        "redirectionUrl": "https://www.neowin.net/news/microsoft-offers-new-guidelines-for-a-highly-secure-windows-10-device"
+        "uid": "731f554b-3d64-424f-8610-38106e3eb491",
+        "updateDate": "2017-11-09T04:03:57.0Z",
+        "titleText": "SteamVR games available in Windows Mixed Reality on November 15th",
+        "mainText": "Microsoft is planning to let Windows Mixed Reality users get access to SteamVR games next week. The software maker revealed to Rolling Stone that a preview program for SteamVR titles will launch on November 15th,. Microsoft releases new Windows 10 preview with Edge tab muting and Near Share <https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fventur ebeat.com%2F2017%2F11%2F08%2Fmicrosoft-releases-new-windows-10-preview-w ith-edge-tab-muting-and-near-share%2F&data=02%7C01%7Cmacarl%40microsoft. com%7Ce7e62fd658f44aaa876708d5278b2319%7C72f988bf86f141af91ab2d7cd011db4 7%7C1%7C0%7C636458402137518463&sdata=2woMzYPtBWszBGRtnnBZf1LDBJIKnpjjheF 7kew2o2w%3D&reserved=0>",
+        "redirectionUrl": "https://www.theverge.com/2017/11/9/16627664/steamvr-games-available-in-windows-mixed-reality-on-november-15th?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "de4e6ee9-e94a-44fc-9110-7a0a184498fb",
+        "updateDate": "2017-11-09T04:03:57.0Z",
+        "titleText": "Skype launches Photo Effects – sticker suggestions powered by machine learning",
+        "mainText": "Not content with merely launching its own take on Instagram and Snapchat’s Stories, Skype today is adding another copycat-like feature to its app: photo stickers. The company says it’s introducing new “Photo Effects” (as it’s.",
+        "redirectionUrl": "https://techcrunch.com/2017/11/08/skype-launches-photo-effects-sticker-suggestions-powered-by-machine-learning/"
     }
 ]
