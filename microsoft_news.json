@@ -1,23 +1,44 @@
 [
     {
-        "uid": "a2f85e6c-8017-435a-92d0-0e05c3b20d5a",
-        "updateDate": "2017-11-13T08:18:52.0Z",
-        "titleText": "Xbox One S drops to its lowest ever price for Black Friday",
-        "mainText": "Microsoft is unveiling its Black Friday discounts today, and there’s a number of deals if you’re interested in an Xbox, Windows laptop, or a Windows Mixed Reality headset. Microsoft is discounting the Xbox One S.",
-        "redirectionUrl": "https://www.theverge.com/2017/11/13/16643226/microsoft-store-black-friday-deals-xbox-one-windows-laptops?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "a046218a-891a-4af8-91c8-5078c5a8e843",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "Microsoft readies preview of Skype Professional tool for online-centric small businesses",
+        "mainText": "Microsoft is readying a new variant ot Skype that's aimed at small online businesses. Skype Professional, a preview of which Microsoft will make available 'soon' for U.S. users only, to start, is a new type of.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-readies-preview-of-skype-professional-tool-for-online-centric-small-businesses/"
     },
     {
-        "uid": "e798f31b-b7f8-4da1-bc12-43c65eca2e09",
-        "updateDate": "2017-11-13T08:18:52.0Z",
-        "titleText": "The Xbox One X Presents Microsoft With A Problem And An Opportunity",
-        "mainText": "Technically-oriented reviews of games running on the are making it clear that the console lives up to the pre-launch hype. For the most part, games look and run better - sometimes a lot better -.",
-        "redirectionUrl": "https://www.forbes.com/sites/kevinmurnane/2017/11/13/the-xbox-one-x-presents-microsoft-with-a-problem-and-an-opportunity/"
+        "uid": "61d069a8-92f7-4c25-9b34-a4eccf357386",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "Microsoft makes education version of ‘Minecraft’ tougher to keep up with students’ skill levels",
+        "mainText": "Microsoft now has 2 million licensed users across 115 countries playing the education version of “Minecraft.” But it had to develop a tougher version of the tutorial game because students were too skilled. It turns out.",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-makes-education-version-of-minecraft-tougher-to-keep-up-with-students-skill-levels/?utm_content=buffere3fb2&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
     },
     {
-        "uid": "1f83a7a3-9d99-46e1-8fdd-6d7abe374e5d",
-        "updateDate": "2017-11-13T08:18:52.0Z",
-        "titleText": "Microsoft is on a hiring spree at US business schools",
-        "mainText": "Safiya Miller had her pick of job offers from big technology companies after earning an MBA from Cornell’s Johnson Graduate School of Management in New York state. In the end, she chose Microsoft, becoming an account.",
-        "redirectionUrl": "https://www.cnbc.com/2017/11/12/financial-times-microsoft-is-on-a-hiring-spree-at-us-business-schools.html"
+        "uid": "b460eda2-3b2a-430c-b29f-d2c07d5118bb",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "Microsoft's Black Friday deals include discounts on its Surface Pro tablet, Windows laptops",
+        "mainText": "Microsoft has launched its plans for Black Friday, which include deals on its Surface Pro tablet and a half- dozen laptops from Dell and HP running its Windows operating system. In addition to its online store, the.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsofts-black-friday-deals-include-discounts-on-surface-pro-tablet-windows-laptops/"
+    },
+    {
+        "uid": "c9a0122f-46a9-4ff5-8f96-3d03ec3b5615",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "The Microsoft Store now sells the Samsung Galaxy S8 and Galaxy S8+ online",
+        "mainText": "It now seems like a distant memory, but when Samsung first launched its Galaxy S8 and Galaxy S8+ earlier in the year, in a bit of an odd twist, Microsoft also offered its own variant.",
+        "redirectionUrl": "https://www.neowin.net/news/the-microsoft-store-now-sells-the-samsung-galaxy-s8-and-galaxy-s8-online"
+    },
+    {
+        "uid": "eae51a6f-598e-4214-9467-33151f4e2a10",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "Microsoft's Soaring Growth In The Cloud Make Marc Benioff's Digs SeemSilly: Check These Stats",
+        "mainText": "Despite the fact that the two companies don't currently compete on many fronts, Salesforce.com CEO Marc Benioff just can't seem to get Microsoft off his mind. And while Benioff's might be mildly amusing, they're also utterly.",
+        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/11/13/microsofts-soaring-growth-in-the-cloud-make-marc-benioffs-digs-seem-silly-check-these-stats/"
+    },
+    {
+        "uid": "fc94ec16-d3f0-49be-8e46-5425b98389f2",
+        "updateDate": "2017-11-14T06:29:03.0Z",
+        "titleText": "Microsoft sets unambitious but achievable carbon reduction goal",
+        "mainText": "Microsoft has pledged to slash its carbon emissions by 75 percent by 2030, against a 2013 baseline. By pushing its carbon neutrality plans and renewable energy commitments, the target puts the company on track to.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/14/microsoft-sets-unambitious-but-achievable-carbon-reduction-goal/?sr_source=Twitter"
     }
 ]
