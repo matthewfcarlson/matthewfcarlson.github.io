@@ -1,44 +1,72 @@
 [
     {
-        "uid": "a046218a-891a-4af8-91c8-5078c5a8e843",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "Microsoft readies preview of Skype Professional tool for online-centric small businesses",
-        "mainText": "Microsoft is readying a new variant ot Skype that's aimed at small online businesses. Skype Professional, a preview of which Microsoft will make available 'soon' for U.S. users only, to start, is a new type of.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-readies-preview-of-skype-professional-tool-for-online-centric-small-businesses/"
+        "uid": "40398ea2-a403-479e-a7f0-c76a048f5383",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft launches Azure Databricks, a new cloud data platform based on Apache Spark",
+        "mainText": "Microsoft Azure customers interested in parsing large amounts of data to improve their businesses will soon be able to use Azure Databricks, developed in consultation with big data startup Databricks and built around the Apache.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-launches-azure-databricks-new-cloud-data-platform-based-apache-spark/"
     },
     {
-        "uid": "61d069a8-92f7-4c25-9b34-a4eccf357386",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "Microsoft makes education version of ‘Minecraft’ tougher to keep up with students’ skill levels",
-        "mainText": "Microsoft now has 2 million licensed users across 115 countries playing the education version of “Minecraft.” But it had to develop a tougher version of the tutorial game because students were too skilled. It turns out.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-makes-education-version-of-minecraft-tougher-to-keep-up-with-students-skill-levels/?utm_content=buffere3fb2&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
+        "uid": "f4517255-6817-45b0-9bf9-25d39633a090",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft's Visual Studio Live Share to improve developer collaboration",
+        "mainText": "Microsoft is offering a sneak peek today, November 15, of a coming Visual Studio service aimed to make developer collaboration more seamless. That service, known as Visual Studio Live Share, is expected to be one of.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsofts-visual-studio-live-share-to-improve-developer-collaboration/"
     },
     {
-        "uid": "b460eda2-3b2a-430c-b29f-d2c07d5118bb",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "Microsoft's Black Friday deals include discounts on its Surface Pro tablet, Windows laptops",
-        "mainText": "Microsoft has launched its plans for Black Friday, which include deals on its Surface Pro tablet and a half- dozen laptops from Dell and HP running its Windows operating system. In addition to its online store, the.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-black-friday-deals-include-discounts-on-surface-pro-tablet-windows-laptops/"
+        "uid": "b48fd993-60c7-479e-a93c-d03e7dfaf227",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "GitHub adopts Microsoft’s tool for supporting massive software projects",
+        "mainText": "GitHub has adopted Microsoft’s tool for managing large scale source code repositories, according to a joint announcement made as part of the latter company’s Connect conference in New York today. Over the course of the coming.",
+        "redirectionUrl": "https://venturebeat.com/2017/11/15/github-adopts-microsofts-tool-for-supporting-massive-software-projects/"
     },
     {
-        "uid": "c9a0122f-46a9-4ff5-8f96-3d03ec3b5615",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "The Microsoft Store now sells the Samsung Galaxy S8 and Galaxy S8+ online",
-        "mainText": "It now seems like a distant memory, but when Samsung first launched its Galaxy S8 and Galaxy S8+ earlier in the year, in a bit of an odd twist, Microsoft also offered its own variant.",
-        "redirectionUrl": "https://www.neowin.net/news/the-microsoft-store-now-sells-the-samsung-galaxy-s8-and-galaxy-s8-online"
+        "uid": "8cc95aed-348d-4cf7-96f9-55b74a9037c1",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft updates Cosmos DB with Cassandra support, better availability guarantees",
+        "mainText": "Cosmos DB, Microsoft’s managed database cloud service, received several updates today aimed at making it useful for a wider variety of users. One key addition is a preview of support for using the Cassandra NoSQL.",
+        "redirectionUrl": "https://venturebeat.com/2017/11/15/microsoft-updates-cosmos-db-with-cassandra-support-better-availability-guarantees/"
     },
     {
-        "uid": "eae51a6f-598e-4214-9467-33151f4e2a10",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "Microsoft's Soaring Growth In The Cloud Make Marc Benioff's Digs SeemSilly: Check These Stats",
-        "mainText": "Despite the fact that the two companies don't currently compete on many fronts, Salesforce.com CEO Marc Benioff just can't seem to get Microsoft off his mind. And while Benioff's might be mildly amusing, they're also utterly.",
-        "redirectionUrl": "https://www.forbes.com/sites/bobevans1/2017/11/13/microsofts-soaring-growth-in-the-cloud-make-marc-benioffs-digs-seem-silly-check-these-stats/"
+        "uid": "fdd5e11c-0df1-4d8a-80ff-8a8f3141b402",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft joins the MariaDB Foundation and launches Azure Database for MariaDB",
+        "mainText": "Microsoft today announced that it is joining the MariaDB Foundation, the nonprofit behind the popular relational database founded by the original developers of MySQL. As a platinum sponsor, the company is joining Booking.com, Alibaba Cloud.",
+        "redirectionUrl": "https://techcrunch.com/2017/11/15/microsoft-joins-the-mariadb-foundation-and-launches-azure-database-for-mariadb/"
     },
     {
-        "uid": "fc94ec16-d3f0-49be-8e46-5425b98389f2",
-        "updateDate": "2017-11-14T06:29:03.0Z",
-        "titleText": "Microsoft sets unambitious but achievable carbon reduction goal",
-        "mainText": "Microsoft has pledged to slash its carbon emissions by 75 percent by 2030, against a 2013 baseline. By pushing its carbon neutrality plans and renewable energy commitments, the target puts the company on track to.",
-        "redirectionUrl": "https://www.engadget.com/2017/11/14/microsoft-sets-unambitious-but-achievable-carbon-reduction-goal/?sr_source=Twitter"
+        "uid": "9254e267-37be-4675-9fc3-e447de3de2bc",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft Azure CTO Mark Russinovich hears your cloud lock-in concerns, but it’s complicated",
+        "mainText": "As the technology leader for the second-place cloud computing vendor, Microsoft’s Mark Russinovich has a keen interest in finding ways for companies that have invested in Amazon Web Services or Google Cloud Platform to run.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-azure-cto-mark-russinovich-hears-cloud-lock-concerns-complicated/"
+    },
+    {
+        "uid": "fb9f0d6f-4e83-4939-9b94-30d4abe63df7",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft expands Xbox digital game gifting to all users",
+        "mainText": "Back in October, Microsoft began allowing digital gift-giving for games on the Xbox One. Users could log into the Xbox Store and select an Xbox One game to send digitally as a gift. The catch.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/14/xbox-digital-game-gifting-available-to-everyone/?sr_source=Twitter"
+    },
+    {
+        "uid": "bf268e68-eb94-42e9-91d7-caa702ec5a8f",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Enterprise, Education users get six more months of support for Windows10 1511",
+        "mainText": "Microsoft is providing Windows 10 Enterprise and Education users still on Version 1511 with more time to move to a newer version of the operating system. Microsoft officials said on November 14 that 'some early enterprise.",
+        "redirectionUrl": "http://www.zdnet.com/article/enterprise-education-users-get-six-more-months-of-support-for-windows-10-1511/"
+    },
+    {
+        "uid": "adc8d7f1-899c-4a5b-8428-f33ddd7de2b0",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft has more women in workforce than last year, thanks mainly to LinkedIn",
+        "mainText": "",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-has-more-women-in-workforce-than-last-year-thanks-mainly-to-linkedin/?utm_content=buffer9d933&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
+    },
+    {
+        "uid": "f671de6b-c02e-48be-813d-6f43b9bd6abf",
+        "updateDate": "2017-11-15T04:02:26.0Z",
+        "titleText": "Microsoft Sets New Carbon Target to Help Meet Paris Climate Deal",
+        "mainText": "Microsoft Corp. joined a growing number of companies pledging to curb their emissions in line with the international efforts to keep global warming to no more than 2 degrees Celsius. The world’s biggest software company by.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-14/microsoft-sets-new-carbon-target-to-help-meet-paris-climate-deal?utm_content=tech&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social&cmpid%3D=socialflow-twitter-tech"
     }
 ]
