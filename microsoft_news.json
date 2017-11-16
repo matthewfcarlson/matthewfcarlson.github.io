@@ -1,72 +1,23 @@
 [
     {
-        "uid": "40398ea2-a403-479e-a7f0-c76a048f5383",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft launches Azure Databricks, a new cloud data platform based on Apache Spark",
-        "mainText": "Microsoft Azure customers interested in parsing large amounts of data to improve their businesses will soon be able to use Azure Databricks, developed in consultation with big data startup Databricks and built around the Apache.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-launches-azure-databricks-new-cloud-data-platform-based-apache-spark/"
+        "uid": "f081be0d-b32d-47ca-ac7a-5af543c95d84",
+        "updateDate": "2017-11-16T04:00:41.0Z",
+        "titleText": "Microsoft’s Surface Book 2 really is a beautiful beast",
+        "mainText": "Using a 15-inch, 4.2-pound powerhouse like Microsoft’s new Surface Book 2 takes some time getting used to. It nearly fits into my backpack, but weighs on my back. It’s unwieldy to carry around the office,.",
+        "redirectionUrl": "http://mashable.com/2017/11/16/microsoft-surface-book-2-review/?utm_cid=mash-com-Tw-main-link"
     },
     {
-        "uid": "f4517255-6817-45b0-9bf9-25d39633a090",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft's Visual Studio Live Share to improve developer collaboration",
-        "mainText": "Microsoft is offering a sneak peek today, November 15, of a coming Visual Studio service aimed to make developer collaboration more seamless. That service, known as Visual Studio Live Share, is expected to be one of.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-visual-studio-live-share-to-improve-developer-collaboration/"
+        "uid": "f7d7e744-e16d-4b10-8346-8198a14eac3d",
+        "updateDate": "2017-11-16T04:00:41.0Z",
+        "titleText": "Microsoft releases first test build of Windows Server 1803",
+        "mainText": "Microsoft released today, November 15, the first Insider test build of its next Windows Server feature update. Build 17035 of Windows Server is equivalent of its PC counterpart, codenamed 'Redstone 4.' Both the client and server.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-releases-first-test-build-of-windows-server-1803/"
     },
     {
-        "uid": "b48fd993-60c7-479e-a93c-d03e7dfaf227",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "GitHub adopts Microsoft’s tool for supporting massive software projects",
-        "mainText": "GitHub has adopted Microsoft’s tool for managing large scale source code repositories, according to a joint announcement made as part of the latter company’s Connect conference in New York today. Over the course of the coming.",
-        "redirectionUrl": "https://venturebeat.com/2017/11/15/github-adopts-microsofts-tool-for-supporting-massive-software-projects/"
-    },
-    {
-        "uid": "8cc95aed-348d-4cf7-96f9-55b74a9037c1",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft updates Cosmos DB with Cassandra support, better availability guarantees",
-        "mainText": "Cosmos DB, Microsoft’s managed database cloud service, received several updates today aimed at making it useful for a wider variety of users. One key addition is a preview of support for using the Cassandra NoSQL.",
-        "redirectionUrl": "https://venturebeat.com/2017/11/15/microsoft-updates-cosmos-db-with-cassandra-support-better-availability-guarantees/"
-    },
-    {
-        "uid": "fdd5e11c-0df1-4d8a-80ff-8a8f3141b402",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft joins the MariaDB Foundation and launches Azure Database for MariaDB",
-        "mainText": "Microsoft today announced that it is joining the MariaDB Foundation, the nonprofit behind the popular relational database founded by the original developers of MySQL. As a platinum sponsor, the company is joining Booking.com, Alibaba Cloud.",
-        "redirectionUrl": "https://techcrunch.com/2017/11/15/microsoft-joins-the-mariadb-foundation-and-launches-azure-database-for-mariadb/"
-    },
-    {
-        "uid": "9254e267-37be-4675-9fc3-e447de3de2bc",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft Azure CTO Mark Russinovich hears your cloud lock-in concerns, but it’s complicated",
-        "mainText": "As the technology leader for the second-place cloud computing vendor, Microsoft’s Mark Russinovich has a keen interest in finding ways for companies that have invested in Amazon Web Services or Google Cloud Platform to run.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-azure-cto-mark-russinovich-hears-cloud-lock-concerns-complicated/"
-    },
-    {
-        "uid": "fb9f0d6f-4e83-4939-9b94-30d4abe63df7",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft expands Xbox digital game gifting to all users",
-        "mainText": "Back in October, Microsoft began allowing digital gift-giving for games on the Xbox One. Users could log into the Xbox Store and select an Xbox One game to send digitally as a gift. The catch.",
-        "redirectionUrl": "https://www.engadget.com/2017/11/14/xbox-digital-game-gifting-available-to-everyone/?sr_source=Twitter"
-    },
-    {
-        "uid": "bf268e68-eb94-42e9-91d7-caa702ec5a8f",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Enterprise, Education users get six more months of support for Windows10 1511",
-        "mainText": "Microsoft is providing Windows 10 Enterprise and Education users still on Version 1511 with more time to move to a newer version of the operating system. Microsoft officials said on November 14 that 'some early enterprise.",
-        "redirectionUrl": "http://www.zdnet.com/article/enterprise-education-users-get-six-more-months-of-support-for-windows-10-1511/"
-    },
-    {
-        "uid": "adc8d7f1-899c-4a5b-8428-f33ddd7de2b0",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft has more women in workforce than last year, thanks mainly to LinkedIn",
-        "mainText": "",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-has-more-women-in-workforce-than-last-year-thanks-mainly-to-linkedin/?utm_content=buffer9d933&utm_medium=social&utm_source=twitter&utm_campaign=owned_buffer_tw_m"
-    },
-    {
-        "uid": "f671de6b-c02e-48be-813d-6f43b9bd6abf",
-        "updateDate": "2017-11-15T04:02:26.0Z",
-        "titleText": "Microsoft Sets New Carbon Target to Help Meet Paris Climate Deal",
-        "mainText": "Microsoft Corp. joined a growing number of companies pledging to curb their emissions in line with the international efforts to keep global warming to no more than 2 degrees Celsius. The world’s biggest software company by.",
-        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-14/microsoft-sets-new-carbon-target-to-help-meet-paris-climate-deal?utm_content=tech&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social&cmpid%3D=socialflow-twitter-tech"
+        "uid": "e7cb9b8d-828d-47d1-859e-35ee417985cc",
+        "updateDate": "2017-11-16T04:00:41.0Z",
+        "titleText": "Microsoft using AI to empower people living with disabilities",
+        "mainText": "'Accessibility by design' is an important concept for Microsoft, and one that underpins many of its artificial intelligence-powered products, including Seeing AI. Announced on Wednesday among a series of other AI tools, Seeing AI is a.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-using-ai-to-empower-people-living-with-disabilities/"
     }
 ]
