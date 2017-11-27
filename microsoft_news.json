@@ -1,30 +1,58 @@
 [
     {
-        "uid": "b31f36df-3e6a-4248-8db1-57f4ce7373f0",
-        "updateDate": "2017-11-22T04:06:40.0Z",
-        "titleText": "Microsoft just took a big swing at AWS and VMware with new cloud offerings",
-        "mainText": "Microsoft is gunning for VMware and AWS with the announcement of two new services today that are designed to let enterprises bring more workloads to Azure. The company announced a beta service for its customers today.",
-        "redirectionUrl": "https://venturebeat.com/2017/11/21/microsoft-just-took-a-big-swing-at-aws-and-vmware-with-new-cloud-offerings/"
+        "uid": "e8dae15b-a536-41cf-8d17-d9463eca7811",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Microsoft Office looks to be available from Google Play Store for Chromebooks",
+        "mainText": "There's no official announcement from Microsoft -- at least so far -- but the company seems to have made Microsoft Office available to all Chromebook users. That discovery is courtesy of 'Chrome Unboxed,' which reported on.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-office-looks-to-be-available-from-google-play-store-for-all-chromebooks/"
     },
     {
-        "uid": "4ce0115d-10aa-41b2-8fce-ce88151d32b0",
-        "updateDate": "2017-11-22T04:06:40.0Z",
-        "titleText": "Windows 10 on Arm: Now Asus Snapdragon machine shows up on benchmark tests",
-        "mainText": "Microsoft and Qualcomm are planning on launching a number of Windows 10 PCs running on Snapdragon 835 chips by the end of the year. And there's now more evidence Microsoft and its Windows 10 Arm-chip hardware.",
-        "redirectionUrl": "http://www.zdnet.com/article/windows-10-on-arm-now-asus-snapdragon-machine-shows-up-on-benchmark-tests/"
+        "uid": "5443a2bf-2839-4d13-9c4c-8e9af1871ef4",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Microsoft Office now available on all Chromebooks",
+        "mainText": "Microsoft has been testing out its Office apps on Chromebooks for the past year, but they’ve been mainly limited to Google’s latest PixelBook device. It now appears that testing has concluded, and a number of.",
+        "redirectionUrl": "https://www.theverge.com/2017/11/27/16703952/microsoft-office-now-available-on-all-chromebooks?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
     },
     {
-        "uid": "feba6d52-b07e-4e5c-a315-8e73fe0a6d2c",
-        "updateDate": "2017-11-22T04:06:40.0Z",
-        "titleText": "Stop Using Excel, Finance Chiefs Tell Staffs",
-        "mainText": "Adobe Inc.’s . finance chief Mark Garrett says his team struggles keeping track of which jobs have been filled at the software company. The process can take days and requires finance staff to pull data from.",
-        "redirectionUrl": "https://www.wsj.com/articles/stop-using-excel-finance-chiefs-tell-staffs-1511346601"
+        "uid": "09600aa6-5497-4cf5-a198-ae6c0d962f2c",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Moleskine's smart notebook will work with Microsoft Office",
+        "mainText": "Microsoft has long sold its Surface devices on the idea that they can double as digital notebooks; laptops one minute, journals the next thanks to their detachable displays and styli. (Heck, the Surface Book has.",
+        "redirectionUrl": "https://www.engadget.com/2017/11/27/moleskine-windows-10-app-smart-notes/?sr_source=Twitter"
     },
     {
-        "uid": "77676f8e-4adc-4465-af06-4ded99520c3e",
-        "updateDate": "2017-11-22T04:06:40.0Z",
-        "titleText": "Skype Removed From Some App Stores in China",
-        "mainText": "Skype, the internet-calling and messaging service, has been unavailable for download from some app stores and websites in China, the latest disruption to online communication tools as the government tightens its grip on the internet. The.",
-        "redirectionUrl": "https://www.wsj.com/articles/skype-removed-from-some-app-stores-in-china-1511275717?mod=e2tw"
+        "uid": "9dc69295-8548-47b4-b667-6544fc8df93d",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Roadshow's favorite Cyber Monday deals - Roadshow",
+        "mainText": "Prefer Xbox to PlayStation? Don't worry, there's a deal for you, too. Microsoft is selling the just-released Forza Motorsport 7 for a bargain $79.99. We're huge fans of the game here and, with support for.",
+        "redirectionUrl": "https://www.cnet.com/roadshow/pictures/cyber-monday-roadshow-deals/?utm_source=dlvr.it&utm_medium=twitter#ftag=CADf328eec"
+    },
+    {
+        "uid": "5f015b79-ce04-4e01-93a6-a48a6d1b5b05",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Ask The CMO: A Conversation With Microsoft's Shira Levy Barkan On Revenue Driven Marketing",
+        "mainText": "We are in a period of significant business change, catalyzed by the digital transformation that is upon us. This is requiring leading brands to reimagine the marketing function in ways that embrace an emphasis on. Competitors",
+        "redirectionUrl": "https://www.forbes.com/sites/billeehoward/2017/11/26/revenue-driven-marketing/"
+    },
+    {
+        "uid": "95255508-d0e6-4d48-969e-f4053f1f9821",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Cyber Monday: 22 Best Apple iPhone X, Macbook, Microsoft Surface and Samsung Galaxy Deals",
+        "mainText": "Cyber Monday has officially started. Whilst most retailers released their Cyber Monday deals this weekend, there are one or two discounts that have only gone live today - and will only be available today. If you’re looking.",
+        "redirectionUrl": "https://www.forbes.com/sites/jaymcgregor/2017/11/27/cyber-monday-22-best-apple-iphone-x-macbook-microsoft-surface-and-samsung-galaxy-deals/"
+    },
+    {
+        "uid": "b284aed0-3fe1-4198-8143-e3d1383e8524",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Amazon Plays Catch Up in a Corner of the Cloud Where it Lagged",
+        "mainText": "Amazon.com Inc.'s cloud unit dominates the market for computing power delivered over the internet. But there's one area where it has lagged: artificial intelligence tools that let customers parse data, understand speech and recognize images.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-27/amazon-plays-catch-up-in-a-corner-of-the-cloud-where-it-lagged?utm_content=tech&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social&cmpid%3D=socialflow-twitter-tech"
+    },
+    {
+        "uid": "291a1aa1-802b-4e09-9d83-746adca8d113",
+        "updateDate": "2017-11-27T03:59:38.0Z",
+        "titleText": "Samsung SDS wins Seoul blockchain order",
+        "mainText": "Samsung SDS has won an order from the Seoul city government to draw up a roadmap to apply blockchain for administrative use. Seoul plans to first apply blockchain in municipal duties that actively collect private information.",
+        "redirectionUrl": "http://www.zdnet.com/article/samsung-sds-wins-seoul-blockchain-order/"
     }
 ]
