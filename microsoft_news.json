@@ -1,58 +1,23 @@
 [
     {
-        "uid": "e8dae15b-a536-41cf-8d17-d9463eca7811",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Microsoft Office looks to be available from Google Play Store for Chromebooks",
-        "mainText": "There's no official announcement from Microsoft -- at least so far -- but the company seems to have made Microsoft Office available to all Chromebook users. That discovery is courtesy of 'Chrome Unboxed,' which reported on.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-office-looks-to-be-available-from-google-play-store-for-all-chromebooks/"
+        "uid": "8ecf3f57-3126-4c76-9496-456e12204e44",
+        "updateDate": "2017-11-28T04:01:59.0Z",
+        "titleText": "Microsoft and SAP both commit to running SAP HANA on Azure internally",
+        "mainText": "Over the past several years, Microsoft and SAP have made lots of partnership commitments. On November 27, they announced yet another expansion round. This time, Microsoft and SAP are committing to deploy each other's cloud offerings.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-and-sap-both-commit-to-running-sap-hana-on-azure-internally/"
     },
     {
-        "uid": "5443a2bf-2839-4d13-9c4c-8e9af1871ef4",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Microsoft Office now available on all Chromebooks",
-        "mainText": "Microsoft has been testing out its Office apps on Chromebooks for the past year, but they’ve been mainly limited to Google’s latest PixelBook device. It now appears that testing has concluded, and a number of.",
-        "redirectionUrl": "https://www.theverge.com/2017/11/27/16703952/microsoft-office-now-available-on-all-chromebooks?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "bb3ba8c2-6e59-4ff2-aeaf-af9e5699fab6",
+        "updateDate": "2017-11-28T04:01:59.0Z",
+        "titleText": "Microsoft, SAP to use and sell more of each other's cloud services",
+        "mainText": "Business software giants Microsoft Corp and SAP SE have agreed to expand the use of each other’s cloud-based products and services delivered via the internet, they said on Tuesday, as they laid out a common.",
+        "redirectionUrl": "https://www.reuters.com/article/us-microsoft-sap-se/microsoft-sap-to-use-and-sell-more-of-each-others-cloud-services-idUSKBN1DS0TO?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
     },
     {
-        "uid": "09600aa6-5497-4cf5-a198-ae6c0d962f2c",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Moleskine's smart notebook will work with Microsoft Office",
-        "mainText": "Microsoft has long sold its Surface devices on the idea that they can double as digital notebooks; laptops one minute, journals the next thanks to their detachable displays and styli. (Heck, the Surface Book has.",
-        "redirectionUrl": "https://www.engadget.com/2017/11/27/moleskine-windows-10-app-smart-notes/?sr_source=Twitter"
-    },
-    {
-        "uid": "9dc69295-8548-47b4-b667-6544fc8df93d",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Roadshow's favorite Cyber Monday deals - Roadshow",
-        "mainText": "Prefer Xbox to PlayStation? Don't worry, there's a deal for you, too. Microsoft is selling the just-released Forza Motorsport 7 for a bargain $79.99. We're huge fans of the game here and, with support for.",
-        "redirectionUrl": "https://www.cnet.com/roadshow/pictures/cyber-monday-roadshow-deals/?utm_source=dlvr.it&utm_medium=twitter#ftag=CADf328eec"
-    },
-    {
-        "uid": "5f015b79-ce04-4e01-93a6-a48a6d1b5b05",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Ask The CMO: A Conversation With Microsoft's Shira Levy Barkan On Revenue Driven Marketing",
-        "mainText": "We are in a period of significant business change, catalyzed by the digital transformation that is upon us. This is requiring leading brands to reimagine the marketing function in ways that embrace an emphasis on. Competitors",
-        "redirectionUrl": "https://www.forbes.com/sites/billeehoward/2017/11/26/revenue-driven-marketing/"
-    },
-    {
-        "uid": "95255508-d0e6-4d48-969e-f4053f1f9821",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Cyber Monday: 22 Best Apple iPhone X, Macbook, Microsoft Surface and Samsung Galaxy Deals",
-        "mainText": "Cyber Monday has officially started. Whilst most retailers released their Cyber Monday deals this weekend, there are one or two discounts that have only gone live today - and will only be available today. If you’re looking.",
-        "redirectionUrl": "https://www.forbes.com/sites/jaymcgregor/2017/11/27/cyber-monday-22-best-apple-iphone-x-macbook-microsoft-surface-and-samsung-galaxy-deals/"
-    },
-    {
-        "uid": "b284aed0-3fe1-4198-8143-e3d1383e8524",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Amazon Plays Catch Up in a Corner of the Cloud Where it Lagged",
-        "mainText": "Amazon.com Inc.'s cloud unit dominates the market for computing power delivered over the internet. But there's one area where it has lagged: artificial intelligence tools that let customers parse data, understand speech and recognize images.",
-        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-27/amazon-plays-catch-up-in-a-corner-of-the-cloud-where-it-lagged?utm_content=tech&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social&cmpid%3D=socialflow-twitter-tech"
-    },
-    {
-        "uid": "291a1aa1-802b-4e09-9d83-746adca8d113",
-        "updateDate": "2017-11-27T03:59:38.0Z",
-        "titleText": "Samsung SDS wins Seoul blockchain order",
-        "mainText": "Samsung SDS has won an order from the Seoul city government to draw up a roadmap to apply blockchain for administrative use. Seoul plans to first apply blockchain in municipal duties that actively collect private information.",
-        "redirectionUrl": "http://www.zdnet.com/article/samsung-sds-wins-seoul-blockchain-order/"
+        "uid": "517059c9-c739-4326-aec2-822e8c9a4be6",
+        "updateDate": "2017-11-28T04:01:59.0Z",
+        "titleText": "Microsoft Adds SAP as Cloud Partner to Challenge Amazon",
+        "mainText": "",
+        "redirectionUrl": "https://www.wsj.com/articles/microsoft-adds-sap-as-cloud-partner-to-challenge-amazon-1511845261"
     }
 ]
