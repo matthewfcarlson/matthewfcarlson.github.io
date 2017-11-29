@@ -1,23 +1,44 @@
 [
     {
-        "uid": "8ecf3f57-3126-4c76-9496-456e12204e44",
-        "updateDate": "2017-11-28T04:01:59.0Z",
-        "titleText": "Microsoft and SAP both commit to running SAP HANA on Azure internally",
-        "mainText": "Over the past several years, Microsoft and SAP have made lots of partnership commitments. On November 27, they announced yet another expansion round. This time, Microsoft and SAP are committing to deploy each other's cloud offerings.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-and-sap-both-commit-to-running-sap-hana-on-azure-internally/"
+        "uid": "4b5a9f31-bf42-4a61-9c1f-526060c566c1",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft Plans Multibillion-Dollar Campus Overhaul, Adding Open Spaces",
+        "mainText": "While one giant Seattle-area company looks for a second headquarters, another is doubling down on its current location. Microsoft Corp. plans a multibillion-dollar overhaul of its main campus in Redmond, Washington, adding space for 8,000 more.",
+        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-11-29/microsoft-plans-multibillion-dollar-campus-overhaul-adding-open-spaces?cmpid=socialflow-twitter-business&utm_content=business&utm_campaign=socialflow-organic&utm_source=twitter&utm_medium=social"
     },
     {
-        "uid": "bb3ba8c2-6e59-4ff2-aeaf-af9e5699fab6",
-        "updateDate": "2017-11-28T04:01:59.0Z",
-        "titleText": "Microsoft, SAP to use and sell more of each other's cloud services",
-        "mainText": "Business software giants Microsoft Corp and SAP SE have agreed to expand the use of each other’s cloud-based products and services delivered via the internet, they said on Tuesday, as they laid out a common.",
-        "redirectionUrl": "https://www.reuters.com/article/us-microsoft-sap-se/microsoft-sap-to-use-and-sell-more-of-each-others-cloud-services-idUSKBN1DS0TO?feedType=RSS&feedName=technologyNews&utm_source=Twitter&utm_medium=Social&utm_campaign=Feed%3A+reuters%2FtechnologyNews+%28Reuters+Technology+News%29"
+        "uid": "2159328a-0f08-447f-9bf3-2e0f2dc0a477",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft plans multibillion-dollar expansion, renovation of Redmond campus",
+        "mainText": "Microsoft’s multiyear project, which it says is its largest redevelopment ever, is aimed at attracting and retaining workers by creating a more modern city vibe at its suburban Redmond headquarters Urban campuses in the heart of.",
+        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-plans-multibillion-dollar-expansion-renovation-of-redmond-campus/?utm_content=buffer932e8&utm_medium=social&utm_source=twitter.com&utm_campaign=owned_buffer_biz"
     },
     {
-        "uid": "517059c9-c739-4326-aec2-822e8c9a4be6",
-        "updateDate": "2017-11-28T04:01:59.0Z",
-        "titleText": "Microsoft Adds SAP as Cloud Partner to Challenge Amazon",
-        "mainText": "",
-        "redirectionUrl": "https://www.wsj.com/articles/microsoft-adds-sap-as-cloud-partner-to-challenge-amazon-1511845261"
+        "uid": "f7476d24-6b3c-42b8-ba59-9761f8adf5d2",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft plans to knock down and rebuild original Redmond campus, creating room for 8K moreworkers in historic redevelopment project",
+        "mainText": "Microsoft plans to tear down a dozen of the iconic original buildings at the heart of its 500-acre headquarters campus in Redmond, Wash., and replace them with 18 new structures in a sweeping redevelopment.",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-plans-knock-rebuild-original-redmond-campus-creating-room-8k-workers-historic-redevelopment-project/"
+    },
+    {
+        "uid": "19d6c4d2-dc9b-430a-97c6-5430757bfc58",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft’s photos app for iOS and Android will quickly transfer pictures to a PC",
+        "mainText": "Microsoft is planning to release a photos companion app for iOS and Android devices, to quickly transfer pictures to a PC. The app will be available soon for Windows 10 testers, and it will support.",
+        "redirectionUrl": "https://www.theverge.com/2017/11/29/16714304/microsoft-photos-companion-app-ios-android-windows-10?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+    },
+    {
+        "uid": "7bc4c455-e828-4cb9-a783-69b13e1c0340",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft launches public preview of Azure Location Based Services with TomTom",
+        "mainText": "Microsoft is launching a public preview of a location-based Azure cloud service that's designed to integrate well with Internet of things deployments and asset tracking. Azure Location Based Services will be powered by TomTom's Online APIs,.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-launches-public-preview-of-azure-location-based-services-with-tomtom/"
+    },
+    {
+        "uid": "d529c7e9-74cd-40f5-9b7d-03b2f869dcb4",
+        "updateDate": "2017-11-29T04:00:00.0Z",
+        "titleText": "Microsoft Windows 10 testers will soon see Timeline, Sets features",
+        "mainText": "Microsoft is poised to add two key features to test builds of Windows 10 'Redstone 4' in the coming weeks. But company officials are not guaranteeing that either of these will be part of the.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-windows-10-testers-will-soon-see-timeline-sets-features/"
     }
 ]
