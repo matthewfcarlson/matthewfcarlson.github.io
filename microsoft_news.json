@@ -1,37 +1,23 @@
 [
     {
-        "uid": "e6fdb7ca-3dda-4349-ba17-73b7e38057ce",
-        "updateDate": "2017-11-30T06:29:32.0Z",
-        "titleText": "Microsoft's Edge browing apps generally available for iOS, Android",
-        "mainText": "Microsoft announced in October previews of new Edge browser apps for iOS and Android. On November 30, Microsoft officials are announcing that these apps are no longer in preview and are generally available to all.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsofts-edge-browing-apps-generally-available-for-ios-android/"
+        "uid": "e6ec68cd-3c7a-4742-9be8-67335e324de9",
+        "updateDate": "2017-12-01T03:58:43.0Z",
+        "titleText": "Microsoft delays rollout of full Guest Access for Teams",
+        "mainText": "Microsoft seems to be having issues implementing one of the most requested features for its Teams platform: Guest Access, or the ability to add an person outside of a customer's organization to a team. Earlier this.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-delays-rollout-of-full-guest-access-for-teams/"
     },
     {
-        "uid": "b93f518d-9e09-462b-b4dc-a39fd0c67d7d",
-        "updateDate": "2017-11-30T06:29:32.0Z",
-        "titleText": "Microsoft Edge browser now available for all Android and iOS users",
-        "mainText": "Microsoft unveiled a beta version of its Edge web browser last month for iOS and Android. Testers had to sign-up to get special access to the new browser, but Microsoft is making both the Android.",
-        "redirectionUrl": "https://www.theverge.com/2017/11/30/16719234/microsoft-edge-ios-android-download-available?utm_campaign=tomwarren&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        "uid": "dc0108e2-7484-4a95-acb7-29917f8215ed",
+        "updateDate": "2017-12-01T03:58:43.0Z",
+        "titleText": "Hey, Cortana: What do you think of Alexa for Business?",
+        "mainText": "On November 30, Amazon announced that Alexa is heading straight into Microsoft's productivity wheelhouse with the new Alexa for Busines service. A quick look at the already-available Alexa for Business skills -- dialing into conference calls,.",
+        "redirectionUrl": "http://www.zdnet.com/article/hey-cortana-what-do-you-think-of-that-alexa-for-business/"
     },
     {
-        "uid": "f27a7915-a311-4df1-847f-d6148d1a1488",
-        "updateDate": "2017-11-30T06:29:32.0Z",
-        "titleText": "Windows 10 running on more than 600 million devices, Microsoft announces in latest tally",
-        "mainText": "The number of Windows 10 users has grown to 600 million, up 100 million from May, Microsoft CEO Satya Nadella announced at the company’s annual meeting. Microsoft says more than 600 million devices are now using.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/windows-10-running-on-more-than-600-million-devices-microsoft-announces-in-latest-tally/"
-    },
-    {
-        "uid": "afdbc3bb-d383-4fd9-b493-ed17ad3c49a9",
-        "updateDate": "2017-11-30T06:29:32.0Z",
-        "titleText": "Microsoft says Windows 10 now on 600 million monthly active devices",
-        "mainText": "Windows 10 is now on 600 million active monthly devices. That updated figure -- up from 500 million in March 2017 -- is from CEO Satya Nadella, who shared the latest figure during Microsoft's annual shareholders.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-says-windows-10-now-at-600-million-monthly-active-devices/"
-    },
-    {
-        "uid": "9ebe94e9-49c0-4ab8-b6ee-ce90d240dd13",
-        "updateDate": "2017-11-30T06:29:32.0Z",
-        "titleText": "Microsoft annual meeting: Shareholders asked to approve biggest board in company history",
-        "mainText": "Microsoft is kicking off its 2017 annual meeting right now, with CEO Satya Nadella and other top executives briefing shareholders on the latest developments at the Seattle-area technology giant. Shareholders will be asked to elect an.",
-        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-annual-meeting-shareholders-asked-approve-biggest-board-company-history/"
+        "uid": "2a34fc66-b784-48b1-b063-2561cb6e5a4e",
+        "updateDate": "2017-12-01T03:58:43.0Z",
+        "titleText": "How Wal-Mart And Microsoft Are Tapping A Little Recognized Labor Pool Of Millions",
+        "mainText": "Guilherme Braga was a 15-year-old exchange student in Michigan when he had the moment of insight that eventually led him to found a fast-growing, profitable Brazilian startup, Egalite, that is receiving international attention. Braga was struggling.",
+        "redirectionUrl": "https://www.forbes.com/sites/elizabethmacbride/2017/11/30/how-wal-mart-and-microsoft-are-tapping-a-little-recognized-labor-pool-of-millions/"
     }
 ]
