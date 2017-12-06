@@ -1,65 +1,58 @@
 [
     {
-        "uid": "bde60569-8c80-43b8-8aad-1ca7812d31be",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Microsoft to renovate Silicon Valley campus",
-        "mainText": "Microsoft is planning to rebuild much of its Silicon Valley office, the company said Tuesday, just days after announcing a major redevelopment of its Redmond headquarters. The software company will tear down three of its five.",
-        "redirectionUrl": "https://www.seattletimes.com/business/microsoft/microsoft-to-renovate-silicon-valley-campus/"
+        "uid": "da4789d3-deae-455d-9d0b-492d3f0b1f18",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Microsoft debuts Windows 10 on ARM",
+        "mainText": "Windows PCs with multi-day battery life soon may no longer be just a pipe dream. A year ago, Microsoft announced it was working with its PC partners to bring Windows 10 to Qualcomm's ARM processors. The.",
+        "redirectionUrl": "http://www.zdnet.com/article/microsoft-debuts-windows-10-on-arm/"
     },
     {
-        "uid": "4fcef0e4-4bfd-47f8-91ee-cd6edc0d0730",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Microsoft delivers public preview of its new Azure IoT software as a service",
-        "mainText": "Microsoft is making available as of today, December 5, a public preview of its IoT software-as-a-service offering called Microsoft IoT Central. Microsoft IoT Central is a software-as-a-service (SaaS) offering for connecting physical devices to back- end services,.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-delivers-public-preview-of-its-new-azure-iot-software-as-a-service/"
+        "uid": "6c451c5f-6df9-4548-9974-57ca881fea8f",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Microsoft launches Windows 10 on ARM, with HP and ASUS promising 20+ hours of battery life",
+        "mainText": "Windows laptops and tablets have traditionally run on X86 processors from the likes of Intel and AMD. Microsoft experimented with using ARM-based processors when it launched the Surface RT and Windows RT in 2012 —.",
+        "redirectionUrl": "https://techcrunch.com/2017/12/05/windows-10-on-arm-is-here-always-connected-devices/"
     },
     {
-        "uid": "2d50afb4-8cc0-442c-8bfe-8064dbf76408",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Azure Container Instances vs. AWS Fargate",
-        "mainText": "Last week, during their re:Invent 2017 extravaganza, AWS announced their new container service Fargate. Fargate is AWS’s clusterless/serverless way of running containers. Fargate’s announcement was joined by the announcement for AWS managed Kubernetes clusters, dubbed.",
-        "redirectionUrl": "https://medium.com/vamp-io/azure-container-instances-vs-aws-fargate-3216607f63f4"
+        "uid": "0cd12a69-d32c-4913-80f3-5e2e4133b0df",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Microsoft showcases first Windows 10 laptops with Qualcomm chips instead of Intel",
+        "mainText": "Microsoft executive Terry Myerson said his Windows 10 PC running on a Qualcomm Snapdragon chip works for a week on one battery charge. Myerson said the initial ARM-based Windows 10 machines should be fine for.",
+        "redirectionUrl": "https://www.cnbc.com/2017/12/05/microsoft-shows-first-windows-10-pcs-on-qualcomm-and-arm.html?__source=twitter%7Cmain"
     },
     {
-        "uid": "f3023bdc-cf55-432a-b90c-b515d6779e32",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Windows Update is broken for some Windows 7 users",
-        "mainText": "Windows 7 users are reporting problems accessing updates through Windows Update and Microsoft Update. The root of the problem may be an expiration date that Microsoft needs to fix on its side, noted Computerworld earlier today. A.",
-        "redirectionUrl": "http://www.zdnet.com/article/windows-update-is-broken-for-some-windows-7-users/"
+        "uid": "9778bfd9-09ab-4823-9878-3fafbffe81ad",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Harmon Kardon Invoke, First Take: More Cortana integrations and skills required",
+        "mainText": "The $199.95 Invoke smart speaker from Harmon Kardon is the first to have Microsoft's Cortana on- board, and invites obvious comparisons with Amazon's Echo and Alexa. But despite the similarities, the Invoke is aiming to do.",
+        "redirectionUrl": "http://www.zdnet.com/product/harman-kardon-invoke/"
     },
     {
-        "uid": "00aa6180-a9c3-4c9f-9971-60563a79f8cb",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Windows 10 picked as 'initial' OS for Germany's new government client",
-        "mainText": "The German government has begun work on a Windows 10-based workstation for federal employees. As reported by Heise Online, the German government decided in May 2015 to develop the Bundesclient, or federal client. The development began.",
-        "redirectionUrl": "http://www.zdnet.com/article/windows-10-picked-as-initial-os-for-germanys-new-government-client/"
+        "uid": "f1627edf-b5b7-47ac-8275-0afefb2d6ab7",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Microsoft's Whiteboard Preview app is all about collaboration",
+        "mainText": "In the quest to release better collaboration tools, Microsoft released its Whiteboard Preview app in a private beta. The software lets teams mark up multiple boards with cute skeumorphic details to ease users into working.",
+        "redirectionUrl": "https://www.engadget.com/2017/12/05/microsofts-whiteboard-preview-app-is-all-about-collaboration/?sr_source=Twitter"
     },
     {
-        "uid": "ed8e8434-edff-421d-a334-b5300e9ac273",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Microsoft extends NFL deal for Surface on the sidelines",
-        "mainText": "About five years ago, Microsoft scored a $400 million deal to supply the NFL with Surface tablets. With the deal about to expire, the football league just renewed its partnership for the sideline tech with. Competitors",
-        "redirectionUrl": "https://www.engadget.com/2017/12/04/microsoft-extends-nfl-deal-surface-sidelines/?sr_source=Twitter"
+        "uid": "54633b76-618e-4262-933a-f2fbda5278bf",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Microsoft CFO praises Google's cloud and its chief: 'She's always been a winner'",
+        "mainText": "Microsoft finance chief Amy Hood was complimentary of Google's cloud computing unit on Tuesday, and had particularly flattering words for CEO Diane Greene. Speaking at the 2017 Wells Fargo Tech Summit in Utah, Hood said that.",
+        "redirectionUrl": "https://www.cnbc.com/2017/12/05/microsoft-cfo-amy-hood-says-google-cloud-becoming-a-bigger-competitor.html?__source=twitter%7Cmain"
     },
     {
-        "uid": "eebe97a0-d8f0-4d86-b866-c3dff061dcd3",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Where Facebook Has No Friends, Tech Bends to China's Will",
-        "mainText": "As he took the stage at China’s premiere internet gathering this week, Facebook Inc.’s Vaughan Smith opened with a line that wouldn’t make sense anywhere else. ``Since not everyone at this event is familiar with Facebook,.",
-        "redirectionUrl": "https://www.bloomberg.com/news/articles/2017-12-05/where-facebook-has-no-friends-tech-bends-to-china-s-will"
+        "uid": "b0fd031a-04ae-4dec-a91d-f6ce86fb935c",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "AMD Announces First Public Cloud Deployment Of EPYC With Microsoft Azure",
+        "mainText": "Today Advanced Micro Devices and Microsoft dropped the big news that is deploying AMD’s EPYC processors in its L-Series of Virtual Machines for storage optimized workloads—marking the first public cloud instances powered by AMD’s.",
+        "redirectionUrl": "https://www.forbes.com/sites/patrickmoorhead/2017/12/05/amd-announces-first-public-cloud-deployment-of-epyc-with-microsoft-azure/"
     },
     {
-        "uid": "bc1268cd-b713-4736-8967-653cf03712fa",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "Gmail now works properly on iPhone X and supports third-party accounts",
-        "mainText": "Google has finally released an updated version of its Gmail app that fills the entirety of Apple's iPhone X display. The update to the iOS app also adds support for third-party email services like Apple.",
-        "redirectionUrl": "https://www.theverge.com/2017/12/5/16737108/gmail-iphone-x-imap-email-support?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter"
-    },
-    {
-        "uid": "f84899be-f024-4df6-97ee-e73ccc5a44cb",
-        "updateDate": "2017-12-05T03:58:49.0Z",
-        "titleText": "iPhone X Love Has Doomed Tim Cook's Apple To A Boring And Predictable Future",
-        "mainText": "When was the last time Apple introduced something new to the market? When did the company think different? When was the rule book torn up and put back together to benefit the future of Cupertino? During.",
-        "redirectionUrl": "https://www.forbes.com/sites/ewanspence/2017/12/04/apple-iphonex-new-timcook-steveballmer-future-strategy-fail"
+        "uid": "db5f9bc9-5f20-4e52-9364-1b52114b1fe1",
+        "updateDate": "2017-12-06T03:59:49.0Z",
+        "titleText": "Women in Business Q&A: Peggy Johnson, Executive Vice President, Business Development, Microsoft",
+        "mainText": "As executive vice president of business development, Peggy Johnson is responsible for driving strategic partnerships and transactions to accelerate growth for Microsoft and its customers. Johnson works with external partners around the world, ranging from.",
+        "redirectionUrl": "https://www.huffingtonpost.com/entry/women-in-business-qa-peggy-johnson-executive-vice_us_5a27d555e4b0650db4d40bf6"
     }
 ]
