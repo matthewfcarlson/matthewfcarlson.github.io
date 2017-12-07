@@ -1,58 +1,30 @@
 [
     {
-        "uid": "da4789d3-deae-455d-9d0b-492d3f0b1f18",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Microsoft debuts Windows 10 on ARM",
-        "mainText": "Windows PCs with multi-day battery life soon may no longer be just a pipe dream. A year ago, Microsoft announced it was working with its PC partners to bring Windows 10 to Qualcomm's ARM processors. The.",
-        "redirectionUrl": "http://www.zdnet.com/article/microsoft-debuts-windows-10-on-arm/"
+        "uid": "714d399a-51ac-400f-9136-5c20fbedf9b2",
+        "updateDate": "2017-12-07T03:59:50.0Z",
+        "titleText": "Satya Nadella is giving Microsoft a much needed reboot",
+        "mainText": "Nadella is No. 11 on the Recode 100. Satya Nadella is doing the improbable: Turning Microsoft around by changing both its business and culture. The company dominated the desktop PC era by selling Windows and Office.",
+        "redirectionUrl": "https://www.recode.net/2017/12/6/16680840/satya-nadella-microsoft-ceo-recode-100"
     },
     {
-        "uid": "6c451c5f-6df9-4548-9974-57ca881fea8f",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Microsoft launches Windows 10 on ARM, with HP and ASUS promising 20+ hours of battery life",
-        "mainText": "Windows laptops and tablets have traditionally run on X86 processors from the likes of Intel and AMD. Microsoft experimented with using ARM-based processors when it launched the Surface RT and Windows RT in 2012 —.",
-        "redirectionUrl": "https://techcrunch.com/2017/12/05/windows-10-on-arm-is-here-always-connected-devices/"
+        "uid": "51961480-6752-401b-9f93-46c607946810",
+        "updateDate": "2017-12-07T03:59:50.0Z",
+        "titleText": "Google Chrome OS maintains dominance in US schools, but Microsoft Windows gains ground globally",
+        "mainText": "New market research finds that while Google Chromebooks continue to be the mobile computing device of choice in U.S. schools, the competitive situation is reversed in the rest of the world, where Windows dominates. U.K.-based Futuresource.",
+        "redirectionUrl": "https://www.geekwire.com/2017/google-chrome-os-maintains-dominance-us-schools-microsoft-windows-gains-ground-globally/"
     },
     {
-        "uid": "0cd12a69-d32c-4913-80f3-5e2e4133b0df",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Microsoft showcases first Windows 10 laptops with Qualcomm chips instead of Intel",
-        "mainText": "Microsoft executive Terry Myerson said his Windows 10 PC running on a Qualcomm Snapdragon chip works for a week on one battery charge. Myerson said the initial ARM-based Windows 10 machines should be fine for.",
-        "redirectionUrl": "https://www.cnbc.com/2017/12/05/microsoft-shows-first-windows-10-pcs-on-qualcomm-and-arm.html?__source=twitter%7Cmain"
+        "uid": "fa1936b7-61be-4979-9574-351e19b4fef2",
+        "updateDate": "2017-12-07T03:59:50.0Z",
+        "titleText": "Microsoft Explains How Windows on Snapdragon Works",
+        "mainText": "Could Windows Phone return? Maybe. At a Q&A with Microsoft and Qualcomm execs at Qualcomm's Snapdragon Summit, Qualcomm's Miguel Nunes said 'different form factors' are coming for Windows 10 on Snapdragon, and Microsoft's Erin Chapple.",
+        "redirectionUrl": "https://www.pcmag.com/news/357779/microsoft-explains-how-windows-on-snapdragon-works"
     },
     {
-        "uid": "9778bfd9-09ab-4823-9878-3fafbffe81ad",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Harmon Kardon Invoke, First Take: More Cortana integrations and skills required",
-        "mainText": "The $199.95 Invoke smart speaker from Harmon Kardon is the first to have Microsoft's Cortana on- board, and invites obvious comparisons with Amazon's Echo and Alexa. But despite the similarities, the Invoke is aiming to do.",
-        "redirectionUrl": "http://www.zdnet.com/product/harman-kardon-invoke/"
-    },
-    {
-        "uid": "f1627edf-b5b7-47ac-8275-0afefb2d6ab7",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Microsoft's Whiteboard Preview app is all about collaboration",
-        "mainText": "In the quest to release better collaboration tools, Microsoft released its Whiteboard Preview app in a private beta. The software lets teams mark up multiple boards with cute skeumorphic details to ease users into working.",
-        "redirectionUrl": "https://www.engadget.com/2017/12/05/microsofts-whiteboard-preview-app-is-all-about-collaboration/?sr_source=Twitter"
-    },
-    {
-        "uid": "54633b76-618e-4262-933a-f2fbda5278bf",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Microsoft CFO praises Google's cloud and its chief: 'She's always been a winner'",
-        "mainText": "Microsoft finance chief Amy Hood was complimentary of Google's cloud computing unit on Tuesday, and had particularly flattering words for CEO Diane Greene. Speaking at the 2017 Wells Fargo Tech Summit in Utah, Hood said that.",
-        "redirectionUrl": "https://www.cnbc.com/2017/12/05/microsoft-cfo-amy-hood-says-google-cloud-becoming-a-bigger-competitor.html?__source=twitter%7Cmain"
-    },
-    {
-        "uid": "b0fd031a-04ae-4dec-a91d-f6ce86fb935c",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "AMD Announces First Public Cloud Deployment Of EPYC With Microsoft Azure",
-        "mainText": "Today Advanced Micro Devices and Microsoft dropped the big news that is deploying AMD’s EPYC processors in its L-Series of Virtual Machines for storage optimized workloads—marking the first public cloud instances powered by AMD’s.",
-        "redirectionUrl": "https://www.forbes.com/sites/patrickmoorhead/2017/12/05/amd-announces-first-public-cloud-deployment-of-epyc-with-microsoft-azure/"
-    },
-    {
-        "uid": "db5f9bc9-5f20-4e52-9364-1b52114b1fe1",
-        "updateDate": "2017-12-06T03:59:49.0Z",
-        "titleText": "Women in Business Q&A: Peggy Johnson, Executive Vice President, Business Development, Microsoft",
-        "mainText": "As executive vice president of business development, Peggy Johnson is responsible for driving strategic partnerships and transactions to accelerate growth for Microsoft and its customers. Johnson works with external partners around the world, ranging from.",
-        "redirectionUrl": "https://www.huffingtonpost.com/entry/women-in-business-qa-peggy-johnson-executive-vice_us_5a27d555e4b0650db4d40bf6"
+        "uid": "a368e14d-41fb-47c1-8797-afa398be79a8",
+        "updateDate": "2017-12-07T03:59:50.0Z",
+        "titleText": "Microsoft unveils open source tools connecting Kubernetes to Azure",
+        "mainText": "Microsoft continued its support for the Kubernetes open source project today, with the unveiling of several enhancements to systems that are designed to make it easier for developers to connect that system with the tech.",
+        "redirectionUrl": "https://venturebeat.com/2017/12/06/microsoft-unveils-open-source-tools-connecting-kubernetes-to-azure/"
     }
 ]
