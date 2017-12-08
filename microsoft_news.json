@@ -1,30 +1,37 @@
 [
     {
-        "uid": "714d399a-51ac-400f-9136-5c20fbedf9b2",
-        "updateDate": "2017-12-07T03:59:50.0Z",
-        "titleText": "Satya Nadella is giving Microsoft a much needed reboot",
-        "mainText": "Nadella is No. 11 on the Recode 100. Satya Nadella is doing the improbable: Turning Microsoft around by changing both its business and culture. The company dominated the desktop PC era by selling Windows and Office.",
-        "redirectionUrl": "https://www.recode.net/2017/12/6/16680840/satya-nadella-microsoft-ceo-recode-100"
+        "uid": "818093b0-9502-477a-a688-db9d055acdc0",
+        "updateDate": "2017-12-08T03:59:33.0Z",
+        "titleText": "Windows 10 to get new cellular connectivity, power-management improvements",
+        "mainText": "Microsoft and its 'Always Connected' partners are working to beef up cellular connectivity and power management features likely to end up in the Windows 10 'Redstone 4' release due in the Spring of 2018. Microsoft officials.",
+        "redirectionUrl": "http://www.zdnet.com/article/windows-10-to-get-new-cellular-connectivity-power-management-improvements/"
     },
     {
-        "uid": "51961480-6752-401b-9f93-46c607946810",
-        "updateDate": "2017-12-07T03:59:50.0Z",
-        "titleText": "Google Chrome OS maintains dominance in US schools, but Microsoft Windows gains ground globally",
-        "mainText": "New market research finds that while Google Chromebooks continue to be the mobile computing device of choice in U.S. schools, the competitive situation is reversed in the rest of the world, where Windows dominates. U.K.-based Futuresource.",
-        "redirectionUrl": "https://www.geekwire.com/2017/google-chrome-os-maintains-dominance-us-schools-microsoft-windows-gains-ground-globally/"
+        "uid": "d2a06474-e49b-4cd0-8083-d62899c6250f",
+        "updateDate": "2017-12-08T03:59:33.0Z",
+        "titleText": "AMD EPYC Enters Azure Cloud Through Microsoft Project Olympus",
+        "mainText": "AMD and its customer Microsoft made a big EPYC cloud datacenter announcement this week. Microsoft’s new Azure L-Series EPYC storage instance should deliver a lot more performance and storage per dollar to Azure customers, at.",
+        "redirectionUrl": "https://www.forbes.com/sites/tiriasresearch/2017/12/08/amd-epyc-enters-azure-cloud/"
     },
     {
-        "uid": "fa1936b7-61be-4979-9574-351e19b4fef2",
-        "updateDate": "2017-12-07T03:59:50.0Z",
-        "titleText": "Microsoft Explains How Windows on Snapdragon Works",
-        "mainText": "Could Windows Phone return? Maybe. At a Q&A with Microsoft and Qualcomm execs at Qualcomm's Snapdragon Summit, Qualcomm's Miguel Nunes said 'different form factors' are coming for Windows 10 on Snapdragon, and Microsoft's Erin Chapple.",
-        "redirectionUrl": "https://www.pcmag.com/news/357779/microsoft-explains-how-windows-on-snapdragon-works"
+        "uid": "5c81ff66-714b-44a3-8943-354b56980580",
+        "updateDate": "2017-12-08T03:59:33.0Z",
+        "titleText": "Microsoft leaks TLS private key for cloud ERP product",
+        "mainText": "Microsoft leaks TLS private key for cloud ERP product . and it was still in use for more than 100 days after the initial report At my old job, I was working as a software developer customizing.",
+        "redirectionUrl": "https://medium.com/matthias-gliwka/microsoft-leaks-tls-private-key-for-cloud-erp-product-10b56f7d648"
     },
     {
-        "uid": "a368e14d-41fb-47c1-8797-afa398be79a8",
-        "updateDate": "2017-12-07T03:59:50.0Z",
-        "titleText": "Microsoft unveils open source tools connecting Kubernetes to Azure",
-        "mainText": "Microsoft continued its support for the Kubernetes open source project today, with the unveiling of several enhancements to systems that are designed to make it easier for developers to connect that system with the tech.",
-        "redirectionUrl": "https://venturebeat.com/2017/12/06/microsoft-unveils-open-source-tools-connecting-kubernetes-to-azure/"
+        "uid": "9f7c368d-7a88-4df8-8629-246da9e774b5",
+        "updateDate": "2017-12-08T03:59:33.0Z",
+        "titleText": "Microsoft continues its 3D push with new Simplygon Cloud developer tools",
+        "mainText": "Microsoft today debuted a new way to make 3D developers’ lives easier, taking advantage of an acquisition it made earlier this year. In January, Microsoft acquired Simplygon, a Swedish company that focused on 3D game optimization..",
+        "redirectionUrl": "https://www.geekwire.com/2017/microsoft-continues-3d-push-new-simplygon-cloud-developer-tools/"
+    },
+    {
+        "uid": "01473428-3088-4b6e-b0b7-d8c0f39add78",
+        "updateDate": "2017-12-08T03:59:33.0Z",
+        "titleText": "Microsoft's Project Sopris Could Secure the Next Generation of IoT",
+        "mainText": "The Internet of Things security crisis persists, as billions of inadequately secured webcams , refrigerators, and more flood homes around the world. But IoT security researchers at Microsoft Research have their eye on an even.",
+        "redirectionUrl": "https://www.wired.com/story/project-sopris-iot-security/?mbid=social_twitter"
     }
 ]
