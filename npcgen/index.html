@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/matthew.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css" />
-        <title>Finance Forecast</title>
+        <title>NPC generator</title>
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
             crossorigin="anonymous">
@@ -35,15 +35,66 @@
       
     <body>
 		<div class="container">
-		<h2>NPC generator</h2>
-		<div class="well">
-			Character will go here
+			<h2>NPC generator</h2>
+			<div id="npc-output">
+				Character will go here
+			</div>
+			<select id="count"><option>1</option><option>2</option><option>3</option><option>4</option></select>
+			<button class="btn btn-success" onclick="generate()">Generate</button>
 		</div>
-		<button class="btn btn-success">Generate</button>
-	</div>
 
-    </body>
+   
     <script>
+
+		var heights = {
+			male :{
+				mean: 5*12 + 9.3,
+				dev: 2.94,
+			},
+			female: {
+				mean: 5*12 + 3.8,
+				dev: 2.8
+			}
+		}
+
+		var weights = {
+			male : {
+
+			}
+		}
+
+		function generate(){
+			var count = $("#count").val();
+			
+			$("#npc-output").html("");
+			for (var i=0;i<count;i++){
+				console.log("Generating character "+i);
+				var result = $("<div class='well'></div>");
+				var gender = generateGender();
+				result.append("<p>Gender: "+gender+"</p>");
+				result.append("<p>Height: "+generateHeight(gender)+"</p>");
+				$("#npc-output").append(result);
+			}
+		}
+
+		function generateGender(){
+			return (Math.random() <0.5) ? "male":"female";
+		}
+
+		function generateHeight(gender){
+			if (gender != "male" && gender != "female") gender = female;
+			var zIndex = randn_bm();
+			var result = heights[gender].mean + heights[gender].dev*zIndex;
+			return Math.floor(result/12) +" feet "+Math.floor(result%12)+" inches"
+			return result;
+		}
+		// Standard Normal variate using Box-Muller transform.
+function randn_bm() {
+    var u = 0, v = 0;
+    while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
+    while(v === 0) v = Math.random();
+    return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+}
      var data = {
 	"speech": [
 		"Accented",
@@ -1010,5 +1061,6 @@
 		"Writing"
 	]
 };
-    </script>
-</html>
+	</script>
+	 </body>
+	</html>
