@@ -36,16 +36,19 @@
     <body>
 		<div class="container">
 			<h2>NPC generator</h2>
-			<div id="npc-output">
-				Character will go here
-			</div>
+			<button class="btn btn-success" onclick="generate()">Generate</button>
 			<select id="count"><option>1</option><option>2</option><option>3</option><option>4</option>
 				<option>5</option>
 				<option>6</option>
 				<option>7</option>
 				<option>8</option>
 			</select>
-			<button class="btn btn-success" onclick="generate()">Generate</button>
+			<hr/>
+			<div id="npc-output">
+				Character will go here
+			</div>
+			
+			
 		</div>
 
    
@@ -77,39 +80,76 @@
 			indian: 1,
 			pacific: 1,
 			white: 69,
-		}
-
+		};
+		
+		var characterID = 0;
 		var gender;
 		function generate(){
-			var count = $("#count").val();
+			var count = $("#count").val();		
 			
-			$("#npc-output").html("");
 			for (var i=0;i<count;i++){
-				console.log("Generating character "+i);
-				var result = $("<div class='well'></div>");
-				gender = generateGender();
-				result.append($("<h3>"+generateName()+"</h3>"));
-				result.append(renderTrait("Gender",gender));
-				result.append(renderTrait("Age",generateAge()));
-				result.append(renderTrait("Build",generateBuild()));
-				result.append(renderTrait("Race",generateEthnicity()));
-				result.append(renderTrait("Height",generateHeight(gender)));
-				result.append(renderTrait("Speech",getTrait("speech")));
-				result.append(renderTrait("Hair",getTrait("hair")));
-				result.append(renderTrait("Facial Features",getTrait("facialFeatures", true)));
-				result.append(renderTrait("Characteristics",generateCharacteristics()));				
-				result.append(renderTrait("Knacks",getTrait("knacks",true)))
+				characterID++;
+				console.log("Generating character "+characterID);
+				var result = $("<div class='well' id='char"+characterID+"'></div>");
 				
-				$("#npc-output").append(result);
+				
+				result.append($("<button class='pull-right btn btn-info' onclick='possess(2,"+characterID+")'>P2</button>"));
+				result.append($("<button class='pull-right btn btn-primary' onclick='possess(1,"+characterID+")'>P1</button>"));
+				
+				gender = generateGender();
+				var name = generateName();
+				result.attr("name",name);
+				result.attr("charid",characterID);
+				result.append($("<h3>"+name+"</h3>"));
+				
+				var attributes = $("<div class='row'></div>");
+				attributes.append(renderTrait("Gender",gender));
+				attributes.append(renderTrait("Age",generateAge()));
+				attributes.append(renderTrait("Build",generateBuild()));
+				attributes.append(renderTrait("Race",generateEthnicity()));
+				attributes.append(renderTrait("Height",generateHeight(gender)));
+				attributes.append(renderTrait("Speech",getTrait("speech")));
+				attributes.append(renderTrait("Hair",getTrait("hair")));
+				attributes.append(renderTrait("Facial Features",getTrait("facialFeatures", true)));
+				attributes.append(renderTrait("Characteristics",generateCharacteristics()));				
+				attributes.append(renderTrait("Knacks",getTrait("knacks",true)))
+				attributes.append($("<div class='col-md-6'>Occupation:<select><option>researcher</option><option>guard</option><option>other</option></select></div>"));
+				result.append(attributes);
+				result.append($("<hr/><button class='btn btn-danger' onclick='kill("+characterID+")'>Kill</button>"));
+				
+				$("#npc-output").prepend(result);
 			}
 		}
 
+		function kill(charID){
+			console.log("Killing "+charID);
+			var char = $("#char"+charID);
+			char.html(char.attr("name")+" was killed "+charID);
+		}
+
+		function generateChar() {
+			var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			return possible.charAt(Math.floor(Math.random() * possible.length));		
+		}
+
+
+		function possess(player, charID){
+			
+			var char = $("#char"+charID);
+			var oldchar = $(".possess"+player);
+			kill(oldchar.attr("charid"));
+			char.addClass("possess"+player);
+			$(char).children(".btn").hide();			
+			char.prepend("<h2 class='pull-right'>Player "+player+"</h2>");
+			
+		}
+
 		function renderTrait(name,value){
-			return $("<p>"+name+": "+value+"</p>");
+			return $("<div class='col-md-6'><b>"+name+"</b>: "+value+"</div>");
 		}
 
 		function generateName(){
-			return getWeightIndex(names[gender]);
+			return getWeightIndex(names[gender]) +" "+generateChar();
 		}
 
 		function generateCharacteristics(){
@@ -175,7 +215,7 @@
 		}
 
 		function generateGender(){
-			return (Math.random() <0.5) ? "male":"female";
+			return (Math.random() <=0.7) ? "male":"female"; //more likely to be dudes
 		}
 		
 
