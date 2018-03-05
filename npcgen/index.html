@@ -39,7 +39,12 @@
 			<div id="npc-output">
 				Character will go here
 			</div>
-			<select id="count"><option>1</option><option>2</option><option>3</option><option>4</option></select>
+			<select id="count"><option>1</option><option>2</option><option>3</option><option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+			</select>
 			<button class="btn btn-success" onclick="generate()">Generate</button>
 		</div>
 
@@ -62,7 +67,7 @@
 
 			}
 		}
-
+		var gender;
 		function generate(){
 			var count = $("#count").val();
 			
@@ -70,16 +75,50 @@
 			for (var i=0;i<count;i++){
 				console.log("Generating character "+i);
 				var result = $("<div class='well'></div>");
-				var gender = generateGender();
-				result.append("<p>Gender: "+gender+"</p>");
-				result.append("<p>Height: "+generateHeight(gender)+"</p>");
+				gender = generateGender();
+				
+				result.append(renderTrait("Gender",gender));
+				result.append(renderTrait("Height",generateHeight(gender)));
+				result.append(renderTrait("Speech",getTrait("speech")));
+				result.append(renderTrait("Hair",getTrait("hair")));
+				result.append(renderTrait("Facial Features",getTrait("facialFeatures", true)));
+				result.append(renderTrait("Characteristics",getTrait("characteristics", true)));
+				
 				$("#npc-output").append(result);
 			}
+		}
+
+		function renderTrait(name,value){
+			return $("<p>"+name+": "+value+"</p>");
+		}
+
+		function getTrait(trait, multiple){
+			if (multiple == undefined) multiple = false;
+			if (data[trait] == undefined) return "N/A";
+			var number = data[trait].length;
+			var count = multiple ? Math.floor(Math.abs(randn_bm())) + 1 : 1;
+			var result = [];
+			for (var i=0;i<count;i++){
+				var index = Math.floor(Math.random() * number);
+				var traitResult = data[trait][index];
+				if (traitResult.text != undefined) {
+					if (traitResult.gender != gender){
+						console.log("Skipping this trait",traitResult);
+						i--;
+						continue;
+					}
+					traitResult = traitResult.text;
+				}
+
+				result.push(traitResult);
+			}
+			return result;
 		}
 
 		function generateGender(){
 			return (Math.random() <0.5) ? "male":"female";
 		}
+		
 
 		function generateHeight(gender){
 			if (gender != "male" && gender != "female") gender = female;
@@ -89,12 +128,12 @@
 			return result;
 		}
 		// Standard Normal variate using Box-Muller transform.
-function randn_bm() {
-    var u = 0, v = 0;
-    while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
-    while(v === 0) v = Math.random();
-    return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
-}
+		function randn_bm() {
+			var u = 0, v = 0;
+			while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
+			while(v === 0) v = Math.random();
+			return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+		}
      var data = {
 	"speech": [
 		"Accented",
@@ -145,21 +184,23 @@ function randn_bm() {
 		"Beard",
 		"Buck-toothed",
 		"Bushy eyebrows",
-		"Chiseled",
+		"Chiseled",		
 		"Doe-eyed",
 		"Distinctive nose",
 		"Gap-toothed",
-		"Goatee",
+		{text: "Goatee", gender:"male"},		
+		{text: "Heavy makeup", gender:"female"},
+		{text: "No makeup", gender:"female"},
 		"Grizzled",
-		"Missing ear",
-		"Missing eye",
-		"Missing teeth",
-		"Moustache",
-		"Pierced",
+		"Hooked Nose",		
+		{text:"Moustache", gender:"male"},
+		{text:"Pierced", gender: "female"},
 		"Pock-marked",
-		"Sideburns",
+		{text:"Sideburns", gender: "male"},
 		"Squinty",
 		"Stained teeth",
+		{text: "Square Jaw", gender:"male"},
+		"Thin",
 		"Weather-beaten"
 	],
 	"characteristics": [
