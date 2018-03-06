@@ -202,8 +202,10 @@
 		}
 
 		function generateCharacteristics(){
-			var result = getTrait("characteristics", true);
+			var result = "<i>"+getTrait("characteristics", false)+"</i>";
+			result += ","+getTrait("characteristics", true);
 			if (Math.random() <=0.1) result +=", Left Handed";
+			if (Math.random() <=0.42) result +=", wearing wedding ring";
 			return result;
 		}
 
@@ -5816,7 +5818,7 @@
 		"Whispery"
 	],
 	"hair": [
-		"Bald",
+		{text:"Bald", gender:"male"},
 		"Braided",
 		"Curly",
 		"Dreadlocks",
@@ -5862,6 +5864,10 @@
 		"Weather-beaten"
 	],
 	"characteristics": [
+		{ "text": "Very Strong Arms"},
+		{ "text": "Athletictly fit"},
+		{ "text": "ADDish"},
+		{ "text": "Anxious"},
 		{ "text": "Birthmark", "hasLocation": true },
 		{ "text": "Body piercings", "hasLocation": true },
 		{ "text": "Chews tobacco" },
@@ -5899,12 +5905,21 @@
 		{ "text": "Covered in sores, boils, or a rash" },		
 		{ "text": "Dandruff" },
 		{ "text": "Dirty" },
-		{ "text": "Diabetes" },
+		{ "text": "Diabetic" },
+		{ "text": "Daydreams" },
+		{ "text": "DJ in spare time" },
+		{ "text": "Used to be a programmer" },
+		{ "text": "Was arrested a few times" },
+		{ "text": "Alcholic" },
+		{ "text": "Hoarder" },
+		{ "text": "Forgetful" },
+		{ "text": "Clumsy" },
 		{ "text": "Distinctive jewelry" },
 		{ "text": "Distracted easily during conversations" },
 		{ "text": "Double-checks everything" },
 		{ "text": "Drones on and on while talking" },
 		{ "text": "Easily confused" },
+		{ "text": "Easily distracted" },
 		{ "text": "Enjoys own body odor" },
 		{ "text": "Exaggerates" },
 		{ "text": "Excessive body hair" },
@@ -5922,6 +5937,7 @@
 		{ "text": "Has nightmares" },
 		{ "text": "Hates animals" },
 		{ "text": "Hates ketchup" },
+		{ "text": "Hates crowds" },
 		{ "text": "Hates children" },
 		{ "text": "Hates quiet pauses in conversations" },
 		{ "text": "Hiccoughs" },		
@@ -5937,6 +5953,7 @@
 		{ "text": "Limps" },
 		{ "text": "Loves animals" },
 		{ "text": "Loves children" },
+		{ "text": "Loves crowds" },
 		{ "text": "Loves the sea and ships" },
 		{ "text": "Makes up words" },
 		{ "text": "Mispronounces names" },
@@ -5946,6 +5963,7 @@
 		{ "text": "Nervous cough" },
 		{ "text": "Nervous eye twitch" },
 		{ "text": "Nervous muscle twitch" },
+		{ "text": "Parnoid" },
 		{ "text": "Paces" },
 		{ "text": "Peg-legged" },
 		{ "text": "Perfumed" },
@@ -5967,6 +5985,8 @@
 		{ "text": "Repeats same phrase over and over" },
 		{ "text": "Rolls eyes when bored/annoyed" },
 		{ "text": "Scratches" },
+		{ "text": "Scared of Dogs" },
+		{ "text": "Prone to lose things" },
 		{ "text": "Sharpens weapon" },
 		{ "text": "Shivers" },
 		{ "text": "Sings" },
@@ -5992,6 +6012,7 @@
 		{ "text": "Taps fingers" },
 		{ "text": "Terrified of Dogs" },
 		{ "text": "Thinks they are very lucky" },
+		{ "text": "Thrill seeker" },
 		{ "text": "Thinks they can speak a language they can't" },
 		{ "text": "Tone-deaf" },
 		{ "text": "Touches people while talking to them" },
@@ -6082,12 +6103,7 @@
 		"Mysterious benefactors",
 		"Noble blood",
 		"Perfect memory",
-		"Persistence",
-		"Piety",,
-		"Political leverage",
-		"Power overwhelming",
-		"Prophecy",
-		"Ratcatching",
+		"Persistence",		
 		"Resistance to disease",
 		"Secret martial arts techniques",
 		"Sense of direction",
