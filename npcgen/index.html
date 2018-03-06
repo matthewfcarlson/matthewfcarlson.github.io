@@ -28,7 +28,16 @@
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!--[if lt IE 9]>
                 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-                <![endif]-->
+				<![endif]-->
+				
+				<style>
+					.possess1{
+						border-color:blue;
+					}
+					.possess2{
+						border-color:cyan;
+					}
+				</style>
 
                 
     </head>
@@ -114,7 +123,12 @@
 				attributes.append(renderTrait("Characteristics",generateCharacteristics()));				
 				attributes.append(renderTrait("Knacks",getTrait("knacks",true)))
 				attributes.append($("<div class='col-md-6'>Occupation:<select><option>researcher</option><option>guard</option><option>other</option></select></div>"));
+				
+				//figure how to generate stats
+				//TODO generate stats
+				
 				result.append(attributes);
+				result.append(generateStats());
 				result.append($("<hr/><button class='btn btn-danger' onclick='kill("+characterID+")'>Kill</button>"));
 				
 				$("#npc-output").prepend(result);
@@ -128,7 +142,7 @@
 		}
 
 		function generateChar() {
-			var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			var possible = "BCDFGHJKLMNOPQRSTVW";
 			return possible.charAt(Math.floor(Math.random() * possible.length));		
 		}
 
@@ -139,9 +153,44 @@
 			var oldchar = $(".possess"+player);
 			kill(oldchar.attr("charid"));
 			char.addClass("possess"+player);
-			$(char).children(".btn").hide();			
+			char.children(".btn").hide();			
 			char.prepend("<h2 class='pull-right'>Player "+player+"</h2>");
 			
+		}
+
+		function generateStats(){
+			var statsOutput = $("<div class='row'></div>");
+			var stats = ["Charisma","Wisdom","Intelligence","Constitution","Dexterity","Strength"];
+			var badModifiers = ["Scarred","Confused","Stunned","Sick","Shaky","Weak"];
+			var values = shuffle([16,15,13,12,9,8]);
+			stats.forEach(function(item,index){
+				var circle = $("<div class='stat col-md-2 text-center'><div class='stat-number'></div><span>"+item+"</span></div>");
+				circle.children(".stat-number").text(values[index]);
+				circle.append($("</br><input type='checkbox' onclick='badModifier("+characterID+","+(index+1)+")'/><small>"+badModifiers[index]+"</small>"));
+				statsOutput.append(circle);
+			});
+			return statsOutput;
+			/*
+			Scarred -1 			CHA			Charisma
+			Confused -1			WIS			Wisdom
+			Stunned -1			INT			Intelligence
+			Sick -1			CON			Constitution
+			Shaky -1			DEX			Dexterity
+			Weak -1			STR			Strength
+			*/
+		}
+		function badModifier(charId,index){
+			console.log(charId,index);
+			var stat = $("#char"+charId+ " .stat:nth-child("+index+")");
+			console.log(stat);
+			var number = stat.children(".stat-number");
+			var checkbox = stat.children("input");
+			
+			var checked = checkbox.prop('checked')? -1 : 1;
+			
+			var value = parseInt(number.text());
+			number.text(value+checked);
+
 		}
 
 		function renderTrait(name,value){
@@ -232,6 +281,17 @@
 			while(u === 0) u = Math.random(); //Converting [0,1) to (0,1)
 			while(v === 0) v = Math.random();
 			return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+		}
+
+		function shuffle(a) {
+			var j, x, i;
+			for (i = a.length - 1; i > 0; i--) {
+				j = Math.floor(Math.random() * (i + 1));
+				x = a[i];
+				a[i] = a[j];
+				a[j] = x;
+			}
+			return a; 	
 		}
 
 		var names = {
@@ -5988,59 +6048,33 @@
 		"A catchy tune",
 		"A clear voice",
 		"A discerning eye",
-		"A fortified position",
 		"A heart",
-		"A hidden entrance to the city",
-		"A hidden path",
 		"A key to an important door",
-		"A library",
-		"A long-lost sibling, regained",
-		"A magic carpet",
 		"A majestic beard",
 		"A much-needed bag of taters",
-		"A mysterious ore",
 		"A one-of-a-kind item",
-		"A one-way ticket to paradise",
-		"A plan for the perfect crime",
-		"A ring of power",
-		"A safe place",
-		"A secret",
 		"A sense of right and wrong",
 		"A silver tongue",
-		"A stockpile of food",
-		"A tie to a monster",
-		"A trained wolf",
-		"A true name",
 		"A way with knots",
-		"Abnormal parentage",
-		"An arrow with your name on it",
 		"An eye for detail",
-		"An innate spell",
 		"An innocent heart",
 		"Baking",
 		"Balance",
 		"Bluffing",
 		"Brewing",
 		"Certainty",
-		"Comprehensive local knowledge",
 		"Cooking",
 		"Criminal connections",
 		"Delusions of grandeur",
 		"Divine blessing",
 		"Endless ideas",
 		"Endurance",
-		"Exotic fruit",
-		"Hedge wizardry",
 		"Heroic self-sacrifice",
-		"Hidden knowledge",
-		"Immunity from the law",
-		"Immunity to fire",
 		"Invention",
 		"Kindness",
 		"Lawmaking",
 		"Luck",
 		"Lying",
-		"Magical awareness",
 		"Metalworking",
 		"Mind-bending sexiness",
 		"Money, money, money",
@@ -6049,8 +6083,7 @@
 		"Noble blood",
 		"Perfect memory",
 		"Persistence",
-		"Piety",
-		"Poison",
+		"Piety",,
 		"Political leverage",
 		"Power overwhelming",
 		"Prophecy",
@@ -6060,27 +6093,20 @@
 		"Sense of direction",
 		"Skill with a specific weapon",
 		"Smelting",
-		"Souls",
-		"Special destiny",
-		"Speed",
+		"Superior sense of smell",
+		"Special destiny",		
+		"Fast Runner",
+		"Agile runner",
+		"Can't jump very high",
 		"Steely nerves",
 		"Storytelling",
 		"Strange tattoos",
 		"Stunning looks",
-		"The attention of supernatural powers",
-		"The language of birds",
-		"The love of someone powerful",
-		"The wind at his back and a spring in his step",
-		"Tongues",
 		"True love",
 		"Undefinable coolness",
 		"Unique perspective",
 		"Unquestioning loyalty",
-		"Utter unremarkableness",
-		"Visions",
-		"Wheels of polished steel",
-		"Woodworking",
-		"Writing"
+		"Utter unremarkableness",		
 	]
 };
 	</script>
