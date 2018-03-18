@@ -90,6 +90,17 @@
 			pacific: 1,
 			white: 69,
 		};
+		var phoneLockStatus = {
+			unlocked: 34,
+			passcode: 26,
+			fingerprint:40 
+		};
+		var phoneType = {
+			android: 33,
+			iPhone: 43,
+			dumbphone:10,
+			none: 40,
+		};
 		
 		var characterID = 0;
 		var gender;
@@ -122,6 +133,7 @@
 				attributes.append(renderTrait("Facial Features",getTrait("facialFeatures", true)));
 				attributes.append(renderTrait("Characteristics",generateCharacteristics()));				
 				attributes.append(renderTrait("Knacks",getTrait("knacks",true)))
+				attributes.append(renderTrait("Move",getTrait("moves")))
 				attributes.append($("<div class='col-md-6'>Occupation:<select><option>researcher</option><option>guard</option><option>other</option></select></div>"));
 				
 				//figure how to generate stats
@@ -203,10 +215,18 @@
 
 		function generateCharacteristics(){
 			var result = "<i>"+getTrait("characteristics", false)+"</i>";
-			result += ","+getTrait("characteristics", true);
-			if (Math.random() <=0.1) result +=", Left Handed";
-			if (Math.random() <=0.42) result +=", wearing wedding ring";
+			result += "; "+getTrait("characteristics", true);
+			if (Math.random() <=0.1) result +="; Left Handed";
+			if (Math.random() <=0.42) result +="; wearing wedding ring";
+			result += "; "+generatePhone();
 			return result;
+		}
+
+		function generatePhone(){
+			var currphoneType = getWeightIndex(phoneType);
+			if (currphoneType == "none") return "";
+			
+			return getWeightIndex(phoneLockStatus) +" "+currphoneType;			
 		}
 
 		function generateAge(){
@@ -246,6 +266,8 @@
 			for (var i=0;i<count && i < 10;i++){
 				var index = Math.floor(Math.random() * number);
 				var traitResult = data[trait][index];
+				var traitOutput = traitResult;
+				
 				if (traitResult.text != undefined) {
 					if (traitResult.gender != undefined && traitResult.gender != gender){
 						console.log("Skipping this trait",traitResult);						
@@ -253,14 +275,19 @@
 						continue;
 					}
 					if (traitResult.hasLocation != undefined ){
-						traitResult = traitResult.text + " at "+getTrait("bodyLocations");
+						traitOutput = traitResult.text + " at "+getTrait("bodyLocations");
+					}
+					else if (traitResult.title != undefined){
+						traitOutput = traitResult.title+"<br/>"+traitResult.text;
 					}
 					else {
-						traitResult = traitResult.text;
+						traitOutput = traitResult.text;
 					}
 				}
+				
+				
 
-				result.push(traitResult);
+				result.push(traitOutput);
 			}
 			return result;
 		}
@@ -295,6 +322,8 @@
 			}
 			return a; 	
 		}
+
+		
 
 		var names = {
 			male: {
@@ -5829,6 +5858,7 @@
 		"Messy",
 		"Strange hairstyle",
 		"Pony-tail",
+		{text:"Salon styled", gender:"female"},
 		"Short",
 		"Straight",
 		"Streaked",
@@ -5862,6 +5892,19 @@
 		{text: "Square Jaw", gender:"male"},
 		"Thin",
 		"Weather-beaten"
+	],
+	"moves":[
+		{"title":"None","text":""},
+		{"title":"Seeing Red","text":"When you Discern Realities during combat, you take +1."},
+		{"title":"Bend Bars","text":"When you use pure strength to destroy an inanimate obstacle, roll+STR.<br/> • On a 10+, choose 3.<br/> • On a 7-9 choose 2.<br/> • It doesn’t take a very long time<br/> • Nothing of value is damaged<br/> • It doesn’t make an inordinate amount of noise<br/> • You can fix the thing again without a lot of effort"},
+		{"title":"Charming & Open","text":"When you speak frankly with someone, you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully). <br/>• Whom do you serve?<br/>• What do you wish I would do?<br/>• How can I get you to _____?<br/>• What are you really feeling right now?<br/>• What do you most desire?"},
+		{"title":"The One Who Knocks","text":"When you Defy Danger, on a 12+ you turn the danger back on itself, the GM will describe how."},
+		{"title":"The Upper Hand","text":"You take +1 ongoing to last breath rolls. When you take your last breath, on a 7–9 you make an offer to Death in return for your life. If Death accepts he will return you to life. If not, you die."},
+		{"title":"Eye For Weakness","text":"When you Discern Realities add 'What here is weak or vulnerable?' to the list of questions you can ask."},
+		{"title":"A Good Day to Die", "text": "If you have less than your 6 in current HP take a +1 ongoing to rolls."},
+		{"title":"Divine Guidance","text":"When you petition your deity according to the precept of your religion, you are granted some useful knowledge or boon related to your deity’s domain. The GM will tell you what."},
+		{"title":"Superior Warrior","text":"When you Hack & Slash, on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy."}
+		{"title":"Sick Burn", "text":"When you insult an NPC, roll + CHA. On a 10+ you leave them no room to react, they bear your insult and the scorn of all who hear it. On a 7-9 you cross a line, they will have their revenge, someday. On a miss you've gone too far, they blow up here and now."}
 	],
 	"characteristics": [
 		{ "text": "Very Strong Arms"},
@@ -5936,6 +5979,11 @@
 		{ "text": "Hacking cough" },
 		{ "text": "Has nightmares" },
 		{ "text": "Hates animals" },
+		{ "text": "Hungry" },
+		{ "text": "Needs to pee" },
+		{ "text": "Needs to poop" },
+		{ "text": "Has a cold" },
+		{ "text": "Diahreea" },
 		{ "text": "Hates ketchup" },
 		{ "text": "Hates crowds" },
 		{ "text": "Hates children" },
@@ -5976,6 +6024,9 @@
 		{ "text": "Plays with hair" },
 		{ "text": "Plays with own jewelry" },
 		{ "text": "Pokes/taps others with finger" },
+		{ "text": "Pictures of a family in your wallet", "gender":"male" },
+		{ "text": "Really thick wallet", "gender":"male" },
+		{ "text": "Really messy purse", "gender":"female" },
 		{ "text": "Predilection for certain kind of food" },
 		{ "text": "Prefers to be called by last name" },
 		{ "text": "Puts garlic on all food" },
@@ -6048,7 +6099,8 @@
 		{ "text": "Obsessive gambler" },
 		{ "text": "Ophidiophobic (afraid of snakes)" },
 		{ "text": "Ornithophobic (afraid of birds)" },
-		{ "text": "Short attention span" }
+		{ "text": "Short attention span" },
+		{ "text": "Wearing a christian cross around your neck"}
 	],	
 	"bodyLocations": [
 		"Head/Face",
