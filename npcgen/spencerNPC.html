@@ -120,6 +120,7 @@
 					</div>"));
 				result.append($("<p></p>").append(renderTrait("Instinct", getTrait("instincts"))));
 				result.append($("<p></p>").append(renderTrait("Knack", getTrait("knacks", true))));
+				result.append($("<p></p>").append(renderTrait("Class", getTrait("classes", true))));
 
 				var attributes = $("<hr/><div class='row'></div>");
 				attributes.append(renderTrait("Gender", gender));
@@ -5827,6 +5828,36 @@
 			}
 		};
 		var data = {
+			classes: [
+				{ text: "Cheerleader", gender:"female"},
+				{ text: "Football player", gender:"male"},
+				"Track and Field Kid",
+				"Literature Nerd",
+				"Art student",
+				"Choir",
+				"Band",
+				"Orchestra",
+				"Theater",
+				"Chemistry Geek",
+				"Physics junky",
+				"Tech whiz",
+				"Goth",
+				"Emo",
+				"Vegan",
+				"Christian",
+				"Muslim",
+				"Judaism Follower",
+				"Hippie",
+				"Generic",
+				"Rebel",
+				"Basic",
+				"None",
+				"None",
+				"Trouble Maker",
+				"Drop out",
+				"The super quiet kid no one knows",
+				"Loner"
+			],
 			instincts: ["To avenge",
 				"To spread the good word",
 				"To reunite with a loved one",
@@ -5951,10 +5982,7 @@
 				"Whiny",
 				"Whispery"
 			],
-			"hair": [{
-					text: "Bald",
-					gender: "male"
-				},
+			"hair": [
 				"Braided",
 				"Curly",
 				"Dreadlocks",
