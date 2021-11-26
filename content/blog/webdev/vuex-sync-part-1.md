@@ -11,70 +11,75 @@ draft: false
 
 This is the tale of how I wrote a state syncing framework based on vuex and [rollback netcode](https://en.wikipedia.org/wiki/Netcode).
 It took a few years and isn't intended to be a "copy and paste" type of thing.
-I'll be including code fragments and I'll eventually post a cleaned up version with the relevant pieces trimmed out.
+I'll be including code fragments and I'll eventually post a cleaned up repo with only the relevant pieces.
 Who knows, if there's enough interest, maybe I'll even post a NPM package.
-
 
 ## TL;DR
 
 This is a long article.
 The short version is that I wrote a system that makes it easy to create rooms on an express.js server and have a finite state machine that is synced between all clients.
-The client and the server can make auditable transformations to that machine with enforced checks and some hidden state.
-As far as I can find on GitHub and reddit, no one has done it before.
-There's probably a good reason for it.
+The client and the server can make auditable transformations to that state with enforced checks and some hidden state.
 It's based on vuex and so far I think it works awesome.
+As far as I can find on GitHub and Reddit, no one has done it before (at least in a satisfactory manor).
+There's probably a good reason for it.
 
 ## The Problem
 
-A few years ago, I started on a project known as PadGames.
+First a tangent. A few years ago, I started on a project known as PadGames.
 
 ![old padgames logo](/padgames.png)
 
 The idea was to take the things I liked about [Jackbox games](https://www.jackboxgames.com/?utm_source=matthewcdev) and incorporate them in a format that they could be played from anywhere.
 If you've never played Jackbox games, the idea is that there's a laptop or desktop that serves as a "game board" of sorts and you have your phone as a client that connects as acts as a controller.
-You can draw, type in answers, etc. Anything that isn't too latency sensitive.
+You can draw, type in answers, etc. Anything that isn't too latency sensitive generally works well.
 Syncing state is a difficult problem and even Jackbox struggles with this.
-My parents have often had a broken game state, refreshed, and discovered that they've been kicked out of the game.
+My parents have often had a broken game state, refreshed their browser, and discovered that they've been kicked out of the game and cannot join back in
 
-In the earliest versions of PadGames, I had simpler games such as a stock market one where you could buy and sell stocks and an index fund.
+In the earliest versions of PadGames, I had simpler games such as a stock market where you could buy and sell stocks.
 The goal was to make the most money and prices went up and down based on what people bought and sold in the previous turn.
-It was largely a teaching tool for some local youth, getting them somewhat similar with the idea of the market.
-The game ran on express, vue, and socket.io, which the client and server sharing some code, but there being a tedious serialization and de-serialization layer that I had to write two or three times.
+It was largely a teaching tool for some local youth, getting them somewhat similar with the idea of the market as well as being fun.
+The game ran on express, vue, and socket.io.
+Even thought the server and the client shared a codebase, there being a tedious serialization and de-serialization layer that I had to write two or three times.
 Personally, the experience was painful and I eventually quit the project since the code just became spaghetti so fast and it was getting harder and harder to track down state bugs as every game was slightly different.
+
 ![spaghetti code](/spaghetti_code.jpeg)
 
-I then worked with Luke on [netgames.io](https://netgames.io/about).
+Later, I worked with Luke on [netgames.io](https://netgames.io/about).
 (I say worked on, but it was more of a helped out with since he started the project and did the hard work of creating a fantastic framework).
 His work is closed-source, so I won't delve too much into how it worked but the point was that it provided a clean abstraction layer that you could put UI and game logic on top of.
-Then another project came up where I'm teaching youth a few days a week and I was really disappointed by learning resources out there.
-To make a long story short, I wanted to create some new teaching resources for some volunteering work and wasn't entirely satisfied with what was out there.
-So I wanted to make my own games that could be leveraged in the classroom and incorporated into the lesson or topic we'd be talking about that.
-But syncing state was still a problem.
 
-So the problem is this: create a way for the server and the clients to share a state machine, have it sync without any code on my part, and have it be robust and resilient against network interruption and latency in a multi-peer environment.
+
+To make a long story short, I wanted to create some new teaching resources for some volunteering work and wasn't entirely satisfied with what was out there.
+Something jackbox games like but related to the material we were covering that day.
+Making my own games seemed like a good solution and I had done it a few times before.
+But syncing state was still an issue.
+
+So the problem is this: create a way for the server and the clients to share a state machine, have it sync without any code on my part. 
+It must be robust and resilient against network interruption and latency in a multi-peer environment.
+Additionally, it must handle users connecting and reconnecting.
 
 ## The Initial Attempt
 
 I poked around the web trying to find something similar to this.
-I wasn't able to find anything that quite worked.
-It needed to be fast and low-latency, so a meteor like pub-sub system seemed like it wouldn't work as well as I hoped (the latency seemed too high, but perhaps it has gotten better over time).
+I wasn't able to find anything that quite worked or was even that similar.
+It needed to be fast and low-latency with low latency, so a meteor like pub-sub system seemed like it wouldn't work as well as I hoped (the latency seemed too high, but perhaps it has gotten better over time).
 
-The first attempt at this was to create a vuex like thing that the client and server shared.
+The first attempt at this was to create a simple class that the client and server shared.
 Basically, it had a state object internally and methods for modifying that state that could be listened to.
 The approach worked at first, but reactivity was tough.
-I think this approach could have worked, if I had hooked it in a more focused way, adding ways to provide reactivity hooks and a way to hand it arbitrary function calls internally.
+I think this approach could have worked, if I had hooked it in a more focused way and added ways to provide reactivity.
 In the future, I might revisit this approach.
 
 ## Second Try
 
-![all coming together](/all_coming_together.png)
-
 The solution was to use vuex on the client and the server.
 Thanks to Vue v3 composition API, it is way easier to run Vuex (sort of) on the server.
-In my testing on my laptop, a single express instance could handle a fifty thousand Vuex stores (though not concurrently as I didn't write a client side stressor).
+In my testing on my laptop, a single express instance could handle 50,000 Vuex stores (though that stress test isn't with all the clients connected, just by making toggling state).
 So by creating a vuex store with specific format, it could easily be synced.
 
-There are a few rules:
+![all coming together](/all_coming_together.png)
+
+There are a few rules for writing a store:
 
 - All mutations must be deterministic, actions can be random.
 - Actions on the client side will be transmitted to the server
@@ -83,8 +88,7 @@ There are a few rules:
 - All synced stores must implement a method known as `setState` which accepts the state of the object and sets the state using vuex methods so reactivity is preserved
 - All synced stores must implement a getter that returns the hash of the current state (minus the server side information).
 
-All this boiled down to two basic pieces: client plugin and the server vuex.
-
+All this boiled down to three basic pieces: client plugin, the server vuex, and the store itself.
 
 ### The Client Plugin
 
@@ -99,7 +103,9 @@ The plugin itself also implements something akin to rollback netcode.
 #### Step 1-2: Creating the websocket
 
 In my main store which keeps track of login, the jwt cookie, the current game selected, and our user information, we have an action called `getLogin`.
-I'm using `vuex-smart-module` to define my vuex stores, since it's just so fantastic. But you're welcome to adapt the ideas to whatever method you're using.
+I'm using `vuex-smart-module` to define my vuex stores, since it's just so fantastic. 
+But you're welcome to adapt the ideas to whatever method you're using.
+The `getLogin` method runs when the store is initialized.
 
 ```typescript
 import { io, Socket } from "socket.io-client";
@@ -391,7 +397,7 @@ export default function clientSideSocketPlugin(store: Store<any>) {
 }
 ```
 
-This is much simpler in comparison. 
+This is much simpler in comparison.
 After an action has been completed, we check to make sure it was namespaced (look for `/`).
 We have two types of payloads we can send to the server: `ActionSource` and `ActionExtraPayload`.
 `ActionSource` looks like this
@@ -409,15 +415,20 @@ interface ActionExtraPayload {
   source: ActionSource,
 }
 ```
-So the payload is either the source itself, or it has a member called source. 
+So the payload is either the source itself, or it has a member called source.
 Before we send it off to the server, we set these to null and then send it.
 This is important as on the server, we detect which type it is, and fill it in with the information from the socket JWT auth header.
 
 ### Server side
 
-Since this is already getting long, I'll cover the server side in part 2. 
+Since this is already getting long, I'll cover the server side in part 2.
 Since normal vuex doesn't run on the server, I implemented a slimmed down version of it that supports most of the same features.
 
+### The Synced Store
+
+I'll cover the store itself in part 3.
+There's a common store that implements things like users being added and removed.
+All other stores extend from that store.
 
 ## Where To Go From Here?
 
