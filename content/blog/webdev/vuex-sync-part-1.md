@@ -5,7 +5,7 @@ categories:
   - web
   - typescript
 title: "Vuex Sync Part 1"
-date: 2021-11-08T20:56:33-06:00
+date: 2021-11-25T20:56:33-06:00
 draft: false
 ---
 
