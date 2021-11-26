@@ -1,0 +1,423 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<title>Vuex Sync Part 1 | Matthew C Dev</title>
+<meta name=viewport content="width=device-width,minimum-scale=1">
+<meta name=description content="This is the tale of how I wrote a state syncing framework based on vuex and netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up version with the relevant pieces trimmed out. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
+The Problem A few years ago, I started on a project known as PadGames.">
+<meta name=generator content="Hugo 0.89.4">
+<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
+<link rel=stylesheet href=/ananke/css/main.min.css>
+<meta property="og:title" content="Vuex Sync Part 1">
+<meta property="og:description" content="This is the tale of how I wrote a state syncing framework based on vuex and netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up version with the relevant pieces trimmed out. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
+The Problem A few years ago, I started on a project known as PadGames.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://matthewc.dev/blog/webdev/vuex-sync-part-1/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-11-08T20:56:33-06:00">
+<meta property="article:modified_time" content="2021-11-08T20:56:33-06:00">
+<meta itemprop=name content="Vuex Sync Part 1">
+<meta itemprop=description content="This is the tale of how I wrote a state syncing framework based on vuex and netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up version with the relevant pieces trimmed out. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
+The Problem A few years ago, I started on a project known as PadGames."><meta itemprop=datePublished content="2021-11-08T20:56:33-06:00">
+<meta itemprop=dateModified content="2021-11-08T20:56:33-06:00">
+<meta itemprop=wordCount content="2774">
+<meta itemprop=keywords content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Vuex Sync Part 1">
+<meta name=twitter:description content="This is the tale of how I wrote a state syncing framework based on vuex and netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up version with the relevant pieces trimmed out. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
+The Problem A few years ago, I started on a project known as PadGames.">
+</head>
+<body class="ma0 avenir bg-near-white">
+<header>
+<div class=bg-black>
+<nav class="pv3 ph3 ph4-ns" role=navigation>
+<div class="flex-l justify-between items-center center">
+<a href=/ class="f3 fw2 hover-white no-underline white-90 dib">
+Matthew C Dev
+</a>
+<div class="flex-l items-center">
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main class=pb7 role=main>
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+<header class="mt4 w-100">
+<aside class="instapaper_ignoref b helvetica tracked">
+BLOGS
+</aside>
+<div id=sharing class=mt3>
+<a href="https://www.facebook.com/sharer.php?u=https://matthewc.dev/blog/webdev/vuex-sync-part-1/" class="facebook no-underline" aria-label="share on Facebook"><svg height="32" style="enable-background:new 0 0 67 67" viewBox="0 0 67 67" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765 50.32h6.744V33.998h4.499l.596-5.624h-5.095l.007-2.816c0-1.466.14-2.253 2.244-2.253h2.812V17.68h-4.5c-5.405.0-7.307 2.729-7.307 7.317v3.377h-3.369v5.625h3.369V50.32zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30S49.568 64 33 64z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg>
+</a>
+<a href="https://twitter.com/share?url=https://matthewc.dev/blog/webdev/vuex-sync-part-1/&text=Vuex%20Sync%20Part%201" class="twitter no-underline" aria-label="share on Twitter"><svg height="32" style="enable-background:new 0 0 67 67" viewBox="0 0 67 67" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167 22.283c-2.619.953-4.274 3.411-4.086 6.101l.063 1.038-1.048-.127c-3.813-.487-7.145-2.139-9.974-4.915l-1.383-1.377-.356 1.017c-.754 2.267-.272 4.661 1.299 6.271.838.89.649 1.017-.796.487-.503-.169-.943-.296-.985-.233-.146.149.356 2.076.754 2.839.545 1.06 1.655 2.097 2.871 2.712l1.027.487-1.215.021c-1.173.0-1.215.021-1.089.467.419 1.377 2.074 2.839 3.918 3.475l1.299.444-1.131.678c-1.676.976-3.646 1.526-5.616 1.568C19.775 43.256 19 43.341 19 43.405c0 .211 2.557 1.397 4.044 1.864 4.463 1.377 9.765.783 13.746-1.568 2.829-1.673 5.657-5 6.978-8.221.713-1.716 1.425-4.851 1.425-6.354.0-.975.063-1.102 1.236-2.267.692-.678 1.341-1.419 1.467-1.631.21-.403.188-.403-.88-.043-1.781.636-2.033.551-1.152-.402.649-.678 1.425-1.907 1.425-2.267.0-.063-.314.042-.671.233-.377.212-1.215.53-1.844.72l-1.131.361-1.027-.7c-.566-.381-1.361-.805-1.781-.932C39.766 21.902 38.131 21.944 37.167 22.283zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30S49.568 64 33 64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:"/></svg>
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://matthewc.dev/blog/webdev/vuex-sync-part-1/&title=Vuex%20Sync%20Part%201" class="linkedin no-underline" aria-label="share on LinkedIn"><svg height="32" style="enable-background:new 0 0 65 65" viewBox="0 0 65 65" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M50.837 48.137V36.425c0-6.275-3.35-9.195-7.816-9.195-3.604.0-5.219 1.983-6.119 3.374V27.71h-6.79c.09 1.917.0 20.427.0 20.427h6.79V36.729c0-.609.044-1.219.224-1.655.49-1.22 1.607-2.483 3.482-2.483 2.458.0 3.44 1.873 3.44 4.618v10.929H50.837zM22.959 24.922c2.367.0 3.842-1.57 3.842-3.531-.044-2.003-1.475-3.528-3.797-3.528s-3.841 1.524-3.841 3.528c0 1.961 1.474 3.531 3.753 3.531H22.959zM34 64C17.432 64 4 50.568 4 34 4 17.431 17.432 4 34 4s30 13.431 30 30c0 16.568-13.432 30-30 30zM26.354 48.137V27.71h-6.789v20.427h6.789z" style="fill-rule:evenodd;clip-rule:evenodd;fill:"/></svg>
+</a>
+</div>
+<h1 class="f1 athelas mt3 mb1">Vuex Sync Part 1</h1>
+<time class="f6 mv4 dib tracked" datetime=2021-11-08T20:56:33-06:00>November 8, 2021</time>
+</header>
+<div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This is the tale of how I wrote a state syncing framework based on vuex and netcode.
+It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing.
+I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up version with the relevant pieces trimmed out.
+Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.</p>
+<h2 id=the-problem>The Problem</h2>
+<p>A few years ago, I started on a project known as PadGames.</p>
+<p><img src=/padgames.png alt="old padgames logo"></p>
+<p>The idea was to take the things I liked about <a href="https://www.jackboxgames.com/?utm_source=matthewcdev">Jackbox games</a> and incorporate them in a format that they could be played from anywhere.
+If you&rsquo;ve never played Jackbox games, the idea is that there&rsquo;s a laptop or desktop that serves as a &ldquo;game board&rdquo; of sorts and you have your phone as a client that connects as acts as a controller.
+You can draw, type in answers, etc. Anything that isn&rsquo;t too latency sensitive.
+Syncing state is a difficult problem and even Jackbox struggles with this.
+My parents have often had a broken game state, refreshed, and discovered that they&rsquo;ve been kicked out of the game.</p>
+<p>In the earliest versions of PadGames, I had simpler games such as a stock market one where you could buy and sell 4 stocks and an index fund.
+The goal was to make the most money and prices went up and down based on what people bought and sold in the previous turn.
+It was largely a teaching tool for some local youth, getting them somewhat similar with the idea of the market.
+The game ran on express, vue, and socket.io, which the client and server sharing some code, but there being a tedious serialization and de-serialization layer that I had to write two or three times.
+Personally, the experience was painful and I eventually quit the project since the code just became spaghetti so fast and it was getting harder and harder to track down state bugs as every game was slightly different.
+<img src=/spaghetti_code.jpeg alt="spaghetti code"></p>
+<p>I then worked with Luke on <a href=https://netgames.io/about>netgames.io</a>.
+(I say worked on, but it was really more, he did the hard work of creating a fantastic framework that could be used across many different games easily).
+His work is closed-source, so I won&rsquo;t delve too much into how it worked but the point was that it provided a clean abstraction layer that you could put UI and game logic on top of.
+Then another project came up where I&rsquo;m teaching youth a few days a week and I was really disappointed by learning resources out there.
+To make a long story short, I wanted to create some new teaching resources for some volunteering work and wasn&rsquo;t entirely satisfied with what was out there.
+So I wanted to make my own games that could be leveraged in the classroom and incorporated into the lesson or topic we&rsquo;d be talking about that.
+But syncing state was still a problem.</p>
+<p>So the problem is this: create a way for the server and the clients to share a state machine, have it sync without any code on my part, and have it be robust and resilient against network interruption and latency in a multi-peer environment.</p>
+<h2 id=the-initial-attempt>The Initial Attempt</h2>
+<p>I poked around the web trying to find something similar to this.
+I wasn&rsquo;t able to find anything that quite worked.
+It needed to be fast and low-latency, so a meteor like pub-sub system seemed like it wouldn&rsquo;t work as well as I hoped (the latency seemed too high, but perhaps it has gotten better over time).</p>
+<p>The first attempt at this was to create a vuex like thing that the client and server shared.
+Basically, it had a state object internally and methods for modifying that state that could be listened to.
+The approach worked at first, but reactivity was tough.
+I think this approach could have worked, if I had hooked it in a more focused way, adding ways to provide reactivity hooks and a way to hand it arbitrary function calls internally.
+In the future, I might revisit this approach.</p>
+<h2 id=second-try>Second Try</h2>
+<p><img src=/all_coming_together.png alt="all coming together"></p>
+<p>The solution was to use vuex on the client and the server.
+Thanks to Vue v3 composition API, it is way easier to run Vuex (sort of) on the server.
+In my testing on my laptop, a single express instance could handle a fifty thousand Vuex stores (though not concurrently as I didn&rsquo;t write a client side stressor).
+So by creating a vuex store with specific format, it could easily be synced.</p>
+<p>There are a few rules:</p>
+<ul>
+<li>All mutations must be deterministic, actions can be random.</li>
+<li>Actions on the client side will be transmitted to the server</li>
+<li>Actions must have the source of the action included in the payload, it is replaced by the server when the request comes in, so the actual client sends null</li>
+<li>Mutations on the server as synced, any mutation with Server in the name is not synced</li>
+<li>All synced stores must implement a method known as <code>setState</code> which accepts the state of the object and sets the state using vuex methods so reactivity is preserved</li>
+<li>All synced stores must implement a getter that returns the hash of the current state (minus the server side information).</li>
+</ul>
+<p>All this boiled down to two basic pieces: client plugin and the server vuex.</p>
+<h3 id=the-client-plugin>The Client Plugin</h3>
+<p>There are a few steps to the client plugin:</p>
+<ol>
+<li>Create websocket</li>
+<li>Connect the websocket&rsquo;s defined events to the plugin and some admin things</li>
+<li>Setup reconnect events to request a sync</li>
+</ol>
+<p>The plugin itself also implements something akin to netcode, where it has rollback code and replay, which I think is awesome.</p>
+<h4 id=step-1-2-creating-the-websocket>Step 1-2: Creating the websocket</h4>
+<p>In my main store which keeps track of login, the jwt cookie, the current game selected, and our user information, we have an action called <code>getLogin</code>.
+I&rsquo;m using <code>vuex-smart-module</code> to define my vuex stores, since it&rsquo;s just so fantastic. But you&rsquo;re welcome to adapt the ideas to whatever method you&rsquo;re using.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>io</span>, <span style=color:#a6e22e>Socket</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;socket.io-client&#34;</span>;
+<span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>Store</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;vuex&#34;</span>;
+<span style=color:#75715e>// Globals
+</span><span style=color:#75715e></span><span style=color:#66d9ef>type</span> <span style=color:#a6e22e>WebSocket</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>Socket</span>&lt;<span style=color:#f92672>DefaultEventsMap</span><span style=color:#960050;background-color:#1e0010>,</span> <span style=color:#a6e22e>DefaultEventsMap</span>&gt;;
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>SOCKET</span>: <span style=color:#66d9ef>null</span> <span style=color:#f92672>|</span> <span style=color:#a6e22e>WebSocket</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>null</span>;
+<span style=color:#75715e>// ... truncated ...
+</span><span style=color:#75715e></span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>MainStoreActions</span> <span style=color:#66d9ef>extends</span> <span style=color:#a6e22e>Actions</span><span style=color:#f92672>&lt;</span>
+    <span style=color:#a6e22e>MainStoreState</span>,
+    <span style=color:#a6e22e>MainStoreGetters</span>,
+    <span style=color:#a6e22e>MainStoreMutations</span>,
+    <span style=color:#a6e22e>MainStoreActions</span>
+<span style=color:#f92672>&gt;</span> {
+  <span style=color:#75715e>// Called after the module is initialized
+</span><span style=color:#75715e></span>  <span style=color:#a6e22e>$init</span>(<span style=color:#a6e22e>store</span>: <span style=color:#66d9ef>Store</span>&lt;<span style=color:#f92672>any</span>&gt;)<span style=color:#f92672>:</span> <span style=color:#66d9ef>void</span> {
+    <span style=color:#66d9ef>this</span>.<span style=color:#a6e22e>actions</span>.<span style=color:#a6e22e>checkLogin</span>();
+  }
+  <span style=color:#a6e22e>checkLogin() {</span>
+    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>state</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>this</span>.<span style=color:#a6e22e>state</span>;
+    <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>state</span>.<span style=color:#a6e22e>loggedIn</span>) <span style=color:#66d9ef>return</span>;
+    <span style=color:#75715e>// ... JWT parsing code truncated ...
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// Connect
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>state</span>.<span style=color:#a6e22e>loggedIn</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>SOCKET</span> <span style=color:#f92672>==</span> <span style=color:#66d9ef>null</span>) {
+        <span style=color:#a6e22e>SOCKET</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>io</span>({
+            <span style=color:#a6e22e>auth</span><span style=color:#f92672>:</span> {
+                <span style=color:#a6e22e>token</span>: <span style=color:#66d9ef>this.state.jwtCookie</span>,
+            }
+        });
+        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>self</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>this</span>;
+        <span style=color:#a6e22e>SOCKET</span>.<span style=color:#a6e22e>on</span>(<span style=color:#a6e22e>SocketEvents</span>.<span style=color:#a6e22e>SET_GAME</span>, (<span style=color:#a6e22e>item</span>: <span style=color:#66d9ef>unknown</span>) <span style=color:#f92672>=&gt;</span> {
+            <span style=color:#66d9ef>if</span> (<span style=color:#66d9ef>typeof</span> (<span style=color:#a6e22e>item</span>) <span style=color:#f92672>!=</span> <span style=color:#e6db74>&#34;string&#34;</span>) <span style=color:#66d9ef>return</span>;
+            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>game</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>item</span>;
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>game</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#39;&#39;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>self</span>.<span style=color:#a6e22e>state</span>.<span style=color:#a6e22e>currentGame</span> <span style=color:#f92672>!=</span> <span style=color:#e6db74>&#39;&#39;</span>) {
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;refreshing the page to clear state&#34;</span>, <span style=color:#a6e22e>game</span>, <span style=color:#a6e22e>self</span>.<span style=color:#a6e22e>state</span>.<span style=color:#a6e22e>currentGame</span>);
+                window.<span style=color:#a6e22e>location</span>.<span style=color:#a6e22e>reload</span>();
+            }
+            <span style=color:#a6e22e>self</span>.<span style=color:#a6e22e>mutations</span>.<span style=color:#a6e22e>setGame</span>(<span style=color:#a6e22e>game</span>);
+        });
+        <span style=color:#a6e22e>SOCKET</span>.<span style=color:#a6e22e>on</span>(<span style=color:#a6e22e>SocketEvents</span>.<span style=color:#a6e22e>SERVER_MUTATION</span>, (<span style=color:#a6e22e>items</span>: <span style=color:#66d9ef>any</span>) <span style=color:#f92672>=&gt;</span> {
+            <span style=color:#a6e22e>self</span>.<span style=color:#a6e22e>mutations</span>.<span style=color:#a6e22e>server_mutation</span>(<span style=color:#a6e22e>items</span>);
+        });
+        <span style=color:#a6e22e>SOCKET</span>.<span style=color:#a6e22e>on</span>(<span style=color:#e6db74>&#39;reconnect&#39;</span>, ()<span style=color:#f92672>=&gt;</span>{
+            <span style=color:#a6e22e>self</span>.<span style=color:#a6e22e>actions</span>.<span style=color:#a6e22e>requestGameSync</span>();
+        })
+    }
+  }
+  <span style=color:#66d9ef>async</span> <span style=color:#a6e22e>requestGameSync() {</span>
+      <span style=color:#66d9ef>this</span>.<span style=color:#a6e22e>actions</span>.<span style=color:#a6e22e>emit</span>(<span style=color:#a6e22e>SocketEvents</span>.<span style=color:#a6e22e>GAME_SYNC</span>);
+  }
+
+  <span style=color:#66d9ef>async</span> <span style=color:#a6e22e>emit</span>(<span style=color:#a6e22e>message</span>: <span style=color:#66d9ef>string</span> <span style=color:#f92672>|</span> [<span style=color:#66d9ef>string</span>, <span style=color:#66d9ef>any</span>]) {
+      <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>SOCKET</span> <span style=color:#f92672>==</span> <span style=color:#66d9ef>null</span>) {
+          <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>error</span>(<span style=color:#e6db74>&#34;Socket isn&#39;t initialized, dropping message&#34;</span>, <span style=color:#a6e22e>message</span>);
+          <span style=color:#66d9ef>return</span>;
+      }
+      <span style=color:#66d9ef>if</span> (<span style=color:#66d9ef>typeof</span>(<span style=color:#a6e22e>message</span>) <span style=color:#f92672>==</span> <span style=color:#e6db74>&#39;string&#39;</span>) {
+          <span style=color:#a6e22e>SOCKET</span>.<span style=color:#a6e22e>emit</span>(<span style=color:#a6e22e>message</span>);
+          <span style=color:#66d9ef>return</span>;
+      }
+      <span style=color:#66d9ef>const</span> [<span style=color:#66d9ef>type</span>, <span style=color:#a6e22e>items</span>] <span style=color:#f92672>=</span> <span style=color:#a6e22e>message</span>;
+      <span style=color:#a6e22e>SOCKET</span>.<span style=color:#a6e22e>emit</span>(<span style=color:#66d9ef>type</span>, <span style=color:#a6e22e>items</span>);
+  }
+}
+</code></pre></div><p>There are three important things here, we listen for a <code>SET_GAME</code> event from the server, which reloads the page if we already had a game set. We also issue a special mutation called <code>setGame</code> which is leveraged later.
+We listen to an event called <code>SERVER_MUTATION</code> and then confusingly we issue a new mutation called <code>server_mutation</code>, this will make sense.
+Lastly, we tell it to request a resync packet when we reconnect. By default, the server doesn&rsquo;t listen to reconnects and just responds to reconnect packages as needed. This might be revised in the future.</p>
+<p>Requesting a game sync packet is just emitting the <code>GAME_SYNC</code> packet.
+Emitting is an action that leverages the socket.</p>
+<p>Next we look at the mutations, setGame isn&rsquo;t anything special, we just set the local state.
+<code>server_mutation</code> is strange as it doesn&rsquo;t do anything.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>MainStoreMutations</span> <span style=color:#66d9ef>extends</span> <span style=color:#a6e22e>Mutations</span>&lt;<span style=color:#f92672>MainStoreState</span>&gt; {
+  <span style=color:#a6e22e>setGame</span>(<span style=color:#a6e22e>game</span>: <span style=color:#66d9ef>string</span>) {
+      <span style=color:#66d9ef>this</span>.<span style=color:#a6e22e>state</span>.<span style=color:#a6e22e>currentGame</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>game</span>;<span style=color:#960050;background-color:#1e0010>ß</span>
+  }
+  <span style=color:#a6e22e>server_mutation</span>(<span style=color:#a6e22e>data</span>: <span style=color:#66d9ef>any</span>) {
+      <span style=color:#75715e>// the plugin will grab this
+</span><span style=color:#75715e></span>      <span style=color:#66d9ef>return</span> <span style=color:#66d9ef>true</span>;
+  }
+}
+</code></pre></div><p>We pass in some data to server_mutation, but don&rsquo;t use it.
+The reason for this is that the plugin listens to that mutation.</p>
+<p>If you&rsquo;re not familiar with the basics of vuex, I&rsquo;d recommend <a href=https://vuex.vuejs.org/#what-is-a-state-management-pattern>brushing up</a>.
+The short version is that there are four parts to a vuex module (as of time of writing): state, getters, mutations, and actions.
+State is the actual state of the store, which is reactive. It is readonly and can only be modified by mutations.
+Getters are a way to map the state to different forms in a reactive way.
+Mutations are methods that accept arguments and perform transformations to the state.
+Actions are like mutations, but they cannot directly modify the state. Additionally, they can be async so you often put http calls in here.</p>
+<h4 id=step-3-onto-the-plugin-itself>Step 3: Onto the plugin itself</h4>
+<p>I&rsquo;ve broken it up into three sections.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>ActionExtraPayload</span>, <span style=color:#a6e22e>ActionPacket</span>, <span style=color:#a6e22e>ActionPayload</span>, <span style=color:#a6e22e>ActionSource</span>, <span style=color:#a6e22e>isActionExtraPayload</span>, <span style=color:#a6e22e>isActionSource</span>, <span style=color:#a6e22e>MutationPacket</span>, <span style=color:#a6e22e>SocketEvents</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;../../common/types&#34;</span>;
+<span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>Store</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;vuex&#34;</span>;
+<span style=color:#66d9ef>import</span> <span style=color:#a6e22e>_</span> <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;lodash&#34;</span>;
+
+<span style=color:#75715e>// Mutation packet looks like this
+</span><span style=color:#75715e></span><span style=color:#75715e>/*
+</span><span style=color:#75715e>interface  {
+</span><span style=color:#75715e>  type: string;
+</span><span style=color:#75715e>  payload: any;
+</span><span style=color:#75715e>  resultHash: number;
+</span><span style=color:#75715e>}
+</span><span style=color:#75715e>*/</span>
+
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>serverMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>localMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>resync_requested</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+
+<span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>clientSideSocketPlugin</span>(<span style=color:#a6e22e>store</span>: <span style=color:#66d9ef>Store</span>&lt;<span style=color:#f92672>any</span>&gt;) {
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribe</span>(<span style=color:#a6e22e>mutation</span> <span style=color:#f92672>=&gt;</span> {
+       <span style=color:#75715e>// ... mutations are tracked here ...
+</span><span style=color:#75715e></span>    })
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribeAction</span>({
+        <span style=color:#75715e>// ... actions tracked here ...
+</span><span style=color:#75715e></span>    }, { <span style=color:#a6e22e>prepend</span>: <span style=color:#66d9ef>true</span> });
+}
+</code></pre></div><p>I&rsquo;ll put a huge disclaimer here that this is not polished code, this is code pumped out at 9pm in a after-work coding frenzy.
+The kind of frenzy you get when you see progress being made and you keep pushing to extract whatever you can.</p>
+<p>So you can see we subscribe to mutations and actions.
+Additionally, we keep track of two &ldquo;chains&rdquo;: the local and the server.
+The local chain is all the mutations that have occurred on the client and server is all the mutations that we&rsquo;ve received from the server.
+These chains are reset when we set the game mode or receive a <code>setState</code> packet from the server as we now have a known state to start from.</p>
+<p>Let&rsquo;s see how the we listen to mutations.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>ActionExtraPayload</span>, <span style=color:#a6e22e>ActionPacket</span>, <span style=color:#a6e22e>ActionPayload</span>, <span style=color:#a6e22e>ActionSource</span>, <span style=color:#a6e22e>isActionExtraPayload</span>, <span style=color:#a6e22e>isActionSource</span>, <span style=color:#a6e22e>MutationPacket</span>, <span style=color:#a6e22e>SocketEvents</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;../../common/types&#34;</span>;
+<span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>Store</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;vuex&#34;</span>;
+<span style=color:#66d9ef>import</span> <span style=color:#a6e22e>_</span> <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;lodash&#34;</span>;
+
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>serverMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>localMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>resync_requested</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+
+<span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>clientSideSocketPlugin</span>(<span style=color:#a6e22e>store</span>: <span style=color:#66d9ef>Store</span>&lt;<span style=color:#f92672>any</span>&gt;) {
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribe</span>(<span style=color:#a6e22e>mutation</span> <span style=color:#f92672>=&gt;</span> {
+        <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>mutation</span>.<span style=color:#66d9ef>type</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#39;setGame&#39;</span>) {
+            <span style=color:#75715e>// Clear our chains when the game resets
+</span><span style=color:#75715e></span>            <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Clearing mutation chains because game reset&#34;</span>);
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span>) <span style=color:#66d9ef>return</span>;
+            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>gameName</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mutation</span>.<span style=color:#a6e22e>payload</span>;
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>gameName</span> <span style=color:#f92672>!=</span> <span style=color:#e6db74>&#39;&#39;</span>) <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>commit</span>(<span style=color:#a6e22e>gameName</span><span style=color:#f92672>+</span><span style=color:#e6db74>&#34;/setState&#34;</span>);
+            <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>splice</span>(<span style=color:#ae81ff>0</span>, <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span>);
+            <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>splice</span>(<span style=color:#ae81ff>0</span>, <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>length</span>);
+            <span style=color:#66d9ef>return</span>;
+        }
+        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>currentGame</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>getters</span>.<span style=color:#a6e22e>currentGame</span> <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>string</span>;
+        <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>currentGame</span> <span style=color:#f92672>==</span> <span style=color:#66d9ef>null</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>currentGame</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span>) <span style=color:#66d9ef>return</span>;
+        <span style=color:#75715e>// We know we have a game
+</span><span style=color:#75715e></span>        <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>mutation</span>.<span style=color:#66d9ef>type</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#39;server_mutation&#39;</span>) {
+            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>packet</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mutation</span>.<span style=color:#a6e22e>payload</span> <span style=color:#66d9ef>as</span> <span style=color:#a6e22e>MutationPacket</span>;
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>packet</span>.<span style=color:#66d9ef>type</span>.<span style=color:#a6e22e>endsWith</span>(<span style=color:#e6db74>&#34;setState&#34;</span>)) {
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Special set state packet&#34;</span>);
+                <span style=color:#75715e>// reset both sets of mutation chains
+</span><span style=color:#75715e></span>                <span style=color:#a6e22e>resync_requested</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+                <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>splice</span>(<span style=color:#ae81ff>0</span>, <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span>);
+                <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>splice</span>(<span style=color:#ae81ff>0</span>, <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>length</span>);
+            }
+            <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>push</span>(<span style=color:#a6e22e>packet</span>);
+            <span style=color:#75715e>// Step 1: Check if we need to apply this packet, look in our local mutation chain to see if we&#39;ve already done it
+</span><span style=color:#75715e></span>            <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>shouldApply</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+            <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+            <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Got server packet &#34;</span><span style=color:#f92672>+</span><span style=color:#a6e22e>packet</span>.<span style=color:#66d9ef>type</span>, <span style=color:#a6e22e>serverMutationChain</span>, <span style=color:#a6e22e>localMutationChain</span>);
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>&gt;</span> <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>length</span>) <span style=color:#a6e22e>shouldApply</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>true</span>;
+            <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span><span style=color:#a6e22e>shouldApply</span>) {
+                <span style=color:#75715e>// Scan ahead to see if we&#39;ve already done this exact commit?
+</span><span style=color:#75715e></span>                <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>getters</span>[<span style=color:#a6e22e>currentGame</span><span style=color:#f92672>+</span><span style=color:#e6db74>&#39;/stateHash&#39;</span>];
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Scan ahead to see if we&#39;ve already applied this packet&#34;</span>,<span style=color:#a6e22e>hash</span>,<span style=color:#a6e22e>packet</span>.<span style=color:#a6e22e>resultHash</span>);
+                <span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>hash</span> <span style=color:#f92672>!=</span> <span style=color:#a6e22e>packet</span>.<span style=color:#a6e22e>resultHash</span>;
+
+            }
+            <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span><span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>shouldApply</span>){
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;server mutation&#34;</span>, <span style=color:#a6e22e>mutation</span>, <span style=color:#a6e22e>JSON</span>.<span style=color:#a6e22e>stringify</span>(<span style=color:#a6e22e>packet</span>));
+                <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>commit</span>(<span style=color:#a6e22e>packet</span>.<span style=color:#66d9ef>type</span>, <span style=color:#a6e22e>packet</span>.<span style=color:#a6e22e>payload</span>);
+                <span style=color:#75715e>// TODO: look at state hash afterwards
+</span><span style=color:#75715e></span>                <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>getters</span>[<span style=color:#a6e22e>currentGame</span><span style=color:#f92672>+</span><span style=color:#e6db74>&#39;/stateHash&#39;</span>];
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;StateHash&#34;</span>, <span style=color:#a6e22e>hash</span>);
+                <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>hash</span> <span style=color:#f92672>!=</span> <span style=color:#a6e22e>packet</span>.<span style=color:#a6e22e>resultHash</span>) {
+                    <span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>true</span>;
+                    <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>error</span>(<span style=color:#e6db74>&#34;Local hash = &#34;</span><span style=color:#f92672>+</span><span style=color:#a6e22e>hash</span>, <span style=color:#a6e22e>packet</span>.<span style=color:#a6e22e>resultHash</span>);
+                }
+            }
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>!=</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>serverMutationChain</span>[<span style=color:#ae81ff>0</span>].<span style=color:#66d9ef>type</span>.<span style=color:#a6e22e>endsWith</span>(<span style=color:#e6db74>&#34;setState&#34;</span>)) {
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Replaying server commits&#34;</span>);
+                <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>splice</span>(<span style=color:#ae81ff>0</span>, <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span>);
+                <span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>forEach</span>((<span style=color:#a6e22e>x</span>)<span style=color:#f92672>=&gt;</span>{
+                    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>commit</span>(<span style=color:#a6e22e>x</span>.<span style=color:#66d9ef>type</span>, <span style=color:#a6e22e>x</span>.<span style=color:#a6e22e>payload</span>);
+                });
+                <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>current_hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>getters</span>[<span style=color:#a6e22e>currentGame</span><span style=color:#f92672>+</span><span style=color:#e6db74>&#39;/stateHash&#39;</span>];
+                <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>last_hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>serverMutationChain</span>[<span style=color:#a6e22e>serverMutationChain</span>.<span style=color:#a6e22e>length</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>].<span style=color:#a6e22e>resultHash</span>;
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;Replayed &#34;</span><span style=color:#f92672>+</span> <span style=color:#a6e22e>current_hash</span><span style=color:#f92672>+</span> <span style=color:#e6db74>&#34; =?= &#34;</span><span style=color:#f92672>+</span><span style=color:#a6e22e>last_hash</span>);
+                <span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>current_hash</span> <span style=color:#f92672>!=</span> <span style=color:#a6e22e>last_hash</span>;
+            }
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>outOfSync</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#f92672>!</span><span style=color:#a6e22e>resync_requested</span>) {
+                <span style=color:#75715e>// We&#39;re out of sync, request a reset
+</span><span style=color:#75715e></span>                <span style=color:#a6e22e>resync_requested</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>true</span>;
+                <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>error</span>(<span style=color:#e6db74>&#34;We&#39;ve becoming desynced&#34;</span>);
+                <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>dispatch</span>(<span style=color:#e6db74>&#39;requestGameSync&#39;</span>);
+            }
+        }
+        <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>mutation</span>.<span style=color:#66d9ef>type</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#a6e22e>currentGame</span>)){
+            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>hash</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>getters</span>[<span style=color:#a6e22e>currentGame</span><span style=color:#f92672>+</span><span style=color:#e6db74>&#39;/stateHash&#39;</span>];
+            <span style=color:#75715e>// we should log all other mutations
+</span><span style=color:#75715e></span>            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>packet</span>: <span style=color:#66d9ef>MutationPacket</span> <span style=color:#f92672>=</span> {
+                <span style=color:#a6e22e>resultHash</span>: <span style=color:#66d9ef>_.clone</span>(<span style=color:#a6e22e>hash</span>),
+                <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>mutation</span>.<span style=color:#66d9ef>type</span>,
+                <span style=color:#a6e22e>payload</span>: <span style=color:#66d9ef>_.clone</span>(<span style=color:#a6e22e>mutation</span>.<span style=color:#a6e22e>payload</span>)
+            };
+            <span style=color:#a6e22e>localMutationChain</span>.<span style=color:#a6e22e>push</span>(<span style=color:#a6e22e>packet</span>);
+            <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;local mutation&#34;</span>, <span style=color:#a6e22e>packet</span>, <span style=color:#a6e22e>hash</span>);
+        }
+    })
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribeAction</span>({
+        <span style=color:#75715e>// ... actions tracked here ...
+</span><span style=color:#75715e></span>    }, { <span style=color:#a6e22e>prepend</span>: <span style=color:#66d9ef>true</span> });
+}
+</code></pre></div><p>So we listen to if we&rsquo;re doing a <code>setGame</code> mutation. If so, reset the chains and bail.
+If we don&rsquo;t have a game currently set, we can also bail.
+Then we check if this is a <code>server_mutation</code> mutation. Remember that from earlier? The wonky method that didn&rsquo;t do anything? Yeah- it&rsquo;s back baby.</p>
+<p>Next we look at the mutation that the server wants us to apply.
+If it&rsquo;s a <code>setState</code> packet, we can clear the chains and go ahead as normal.
+We add the mutation to our server chain, then try to figure out if we need to apply the packet.
+We do that by calculating the hash of the current state and looking at the hash that the server state is at.
+<em>It&rsquo;s important that when we write our server hash function that we don&rsquo;t include server only data in our hash.</em>
+We determine if we&rsquo;re out of sync from the server if our hashes don&rsquo;t match.
+This is where rollback comes in, we start from the start of our chain (the first one should be a <code>setGame</code> packet), applying each packet we have from the server trying to make it all work and match.</p>
+<p>If we have gotten to the end and we are still out of sync from the server, we request a resync packet.
+This means the server sends a <code>setState</code> packet just to us so that we can clear our chains and get to work.
+There needs to be some future work to add the client mutations ontop of what we have from the server, but currently the latency on the mutation occurring on the client and coming back from the server is under 200ms (not great, but enough that the likelihood of overlapping states are pretty low in most games).
+This will likely get a much more comprehensive overhaul in the future.
+Perhaps even with some unit tests?</p>
+<p>Our games are <a href=https://vuex.vuejs.org/guide/modules.html#namespacing>namespaced</a> into the main vuex module so any mutation that&rsquo;s occurring locally on the client will be prepended with the name of the game.
+For example, one game is called <code>matchup</code> so a common mutation we see is <code>setPlayerButton</code> so the event type would be <code>matchup/setPlayerButton</code>. If we see any mutations to start with our current game, we log them to our local chain.</p>
+<p>Onto listening for actions.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>ActionExtraPayload</span>, <span style=color:#a6e22e>ActionPacket</span>, <span style=color:#a6e22e>ActionPayload</span>, <span style=color:#a6e22e>ActionSource</span>, <span style=color:#a6e22e>isActionExtraPayload</span>, <span style=color:#a6e22e>isActionSource</span>, <span style=color:#a6e22e>MutationPacket</span>, <span style=color:#a6e22e>SocketEvents</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;../../common/types&#34;</span>;
+<span style=color:#66d9ef>import</span> { <span style=color:#a6e22e>Store</span> } <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;vuex&#34;</span>;
+<span style=color:#66d9ef>import</span> <span style=color:#a6e22e>_</span> <span style=color:#66d9ef>from</span> <span style=color:#e6db74>&#34;lodash&#34;</span>;
+
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>serverMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>localMutationChain</span>:<span style=color:#66d9ef>MutationPacket</span>[] <span style=color:#f92672>=</span> [];
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>resync_requested</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>false</span>;
+
+<span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>clientSideSocketPlugin</span>(<span style=color:#a6e22e>store</span>: <span style=color:#66d9ef>Store</span>&lt;<span style=color:#f92672>any</span>&gt;) {
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribe</span>(<span style=color:#a6e22e>mutation</span> <span style=color:#f92672>=&gt;</span> {
+        <span style=color:#75715e>// ... mutations are tracked here ...
+</span><span style=color:#75715e></span>    })
+    <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>subscribeAction</span>({
+        <span style=color:#a6e22e>after</span><span style=color:#f92672>:</span> (<span style=color:#a6e22e>action</span>, <span style=color:#a6e22e>state</span>) <span style=color:#f92672>=&gt;</span> {
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>action</span>.<span style=color:#66d9ef>type</span>.<span style=color:#a6e22e>indexOf</span>(<span style=color:#e6db74>&#34;/&#34;</span>) <span style=color:#f92672>==</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>) <span style=color:#66d9ef>return</span>;
+            <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>tweaked_payload</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>_</span>.<span style=color:#a6e22e>cloneDeep</span>(<span style=color:#a6e22e>action</span>.<span style=color:#a6e22e>payload</span>) <span style=color:#66d9ef>as</span> <span style=color:#a6e22e>ActionPayload</span><span style=color:#f92672>|</span><span style=color:#66d9ef>null</span>;
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>isActionSource</span>(<span style=color:#a6e22e>tweaked_payload</span>)) {
+                <span style=color:#a6e22e>tweaked_payload</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>null</span>;
+            }
+            <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>isActionExtraPayload</span>(<span style=color:#a6e22e>tweaked_payload</span>)) {
+                (<span style=color:#a6e22e>tweaked_payload</span> <span style=color:#66d9ef>as</span> <span style=color:#66d9ef>any</span>).<span style=color:#a6e22e>source</span>  <span style=color:#f92672>=</span> <span style=color:#66d9ef>null</span>;
+            }
+            <span style=color:#75715e>// tell the server that we&#39;ve done a thing
+</span><span style=color:#75715e></span>            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>packet</span>:<span style=color:#66d9ef>ActionPacket</span> <span style=color:#f92672>=</span> {
+                <span style=color:#a6e22e>payload</span>: <span style=color:#66d9ef>tweaked_payload</span>,
+                <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>action</span>.<span style=color:#66d9ef>type</span>
+            }
+            <span style=color:#a6e22e>store</span>.<span style=color:#a6e22e>dispatch</span>(<span style=color:#e6db74>&#39;emit&#39;</span>, [<span style=color:#a6e22e>SocketEvents</span>.<span style=color:#a6e22e>CLIENT_ACTION</span>, <span style=color:#a6e22e>packet</span>]);
+        }
+    }, { <span style=color:#a6e22e>prepend</span>: <span style=color:#66d9ef>true</span> });
+}
+</code></pre></div><p>This is much simpler in comparison.
+After an action has been completed, we check to make sure it was namespaced (look for <code>/</code>).
+We have two types of payloads we can send to the server: <code>ActionSource</code> and <code>ActionExtraPayload</code>.
+<code>ActionSource</code> looks like this</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>ActionSource</span> {
+  <span style=color:#a6e22e>name</span>: <span style=color:#66d9ef>string</span>,
+  <span style=color:#a6e22e>_id</span>: <span style=color:#66d9ef>number</span>,
+  <span style=color:#a6e22e>socket_id</span>: <span style=color:#66d9ef>string</span>,
+  <span style=color:#a6e22e>isAdmin</span>: <span style=color:#66d9ef>boolean</span>,
+}
+</code></pre></div><p><code>ActionExtraPayload</code> looks like this:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-typescript data-lang=typescript><span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>ActionExtraPayload</span> {
+  <span style=color:#a6e22e>source</span>: <span style=color:#66d9ef>ActionSource</span>,
+}
+</code></pre></div><p>So the payload is either the source itself, or it has a member called source.
+Before we send it off to the server, we set these to null and then send it.
+This is important as on the server, we detect which type it is, and fill it in with the information from the socket JWT auth header.</p>
+<h3 id=server-side>Server side</h3>
+<p>Since this is already getting long, I&rsquo;ll cover the server side in part 2.
+Since normal vuex doesn&rsquo;t run on the server, I implemented a slimmed down version of it that supports most of the same features.</p>
+<h2 id=where-to-go-from-here>Where To Go From Here?</h2>
+<p>I&rsquo;m cleaning up my specific use private GitHub repo and publish a slimmed down version of this with a simple trivia game or maybe the stock market game I mentioned earlier.
+I think I&rsquo;ll do that in part two, with some additional work working on improving the technique.</p>
+<ul class=pa0>
+</ul>
+<div class="mt6 instapaper_ignoref">
+</div>
+</div>
+<aside class="w-30-l mt6-l">
+</aside>
+</article>
+</main>
+<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
+<div class="flex justify-between">
+<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://matthewc.dev/>
+&copy; Matthew C Dev 2021
+</a>
+<div>
+</div>
+</div>
+</footer>
+</body>
+</html>
