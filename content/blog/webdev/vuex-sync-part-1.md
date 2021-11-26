@@ -14,6 +14,16 @@ It took a few years and isn't intended to be a "copy and paste" type of thing.
 I'll be including code fragments and I'll eventually post a cleaned up version with the relevant pieces trimmed out.
 Who knows, if there's enough interest, maybe I'll even post a NPM package.
 
+
+## TL;DR
+
+This is a long article.
+The short version is that I wrote a system that makes it easy to create rooms on an express.js server and have a finite state machine that is synced between all clients.
+The client and the server can make auditable transformations to that machine with enforced checks and some hidden state.
+As far as I can find on GitHub and reddit, no one has done it before.
+There's probably a good reason for it.
+It's based on vuex and so far I think it works awesome.
+
 ## The Problem
 
 A few years ago, I started on a project known as PadGames.
@@ -26,7 +36,7 @@ You can draw, type in answers, etc. Anything that isn't too latency sensitive.
 Syncing state is a difficult problem and even Jackbox struggles with this.
 My parents have often had a broken game state, refreshed, and discovered that they've been kicked out of the game.
 
-In the earliest versions of PadGames, I had simpler games such as a stock market one where you could buy and sell 4 stocks and an index fund.
+In the earliest versions of PadGames, I had simpler games such as a stock market one where you could buy and sell stocks and an index fund.
 The goal was to make the most money and prices went up and down based on what people bought and sold in the previous turn.
 It was largely a teaching tool for some local youth, getting them somewhat similar with the idea of the market.
 The game ran on express, vue, and socket.io, which the client and server sharing some code, but there being a tedious serialization and de-serialization layer that I had to write two or three times.
@@ -34,7 +44,7 @@ Personally, the experience was painful and I eventually quit the project since t
 ![spaghetti code](/spaghetti_code.jpeg)
 
 I then worked with Luke on [netgames.io](https://netgames.io/about).
-(I say worked on, but it was really more, he did the hard work of creating a fantastic framework that could be used across many different games easily).
+(I say worked on, but it was more of a helped out with since he started the project and did the hard work of creating a fantastic framework).
 His work is closed-source, so I won't delve too much into how it worked but the point was that it provided a clean abstraction layer that you could put UI and game logic on top of.
 Then another project came up where I'm teaching youth a few days a week and I was really disappointed by learning resources out there.
 To make a long story short, I wanted to create some new teaching resources for some volunteering work and wasn't entirely satisfied with what was out there.
