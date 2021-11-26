@@ -9,7 +9,7 @@ date: 2021-11-25T20:56:33-06:00
 draft: false
 ---
 
-This is the tale of how I wrote a state syncing framework based on vuex and netcode.
+This is the tale of how I wrote a state syncing framework based on vuex and [rollback netcode](https://en.wikipedia.org/wiki/Netcode).
 It took a few years and isn't intended to be a "copy and paste" type of thing.
 I'll be including code fragments and I'll eventually post a cleaned up version with the relevant pieces trimmed out.
 Who knows, if there's enough interest, maybe I'll even post a NPM package.
@@ -94,7 +94,7 @@ There are a few steps to the client plugin:
 2. Connect the websocket's defined events to the plugin and some admin things
 3. Setup reconnect events to request a sync
 
-The plugin itself also implements something akin to netcode, where it has rollback code and replay, which I think is awesome.
+The plugin itself also implements something akin to rollback netcode.
 
 #### Step 1-2: Creating the websocket
 
