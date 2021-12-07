@@ -23,6 +23,9 @@ It's based on vuex and so far I think it works awesome.
 As far as I can find on GitHub and Reddit, no one has done it before (at least in a satisfactory manor).
 There's probably a good reason for it.
 
+You would likely use a system like this if you were trying to keep shared state between a number of clients.
+This can apply to things like a game of Jeopardy that runs on phones, a crossword app, etc.
+Something where you want a significant portion of the state between clients to overlap and to have multiple sources of change.
 ## The Problem
 
 First a tangent. A few years ago, I started on a project known as PadGames.
