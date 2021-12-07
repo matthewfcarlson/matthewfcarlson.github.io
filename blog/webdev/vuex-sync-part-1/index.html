@@ -20,7 +20,7 @@ TL;DR This is a long article.">
 <meta itemprop=description content="This is the tale of how I wrote a state syncing framework based on vuex and rollback netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up repo with only the relevant pieces. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
 TL;DR This is a long article."><meta itemprop=datePublished content="2021-11-25T20:56:33-06:00">
 <meta itemprop=dateModified content="2021-11-25T20:56:33-06:00">
-<meta itemprop=wordCount content="2908">
+<meta itemprop=wordCount content="2968">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Vuex Sync Part 1">
 <meta name=twitter:description content="This is the tale of how I wrote a state syncing framework based on vuex and rollback netcode. It took a few years and isn&rsquo;t intended to be a &ldquo;copy and paste&rdquo; type of thing. I&rsquo;ll be including code fragments and I&rsquo;ll eventually post a cleaned up repo with only the relevant pieces. Who knows, if there&rsquo;s enough interest, maybe I&rsquo;ll even post a NPM package.
@@ -68,6 +68,9 @@ The client and the server can make auditable transformations to that state with 
 It&rsquo;s based on vuex and so far I think it works awesome.
 As far as I can find on GitHub and Reddit, no one has done it before (at least in a satisfactory manor).
 There&rsquo;s probably a good reason for it.</p>
+<p>You would likely use a system like this if you were trying to keep shared state between a number of clients.
+This can apply to things like a game of Jeopardy that runs on phones, a crossword app, etc.
+Something where you want a significant portion of the state between clients to overlap and to have multiple sources of change.</p>
 <h2 id=the-problem>The Problem</h2>
 <p>First a tangent. A few years ago, I started on a project known as PadGames.</p>
 <p><img src=/padgames.png alt="old padgames logo"></p>
