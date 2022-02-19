@@ -1,8 +1,15 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+    {{- if .imageUrl -}}
+    <div class="flex">
+    <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
+        width="{{ .imageWidth | default 250 }}" class="profile-img" />
+    </div>
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
+
+    {{- end }}
     <section class="entry-content">
         <p>{{ .Content | markdownify }}</p>
     </section>

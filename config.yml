@@ -47,7 +47,7 @@ params:
 
   label:
     text: "Matthew Carlson"
-    icon: /face.png
+    icon: /logo.png
     iconHeight: 35
 
   # profile-mode
@@ -69,6 +69,7 @@ params:
   homeInfoParams:
     Title: "Hi \U0001F44B, I'm Matthew Carlson"
     Content: I'm a firmware engineer at Apple, a woodworker, and a baker
+    imageUrl: /face.jpg
 
   socialIcons:
     - name: twitter
@@ -91,7 +92,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
