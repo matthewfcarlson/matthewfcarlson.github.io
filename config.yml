@@ -1,7 +1,7 @@
 baseURL: 'https://matthewc.dev/'
 languageCode: 'en-us'
 title: 'Matthew C Dev'
-theme: PaperMod
+theme: papermod
 paginate: 5
 publishdir: 'docs'
 buildFuture: true
@@ -15,7 +15,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Matthew Carlson
   description: "Matthew Carlson's Personal Website"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, papermod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -130,7 +130,7 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# Read: https://github.com/adityatelange/hugo-papermod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
 #     highlight:
