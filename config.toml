@@ -1,5 +1,0 @@
-baseURL = 'https://matthewc.dev/'
-languageCode = 'en-us'
-title = 'Matthew C Dev'
-theme = 'ananke'
-publishdir = 'docs'

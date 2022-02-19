@@ -1,9 +1,9 @@
 ---
-title: "My First Post"
+title: "Welcome to my blog"
 date: 2021-11-08T20:38:57-06:00
 draft: false
 ---
-# Welcone to my blog
+# Welcome to my blog
 
 I'm hoping to start posting project logs here. The focus here will be:
 
