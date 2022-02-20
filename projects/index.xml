@@ -10,16 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 20:38:57 -0600</lastBuildDate><atom:link href="https://matthewc.dev/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blanket Ladder</title>
-      <link>https://matthewc.dev/projects/woodworking/blanket-ladder/</link>
-      <pubDate>Sat, 19 Feb 2022 20:38:57 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/projects/woodworking/blanket-ladder/</guid>
-      <description>Blanket Ladder We recently moved and my wife had a request. She wanted something tall.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 25 Nov 2021 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vuex Sync Part 1</title>
       <link>https://matthewc.dev/projects/webdev/vuex-sync-part-1/</link>
