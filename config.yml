@@ -2,7 +2,7 @@ baseURL: 'https://matthewc.dev/'
 languageCode: 'en-us'
 title: 'Matthew C Dev'
 theme: papermod
-paginate: 5
+paginate: 10
 publishdir: 'docs'
 buildFuture: true
 enableRobotsTXT: true
@@ -30,7 +30,7 @@ params:
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
+  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -49,21 +49,6 @@ params:
     text: "Matthew Carlson"
     icon: /logo.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: Matthew Carlson
-    subtitle: "Firmware Engineer at Apple. Woodworker. Baker."
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Blog
-        url: blog
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
