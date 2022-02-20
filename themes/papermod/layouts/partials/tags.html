@@ -1,0 +1,7 @@
+{{- if .Params.tags }}
+{{- range first 3 ($.GetTerms "tags") }}
+<span class="cover-post-tag">
+   &nbsp;·&nbsp;{{ .LinkTitle }}
+</span>
+{{- end }}
+{{- end }}
