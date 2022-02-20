@@ -9,43 +9,6 @@
       <link>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2021 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>development</title>
-      <link>https://matthewc.dev/categories/development/</link>
-      <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>typescript</title>
-      <link>https://matthewc.dev/categories/typescript/</link>
-      <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/categories/typescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vuex</title>
-      <link>https://matthewc.dev/categories/vuex/</link>
-      <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/categories/vuex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://matthewc.dev/categories/web/</link>
-      <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/categories/web/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://matthewc.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

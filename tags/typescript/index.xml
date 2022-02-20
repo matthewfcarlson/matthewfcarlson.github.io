@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>typescript on Matthew C Dev</title>
-    <link>https://matthewc.dev/categories/typescript/</link>
+    <link>https://matthewc.dev/tags/typescript/</link>
     <description>Recent content in typescript on Matthew C Dev</description>
     <image>
       <url>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2021 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Passwordless User Authorization</title>
+      <link>https://matthewc.dev/projects/webdev/passwordless-auth/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/projects/webdev/passwordless-auth/</guid>
+      <description>Passwordless User Authorization I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers. What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
+I did a small project recently using my socket.io synced vuex state and needed a system where users could easily login. I will put a huge disclaimer on this that this is just what I did for my personal project where security isn&amp;rsquo;t critical.</description>
+    </item>
+    
     <item>
       <title>Vuex Sync Part 1</title>
       <link>https://matthewc.dev/projects/webdev/vuex-sync-part-1/</link>

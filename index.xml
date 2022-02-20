@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Nov 2021 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Passwordless User Authorization</title>
+      <link>https://matthewc.dev/projects/webdev/passwordless-auth/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/projects/webdev/passwordless-auth/</guid>
+      <description>Passwordless User Authorization I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers. What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
+I did a small project recently using my socket.io synced vuex state and needed a system where users could easily login. I will put a huge disclaimer on this that this is just what I did for my personal project where security isn&amp;rsquo;t critical.</description>
+    </item>
+    
     <item>
       <title>Vuex Sync Part 1</title>
       <link>https://matthewc.dev/projects/webdev/vuex-sync-part-1/</link>
@@ -38,16 +48,6 @@ TL;DR This is a long article.</description>
       <guid>https://matthewc.dev/projects/my-first-post/</guid>
       <description>Welcome to my blog I&amp;rsquo;m hoping to start posting project logs here. The focus here will be:
  Programming/Web dev Woodworking Game development Occasionally embedded/firmware type stuff Maybe even baking?  It&amp;rsquo;s hard to say exactly what will be here. Additionally, I&amp;rsquo;ll be posting links to any articles I write for Hackaday and Medium.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matthewc.dev/projects/webdev/passwordless-auth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewc.dev/projects/webdev/passwordless-auth/</guid>
-      <description>Passwordless User Authorization I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers. What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
-I did a small project recently using my socket.io synced vuex state and needed a system where users could easily login. I will put a huge disclaimer on this that this is just what I did for my personal project where security isn&amp;rsquo;t critical.</description>
     </item>
     
     

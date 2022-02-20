@@ -9,6 +9,52 @@
       <link>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://matthewc.dev/tags/development/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passwords</title>
+      <link>https://matthewc.dev/tags/passwords/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/passwords/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://matthewc.dev/tags/typescript/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vuex</title>
+      <link>https://matthewc.dev/tags/vuex/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/vuex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://matthewc.dev/tags/web/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/web/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
