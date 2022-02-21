@@ -6,13 +6,13 @@
     <lastmod>2022-02-20T20:42:09-06:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://matthewc.dev/blog/</loc>
-    <lastmod>2022-02-20T20:42:09-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/blog/musings/great-british-effect/</loc>
+    <loc>https://matthewc.dev/musings/great-british-effect/</loc>
     <lastmod>2022-02-20T20:42:09-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/musing/</loc>
+    <lastmod>2022-02-20T20:42:09-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/</loc>
     <lastmod>2022-02-20T20:42:09-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/opinion/</loc>
@@ -27,7 +27,10 @@
     <loc>https://matthewc.dev/tags/passwords/</loc>
     <lastmod>2022-02-18T20:56:33-06:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/blog/projects/webdev/passwordless-auth/</loc>
+    <loc>https://matthewc.dev/projects/</loc>
+    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/projects/passwordless-auth/</loc>
     <lastmod>2022-02-18T20:56:33-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/typescript/</loc>
@@ -39,10 +42,10 @@
     <loc>https://matthewc.dev/tags/web/</loc>
     <lastmod>2022-02-18T20:56:33-06:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/blog/projects/webdev/vuex-sync-p1/</loc>
+    <loc>https://matthewc.dev/projects/vuex-sync-p1/</loc>
     <lastmod>2021-11-25T20:56:33-06:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/blog/projects/my-first-post/</loc>
+    <loc>https://matthewc.dev/musings/my-first-post/</loc>
     <lastmod>2021-11-08T20:38:57-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/archives/</loc>

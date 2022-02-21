@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>development on Matthew C Dev</title>
-    <link>https://matthewc.dev/tags/development/</link>
-    <description>Recent content in development on Matthew C Dev</description>
+    <title>Projects on Matthew C Dev</title>
+    <link>https://matthewc.dev/projects/</link>
+    <description>Recent content in Projects on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Passwordless User Authorization</title>
       <link>https://matthewc.dev/projects/passwordless-auth/</link>
