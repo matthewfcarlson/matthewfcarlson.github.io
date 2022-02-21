@@ -8,7 +8,7 @@ title: "Vuex Sync Part 1"
 date: 2021-11-25T20:56:33-06:00
 draft: false
 cover:
-    image: "/blog/projects/webdev/Vuex.png"
+    image: "Vuex.png"
 ---
 
 This is the tale of how I wrote a state syncing framework based on vuex and [rollback netcode](https://en.wikipedia.org/wiki/Netcode).
@@ -32,7 +32,7 @@ Something where you want a significant portion of the state between clients to o
 
 First a tangent. A few years ago, I started on a project known as PadGames.
 
-![old padgames logo](/padgames.png)
+![old padgames logo](padgames.png)
 
 The idea was to take the things I liked about [Jackbox games](https://www.jackboxgames.com/?utm_source=matthewcdev) and incorporate them in a format that they could be played from anywhere.
 If you've never played Jackbox games, the idea is that there's a laptop or desktop that serves as a "game board" of sorts and you have your phone as a client that connects as acts as a controller.
@@ -47,7 +47,7 @@ The game ran on express, vue, and socket.io.
 Even thought the server and the client shared a codebase, there being a tedious serialization and de-serialization layer that I had to write two or three times.
 Personally, the experience was painful and I eventually quit the project since the code just became spaghetti so fast and it was getting harder and harder to track down state bugs as every game was slightly different.
 
-![spaghetti code](/spaghetti_code.jpeg)
+![spaghetti code](spaghetti_code.jpeg)
 
 Later, I worked with Luke on [netgames.io](https://netgames.io/about).
 (I say worked on, but it was more of a helped out with since he started the project and did the hard work of creating a fantastic framework).
@@ -82,7 +82,7 @@ Thanks to Vue v3 composition API, it is way easier to run Vuex (sort of) on the 
 In my testing on my laptop, a single express instance could handle 50,000 Vuex stores (though that stress test isn't with all the clients connected, just by making toggling state).
 So by creating a vuex store with specific format, it could easily be synced.
 
-![all coming together](/all_coming_together.png)
+![all coming together](all_coming_together.png)
 
 There are a few rules for writing a store:
 

@@ -6,7 +6,7 @@ tags:
   - musing
   - opinion
 cover:
-    image: "/blog/musings/GBB.jpg"
+    image: "GBB.jpg"
     alt: "The Great British Bake Off 2014 Final, BBC One"
     caption: "The Great British Bake Off 2014 Final, BBC One"
     relative: false # To use relative path for cover image, used in hugo Page-bundles

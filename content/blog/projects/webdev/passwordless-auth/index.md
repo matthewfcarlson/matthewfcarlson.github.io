@@ -9,7 +9,7 @@ title: "Simple Passwordless User Authorization"
 date: 2022-02-18T20:56:33-06:00
 draft: false
 cover:
-    image: "/blog/projects/webdev/passwordless-auth.jpg"
+    image: "passwordless-auth.jpg"
 ---
 
 I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers.
