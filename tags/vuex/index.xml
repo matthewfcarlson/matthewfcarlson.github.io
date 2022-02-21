@@ -19,10 +19,10 @@ I did a small project recently using my socket.io synced vuex state and needed a
     
     <item>
       <title>Vuex Sync Part 1</title>
-      <link>https://matthewc.dev/blog/projects/webdev/vuex-sync-part-1/</link>
+      <link>https://matthewc.dev/blog/projects/webdev/vuex-sync-p1/</link>
       <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
       
-      <guid>https://matthewc.dev/blog/projects/webdev/vuex-sync-part-1/</guid>
+      <guid>https://matthewc.dev/blog/projects/webdev/vuex-sync-p1/</guid>
       <description>This is the tale of how I wrote a state syncing framework based on vuex and rollback netcode. It took a few years and isn&amp;rsquo;t intended to be a &amp;ldquo;copy and paste&amp;rdquo; type of thing. I&amp;rsquo;ll be including code fragments and I&amp;rsquo;ll eventually post a cleaned up repo with only the relevant pieces. Who knows, if there&amp;rsquo;s enough interest, maybe I&amp;rsquo;ll even post a NPM package.
 TL;DR This is a long article.</description>
     </item>
