@@ -1,0 +1,6 @@
+<!-- prettier-ignore -->
+{{ $isInsecure := true }}
+{{ if strings.HasPrefix .Destination "https" }}
+    {{ $isInsecure = false }}
+{{ end }}
+<a href="{{ .Destination }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isInsecure }} target="_blank" rel="noopener"{{ end }}>{{ .PlainText }}</a>

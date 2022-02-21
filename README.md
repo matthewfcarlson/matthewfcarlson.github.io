@@ -8,3 +8,9 @@ matthewc.dev
 ```
 hugo new --kind project-bundle projects/my-post
 ```
+
+## Local Dev Experience
+
+```
+hugo server --disableFastRender --buildDrafts=true
+```

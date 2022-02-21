@@ -7,7 +7,6 @@ publishdir: 'docs'
 buildFuture: true
 enableRobotsTXT: true
 
-
 minify:
   disableXML: true
   minifyOutput: true
