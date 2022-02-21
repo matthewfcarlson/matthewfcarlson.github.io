@@ -15,10 +15,9 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Matthew Carlson
   description: "Matthew Carlson's Personal Website"
-  keywords: [Blog, Portfolio, papermod]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -79,7 +78,7 @@ params:
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/matthewfcarlson/matthewfcarlson.github.io/issues/new?body=Your+issue+here%0A%0A%0A---%0AI%27m+a+human.+Please+be+nice.&title=Issue with "
@@ -100,7 +99,11 @@ menu:
   main:
     - identifier: projects
       name: projects
-      url: /projects/
+      url: /blog/projects/
+      weight: 10
+    - identifier: musings
+      name: musings
+      url: /blog/musings/
       weight: 10
     - identifier: resume
       name: resume
@@ -124,3 +127,8 @@ outputs:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true

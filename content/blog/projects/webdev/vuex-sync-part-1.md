@@ -7,6 +7,8 @@ tags:
 title: "Vuex Sync Part 1"
 date: 2021-11-25T20:56:33-06:00
 draft: false
+cover:
+    image: "/blog/projects/webdev/Vuex.png"
 ---
 
 This is the tale of how I wrote a state syncing framework based on vuex and [rollback netcode](https://en.wikipedia.org/wiki/Netcode).

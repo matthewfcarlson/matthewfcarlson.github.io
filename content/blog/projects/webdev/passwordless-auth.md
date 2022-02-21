@@ -8,9 +8,9 @@ tags:
 title: "Simple Passwordless User Authorization"
 date: 2022-02-18T20:56:33-06:00
 draft: false
+cover:
+    image: "/blog/projects/webdev/passwordless-auth.jpg"
 ---
-
-# Passwordless User Authorization
 
 I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers.
 What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
