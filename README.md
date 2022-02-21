@@ -2,3 +2,9 @@
 
 [![github pages](https://github.com/matthewfcarlson/matthewfcarlson.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/matthewfcarlson/matthewfcarlson.github.io/actions/workflows/gh-pages.yml)
 matthewc.dev
+
+## Create a new project
+
+```
+hugo new --kind project-bundle projects/my-post
+```

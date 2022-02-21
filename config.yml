@@ -7,6 +7,7 @@ publishdir: 'docs'
 buildFuture: true
 enableRobotsTXT: true
 
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -16,6 +17,7 @@ params:
   title: Matthew Carlson
   description: "Matthew Carlson's Personal Website"
   author: Me
+  mainSections: ['projects', 'musings']
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -69,11 +71,9 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "56rW1rUI4LWedkHQTqbYEQ1DHqRwd8GqLln3Pg8FI-o"
     bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "0764BC2BC3D20B77B39F91E88453504E"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -97,13 +97,13 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: projects
-      name: projects
-      url: /blog/projects/
-      weight: 10
     - identifier: musings
       name: musings
-      url: /blog/musings/
+      url: /musings/
+      weight: 10
+    - identifier: projects
+      name: projects
+      url: /projects/
       weight: 10
     - identifier: resume
       name: resume
