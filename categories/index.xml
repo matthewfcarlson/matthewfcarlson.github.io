@@ -4,10 +4,6 @@
     <title>Categories on Matthew C Dev</title>
     <link>https://matthewc.dev/categories/</link>
     <description>Recent content in Categories on Matthew C Dev</description>
-    <image>
-      <url>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://matthewc.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

@@ -4,13 +4,27 @@
     <title>Tags on Matthew C Dev</title>
     <link>https://matthewc.dev/tags/</link>
     <description>Recent content in Tags on Matthew C Dev</description>
-    <image>
-      <url>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://matthewc.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Feb 2022 20:56:33 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Feb 2022 20:42:09 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>musing</title>
+      <link>https://matthewc.dev/tags/musing/</link>
+      <pubDate>Sun, 20 Feb 2022 20:42:09 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/musing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://matthewc.dev/tags/opinion/</link>
+      <pubDate>Sun, 20 Feb 2022 20:42:09 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>development</title>
       <link>https://matthewc.dev/tags/development/</link>
