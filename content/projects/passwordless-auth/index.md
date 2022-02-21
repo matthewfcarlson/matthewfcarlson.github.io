@@ -10,6 +10,7 @@ date: 2022-02-18T20:56:33-06:00
 draft: false
 cover:
     image: "passwordless-auth.jpg"
+aliases: ['/projects/webdev/passwordless-auth/', '/blog/projects/webdev/passwordless-auth/']
 ---
 
 I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers.
@@ -20,6 +21,15 @@ I will put a *huge* disclaimer on this that this is just what I did for my perso
 If a login gets stolen, it's to a silly game that my friends and I play.
 The techniques described shouldn't be used in production without some refinement.
 If you have ideas on how to implement this in a more secure way, definitely reach out to me!
+
+## TLDR
+
+User creates an account with just their email or can create a temporary account.
+Their session lasts for a long time (I think a month).
+If it expires or they try to login from a different browser, they get a code to their email as a one-time password.
+It's a great solution for a simple site that doesn't get much traffic.
+
+Craigslist Slack also does something similar with their magic links.
 
 ## Server Setup
 
@@ -335,6 +345,9 @@ export default function RegisterEndPoints(app: Express, db: DataBase) {
     });
 ```
 
+One important thing to note, we clear the magic code whenever we fail a login with the user.
+If someone tries to replay the magic code, it shouldn't work.
+This also means that emails are no longer valid once they're used, but that's a compromise I'm happy with.
 We send the user an email with a link to this endpoint via sendgrid (not sponsored, just easy to use).
 
 The last and final part is handling decoding of the token.
@@ -375,9 +388,6 @@ export default function RegisterEndPoints(app: Express, db: DataBase) {
 ```
 
 That's pretty much all there is to it.
-User creates an account with just their email or can create a temporary account.
-Their session lasts for a long time.
-If it expires or they try to login from a different browser, they get a code to their email.
-It's a great solution for a simple site that doesn't get much traffic.
+Perhaps in the future I'll look into shortening the the session and doing a refresh scheme or lean more heavily into the OTP thing.
 
 If you see anything that can be improved, let me know!
