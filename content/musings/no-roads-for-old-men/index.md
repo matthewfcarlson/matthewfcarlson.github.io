@@ -5,8 +5,8 @@ draft: false
 cover:
     image: "cover.jpg"
 tags:
-  - draft
-  - musing
+  - infrastructure
+  - roads
 ---
 
 *Editors Note: Originally posted [on medium](https://medium.com/@matthewfcarlson/roads-where-were-going-we-won-t-have-any-roads-dd9e5a27c30d) by me*
