@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nintendo on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/nintendo/</link>
+    <description>Recent content in nintendo on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 10:24:36 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/nintendo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nintendo 64: Architecture and History</title>
+      <link>https://matthewc.dev/musings/nintendo-64/</link>
+      <pubDate>Mon, 07 Sep 2020 10:24:36 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/nintendo-64/</guid>
+      <description>Editor&amp;rsquo;s Note: This was originally published on medium 
+It stands as a unique and marvelous console even by today’s standards. Both from an technical as well as cultural standpoint, it was simply stupendous. This article showcases the history of the Nintendo 64 as well as explores it from a technical standpoint. If you’re like me, you likely have fond memories of this console. If you’re interested in the technical bits, skip ahead to the architecture.</description>
+    </item>
+    
+  </channel>
+</rss>

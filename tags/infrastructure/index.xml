@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>infrastructure on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Feb 2022 09:08:56 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plugin Hybrid Future</title>
+      <link>https://matthewc.dev/musings/plugin-hybrid-future/</link>
+      <pubDate>Wed, 23 Feb 2022 09:08:56 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/plugin-hybrid-future/</guid>
+      <description>You might have heard the future of cars are electric. Here&amp;rsquo;s a shortlist from mashable that includes all the car manufacturers going electric only.
+ Bentley - 2030 Jaguar - 2030 GM - 2035 Volvo - 2030 Ford - 2026 (EU only) Volkswagen - 2026 Toyota - 2040 Mercedes - 2035  This list means they are pledging to no longer produce cars that have combustion engines. Many other auto manufacturers are pledging to sell mostly electric vehicles and sell a small number traditional gas cars.</description>
+    </item>
+    
+    <item>
+      <title>Roads? Where we’re going, we won’t have any roads.</title>
+      <link>https://matthewc.dev/musings/no-roads-for-old-men/</link>
+      <pubDate>Sat, 18 Jul 2020 09:20:49 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/no-roads-for-old-men/</guid>
+      <description>Editors Note: Originally posted on medium by me
+At least, the way things are going here in the USA. Our roads, as we currently handle them, are unsustainable. As city and states are financially stretched in different and difficult ways, the incredible cost of road maintenance and construction is getting harder and harder for policy makers and government workers to manage. At the rate we are going there will be significantly fewer roads, more traffic, higher taxes, and more pot holes than either you or I could imagine in our worse nightmares.</description>
+    </item>
+    
+  </channel>
+</rss>

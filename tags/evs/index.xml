@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>EVs on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/evs/</link>
+    <description>Recent content in EVs on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Feb 2022 09:08:56 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/evs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plugin Hybrid Future</title>
+      <link>https://matthewc.dev/musings/plugin-hybrid-future/</link>
+      <pubDate>Wed, 23 Feb 2022 09:08:56 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/plugin-hybrid-future/</guid>
+      <description>You might have heard the future of cars are electric. Here&amp;rsquo;s a shortlist from mashable that includes all the car manufacturers going electric only.
+ Bentley - 2030 Jaguar - 2030 GM - 2035 Volvo - 2030 Ford - 2026 (EU only) Volkswagen - 2026 Toyota - 2040 Mercedes - 2035  This list means they are pledging to no longer produce cars that have combustion engines. Many other auto manufacturers are pledging to sell mostly electric vehicles and sell a small number traditional gas cars.</description>
+    </item>
+    
+  </channel>
+</rss>

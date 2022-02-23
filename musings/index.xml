@@ -6,7 +6,17 @@
     <description>Recent content in Musings on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Feb 2022 20:42:09 -0600</lastBuildDate><atom:link href="https://matthewc.dev/musings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 09:08:56 -0600</lastBuildDate><atom:link href="https://matthewc.dev/musings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plugin Hybrid Future</title>
+      <link>https://matthewc.dev/musings/plugin-hybrid-future/</link>
+      <pubDate>Wed, 23 Feb 2022 09:08:56 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/plugin-hybrid-future/</guid>
+      <description>You might have heard the future of cars are electric. Here&amp;rsquo;s a shortlist from mashable that includes all the car manufacturers going electric only.
+ Bentley - 2030 Jaguar - 2030 GM - 2035 Volvo - 2030 Ford - 2026 (EU only) Volkswagen - 2026 Toyota - 2040 Mercedes - 2035  This list means they are pledging to no longer produce cars that have combustion engines. Many other auto manufacturers are pledging to sell mostly electric vehicles and sell a small number traditional gas cars.</description>
+    </item>
+    
     <item>
       <title>Great British Effect</title>
       <link>https://matthewc.dev/musings/great-british-effect/</link>
@@ -25,6 +35,16 @@ While watching the most recent season, I noticed something interesting. There we
       <guid>https://matthewc.dev/musings/my-first-post/</guid>
       <description>Welcome to my blog I&amp;rsquo;m hoping to start posting project logs here. The focus here will be:
  Programming/Web dev Woodworking Game development Occasionally embedded/firmware type stuff Maybe even baking?  It&amp;rsquo;s hard to say exactly what will be here. Additionally, I&amp;rsquo;ll be posting links to any articles I write for Hackaday and Medium.</description>
+    </item>
+    
+    <item>
+      <title>Nintendo 64: Architecture and History</title>
+      <link>https://matthewc.dev/musings/nintendo-64/</link>
+      <pubDate>Mon, 07 Sep 2020 10:24:36 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/nintendo-64/</guid>
+      <description>Editor&amp;rsquo;s Note: This was originally published on medium 
+It stands as a unique and marvelous console even by today’s standards. Both from an technical as well as cultural standpoint, it was simply stupendous. This article showcases the history of the Nintendo 64 as well as explores it from a technical standpoint. If you’re like me, you likely have fond memories of this console. If you’re interested in the technical bits, skip ahead to the architecture.</description>
     </item>
     
     <item>
