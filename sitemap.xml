@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matthewc.dev/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
+    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://matthewc.dev/tags/blender/</loc>
+    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/blender/</loc>
+    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/blender/burger-boy/</loc>
+    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/</loc>
+    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/evs/</loc>
     <lastmod>2022-02-23T09:08:56-06:00</lastmod>
@@ -16,9 +28,6 @@
     <lastmod>2022-02-23T09:08:56-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/plugin-hybrid-future/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/</loc>
     <lastmod>2022-02-23T09:08:56-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/great-british-effect/</loc>

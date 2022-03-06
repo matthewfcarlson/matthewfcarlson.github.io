@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blender on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/blender/</link>
+    <description>Recent content in blender on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Mar 2022 09:39:00 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Burger Boy</title>
+      <link>https://matthewc.dev/blender/burger-boy/</link>
+      <pubDate>Sun, 06 Mar 2022 09:39:00 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/blender/burger-boy/</guid>
+      <description>I came across this little GIF of someone carving a little burger boy on imgur . As far as I can&amp;rsquo;t, the poster of this GIF isn&amp;rsquo;t the original carver. Doing a quick google doesn&amp;rsquo;t show any burger boys that are similar to this. Hopefully I&amp;rsquo;m not stealing some beloved character. It&amp;rsquo;s just a thing I thought was cool.
+Reference:
+ First Attempt  The lighting is way too much and I need to add some texture onto the patty.</description>
+    </item>
+    
+  </channel>
+</rss>
