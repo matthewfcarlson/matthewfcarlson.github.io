@@ -4,7 +4,8 @@ date: 2022-02-19T20:38:57-06:00
 draft: true
 tags:
   - woodworking
-images: ['Decorative+Bamboo+6+ft+Blanket+Ladder.jpg']
+cover:
+    image: "test.jpg"
 ---
 
 We recently moved and my wife had a request.
@@ -48,9 +49,14 @@ Getting it straight was also a challenge and I feel like it has a slight tilt to
 Next time I'll cut a 2 degree angle in a long piece of wood and have that as a reference edge in clamping on both sides.
 I was adjusting as the glue dried and ran out of time as it got hard and harder to make small adjustments.
 ![image alt text](glue_up.jpg)
-
+ß
 After it dried it was time to test it against the wall.
 
 ![image alt text](test.jpg)
 
 The final step was rounding the two outside edges and finishing.
+Since it was poplar on the outside, I wasn't sure how well it would take the stain.
+I grabbed my test piece from earlier and wiped some stain on to see what it would look like.
+I was debating painting it, but wanted to see what it would look it.
+
+![image alt text](stain_test.jpg)
