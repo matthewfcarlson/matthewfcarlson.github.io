@@ -4,9 +4,26 @@ title: 'Matthew C Dev'
 theme: papermod
 enableEmoji: true
 paginate: 10
+enableGitInfo: true
 publishdir: 'docs'
 buildFuture: true
 enableRobotsTXT: true
+
+frontmatter:
+  date:
+  - publishDate
+  - :git
+  - date
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
 
 minify:
   disableXML: true

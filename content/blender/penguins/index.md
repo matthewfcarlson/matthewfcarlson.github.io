@@ -6,9 +6,6 @@ cover:
     image: "cover.jpg"
 tags:
 - blender
-- penguins
-#  - woodworking
-#  - webdev
 ---
 
 I love this picture that someone drew.

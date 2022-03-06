@@ -1,12 +1,13 @@
 ---
 title: "Plugin Hybrid Future"
-date: 2022-02-23T09:08:56-06:00
+publishDate: 2022-02-23T09:08:56-06:00
 draft: false
 cover:
     image: "cover.jpg"
 tags:
   - infrastructure
   - EVs
+  - opinion
 ---
 
 You might have heard the future of cars are electric.

@@ -1,9 +1,8 @@
 ---
 title: "Great British Effect"
-date: 2022-02-20T20:42:09-06:00
+publishDate: 2022-02-20T20:42:09-06:00
 draft: false
 tags:
-  - musing
   - opinion
 cover:
     image: "GBB.jpg"

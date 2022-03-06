@@ -6,7 +6,6 @@ cover:
     image: "simpsons_test3.png"
 tags:
 - blender
-- simpsons
 ---
 
 I love this scene in the simpsons:

@@ -1,6 +1,6 @@
 ---
 title: "Nintendo 64: Architecture and History"
-date: 2020-09-07T10:24:36-06:00
+publishDate: 2020-09-07T10:24:36-06:00
 cover:
     image: "n64.png"
 tags:
