@@ -3,88 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matthewc.dev/</loc>
-    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://matthewc.dev/tags/blender/</loc>
-    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+    <lastmod>2022-03-06T10:03:31-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/blender/</loc>
-    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+    <lastmod>2022-03-06T10:03:31-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/blender/burger-boy/</loc>
-    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+    <lastmod>2022-03-06T10:03:31-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/</loc>
-    <lastmod>2022-03-06T09:39:00-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/evs/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/infrastructure/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/musings/plugin-hybrid-future/</loc>
-    <lastmod>2022-02-23T09:08:56-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/musings/great-british-effect/</loc>
-    <lastmod>2022-02-20T20:42:09-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/musing/</loc>
-    <lastmod>2022-02-20T20:42:09-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/opinion/</loc>
-    <lastmod>2022-02-20T20:42:09-06:00</lastmod>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/plugin-hybrid-future/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/development/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/passwords/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/projects/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/projects/passwordless-auth/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/typescript/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/vuex/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/web/</loc>
-    <lastmod>2022-02-18T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/projects/vuex-sync-p1/</loc>
-    <lastmod>2021-11-25T20:56:33-06:00</lastmod>
+    <lastmod>2022-02-21T09:12:06-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/my-first-post/</loc>
-    <lastmod>2021-11-08T20:38:57-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/history/</loc>
-    <lastmod>2020-09-07T10:24:36-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/nintendo/</loc>
-    <lastmod>2020-09-07T10:24:36-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/musings/nintendo-64/</loc>
-    <lastmod>2020-09-07T10:24:36-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/roads/</loc>
-    <lastmod>2020-07-18T09:20:49-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/musings/no-roads-for-old-men/</loc>
-    <lastmod>2020-07-18T09:20:49-06:00</lastmod>
+    <lastmod>2022-02-21T09:12:06-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/archives/</loc>
+    <lastmod>2022-02-20T22:19:23-06:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/categories/</loc>
+    <loc>https://matthewc.dev/musings/great-british-effect/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/search/</loc>
+    <lastmod>2022-02-19T16:45:21-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/history/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/nintendo/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/nintendo-64/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/roads/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/no-roads-for-old-men/</loc>
+    <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/categories/</loc>
   </url>
 </urlset>
