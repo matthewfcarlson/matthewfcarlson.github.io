@@ -2,6 +2,7 @@ baseURL: 'https://matthewc.dev/'
 languageCode: 'en-us'
 title: 'Matthew C Dev'
 theme: papermod
+enableEmoji: true
 paginate: 10
 publishdir: 'docs'
 buildFuture: true
@@ -96,6 +97,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+
     - identifier: musings
       name: musings
       url: /musings/
@@ -112,6 +114,10 @@ menu:
       name: search
       url: /search/
       weight: 30
+    - identifier: blender
+      name: blender
+      url: /blender/
+      weight: 15
 outputs:
     home:
         - HTML
