@@ -5,7 +5,6 @@ draft: true
 cover:
     image: "cover.jpg"
 tags:
-  - draft
 #  - woodworking
 #  - webdev
 ---

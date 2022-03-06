@@ -14,3 +14,8 @@ hugo new --kind project-bundle projects/my-post
 ```
 hugo server --disableFastRender --buildDrafts=true
 ```
+
+## Tips and Tricks
+
+Emojis can be added with :zzz:
+https://www.webfx.com/tools/emoji-cheat-sheet/
