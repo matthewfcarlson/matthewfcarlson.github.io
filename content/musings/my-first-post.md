@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog"
-date: 2021-11-08T20:38:57-06:00
+publishDate: 2021-11-08T20:38:57-06:00
 draft: false
 ---
 # Welcome to my blog
@@ -11,7 +11,9 @@ I'm hoping to start posting project logs here. The focus here will be:
 - Woodworking
 - Game development
 - Occasionally embedded/firmware type stuff
+- Blender
 - Maybe even baking?
 
 It's hard to say exactly what will be here.
-Additionally, I'll be posting links to any articles I write for Hackaday and Medium.
+I've brought over the medium articles I've written.
+I've included a link to the things I've written on Hackaday, but I don't think I'll bring the actual content over here.
