@@ -59,3 +59,5 @@ table_leg2.bevel(edges=['TL'], bit=Inches(3/4)])
 
 This behavior might be acceptable for some people.
 But the advantage of the node system is that it is accessible for non programmers and visually makes sense.
+
+I'll likely be doing a part two in the future talking about progress, but if this goes the way I imagine, it will likely have its own docs and website (probably as part of the repo itself).
