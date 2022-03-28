@@ -124,5 +124,24 @@ I draw the outside wall out on the wood and added the standoffs.
 
 ![version 4 in real life](wood_layout.jpeg)
 
+![version 4 getting cut](first_cut.png)
+
+![version 4 parts being laid out](IMG_1146.png)
+![version 4 parts being laid out](IMG_1147.png)
+
+I laid things out to leave some space in the front for a small shelf, but I realized I need to let that dream go.
+Perhaps I'll add a fake door that doesn't open with a handle for a better illusion.
+But I need to accept the fact that I am seriously space constrained with my current plan.
+
+
+
+# Tweaks Along The Way
+
+Additionally, I needed somewhere to store the router, so I added a little box at the top to store that.
+While I was adding that, I figured why not add a media server as well?
+I grabbed the old itx board with a small CPU and threw in in there with a hard drive on the wall as well. 
+It is an open air case, so I'll need to clean it out every once in a while.
+Perhaps someday I'll close it up, but with a door on front, I won't worry about it.
+
 **TBC**
 
