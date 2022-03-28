@@ -59,4 +59,13 @@ Since it was poplar on the outside, I wasn't sure how well it would take the sta
 I grabbed my test piece from earlier and wiped some stain on to see what it would look like.
 I was debating painting it, but wanted to see what it would look it.
 
+Ultimately I didn't love the look of the stained poplar and oak together, so I decided to go for a two toned approach with paint.
+
 ![image alt text](stain_test.jpg)
+
+# Painting
+
+I first sprayed it with some primer to get good adhesion. 
+
+![image alt text](IMG_0005.png)
+
