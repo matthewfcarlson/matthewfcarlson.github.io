@@ -21,6 +21,6 @@
     <h2> Unprocessable Image {{ $myImg }}: {{$altText}}</h2>
 {{ end }}
 {{ else }}
-    <h2>Image not found {{ .Destination | safeURL }} : {{$altText}}</h2>
+    <h2 style="color:red">Image not found {{ .Destination | safeURL }} : {{$altText}}</h2>
 {{ end }}
 
