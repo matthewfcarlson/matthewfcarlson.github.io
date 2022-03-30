@@ -6,6 +6,7 @@ cover:
 tags:
   - nintendo
   - history
+showtoc: true
 ---
 
 *Editor's Note: This was originally [published on medium](https://medium.com/@matthewfcarlson/nintendo-64-architecture-and-history-8a01cf503a6a)*
@@ -15,11 +16,11 @@ It stands as a unique and marvelous console even by today’s standards. Both fr
 
 To set the stage, the N64 was first released in Japan in 1996. When you think of the 1990’s you may think of the pocket-sized Gameboy color with Pokémon Red and Blue. But in reality, the Gameboy color didn’t come out until 1998, _two years after_ the N64 came out.
 
-![](gbc.jfif)Photo by [Denise Jans](https://unsplash.com/@dmjdenise?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![](gbc.jpeg)Photo by [Denise Jans](https://unsplash.com/@dmjdenise?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 The Gameboy at the time was the impressively large and heavy, Gameboy. With a grayscale screen and loaded with 4 AA batteries, it was a brick of a gaming experience. The Gameboy pocket (a slightly smaller version of the successful gameboy) had come out in some markets, but didn’t see the same widespread availability as the original Gameboy.
 
-![](gb.jfif)Photo by [Dan Counsell](https://unsplash.com/@dancounsell?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![](gb.jpeg)Photo by [Dan Counsell](https://unsplash.com/@dancounsell?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 This is to illustrate the sheer craziness that the Nintendo 64 represented, particularly in the sub $300 price point. The idea of a 64 bit console with 3D graphics just under six years after the 16 bit SNES seems reasonable in hindsight but ludicrous at the time.
 
@@ -248,7 +249,7 @@ The main CPU had thread units and the RCP had tasks (since it was structured muc
 Emulation
 ---------
 
-![](emulator.jfif)
+![](emulator.jpeg)
 
 Now you might be asking “wow, this all sounds really tricky to emulate.” And yes, you’re right. It is tricky. So most N64 emulators cheat. They hash the RSPBOOT block and the accompanying microcode and match it against a native C library that will process the RSP commands from the main CPU. This does mean that if there’s an obscure game out there that had it’s own custom microcode, the emulator might not work. I believe it just loads a best guess microcode and hopes for the best, but that varies emulator by emulator.
 

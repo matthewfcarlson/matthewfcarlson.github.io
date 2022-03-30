@@ -8,6 +8,7 @@ tags:
   - infrastructure
   - roads
   - opinion
+showtoc: true
 ---
 
 *Editors Note: Originally posted [on medium](https://medium.com/@matthewfcarlson/roads-where-were-going-we-won-t-have-any-roads-dd9e5a27c30d) by me*
@@ -21,7 +22,7 @@ I talked to a local city council member, Michelle, since her comments and action
 > “You spend every nickel you have on infrastructure and it still decays faster than you can pay to fix it. Eventually the debt load outstrips the ability of the tax base to provide. 100% of revenue goes to service debt of the already deteriorated roads. As a city, you can’t fix the ones you have. You also can’t build more. It’s a hole so deep you can’t tax your way out. We’ll need a fundamental shift in how we live and do transportation in the US to avoid it. And I don’t think we will be able to avoid it because no one will be able to agree it’s broken.” — Michelle, City Councilor
 
 ## How did things get this way?
-### It starts with how roads were built in America and why. It wasn’t the car but the popularity of the bicycle that started the push for smooth, flat roads in the early 20th century. Cities centers enjoyed cobblestone, railroads, and trolleys while rural areas were dirt, mud, gravel, or dust depending on the season. Cities at the timer were smaller, denser and there were no suburbs. So rural might mean just a mile outside of the city center.
+***It starts with how roads were built in America and why. It wasn’t the car but the popularity of the bicycle that started the push for smooth, flat roads in the early 20th century. Cities centers enjoyed cobblestone, railroads, and trolleys while rural areas were dirt, mud, gravel, or dust depending on the season. Cities at the timer were smaller, denser and there were no suburbs. So rural might mean just a mile outside of the city center.***
 
 The common practice of the USA at the time was that the majority of rural roads would be paid for, built, and maintained by the local landowners that the roads were on, not the city or state. A common type of road was the macadam road, which was built by hand-chiseling various layers of rocks to specific sizes and spreading them at precise grades. As you can imagine, this was tedious and expensive and simply out of reach for most landowners. Laying tar to seal the top layer of the macadam to give a smoother surface (known as pitch macadam) was fairly uncommon, as it was added cost and the existing macadam roads worked just fine for horse drawn carriages and pedestrians.
 
@@ -41,7 +42,7 @@ At the same time, the dream of suburbia began to take root. The economic boom an
 
 In 1940, only two in every five Americans owned their own homes. By 1950, it was more than half. By the mid 1960s it was over two thirds of Americans and that rate has roughly held to present day. Some historians say that we will likely never see that same kind of pent-up housing demand that existed in the late 1940s.
 
-![](subrubia.jfif)Photo by [Jean-Philippe Delberghe](https://unsplash.com/@jipy32?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![](subrubia.jpeg)Photo by [Jean-Philippe Delberghe](https://unsplash.com/@jipy32?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 The market in the 1950s and ‘60s responded by the application of mass production techniques to home construction by Arthur Levitt. Other developers followed Levitt’s lead, buying up cheap land outside the city and building houses quickly and cheaply. There are accounts of hundreds of acres outside Lakewood, California just 15 minutes south of LA with cement trucks waiting in a line over a mile long to pour foundations for mass produced homes. These were not apartments, complex, or duplexes. The houses that developers were putting in were detached single-family houses, as they were easy to sell and cheaper on account of the assembly line techniques perfected for building airplanes in war time. In fact, their homogenous nature lead to many criticism of the suburb lifestyle including the song “[Little Boxes](https://www.youtube.com/watch?v=HlSpc87Jfr0)” by Pete Seeger. This article does not seek to address the large racial injustice done towards people of color and their families when it came to moving to these affordable homes, as most of these housing developments and many government loan programs were almost exclusively for white families. However I encourage you to [learn](https://www.youtube.com/watch?v=ETR9qrVS17g) [more](http://web.archive.org/web/20130506033211/http://www.portal.state.pa.us/portal/server.pt/community/documents_from_1946_-_present/20426/levittown/999080) about it and look into what can be done today to help better integrate our society and support underprivileged or marginalized communities.
 
@@ -62,7 +63,7 @@ For cities needing funds for roads there are programs available, but the funding
 
 Even with the gas tax, it isn’t enough. According to the Department of Energy, 142.17 _billion_ gallons of finished motor gasoline were consumed in 2019. With an estimated national population of 327,167,434 as of 2018, that comes out to roughly 434 gallons per person. I realize this is a rough estimate and doesn’t factor in actual consumption since that number is total population and includes those who do not drive. Based on current taxes rates, this means a town of 90,000 people generates $14,647,500 in state taxes and $7,187,040 in federal taxes. At $14 million and $7 million for a combined 21 million dollars, you might be saying, things are looking pretty good. That’s a lot of road you could buy with that. Not so fast.
 
-![](construction.jfif)Photo by [Finn Gerkens](https://unsplash.com/@finnsn?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![](construction.jpeg)Photo by [Finn Gerkens](https://unsplash.com/@finnsn?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 If you were to use that city’s gas taxes at the federal and state level exclusively on just that city you would be able to build between one and fourteen miles of road. For most of us, 14 miles is a trip is just part of a trip to get groceries, drop off a package at the post office, pop by the pharmacy, and maybe stop somewhere for a light snack. A city of 90,000 people has much more road than just 14 miles. Flagler county in Florida has about 97,000 residents (pick because it’s about 90k residents) and over 900 miles of local road (this does not count state roads or highways) [as of 2018](https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/statistics/mileage-rpts/public18.pdf?sfvrsn=e0698171_2). That’s over 50 feet of road per person. In other counties across Florida it can go as high as 148 feet per person (Hamilton), with the general trend that more densely populated counties have less roads per person.
 
@@ -80,7 +81,7 @@ Continuing our story on the history of America’s road, we get to the housing r
 In addition, while the rise of electric cars is a welcome change for many, the loss of gas taxes is a concerning trend for law makers. In fact, some law makers have proposed levying a [lifetime gas tax](https://www.cnbc.com/2019/09/11/states-hit-electric-vehicle-owners-with-high-fees-consumer-reports-says.html) that would be the rough equivalent of all the gas tax that would have been collected, had it been a gas vehicle. As you can imagine, asking 100k miles of gas taxes when you buy an electric vehicle ($600–2000 depending on your state) isn’t popular with consumers or electric vehicle advocates.
 
 ## What can be done?
-### There are a few possible solutions I’ll evaluate in this article. There are of course, other solutions out there that I haven’t considered. The key part of this article is that something must be done.
+***There are a few possible solutions I’ll evaluate in this article. There are of course, other solutions out there that I haven’t considered. The key part of this article is that something must be done.***
 
 > “The maintenance of the infrastructure over its lifetime must be included in the cost. Not just building it the first time. But that’s not how it’s done. Developers pay to build (sometimes often only part, or worse city pays as an incentive) and then pawn the maintenance costs onto the city in perpetuity” — Michelle
 
@@ -114,7 +115,7 @@ This is the most likely and probably the least dramatic course of action. Cities
 _New forms of transportation_
 I work on a large corporate campus and it’s difficult to get across quickly. There are corporate shuttles run by genuinely fantastic people who are often stretched too thin. Walking to a building across campus can take up to 30 to 40 minutes at a brisk pace. I vividly remember the posters and flyers distributed across campus when a popular brand of rental electric scooters advertised that they were going to start having scooters available soon. Co-workers viewed them with a decent amount of skepticism, particular some of the older coworkers with bad knees. However, as time went on, situations arose where myself and my coworkers had to rely on the scooters and they were convenient and fast. There are problems with electric scooters and they aren’t a good fit for many people. The point is that the idea of a scooter you can unlock with a phone in your pocket and ride off on for a couple bucks, drop off at your destination, then pick up a different one on your way back was somewhat of an impossible dream just ten years ago (the iPhone had just gotten an app store a year or two earlier). There are likely new forms of transportation that we haven’t even dreamed up yet. The key will be to embrace them when we see them.
 
-![](scooter.jfif)Photo by [Raul De Los Santos](https://unsplash.com/@zinco?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+![](scooter.jpeg)Photo by [Raul De Los Santos](https://unsplash.com/@zinco?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 ## What next?
 
@@ -128,38 +129,38 @@ Yes we are a large country and the roads are useful and do much to enable to mod
 
 Whatever we as a country, states, cities, and citizens of the USA decide to do, the key is that we decide that it’s a problem before it becomes insurmountable. Make no mistake, this will require a fundamental shift in how we think about and pay for transportation.
 
-## Links for further reading##
+## Links for further reading
 
-City debt increasing: [https://www.governing.com/topics/finance/gov-legacy-cities-bills-debt.html](https://www.governing.com/topics/finance/gov-legacy-cities-bills-debt.html)
-State debt is increasing: [https://worldpopulationreview.com/state-rankings/debt-by-state](https://worldpopulationreview.com/state-rankings/debt-by-state)
-Phoenix is having rough roads: [https://www.azcentral.com/story/news/local/phoenix-traffic/2019/01/10/your-phoenix-street-repaved-next-year-check-here-road-maintenance-repairs/2357054002/](https://www.azcentral.com/story/news/local/phoenix-traffic/2019/01/10/your-phoenix-street-repaved-next-year-check-here-road-maintenance-repairs/2357054002/)
-Frisco is in debt: [https://communityimpact.com/dallas-fort-worth/frisco/government/2020/07/09/frisco-looking-to-issue-debt-for-water-sewer-road-projects/](https://communityimpact.com/dallas-fort-worth/frisco/government/2020/07/09/frisco-looking-to-issue-debt-for-water-sewer-road-projects/)
-City considers street fees: [https://www.reporternews.com/story/news/2020/04/21/council-considers-temporary-street-maintenance-fee-suspension-lower-water-rates/2998459001/](https://www.reporternews.com/story/news/2020/04/21/council-considers-temporary-street-maintenance-fee-suspension-lower-water-rates/2998459001/)
+- City debt increasing: [https://www.governing.com/topics/finance/gov-legacy-cities-bills-debt.html](https://www.governing.com/topics/finance/gov-legacy-cities-bills-debt.html)
+- State debt is increasing: [https://worldpopulationreview.com/state-rankings/debt-by-state](https://worldpopulationreview.com/state-rankings/debt-by-state)
+- Phoenix is having rough roads: [https://www.azcentral.com/story/news/local/phoenix-traffic/2019/01/10/your-phoenix-street-repaved-next-year-check-here-road-maintenance-repairs/2357054002/](https://www.azcentral.com/story/news/local/phoenix-traffic/2019/01/10/your-phoenix-street-repaved-next-year-check-here-road-maintenance-repairs/2357054002/)
+- Frisco is in debt: [https://communityimpact.com/dallas-fort-worth/frisco/government/2020/07/09/frisco-looking-to-issue-debt-for-water-sewer-road-projects/](https://communityimpact.com/dallas-fort-worth/frisco/government/2020/07/09/frisco-looking-to-issue-debt-for-water-sewer-road-projects/)
+- City considers street fees: [https://www.reporternews.com/story/news/2020/04/21/council-considers-temporary-street-maintenance-fee-suspension-lower-water-rates/2998459001/](https://www.reporternews.com/story/news/2020/04/21/council-considers-temporary-street-maintenance-fee-suspension-lower-water-rates/2998459001/)
 
-_Road Costs:
-_Estimates per mile [https://www.fdot.gov/programmanagement/Estimates/LRE/CostPerMileModels/CPMSummary.shtm](https://www.fdot.gov/programmanagement/Estimates/LRE/CostPerMileModels/CPMSummary.shtm)
-Cost per mile [https://www.roadbotics.com/2019/12/18/how-much-does-it-cost-to-pave-1-mile-of-road/](https://www.roadbotics.com/2019/12/18/how-much-does-it-cost-to-pave-1-mile-of-road/)
-Roads and Debt [https://www.strongtowns.org/journal/2014/9/17/roads-and-debt](https://www.strongtowns.org/journal/2014/9/17/roads-and-debt)
-Who pays for road: [https://uspirg.org/reports/usp/who-pays-roads](https://uspirg.org/reports/usp/who-pays-roads)
-[https://www.bts.gov/content/public-road-and-street-mileage-united-states-type-surfacea](https://www.bts.gov/content/public-road-and-street-mileage-united-states-type-surfacea)
+_Road Costs_:
+- Estimates per mile [https://www.fdot.gov/programmanagement/Estimates/LRE/CostPerMileModels/CPMSummary.shtm](https://www.fdot.gov/programmanagement/Estimates/LRE/CostPerMileModels/CPMSummary.shtm)
+- Cost per mile [https://www.roadbotics.com/2019/12/18/how-much-does-it-cost-to-pave-1-mile-of-road/](https://www.roadbotics.com/2019/12/18/how-much-does-it-cost-to-pave-1-mile-of-road/)
+- Roads and Debt [https://www.strongtowns.org/journal/2014/9/17/roads-and-debt](https://www.strongtowns.org/journal/2014/9/17/roads-and-debt)
+- Who pays for road: [https://uspirg.org/reports/usp/who-pays-roads](https://uspirg.org/reports/usp/who-pays-roads)
+- [https://www.bts.gov/content/public-road-and-street-mileage-united-states-type-surfacea](https://www.bts.gov/content/public-road-and-street-mileage-united-states-type-surfacea)
 
-_Road materials:
-_[http://www.sciencebuzz.org/blog/asphalt-vs-concrete-potholes-aint-half-it](http://www.sciencebuzz.org/blog/asphalt-vs-concrete-potholes-aint-half-it)
-[https://pubsindex.trb.org/view.aspx?id=540297](https://pubsindex.trb.org/view.aspx?id=540297)
+_Road materials_:
+- [http://www.sciencebuzz.org/blog/asphalt-vs-concrete-potholes-aint-half-it](http://www.sciencebuzz.org/blog/asphalt-vs-concrete-potholes-aint-half-it)
+- [https://pubsindex.trb.org/view.aspx?id=540297](https://pubsindex.trb.org/view.aspx?id=540297)
 
-_History of Roads:
-_[https://www.thoughtco.com/history-of-american-roads-4077442](https://www.thoughtco.com/history-of-american-roads-4077442)
-[https://en.wikipedia.org/wiki/Federal\_Highway\_Administration](https://en.wikipedia.org/wiki/Federal_Highway_Administration)
-[https://en.wikipedia.org/wiki/History\_of\_road\_transport](https://en.wikipedia.org/wiki/History_of_road_transport)
+_History of Roads_:
+- [https://www.thoughtco.com/history-of-american-roads-4077442](https://www.thoughtco.com/history-of-american-roads-4077442)
+- [https://en.wikipedia.org/wiki/Federal\_Highway\_Administration](https://en.wikipedia.org/wiki/Federal_Highway_Administration)
+- [https://en.wikipedia.org/wiki/History\_of\_road\_transport](https://en.wikipedia.org/wiki/History_of_road_transport)
 
-Gas tax:
-[https://www.eia.gov/tools/faqs/faq.php?id=23&t=10](https://www.eia.gov/tools/faqs/faq.php?id=23&t=10)
-[http://www.tax-rates.org/washington/excise-tax#:~:text=Washington%20Gas%20Tax.%20The%20Washington%20excise%20tax%20on,is%20ranked%20%237%20out%20of%20the%2050%20states.](http://www.tax-rates.org/washington/excise-tax#:~:text=Washington%20Gas%20Tax.%20The%20Washington%20excise%20tax%20on,is%20ranked%20%237%20out%20of%20the%2050%20states.)
-[https://en.wikipedia.org/wiki/Fuel\_taxes\_in\_the\_United\_States](https://en.wikipedia.org/wiki/Fuel_taxes_in_the_United_States)
+_Gas tax_:
+- [https://www.eia.gov/tools/faqs/faq.php?id=23&t=10](https://www.eia.gov/tools/faqs/faq.php?id=23&t=10)
+- [http://www.tax-rates.org/washington/excise-tax#:~:text=Washington%20Gas%20Tax.%20The%20Washington%20excise%20tax%20on,is%20ranked%20%237%20out%20of%20the%2050%20states.](http://www.tax-rates.org/washington/excise-tax#:~:text=Washington%20Gas%20Tax.%20The%20Washington%20excise%20tax%20on,is%20ranked%20%237%20out%20of%20the%2050%20states.)
+- [https://en.wikipedia.org/wiki/Fuel\_taxes\_in\_the\_United\_States](https://en.wikipedia.org/wiki/Fuel_taxes_in_the_United_States)
 
 _Suburbs:_
-How suburbs changed America [http://www.pbs.org/fmc/segments/progseg9.htm](http://www.pbs.org/fmc/segments/progseg9.htm)
-Suburbia [https://edsitement.neh.gov/lesson-plans/building-suburbia-highways-and-housing-postwar-america](https://edsitement.neh.gov/lesson-plans/building-suburbia-highways-and-housing-postwar-america)
+- How suburbs changed America [http://www.pbs.org/fmc/segments/progseg9.htm](http://www.pbs.org/fmc/segments/progseg9.htm)
+- Suburbia [https://edsitement.neh.gov/lesson-plans/building-suburbia-highways-and-housing-postwar-america](https://edsitement.neh.gov/lesson-plans/building-suburbia-highways-and-housing-postwar-america)
 
-_Bicycles:
-_[https://monovisions.com/vintage-early-bicycles-in-the-19th-century-1850s-1890s/](https://monovisions.com/vintage-early-bicycles-in-the-19th-century-1850s-1890s/)
+_Bicycles_:
+- [https://monovisions.com/vintage-early-bicycles-in-the-19th-century-1850s-1890s/](https://monovisions.com/vintage-early-bicycles-in-the-19th-century-1850s-1890s/)
