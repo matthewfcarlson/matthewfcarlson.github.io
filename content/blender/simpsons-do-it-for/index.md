@@ -2,6 +2,7 @@
 title: "Simpsons Do It For Her"
 date: 2022-01-08T09:48:49-06:00
 draft: true
+inprogress: true
 cover:
     image: "simpsons_test3.png"
     linkFullImages: true
