@@ -117,6 +117,19 @@ Here's an inside view of the middle console so you can see the components start 
 The black thing at the back is an AOC cooler and the circles at the bottom are intakes.
 Even with the added height, it's tight.
 
+## A Side Note On Power
+
+Putting two gaming PC's, two monitors, two routers (I hate the AT&T supplied one but can't get rid of it), a raspberry PI, and a media server into a small space is one thing, but to do so with only one outlet?
+Back of the envelope math says I'll be drawing around 1500 wats at full load, which is about 12 amps.
+In the US, most houses are wired with 15amp circuits.
+For whatever reason, my house has 20 amp wiring and breakers.
+Go figure.
+So hopefully I should be okay.
+
+That said, it is a lot of power to be drawing from one outlet so I'm a little worried there.
+Additionally, I might get some sort of UPS type thing here to prevent power outages.
+At least for the network equipment. 
+
 # From 3d Model to Wood
 
 1/2" sanded plywood is pretty cheap and since it's just going to get painted, I'm not too worried about the wood, just that it's flat and easy to work with.
