@@ -5,5 +5,5 @@ draft: true
 cover:
     image: "cover.jpg"
 tags:
-  - musing
+  - opinion
 ---
