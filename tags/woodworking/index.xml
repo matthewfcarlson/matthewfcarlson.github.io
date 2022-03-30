@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>woodworking on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/woodworking/</link>
+    <description>Recent content in woodworking on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Mar 2022 15:18:46 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/woodworking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hidden Pc Tower</title>
+      <link>https://matthewc.dev/projects/hidden-pc-tower/</link>
+      <pubDate>Wed, 30 Mar 2022 15:18:46 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/projects/hidden-pc-tower/</guid>
+      <description>I work on computers. Not in the abstract, &amp;ldquo;they&amp;rsquo;re in the cloud&amp;rdquo; sense but in the more literally I often have a large stack of them on my desk. I think at one point I had around 10ish machines at my desk or in drawers. This means that my desk in the office has sprawling tentacles of wires snaking out across the room. There are multiple power strips to power multiple desktops.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,16 @@
     <description>Recent content on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Mar 2022 09:48:27 -0500</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 15:18:46 -0500</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hidden Pc Tower</title>
+      <link>https://matthewc.dev/projects/hidden-pc-tower/</link>
+      <pubDate>Wed, 30 Mar 2022 15:18:46 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/projects/hidden-pc-tower/</guid>
+      <description>I work on computers. Not in the abstract, &amp;ldquo;they&amp;rsquo;re in the cloud&amp;rdquo; sense but in the more literally I often have a large stack of them on my desk. I think at one point I had around 10ish machines at my desk or in drawers. This means that my desk in the office has sprawling tentacles of wires snaking out across the room. There are multiple power strips to power multiple desktops.</description>
+    </item>
+    
     <item>
       <title>Burger Boy</title>
       <link>https://matthewc.dev/blender/burger-boy/</link>
