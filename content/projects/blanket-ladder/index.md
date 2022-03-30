@@ -67,5 +67,6 @@ Ultimately I didn't love the look of the stained poplar and oak together, so I d
 
 I first sprayed it with some primer to get good adhesion. 
 
-![image alt text](IMG_0005.png)
+![tape up](IMG_0005.png)
+![spray painted](spray_paint.png)
 
