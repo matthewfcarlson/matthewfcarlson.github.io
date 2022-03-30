@@ -1,13 +1,14 @@
 ---
 title: "Hidden Pc Tower"
 date: 2022-03-06T08:58:55-06:00
-draft: true
+inprogress: true
 cover:
-    image: "cover.jpg"
+    image: "prototype_4_inside.jpeg"
 tags:
   - woodworking
   - furniture
   - office
+showtoc: true
 ---
 
 I work on computers. Not in the abstract, "they're in the cloud" sense but in the more literally I often have a large stack of them on my desk.

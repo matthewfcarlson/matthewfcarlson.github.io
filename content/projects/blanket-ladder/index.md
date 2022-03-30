@@ -6,6 +6,7 @@ tags:
   - woodworking
 cover:
     image: "test.jpg"
+showtoc: true
 ---
 
 We recently moved and my wife had a request.

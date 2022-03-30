@@ -9,7 +9,7 @@ tags:
   - KiCAD
   - keyboard
   - office
-#  - woodworking
+showtoc: true
 ---
 
 Like many programmers/engineers/gamers, I've found that I just enjoy mechanical keyboards.
@@ -56,7 +56,7 @@ First step was to crack open the keyboard.
 IFixIt has a [wonderful teardown guide](https://www.ifixit.com/Teardown/Magic+Keyboard+Teardown/50995) for previous magic keyboards.
 I wasn't able to find a video of a more recent teardown, so I was going in pretty dark.
 
-The glue on the back was pretty substanital and I'll admit it took me a while to think of a hairdryer.
+The glue on the back was pretty substanital and I'll admit it took me a while to think of using a hairdryer.
 With a little bit of heat, it came off pretty easily.
 Inside a combination of T3 and T4 screws held it together.
 After 30ish screws, I had a logic board.
@@ -93,6 +93,7 @@ I ordered one of each and designed a little PCB that accepted each of the footpr
 This will allow me to probe the circuit board more deeply.
 
 For that I used the [Sparkfun 16 Output I/O Expander](https://www.sparkfun.com/products/13601).
+![sparkfun's io expander](sparkfun_io.jpg)
 
 With three of these, I can pull 48 inputs.
 With a little ardunio, I can print in the console to hold a specific key and it scans every combination trying to find the pair that connects them.
