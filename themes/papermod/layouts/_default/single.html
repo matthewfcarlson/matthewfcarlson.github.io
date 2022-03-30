@@ -6,6 +6,7 @@
     <h1 class="post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+      {{- if (.Param "inprogress") }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[in progress]</span></sup>{{- end }}
     </h1>
     {{- if .Description }}
     <div class="post-description">
@@ -23,6 +24,13 @@
   </header>
   {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "inprogress") }}
+  <div class="in-progress-well">
+    <h1><i class="fa-solid fa-person-digging"></i> This work is in progress.</h1>
+    <p>This article is not be complete and the project might not be even close to finished.</p>
+    <p>Keep that in mind as you read. I'd like to keep these open to the public so you could follow along, but I might turn these back to hidden.</p>
+  </div>
+  {{- end }}
   {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
   {{- end }}

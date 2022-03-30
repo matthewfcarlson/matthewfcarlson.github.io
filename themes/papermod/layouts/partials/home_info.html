@@ -11,7 +11,7 @@
 
     {{- end }}
     <section class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
+        <p>{{ .Content | safeHTML }}</p>
     </section>
     <footer class="entry-footer">
         {{ partial "social_icons.html" $.Site.Params.socialIcons }}

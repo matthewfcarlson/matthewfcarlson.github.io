@@ -27,9 +27,25 @@
     margin-inline-start: auto;
 }
 
+.in-progress-well {
+    border-top:1px solid var(--primary);
+    border-bottom:1px solid var(--primary);
+    background: var(--theme);
+    padding:1em;
+    margin-bottom:0.5em;
+}
+
 .social-icons {
     padding: 12px 0;
 }
+
+.inline-svg {
+    display: inline-block;
+    height: 1.15rem;
+    width: 1.15rem;
+    top: 0.15rem;
+    position: relative;
+  }
 
 .social-icons a:not(:last-of-type) {
     margin-inline-end: 12px;
