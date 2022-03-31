@@ -10,7 +10,6 @@ mermaid: true
 summary: A custom ladder that stores blankets for our family room
 ---
 
-## Todo Graph
 {{<mermaid>}}
 flowchart TD
   %% what's done %%
@@ -19,8 +18,8 @@ flowchart TD
   subgraph Shaping
     s_rungs("Cut Rungs"):::done
     s_rails("Cut Rails"):::done
-    s_route_outside("Round Outside Rails"):::done
-    s_route_inside("Round Inside Rails"):::done
+    s_route_outside("Round Outside of Rails"):::done
+    s_route_inside("Round Inside of Rails"):::done
   end
   subgraph Painting
     p_select["Select Paint Color"]
@@ -35,10 +34,10 @@ flowchart TD
   end
   %% sequence %%
     s_rungs-->a_glue
-    s_route_outside-->a_glue
-    s_rails-->s_route_outside
-    a_glue-->s_route_inside
-    s_route_inside-->p_prime
+    s_route_inside-->a_glue
+    s_rails-->s_route_inside
+    a_glue-->s_route_outside
+    s_route_outside-->p_prime
     p_select-->p_paint
     p_prime-->p_sand
     p_sand-->p_paint

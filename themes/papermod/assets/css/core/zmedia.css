@@ -42,6 +42,9 @@
     .list .top-link {
         transform: translateY(-5rem);
     }
+    .mermaid {
+        display:none;
+    }
 }
 
 @media (prefers-reduced-motion) {
