@@ -8,7 +8,7 @@ enableGitInfo: true
 publishdir: 'docs'
 buildFuture: true
 enableRobotsTXT: true
-enableInlineShortcodes: true
+timeout: 60000
 
 frontmatter:
   date:
