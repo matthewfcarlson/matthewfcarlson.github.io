@@ -10,7 +10,28 @@ tags:
   - keyboard
   - office
 showtoc: true
+mermaid: true
+summary: A custom low-profile mechanical keyboard that has Touch ID. The Hannah Montana of keyboards.
 ---
+
+## Todo Graph
+
+{{<mermaid>}}
+flowchart TD
+  %% what's done %%
+  classDef done fill:#9f6,stroke:#333,stroke-width:2px;
+  %% items %%
+  disassemble["Take Keyboard apart and extract logic board"]:::done
+  reverse_engineer["Reverse engineer the circuit from the flex cable"]
+  design_keyboard["Design a PCB that can accommodate the magic keyboard PCB"]
+  build_pcb["Fab and assemble the PCB"]
+  %% sequence %%
+    disassemble-->reverse_engineer
+    reverse_engineer-->design_keyboard
+    design_keyboard-->build_pcb
+{{</mermaid>}}
+
+## The Build
 
 Like many programmers/engineers/gamers, I've found that I just enjoy mechanical keyboards.
 
