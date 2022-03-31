@@ -147,6 +147,7 @@ I laid things out to leave some space in the front for a small shelf, but I real
 Perhaps I'll add a fake door that doesn't open with a handle for a better illusion.
 But I need to accept the fact that I am seriously space constrained with my current plan.
 
+I filled in the grain of the side panels with some watered down grain filler.
 
 
 # Tweaks Along The Way

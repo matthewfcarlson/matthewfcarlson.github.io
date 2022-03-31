@@ -1,13 +1,49 @@
 ---
 title: "Blanket Ladder"
 date: 2022-02-19T20:38:57-06:00
-draft: true
+inprogress: true
 tags:
   - woodworking
 cover:
     image: "test.jpg"
-showtoc: true
+mermaid: true
 ---
+
+## Todo Graph
+{{<mermaid>}}
+flowchart TD
+  %% what's done %%
+  classDef done fill:#9f6,stroke:#333,stroke-width:2px;
+  %% items %%
+  subgraph Shaping
+    s_rungs("Cut Rungs"):::done
+    s_rails("Cut Rails"):::done
+    s_route_outside("Round Outside Rails"):::done
+    s_route_inside("Round Inside Rails"):::done
+  end
+  subgraph Painting
+    p_select["Select Paint Color"]
+    p_prime("Prime Rails"):::done
+    p_paint["Paint Rails"]
+    p_sand["Sand Primer"]
+    p_seal["Seal The Rungs"]
+  end
+  subgraph Assembly
+    a_glue("Glue Rails and Rungs Together"):::done
+    a_weights["Add weights to bottom"]
+  end
+  %% sequence %%
+    s_rungs-->a_glue
+    s_route_outside-->a_glue
+    s_rails-->s_route_outside
+    a_glue-->s_route_inside
+    s_route_inside-->p_prime
+    p_select-->p_paint
+    p_prime-->p_sand
+    p_sand-->p_paint
+    p_paint-->p_seal
+    p_seal-->a_weights
+{{</mermaid>}}
 
 We recently moved and my wife had a request.
 She wanted something tall to change the visual weight of the room.
@@ -66,7 +102,7 @@ Ultimately I didn't love the look of the stained poplar and oak together, so I d
 
 # Painting
 
-I first sprayed it with some primer to get good adhesion. 
+I first sprayed it with some primer to get good adhesion.
 
 ![tape up](IMG_0005.png)
 ![spray painted](spray_paint.png)

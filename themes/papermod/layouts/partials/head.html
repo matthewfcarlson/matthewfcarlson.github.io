@@ -95,6 +95,11 @@
 {{- end }}
 {{- end }}
 
+<!-- MermaidJS (if enabled in front matter) -->
+{{ if (.Params.mermaid) }}
+<script async src="https://unpkg.com/mermaid@latest/dist/mermaid.min.js"></script>
+{{ end }}
+
 {{- /* Favicons */}}
 <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
