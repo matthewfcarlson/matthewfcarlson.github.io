@@ -7,6 +7,7 @@ tags:
 cover:
     image: "test.jpg"
 mermaid: true
+summary: A custom ladder that stores blankets for our family room
 ---
 
 ## Todo Graph
