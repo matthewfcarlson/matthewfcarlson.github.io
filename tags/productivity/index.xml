@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>productivity on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/productivity/</link>
+    <description>Recent content in productivity on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2022 14:19:56 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Ode To Paper Todos</title>
+      <link>https://matthewc.dev/musings/paper-todos/</link>
+      <pubDate>Sun, 10 Apr 2022 14:19:56 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/musings/paper-todos/</guid>
+      <description>I love a todo list. It captures my goals and desires in a semi-succinct and concrete way. There are hundreds if not thousands of todo apps and methods. But to me personally, one stands out above all the others.
+A simple 3x5 notecard.
+This is a how-to or a help article. This is a love letter.
+A love letter to paper.
+The simple idea of writing down your list of things to do on a physical surface with your own hand is something I love.</description>
+    </item>
+    
+  </channel>
+</rss>
