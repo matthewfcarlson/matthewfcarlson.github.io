@@ -1,49 +1,13 @@
 ---
 title: "Blanket Ladder"
+publishDate: 2022-04-17T20:42:09-06:00
 date: 2022-02-19T20:38:57-06:00
-inprogress: true
 tags:
   - woodworking
 cover:
     image: "test.jpg"
-mermaid: true
 summary: A custom ladder that stores blankets for our family room
 ---
-
-{{<mermaid>}}
-flowchart TD
-  %% what's done %%
-  classDef done fill:#9f6,stroke:#333,stroke-width:2px;
-  %% items %%
-  subgraph Shaping
-    s_rungs("Cut Rungs"):::done
-    s_rails("Cut Rails"):::done
-    s_route_outside("Round Outside of Rails"):::done
-    s_route_inside("Round Inside of Rails"):::done
-  end
-  subgraph Painting
-    p_select["Select Paint Color"]
-    p_prime("Prime Rails"):::done
-    p_paint["Paint Rails"]
-    p_sand["Sand Primer"]
-    p_seal["Seal The Rungs"]
-  end
-  subgraph Assembly
-    a_glue("Glue Rails and Rungs Together"):::done
-    a_weights["Add weights to bottom"]
-  end
-  %% sequence %%
-    s_rungs-->a_glue
-    s_route_inside-->a_glue
-    s_rails-->s_route_inside
-    a_glue-->s_route_outside
-    s_route_outside-->p_prime
-    p_select-->p_paint
-    p_prime-->p_sand
-    p_sand-->p_paint
-    p_paint-->p_seal
-    p_seal-->a_weights
-{{</mermaid>}}
 
 We recently moved and my wife had a request.
 She wanted something tall to change the visual weight of the room.
@@ -106,4 +70,9 @@ I first sprayed it with some primer to get good adhesion.
 
 ![tape up](IMG_0005.png)
 ![spray painted](spray_paint.png)
+
+Then I painted several coats on the outside with some enamel paint I had laying around for a nice hard finish.
+I sealed the rungs with some general purpose sealer.
+
+Overall I think it turned out really good. 
 
