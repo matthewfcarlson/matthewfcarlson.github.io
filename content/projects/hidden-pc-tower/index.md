@@ -9,64 +9,8 @@ tags:
   - furniture
   - office
 showtoc: true
-mermaid: true
 summary: Two gaming PCs built into furniture for a wire-free look. A project log that details what all is going on and the process
 ---
-## Todo Graph
-
-{{<mermaid>}}
-flowchart TD
-  %% what's done %%
-  classDef done fill:#9f6,stroke:#333,stroke-width:2px;
-  %% items %%
-  %% subgraph Woodworking
-    w_rough_cut("Roughly cut the shapes out of plywood"):::done
-    w_aluminum("Cut the aluminum rods to length"):::done
-    w_fans("Cut venting holes")
-    w_usb("Add holes for USB"):::done
-    w_assemble("Assemble the box together")
-    w_shelf("Build the top shelf")
-    w_attach_shelf("Attach the Shelf")
-    w_shelf_door("Build door for shelf")
-  %% end
-  %% subgraph Painting
-    p_grain_fill("Fill in the grain on the outside"):::done
-    p_decide("Decide paint color")
-    p_sand("Sand the outside")
-    p_paint("Paint outside of the box")
-    p_paint_shelf("Paint the shelf")
-  %% end
-  %% subgraph Electronics
-    e_parts("Install parts inside case")
-    e_covers("Add Covers For Fans")
-    e_power("Add power cable to inside")
-    e_route("Route wires up aluminum tubes")
-    e_media("Add Media server inside shelf")
-    e_monitors("Add monitors to shelf via brackets")
-  %% end
-  %% sequence %%
-    w_rough_cut-->p_grain_fill
-    p_grain_fill-->p_sand
-    p_sand-->w_assemble
-    w_aluminum-->w_assemble
-    w_fans-->w_assemble
-    w_usb-->w_assemble
-    p_decide-->p_paint
-    w_assemble-->p_paint
-    p_paint-->e_parts
-    p_paint-->e_power
-    p_paint-->e_covers
-    e_parts-->e_route
-    w_shelf-->w_attach_shelf
-    e_route-->w_attach_shelf
-    w_attach_shelf-->w_shelf_door
-    w_shelf_door-->p_paint_shelf
-    w_attach_shelf-->e_media
-    w_attach_shelf-->e_monitors
-    
-    
-{{</mermaid>}}
-
 
 I work on computers. Not in the abstract, "they're in the cloud" sense but in the more literally I often have a large stack of them on my desk.
 I think at one point I had around 10ish machines at my desk or in drawers.
@@ -205,6 +149,16 @@ Perhaps I'll add a fake door that doesn't open with a handle for a better illusi
 But I need to accept the fact that I am seriously space constrained with my current plan.
 
 I filled in the grain of the side panels with some watered down grain filler.
+
+Glue up came next with some handy 45 degree clamps since I was only glueing up three out of the four sides.
+
+![version 4 gluing up](glueup.jpg)
+
+With everything glued up, it was time to start stuffing parts inside.
+
+![version 4 all integrated](first_integration.jpg)
+
+You can see here all the parts are in their correct spot and while the wiring is a bit of a mess, it all fits fairly well. I still need to fit in the next PC and an additional power supply, which seems like a somewhat tall order.
 
 
 # Tweaks Along The Way
