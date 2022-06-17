@@ -20,7 +20,7 @@ summary: A custom low-profile mechanical keyboard that has Touch ID. The Hannah 
 flowchart TD
   %% what's done %%
   classDef done fill:#9f6,stroke:#333,stroke-width:2px;
-  %% items %%
+  %% items %% 
   disassemble["Take Keyboard apart and extract logic board"]:::done
   reverse_engineer["Reverse engineer the circuit from the flex cable"]
   design_keyboard["Design a PCB that can accommodate the magic keyboard PCB"]
@@ -119,6 +119,13 @@ For that I used the [Sparkfun 16 Output I/O Expander](https://www.sparkfun.com/p
 With three of these, I can pull 48 inputs.
 With a little ardunio, I can print in the console to hold a specific key and it scans every combination trying to find the pair that connects them.
 From there we can build up a matrix since I'm assuming it uses a scanning matrix.
+
+Rather than get the sparkfun board itself and have to wire up a rats nest, since we're already ordering a PCB, let's put the SX1509 right onto the PCB.
+I just wanted to shout out to sparkfun as I stole their design and used it on my board.
+Here's the schematic:
+![reverse engineering board](reverse_pcb_schematic.png)
+
+The board files are up on Github. TODO: add link to github files after the repo is public.
 
 # Keyboard Layout
 
