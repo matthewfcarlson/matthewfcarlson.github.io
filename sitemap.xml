@@ -3,8 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matthewc.dev/</loc>
-    <lastmod>2022-04-17T20:59:55-05:00</lastmod>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://matthewc.dev/tags/finance/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/money/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/opinion/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/musings/selective-rich/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/</loc>
+    <lastmod>2022-06-17T22:32:42-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/projects/blanket-ladder/</loc>
     <lastmod>2022-04-17T20:59:55-05:00</lastmod>
@@ -12,19 +30,10 @@
     <loc>https://matthewc.dev/projects/</loc>
     <lastmod>2022-04-17T20:59:55-05:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/tags/</loc>
-    <lastmod>2022-04-17T20:59:55-05:00</lastmod>
-  </url><url>
     <loc>https://matthewc.dev/tags/woodworking/</loc>
     <lastmod>2022-04-17T20:59:55-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/paper-todos/</loc>
-    <lastmod>2022-04-10T16:15:07-05:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/musings/</loc>
-    <lastmod>2022-04-10T16:15:07-05:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/opinion/</loc>
     <lastmod>2022-04-10T16:15:07-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/productivity/</loc>
