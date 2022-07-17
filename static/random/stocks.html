@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stonks</title>
+        <!-- Add this to <head> -->
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <!-- Add this after vue.js -->
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      window.Vue = Vue;
+      //Vue.use(VuePlugin);
+    </script>
+  </head>
+  <body>
+    <div id="vm">
+      <template>
+        <b-container v-if="game_started == false">
+            <h1>Stock type game</h1>
+            <p>This game is about borrowing and selling stocks</p>
+            <p>You'll likely need someone to run it, asking player what they'd like to do each year. There will be seven years in total.</p>
+            <b>Players</b>
+            <ul>
+                <li v-for="player in player_names">{{player}}</li>
+            </ul>
+            <input type="text" placeholder="new players name" v-model="new_player" />
+            <b-button variant="info" @click="add_player" :disabled="new_player.length == 0">Add Player</b-button>
+            <br/>
+            <br />
+            <b-button variant="success" @click="start_game" :disabled="player_names.length < 2" >Start Game</b-button>
+        </b-container>
+        <b-container v-else-if="year <= 7">
+            <b-jumbotron :header="'Year '+year">
+                <h1>Stock ${{stock_price.toFixed(2)}}</h1>
+                <p>For more information visit website</p>
+                <b-table hover :items="ranked_players" :fields="fields"></b-table>
+                <hr class="my-4">
+                <h2>{{current_player_name}}, what do you want to do?</h2>
+                <b-button variant="primary" @click="buy" :disabled="!can_buy" href="#">Buy {{current_input}}/{{max_buy}}</b-button>
+                <b-button variant="info" @click="sell ":disabled="!can_sell" href="#">Sell {{current_input}}/{{stocks[current_player_turn]}}</b-button>
+                <b-button variant="success" @click="borrow_start" href="#">Borrow</b-button>
+                <b-button variant="warning" @click="collect" :disabled="collect_count == 0" href="#">Collect all {{collect_count}}</b-button>
+                <b-button variant="secondary" @click="advance" href="#">Nothing</b-button>
+                <input type="number" placeholder="count" v-model="input_count"/>
+            </b-jumbotron>
+        </b-container>
+        <b-container v-else>
+            <h1>Game over</h1>
+            <h2>Stock ${{stock_price.toFixed(2)}}</h2>
+            <b-table hover :items="ranked_players" :fields="fields2"></b-table>
+        </b-container>
+        <!-- Info modal -->
+        <b-modal id="modalInfo" :title="modalInfo.title" cancel-disabled ok-disabled >
+            <b-list-group>
+                <b-list-group-item v-for="lender in lenders" @click="lend(lender.index)" href="#">{{lender.name}}</b-list-group-item>
+                <b-list-group-item @click="lend(-1)" href="#">No one</b-list-group-item>
+            </b-list-group>
+        </b-modal>
+
+      </template>
+    </div>
+<script type="text/javascript">
+  var app=  new Vue({
+  el: '#vm',
+  data: {
+    input_count:1,
+    year: 1,
+    stock_price:1,
+    stock_indicator:0,
+    money:[],
+    ious:[],
+    new_player: '',
+    game_started: false,
+    stocks:[],
+    player_names: [],
+    current_player_turn:0,
+    fields: [
+        {
+        key: 'name',
+        sortable: false
+        },
+        {
+        key: 'total',
+        label: 'Net Worth',
+        sortable: true
+        },
+        {
+        key: 'money',
+        label: 'Cash',
+        },
+        {
+        key: 'stocks',
+        label: 'Stocks',
+        },
+        {
+        key: 'debt',
+        label: 'Debt',
+        },
+        {
+        key: 'owed',
+        label: 'Owed',
+        }
+    ],
+    fields2: [
+        {
+        key: 'name',
+        sortable: false
+        },
+        {
+        key: 'final',
+        label: 'Final Worth',
+        sortable: true
+        },
+        {
+        key: 'money',
+        label: 'Cash',
+        },
+        {
+        key: 'stocks',
+        label: 'Stocks',
+        },
+    ],
+    modalInfo: { title: '' }
+  },
+  mounted() {
+    console.log('app created...');
+  },
+  computed: {
+    current_player_name() {
+        return this.player_names[this.current_player_turn];
+    },
+    current_input() {
+        if (this.input_count == '') return 0;
+        return parseInt(this.input_count) || 0;
+    },
+    collect_count() {
+        // TODO: figure out how much we can collect
+        if (this.player_names.length == 0) return 0;
+        return this.ranked_players[this.current_player_turn].owed;
+    },
+    lenders() {
+        const request = this.current_input;
+        const current_p = this.current_player_turn;
+        const money = this.money;
+        return this.player_names.map((name,index)=>{
+            return {
+                name,
+                index
+            }
+        }).filter((x)=>{
+            if (x.index == current_p) return false;
+            if (money[x.index] < request) return false;
+            return true;
+        })
+    },
+    can_sell() {
+        // TODO: figure out how much we can collect
+        const stonks = this.stocks[this.current_player_turn];
+        if (this.current_input == 0) return false;
+        return stonks >= this.current_input;
+    },
+    can_buy() {
+        // TODO: figure out how much we can collect
+        const money = this.money[this.current_player_turn];
+        if (this.current_input == 0) return false;
+        return money >= (this.stock_price * this.current_input);
+    },
+    max_buy() {
+        // TODO: figure out how much we can collect
+        const money = this.money[this.current_player_turn];
+        return Math.floor(money / this.stock_price);
+    },
+    ranked_players() {
+        const self = this;
+        let player_data = this.player_names.map((name,index)=>{
+            const final = self.money[index] + self.stocks[index] * self.stock_price;
+            const debt = self.ious.reduce((acc,x)=>{return acc+x[index]},0);
+            let owed = 0;
+            for (const key in self.ious[index]) {
+                owed += self.ious[index][key]
+            }
+            const total = final + owed - debt ;
+            let data = {
+                'id': index,
+                'name': name,
+                'final': total.toFixed(2),
+                'money': (self.money[index] || 0).toFixed(2),
+                'stocks': self.stocks[index],
+                'owed': owed.toFixed(2),
+                'debt': debt.toFixed(2),
+                'total':total.toFixed(2),
+                //'ious': 
+            };
+            if (index == self.current_player_turn) data['_rowVariant'] = 'success';
+            return data;
+        });
+        return player_data;
+    }
+  },
+  methods: {
+    info (amount, player, button) {
+      this.modalInfo.title = `Who wants to lend ${player} $${amount}?`
+      this.$root.$emit('bv::show::modal', 'modalInfo', button)
+    },
+    borrow_start(event) {
+        this.info(this.current_input, this.player_names[this.current_player_turn], event.target);
+    },
+    buy() {
+        if (!this.can_buy) return;
+        // Figure out how much we need to buy
+        const cost = this.current_input * this.stock_price;
+        if (this.money[this.current_player_turn] < cost) return;
+        this.money[this.current_player_turn] -= cost;
+        this.stocks[this.current_player_turn] += this.current_input;
+        this.stock_indicator += this.current_input;
+        this.advance();
+    },
+    sell() {
+        if (!this.can_sell) return;
+        // Figure out how much we need to buy
+        const profit = this.current_input * this.stock_price;
+        if (this.stocks < this.current_input) return;
+        this.money[this.current_player_turn] += profit;
+        this.stocks[this.current_player_turn] -= this.current_input;
+        this.stock_indicator -= this.current_input;
+        this.advance();
+    },
+    add_player() {
+        this.player_names.push(this.new_player);
+        this.new_player = "";
+    },
+    start_game() {
+        if (this.player_names.length < 2) return;
+        for (let i = 0; i < this.player_names.length; i++) {
+            this.money.push(10);
+            this.ious.push({});
+            for (let j = 0; j < this.player_names.length; j++) this.$set(this.ious[i], j, 0);
+            this.stocks.push(0);
+        }
+        this.game_started = true;
+    },
+    collect() {
+        if (this.collect_count == 0) return;
+
+        const ious = this.ious[this.current_player_turn];
+        for (const borrower in ious) {
+            let value = ious[borrower];
+            if (value == 0) continue
+            const payment = Math.min(this.money[borrower], value);
+            this.money[borrower] -= payment;
+            this.money[this.current_player_turn] += payment;
+            ious[borrower] -= payment;
+            // See if they can sell stock to cover it
+            while (ious[borrower] >= this.stock_price && this.stocks[borrower] > 0) {
+                this.money[this.current_player_turn] += this.stock_price;
+                this.stocks[borrower] -= 1;
+                ious[borrower] -= this.stock_price;
+            }
+        }
+
+        this.advance();
+    },
+
+    lend(lender_index) {
+        if (lender_index >= 0) {
+            this.money[this.current_player_turn] += this.current_input;
+            this.money[lender_index] -= this.current_input;
+            this.ious[lender_index][this.current_player_turn] += this.current_input;
+            // TODO: figure 
+            this.advance();
+        }
+        this.$bvModal.hide('modalInfo')
+    },
+
+    calculate_new_stock_price() {
+        // what is the total stocks
+        const max_stock = this.stocks.reduce((acc,x)=>acc+x,0) + this.money.reduce((acc,x)=>acc+x,0) / this.stock_price;
+        let offset = (this.stock_indicator/2) / (max_stock);
+        if (offset < 0) offset = offset / 1.5;
+        if (offset > 0.5) offset = 0.5;
+        if (offset < -0.5) offset = -0.5;
+        offset += 1.01;
+        console.log(offset);
+        console.log("Max Stock", max_stock, this.stock_indicator, offset);
+        this.stock_indicator = 0;
+        this.stock_price = this.stock_price * offset;
+        if (this.stock_price < 0.5) this.stock_price = 0.5;
+    },
+
+    calculate_new_ious() {
+        for (const player in this.ious) {
+            for (const borrower in this.ious[player]) {
+                if (this.ious[player][borrower] == 0) continue;
+                this.ious[player][borrower] = (this.ious[player][borrower]*1.1);
+            }
+        }
+        console.log(this.ious);
+    },
+
+    advance() {
+        this.current_player_turn ++;
+        if (this.current_player_turn >= this.player_names.length) {
+            this.current_player_turn = 0;
+            this.year ++;
+            this.calculate_new_stock_price();
+            this.calculate_new_ious();
+        }
+        if (this.year == 8) this.current_player_turn = -1;
+    },
+    resetModal () {
+      this.modalInfo.title = ''
+      this.modalInfo.content = ''
+    },
+  },
+});
+</script>
+  </body>
+</html>
