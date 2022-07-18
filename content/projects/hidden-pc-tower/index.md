@@ -9,8 +9,11 @@ tags:
   - furniture
   - office
 showtoc: true
+draft: true
 summary: Two gaming PCs built into furniture for a wire-free look. A project log that details what all is going on and the process
 ---
+
+# SHELVED INDEFINITELY
 
 I work on computers. Not in the abstract, "they're in the cloud" sense but in the more literally I often have a large stack of them on my desk.
 I think at one point I had around 10ish machines at my desk or in drawers.
