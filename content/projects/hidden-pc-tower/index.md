@@ -1,6 +1,7 @@
 ---
 title: "Hidden Pc Tower"
 date: 2022-03-06T08:58:55-06:00
+draft: true
 inprogress: true
 cover:
     image: "prototype_4_inside.jpeg"
