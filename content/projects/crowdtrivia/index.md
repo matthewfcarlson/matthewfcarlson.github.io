@@ -59,6 +59,9 @@ ffmpeg \
 I just needed to write to the virtual camera.
 This a future area of improvement but in the meantime, I found [pyvirtualcam](https://github.com/letmaik/pyvirtualcam), which allows you to write straight to the virtual camera from python using numpy.
 In the future, I'd like to further explore rewriting this code in something faster if needed.
+It would be nice to do away with python and write to the virtual camera itself (in linux this is just a file and it's relatively easy).
+There was a quick attempt at this but getting something that could write to the OBS virtual camera in windows (where I was prototyping) and Linux with a minimal toolchain sucked.
+C/C++ is actually pretty decent in my eyes but setting it up is awful (you have specify exactly what files you want, which means an IDE is almost a must instead of optional. I dislike makefiles as they are often huge jumbled piles of garbage, lots of strong opinions here).
 I could remove the virtual camera, write the image data directly to a stream and pump that into FFMPEG, but I found significantly less documentation on that.
 
 While ugly, the prototype perf looked good as writing every pixel every frame still spends 80% of each frame time in idle.
@@ -78,6 +81,9 @@ With that up, I just pointed it at my virtual webcam (make sure to write frames 
 
 There are now two pieces of this: the renderer and the brain.
 The renderer pushes pixels to the virtual webcam and the brain keeps track of the questions.
+I thought about using solid.js and tinkered with it a bit but decided to go down the route I know: Vue.JS.
+I borrowed the [vitesome](https://github.com/alvarosabu/vitesome) starter template and after creating a bit of an adapter so the websocket, api, and other stuff would still work whether I was using the express backend or the vite dev server, I had something decent.
+
 
 ## Step 4: Integrating with Streams
 
