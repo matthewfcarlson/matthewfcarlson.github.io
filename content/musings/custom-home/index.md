@@ -33,6 +33,8 @@ The categories broadly are:
 
 ## Electricity
 
+![Photo courtesy of Nubelson Fernandes](vivint-solar-9CalgkSRZb8-unsplash.jpg)
+
 This is perhaps the most obvious of all the inputs and outputs of a home.
 Electricity comes in from the grid and it doesn't generally flow out unless you have solar.
 However, the input and output are far more tied together than most people think.
@@ -54,6 +56,23 @@ The key is that the power comes through the battery and the grid charges the bat
 Plenty of houses have it and it's not anything special.
 
 ## Water
+
+Now we start getting into the non standard territory.
+Water will increasingly become more complicated as there is less of the clean version.
+We've got gobs of salty, dirty, and gray water all around us.
+It's just the last 120ish years that we've gotten spoiled by pulling a knob and as much water as we wanted coming out unimpeded.
+Water is not something we expect to get, it comes to us.
+
+Obviously, there are those with septic systems (covered later in waste) or are far enough out that they have a well or rainwater system.
+If your house is in a "normal" location, why go through the hassle of a a well or rainwater system?
+The local utilities have you covered.
+
+What about when they don't?
+What about when there's a leak in the system and your wastewater treatment plant is getting 50% more water than it was designed to process and suddenly your water has unsafe levels of particles and bacteria in it.
+What about lead in pipes or any other disaster that can interrupt the water supply?
+
+The whole point of this thought experiment house is designing something that uses, but does not rely on common infrastructure.
+So the easiest solution would be to first pump water in from the grid and store in, then push
 
 ## Heat
 
