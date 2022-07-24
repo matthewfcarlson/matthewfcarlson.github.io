@@ -30,6 +30,9 @@ It offers more replayability than trivia questions, what are of dubious quality,
 
 So with that all out of the way, let's get into how I made it.
 
+> Warning: this next bit is sort of long, so if you're looking for tl;dr, there isn't one.
+> Maybe just go play?
+
 ## Step 1: Getting a stream up
 
 I had never streamed on anything before and digging into the documentation showed that RTMP seemed to be fairly prevalant.
@@ -57,17 +60,18 @@ ffmpeg \
 ```
 
 I just needed to write to the virtual camera.
-This a future area of improvement but in the meantime, I found [pyvirtualcam](https://github.com/letmaik/pyvirtualcam), which allows you to write straight to the virtual camera from python using numpy.
-In the future, I'd like to further explore rewriting this code in something faster if needed.
-It would be nice to do away with python and write to the virtual camera itself (in linux this is just a file and it's relatively easy).
-There was a quick attempt at this but getting something that could write to the OBS virtual camera in windows (where I was prototyping) and Linux with a minimal toolchain sucked.
-C/C++ is actually pretty decent in my eyes but setting it up is awful (you have specify exactly what files you want, which means an IDE is almost a must instead of optional. I dislike makefiles as they are often huge jumbled piles of garbage, lots of strong opinions here).
-I could remove the virtual camera, write the image data directly to a stream and pump that into FFMPEG, but I found significantly less documentation on that.
+I found [pyvirtualcam](https://github.com/letmaik/pyvirtualcam), which allows you to write straight to the virtual camera from python using numpy.
+This allowed me quickly prototype the idea but I later revisited this.
+Performance was quite good when writing to the screen each pixel each frame. But once I started rendering text with antialiasing, the performance tanked.
+I pulled out the python and went straight for C++ as the bindings in pyvirtualcam were to a C++ ABI, so it wasn't a stretch to just adapt those to a C++ codebase.
+Getting freetype2 and other goodies rendering to the screen was another hurdle to get over and I'm basically writing a graphics library that outputs to a memory buffer.
+I suspect there's a library that does that or a way to get OpenGL to write to an array rather than window, but some of the options I looked at didn't really list this as a scenario.
+Perhaps something to investigate in the future.
 
-While ugly, the prototype perf looked good as writing every pixel every frame still spends 80% of each frame time in idle.
+In the future, I could remove the virtual camera, write the image data directly to a stream and pump that into FFMPEG, but I found significantly less documentation on that.
 The VM is on Azure (still have free credits) and it's just a small 2 core, 4GB machine and it still has plenty of overhead (running at around 30% on both cores and 700MB of used memory even when sending to two stream sources).
 
-Getting v4l2loopback setup and figuring out why Youtube wasn't liking my stream (needs an audio compoenent) or what the difference between yuv420p and yuvj420p all took time but I was happy to see it working.
+Getting v4l2loopback setup and figuring out why Youtube wasn't liking my stream (needs an audio component) or what the difference between yuv420p and yuvj420p all took time but I was happy to see it working.
 
 ## Step 2: Getting the stream to two places
 
@@ -77,26 +81,29 @@ It comes in a nice docker container and with an Apache 2 license.
 Luckily, I had messed with docker on an earlier project and it ended up being pretty easy to configure.
 With that up, I just pointed it at my virtual webcam (make sure to write frames to it) and I quickly had two streams up and going.
 
+I still needed to test the overall latency of the stream though to figure out how to build the system.
+It can be tricky as I might have to render the right answer while the server is showing the question for the first time (I'm thinking around 15-30 seconds of lag).
+
 ## Step 3: Asking Questions
 
-There are now two pieces of this: the renderer and the brain.
-The renderer pushes pixels to the virtual webcam and the brain keeps track of the questions.
+There are now two pieces of this: the renderer and the web server.
+The renderer pushes pixels to the virtual webcam and the web server keeps track of the questions.
 I thought about using solid.js and tinkered with it a bit but decided to go down the route I know: Vue.JS.
 I borrowed the [vitesome](https://github.com/alvarosabu/vitesome) starter template and after creating a bit of an adapter so the websocket, api, and other stuff would still work whether I was using the express backend or the vite dev server, I had something decent.
 
+I wrote a quick timed queue (basically it keeps track of how long things take), but more importantly, allows you to get what the current event is in a given time frame (peeking ahead for example).
+For notifying clients, I just used socket.io.
+I also made the renderer itself a client in socket.io just to make things simple.
+There's a handy socket.io c++ client (though it uses BOOST).
 
-## Step 4: Integrating with Streams
-
-The whole point of going through the complex part of rendering the video stream in real time is that we can react to when a user joins or does something awesome.
-This means keeping track of the streams we're on and letting the renderer know.
-
-## Step 5: Getting Answers
+## Step 4: Getting Answers
 
 Perhaps we can just poll the twitch chat.
 But when spammed by thousands of people
 
 I love Vue.JS and generally dislike React (if you have a problem with this article, you're welcome to suggest a change, link at the top).
 The theme of this project is trying new things and I had watched an interesting video about [Solid.js](https://www.youtube.com/watch?v=hw3Bx5vxKl0&ab_channel=Fireship).
+After playing around with it, I eventually decided to keep it simple and just stick with vue.
 
 In terms of reliability, I'll throw it onto an Azure webserver.
 Plus, that's one less than that's based on something new.
@@ -105,9 +112,17 @@ Very much looking forward to it.
 
 Solid even has [a handy template](https://github.com/solidjs/templates/tree/master/ts-vitest) for integrating vite with TypeScript.
 
-## Step 6: Scoring Answers & Keeping Track Of Users
+## Step 5: Scoring Answers & Keeping Track Of Users
 
-We're going to need a database and keep track of viewers.
+We're going to need a database and keep track of users so we can show a leaderboard and whatnot.
+
+I hate the idea of collecting emails or passwords or the like.
+So accounts will be tied to a specific device and you can change your display name, but that's about it.
+
+## Step 6: Integrating with Streams
+
+The whole point of going through the complex part of rendering the video stream in real time is that we can react to when a user joins or does something awesome.
+This means keeping track of the streams we're on and letting the renderer know.
 
 ## Step 7: Trivia Sessions
 
