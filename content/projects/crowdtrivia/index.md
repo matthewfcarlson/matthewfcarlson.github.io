@@ -44,6 +44,9 @@ It is usually coming from a screencapture, camera, or a prerecordered source.
 FFMPEG offers some great options to stream from a file or camera straight to the RTMP endpoint.
 Something like [v4l2loopback](https://github.com/umlaeute/v4l2loopback) fits the bill, which is a virtual camera.
 
+At first I used an [rtsp-simple-server](https://github.com/aler9/rtsp-simple-server#standard) and streamed it to a VLC instance on my local dev box.
+But after the initial concept was proven, I switched to Youtube's endpoint.
+
 My test command ended up like this.
 
 ```
@@ -78,6 +81,7 @@ With that up, I just pointed it at my virtual webcam (make sure to write frames 
 
 There are now two pieces of this: the renderer and the brain.
 The renderer pushes pixels to the virtual webcam and the brain keeps track of the questions.
+There's a handy [resources that uses PIL](https://stackoverflow.com/questions/45947608/rendering-a-unicode-ascii-character-to-a-numpy-array) to write text directly to a numpy array of pixels.
 
 ## Step 4: Integrating with Streams
 
@@ -108,7 +112,7 @@ We're going to need a database and keep track of viewers.
 ## Step 8: Going Further
 
 You could take this a lot farther.
-I'm curious to experiement with large scale crowd games. 
+I'm curious to experiement with large scale crowd games.
 What happens to a game of life when there are 1000s of players instead of 6?
 
 Frankly, I don't know.
