@@ -53,8 +53,13 @@ But in a quick inspection, the code isn't obviously wrong.
 Similarly, it isn't always obvious that a variable could be referring to the same piece.
 ```python
 table_leg2 = table_leg1
+# ...
+# lots of code here
+# ...
 table_leg1.bevel(edges=['TL'], bit=Inches(3/4)])
 table_leg2.bevel(edges=['TL'], bit=Inches(3/4)])
+# what happens here? A double bevel? A nop?
+# either way, the user gets something other than they expect
 ```
 
 This behavior might be acceptable for some people.
