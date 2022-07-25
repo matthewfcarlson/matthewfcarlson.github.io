@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi \U0001F44B, I'm Matthew Carlson"
-    Content: I'm a firmware engineer at <i class="fa-brands fa-apple"></i> Apple, <i class="fa-solid fa-hammer"></i> a woodworker , and <i class="fa-solid fa-fire-burner"></i> a baker
+    Content: I'm a firmware engineer at <i class="fa-brands fa-apple"></i> Apple, <i class="fas fa-pen-fancy"></i> writer for Hackaday, <i class="fa-solid fa-hammer"></i> a woodworker , and <i class="fa-solid fa-fire-burner"></i> a baker
     imageUrl: /face.jpg
 
   socialIcons:
