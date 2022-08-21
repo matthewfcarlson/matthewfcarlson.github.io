@@ -6,7 +6,16 @@
     <description>Recent content on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Aug 2022 13:15:45 -0500</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 11:25:27 -0500</lastBuildDate><atom:link href="https://matthewc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making an Automated Livestreamed Gaming Platform</title>
+      <link>https://matthewc.dev/projects/crowdtrivia/</link>
+      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/projects/crowdtrivia/</guid>
+      <description>I&amp;rsquo;ve mentioned Padgames here on the blog before, but there&amp;rsquo;s a common theme of creating games that everyone can gather around a central screen and play. Jackbox games are a staple in my house for that reason. I also was in college when Twitch Plays Pokemon reached its zennith. Over the past few months a friend of mine and I had been talking about creating automated Youtube channels. All these ideas sort of landed in my head and while isolating at home with a fever, these ideas seemed to merge in my head.</description>
+    </item>
+    
     <item>
       <title>Finding The Best Homemade Vegan Ice Cream</title>
       <link>https://matthewc.dev/projects/vegan-ice-cream/</link>
