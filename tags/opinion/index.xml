@@ -6,11 +6,11 @@
     <description>Recent content in opinion on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2022 15:49:24 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 15:16:05 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Love Parsec &#43; HomeKit</title>
       <link>https://matthewc.dev/musings/ode-to-parsec/</link>
-      <pubDate>Sat, 05 Nov 2022 15:49:24 -0500</pubDate>
+      <pubDate>Sat, 05 Nov 2022 15:16:05 -0500</pubDate>
       
       <guid>https://matthewc.dev/musings/ode-to-parsec/</guid>
       <description>I have lots of laptops and one desktop. While jumping around the country, it&amp;rsquo;s annoying to have to setup a dev environment on every machine. There are solutions out there like docker, github codespaces, or renting a VM from one of the dozens of cloud providers.
@@ -20,7 +20,7 @@ But I already have a great desktop with everything I want already setup. I work 
     <item>
       <title>Selectivity Rich</title>
       <link>https://matthewc.dev/musings/selective-rich/</link>
-      <pubDate>Fri, 17 Jun 2022 22:32:42 -0500</pubDate>
+      <pubDate>Fri, 17 Jun 2022 14:03:18 -0500</pubDate>
       
       <guid>https://matthewc.dev/musings/selective-rich/</guid>
       <description>I have a friend who claims food delivery is too expensive and would just go and pick it up themselves. To me, if I&amp;rsquo;m hot and tired from working on some house thing, I love just hitting a button and hopping in the shower knowing some kind soul will deliver food to my door by the time I&amp;rsquo;m out. Ethical concerns about food delivery companies aside (I try to tip well), it&amp;rsquo;s something I value more than my friend does.</description>
