@@ -1,6 +1,6 @@
 ---
 title: "I Love Parsec + HomeKit"
-date: 2022-11-05T15:16:05-05:00
+publishDate: 2022-11-05T15:16:05-05:00
 cover:
     image: "parsec_hero.png"
 tags:

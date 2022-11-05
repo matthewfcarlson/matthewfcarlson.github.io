@@ -1,6 +1,6 @@
 ---
 title: "Burger Boy"
-date: 2022-03-06T09:39:00-06:00
+publishDate: 2022-03-06T09:39:00-06:00
 cover:
     image: "burger_boy_v1.png"
     linkFullImages: true

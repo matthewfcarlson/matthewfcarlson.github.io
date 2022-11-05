@@ -1,6 +1,6 @@
 ---
 title: "Selectivity Rich"
-date: 2022-06-17T14:03:18-05:00
+publishDate: 2022-06-17T14:03:18-05:00
 draft: false
 cover:
     image: "mathieu-stern-1zO4O3Z0UJA-unsplash.jpg"
