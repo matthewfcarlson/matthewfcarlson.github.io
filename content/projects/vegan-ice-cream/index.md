@@ -1,6 +1,6 @@
 ---
 title: "Finding The Best Homemade Vegan Ice Cream"
-date: 2022-08-06T12:21:35-05:00
+publishDate: 2022-08-06T12:21:35-05:00 
 cover:
     image: "courtney-cook-66IZaW9LIpI-unsplash.jpg"
 tags:
