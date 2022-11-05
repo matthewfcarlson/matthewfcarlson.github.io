@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matthewc.dev/</loc>
-    <lastmod>2022-11-05T16:03:01-05:00</lastmod>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://matthewc.dev/tags/development/</loc>
-    <lastmod>2022-11-05T15:49:24-05:00</lastmod>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/homekit/</loc>
     <lastmod>2022-11-05T15:49:24-05:00</lastmod>
@@ -22,7 +22,7 @@
     <lastmod>2022-11-05T15:49:24-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/</loc>
-    <lastmod>2022-11-05T16:03:01-05:00</lastmod>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/azure/</loc>
     <lastmod>2022-08-21T11:25:27-05:00</lastmod>
@@ -31,7 +31,7 @@
     <lastmod>2022-08-21T11:25:27-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/projects/</loc>
-    <lastmod>2022-11-05T16:03:01-05:00</lastmod>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/python/</loc>
     <lastmod>2022-08-21T11:25:27-05:00</lastmod>
@@ -40,7 +40,7 @@
     <lastmod>2022-08-21T11:25:27-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/web/</loc>
-    <lastmod>2022-08-21T11:25:27-05:00</lastmod>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/tags/cooking/</loc>
     <lastmod>2022-11-05T16:03:01-05:00</lastmod>
@@ -93,21 +93,6 @@
     <loc>https://matthewc.dev/musings/plugin-hybrid-future/</loc>
     <lastmod>2022-03-06T16:40:16-06:00</lastmod>
   </url><url>
-    <loc>https://matthewc.dev/tags/passwords/</loc>
-    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/projects/passwordless-auth/</loc>
-    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/typescript/</loc>
-    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/tags/vuex/</loc>
-    <lastmod>2022-02-21T10:48:02-06:00</lastmod>
-  </url><url>
-    <loc>https://matthewc.dev/projects/vuex-sync-p1/</loc>
-    <lastmod>2022-02-21T09:12:06-06:00</lastmod>
-  </url><url>
     <loc>https://matthewc.dev/archives/</loc>
     <lastmod>2022-02-20T22:19:23-06:00</lastmod>
   </url><url>
@@ -116,6 +101,21 @@
   </url><url>
     <loc>https://matthewc.dev/search/</loc>
     <lastmod>2022-02-19T16:45:21-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/passwords/</loc>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/projects/passwordless-auth/</loc>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/typescript/</loc>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/tags/vuex/</loc>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/projects/vuex-sync-p1/</loc>
+    <lastmod>2022-11-05T16:04:31-05:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/musings/my-first-post/</loc>
     <lastmod>2022-03-07T08:51:44-06:00</lastmod>

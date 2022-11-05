@@ -88,26 +88,6 @@ First Attempt The lighting is way too much and I need to add some texture onto t
 Bentley - 2030 Jaguar - 2030 GM - 2035 Volvo - 2030 Ford - 2026 (EU only) Volkswagen - 2026 Toyota - 2040 Mercedes - 2035 This list means they are pledging to no longer produce cars that have combustion engines. Many other auto manufacturers are pledging to sell mostly electric vehicles and sell a small number traditional gas cars.</description>
     </item>
     
-    <item>
-      <title>Simple Passwordless User Authorization</title>
-      <link>https://matthewc.dev/projects/passwordless-auth/</link>
-      <pubDate>Mon, 21 Feb 2022 10:48:02 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/projects/passwordless-auth/</guid>
-      <description>I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers. What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
-I did a small project recently using my socket.io synced vuex state and needed a system where users could easily login. I will put a huge disclaimer on this that this is just what I did for my personal project where security isn&amp;rsquo;t critical.</description>
-    </item>
-    
-    <item>
-      <title>Vuex Sync Part 1</title>
-      <link>https://matthewc.dev/projects/vuex-sync-p1/</link>
-      <pubDate>Mon, 21 Feb 2022 09:12:06 -0600</pubDate>
-      
-      <guid>https://matthewc.dev/projects/vuex-sync-p1/</guid>
-      <description>This is the tale of how I wrote a state syncing framework based on vuex and rollback netcode . It took a few years and isn&amp;rsquo;t intended to be a &amp;ldquo;copy and paste&amp;rdquo; type of thing. I&amp;rsquo;ll be including code fragments and I&amp;rsquo;ll eventually post a cleaned up repo with only the relevant pieces. Who knows, if there&amp;rsquo;s enough interest, maybe I&amp;rsquo;ll even post a NPM package.
-TL;DR This is a long article.</description>
-    </item>
-    
     
     <item>
       <title>Great British Effect</title>
@@ -119,6 +99,26 @@ TL;DR This is a long article.</description>
 While watching the most recent season, I noticed something interesting. There were three finalists and they were all incredible bakers in their own right.</description>
     </item>
     
+    
+    <item>
+      <title>Simple Passwordless User Authorization</title>
+      <link>https://matthewc.dev/projects/passwordless-auth/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/projects/passwordless-auth/</guid>
+      <description>I hate passwords. Not as a user as password management is basically solved with most modern browsers and password managers. What I hate is having to deal with them as a developer. Hashing, storing, authentication, etc.
+I did a small project recently using my socket.io synced vuex state and needed a system where users could easily login. I will put a huge disclaimer on this that this is just what I did for my personal project where security isn&amp;rsquo;t critical.</description>
+    </item>
+    
+    <item>
+      <title>Vuex Sync Part 1</title>
+      <link>https://matthewc.dev/projects/vuex-sync-p1/</link>
+      <pubDate>Thu, 25 Nov 2021 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/projects/vuex-sync-p1/</guid>
+      <description>This is the tale of how I wrote a state syncing framework based on vuex and rollback netcode . It took a few years and isn&amp;rsquo;t intended to be a &amp;ldquo;copy and paste&amp;rdquo; type of thing. I&amp;rsquo;ll be including code fragments and I&amp;rsquo;ll eventually post a cleaned up repo with only the relevant pieces. Who knows, if there&amp;rsquo;s enough interest, maybe I&amp;rsquo;ll even post a NPM package.
+TL;DR This is a long article.</description>
+    </item>
     
     <item>
       <title>Welcome to my blog</title>
