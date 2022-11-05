@@ -6,7 +6,17 @@
     <description>Recent content in opinion on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jun 2022 22:32:42 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 15:49:24 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Love Parsec &#43; HomeKit</title>
+      <link>https://matthewc.dev/musings/ode-to-parsec/</link>
+      <pubDate>Sat, 05 Nov 2022 15:49:24 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/musings/ode-to-parsec/</guid>
+      <description>I have lots of laptops and one desktop. While jumping around the country, it&amp;rsquo;s annoying to have to setup a dev environment on every machine. There are solutions out there like docker, github codespaces, or renting a VM from one of the dozens of cloud providers.
+But I already have a great desktop with everything I want already setup. I work on tons of different projects (most don&amp;rsquo;t see enough work to warrant a writeup) and it&amp;rsquo;s annoying to have to provision the different environment.</description>
+    </item>
+    
     <item>
       <title>Selectivity Rich</title>
       <link>https://matthewc.dev/musings/selective-rich/</link>

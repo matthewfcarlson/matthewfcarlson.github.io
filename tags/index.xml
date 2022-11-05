@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 11:25:27 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 15:49:24 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://matthewc.dev/tags/development/</link>
+      <pubDate>Sat, 05 Nov 2022 15:49:24 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homekit</title>
+      <link>https://matthewc.dev/tags/homekit/</link>
+      <pubDate>Sat, 05 Nov 2022 15:49:24 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/tags/homekit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://matthewc.dev/tags/opinion/</link>
+      <pubDate>Sat, 05 Nov 2022 15:49:24 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>azure</title>
       <link>https://matthewc.dev/tags/azure/</link>
       <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
       
       <guid>https://matthewc.dev/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>development</title>
-      <link>https://matthewc.dev/tags/development/</link>
-      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/development/</guid>
       <description></description>
     </item>
     
@@ -94,15 +112,6 @@
       <pubDate>Fri, 17 Jun 2022 22:32:42 -0500</pubDate>
       
       <guid>https://matthewc.dev/tags/money/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opinion</title>
-      <link>https://matthewc.dev/tags/opinion/</link>
-      <pubDate>Fri, 17 Jun 2022 22:32:42 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/opinion/</guid>
       <description></description>
     </item>
     
