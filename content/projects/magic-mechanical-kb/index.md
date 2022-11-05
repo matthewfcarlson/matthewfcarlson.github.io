@@ -14,23 +14,6 @@ mermaid: true
 summary: A custom low-profile mechanical keyboard that has Touch ID. The Hannah Montana of keyboards.
 ---
 
-## Todo Graph
-
-{{<mermaid>}}
-flowchart TD
-  %% what's done %%
-  classDef done fill:#9f6,stroke:#333,stroke-width:2px;
-  %% items %% 
-  disassemble["Take Keyboard apart and extract logic board"]:::done
-  reverse_engineer["Reverse engineer the circuit from the flex cable"]
-  design_keyboard["Design a PCB that can accommodate the magic keyboard PCB"]
-  build_pcb["Fab and assemble the PCB"]
-  %% sequence %%
-    disassemble-->reverse_engineer
-    reverse_engineer-->design_keyboard
-    design_keyboard-->build_pcb
-{{</mermaid>}}
-
 ## The Build
 
 Like many programmers/engineers/gamers, I've found that I just enjoy mechanical keyboards.
@@ -108,22 +91,37 @@ They all pointed at 50mm.
 
 The thickness is roughly 0.2mm I'd throw a margin of up to .1mm since my Neiko calipers aren't the most expensive in the world (and I'm guessing small sizes don't help either).
 
-I poked around Digikey and tried to find things that matched. 
-I only found 5 options.
-I ordered one of each and designed a little PCB that accepted each of the footprints and ordered 5 copies. 
-This will allow me to probe the circuit board more deeply.
+I poked around Digikey and tried to find things that matched.
+I didn't find many options I was confident in.
+A socket might be out of the question.
+I'll just use some tape and press it against the contacts on the board.
 
 For that I used the [Sparkfun 16 Output I/O Expander](https://www.sparkfun.com/products/13601).
 ![sparkfun's io expander](sparkfun_io.jpg)
 
-With three of these, I can pull 48 inputs.
+With three of these, I can pull 48 inputs (I need 40).
 With a little ardunio, I can print in the console to hold a specific key and it scans every combination trying to find the pair that connects them.
 From there we can build up a matrix since I'm assuming it uses a scanning matrix.
 
 Rather than get the sparkfun board itself and have to wire up a rats nest, since we're already ordering a PCB, let's put the SX1509 right onto the PCB.
 I just wanted to shout out to sparkfun as I stole their design and used it on my board.
 Here's the schematic:
-![reverse engineering board](reverse_pcb_schematic.png)
+![reverse engineering board](ioexplorer_pcb_schematic.png)
+
+Version 1.0 had a fatal flaw, the reset line (inverted signal) was left floating rather than tied high. 
+So the board are always left high.
+There's no trace to scrap and attach to and the pitch is ridiculously tiny.
+Three PCBs are $5 and two weeks of waiting and so I might as well just fix it and send out for version 1.1.
+I really should have noticed it before I soldered it up. Luckily I ordered 6 SX1509 instead of the 3 I needed.
+![unsoldered board](ioexplorer_v10_unsoldered.jpg)
+
+While I had some down time, I played with completely revamping my design with a different sparkfun design, [SparkFun Analog/Digital MUX Breakout - CD74HC4067](https://www.sparkfun.com/products/9056).
+This works much more like a mux switch rather than an IOExpander.
+Since it's not configurable, I need 6 mux chips since I need to cover every pin twice (once for input and once for output).
+However, each mux chip is under $1 compared to the $4-5 of the SX1509.
+
+I've dubbed it muxexplorer as it does the same thing, but with a mux.
+
 
 The board files are up on Github. TODO: add link to github files after the repo is public.
 
