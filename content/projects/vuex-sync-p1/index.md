@@ -5,7 +5,7 @@ tags:
   - web
   - typescript
 title: "Vuex Sync Part 1"
-date: 2021-11-25T20:56:33-06:00
+publishDate: 2021-11-25T20:56:33-06:00
 draft: false
 cover:
     image: "Vuex.png"

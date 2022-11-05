@@ -6,8 +6,7 @@ tags:
   - passwords
   - development
 title: "Simple Passwordless User Authorization"
-date: 2022-02-18T20:56:33-06:00
-draft: false
+publishDate: 2022-02-18T20:56:33-06:00
 cover:
     image: "passwordless-auth.jpg"
 aliases: ['/projects/webdev/passwordless-auth/', '/blog/projects/webdev/passwordless-auth/']
