@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>smartphones on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/smartphones/</link>
+    <description>Recent content in smartphones on Matthew C Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2022 11:00:55 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/smartphones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Adult Pacifier</title>
+      <link>https://matthewc.dev/musings/adult-pacifier/</link>
+      <pubDate>Fri, 02 Dec 2022 11:00:55 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/adult-pacifier/</guid>
+      <description>Surveys by Common Sense Media and the Consumer Mobility Report both state a large majority Americans sleep next to their phone or with their phone in hand. According to a 2019 Statista survey , 44% of participants reported feeling some anxiety when separated from their phone (not the same thing as the smartphone itself causing anxiety ).
+This isn&amp;rsquo;t a public decrying of how we are hopelessly addicted to our phones.</description>
+    </item>
+    
+  </channel>
+</rss>
