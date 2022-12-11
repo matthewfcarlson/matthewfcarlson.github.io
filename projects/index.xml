@@ -6,7 +6,17 @@
     <description>Recent content in Projects on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 11:25:27 -0500</lastBuildDate><atom:link href="https://matthewc.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 23:51:50 -0600</lastBuildDate><atom:link href="https://matthewc.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Watching The Greatest Hits From The Last 120&#43; Years</title>
+      <link>https://matthewc.dev/projects/movie-history-tour/</link>
+      <pubDate>Sat, 10 Dec 2022 23:51:50 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/projects/movie-history-tour/</guid>
+      <description>I find the 20&amp;rsquo;s to the 50&amp;rsquo;s a very fascinating time in American history. Perhaps because it is so very different from the life we have today, but still feels relatively closer. Maybe even more so because the 20&amp;rsquo;s and 30&amp;rsquo;s were so radically different from just 50 years prior.
+So in pursuit of learning more about the history of the cinema and to understand more about what life was like by watching what they watched, I&amp;rsquo;m going to watch the top grossing/most popular movie from each year.</description>
+    </item>
+    
     <item>
       <title>Making an Automated Livestreamed Gaming Platform</title>
       <link>https://matthewc.dev/projects/crowdtrivia/</link>
