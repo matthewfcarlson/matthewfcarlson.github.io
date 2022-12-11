@@ -2,6 +2,7 @@
 title: "Making an Automated Livestreamed Gaming Platform"
 date: 2022-07-17T22:38:01-05:00
 inprogress: true
+draft: true
 cover:
     image: "triviawithus_banner.png"
 tags:

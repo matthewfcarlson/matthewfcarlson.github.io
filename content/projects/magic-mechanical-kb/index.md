@@ -121,6 +121,8 @@ Since it's not configurable, I need 6 mux chips since I need to cover every pin 
 However, each mux chip is under $1 compared to the $4-5 of the SX1509.
 
 I've dubbed it muxexplorer as it does the same thing, but with a mux.
+I also added a connector to interface with the flat ribbon cable.
+I ultimately went with this design as it was easier and had less leakage current.
 
 
 The board files are up on Github. TODO: add link to github files after the repo is public.
