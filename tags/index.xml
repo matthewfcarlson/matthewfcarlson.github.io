@@ -62,42 +62,6 @@
     </item>
     
     <item>
-      <title>azure</title>
-      <link>https://matthewc.dev/tags/azure/</link>
-      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://matthewc.dev/tags/python/</link>
-      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vue</title>
-      <link>https://matthewc.dev/tags/vue/</link>
-      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/vue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://matthewc.dev/tags/web/</link>
-      <pubDate>Sun, 21 Aug 2022 11:25:27 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cooking</title>
       <link>https://matthewc.dev/tags/cooking/</link>
       <pubDate>Sat, 06 Aug 2022 12:21:35 -0500</pubDate>
@@ -211,6 +175,15 @@
       <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
       
       <guid>https://matthewc.dev/tags/vuex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://matthewc.dev/tags/web/</link>
+      <pubDate>Fri, 18 Feb 2022 20:56:33 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/tags/web/</guid>
       <description></description>
     </item>
     
