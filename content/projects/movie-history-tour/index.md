@@ -1,0 +1,242 @@
+---
+title: "Watching The Greatest Hits From The Last 120+ Years"
+publishDate: 2022-12-10T23:51:50-06:00
+cover:
+    image: "ricky-turner-paCF_o4FGwg-unsplash.jpg"
+tags:
+ - movies
+---
+
+I find the 20's to the 50's a very fascinating time in American history.
+Perhaps because it is so very different from the life we have today, but still feels relatively closer.
+Maybe even more so because the 20's and 30's were so radically different from just 50 years prior.
+
+So in pursuit of learning more about the history of the cinema and to understand more about what life was like by watching what they watched, I'm going to watch the top grossing/most popular movie from each year. 
+Most popular is determined by rotten tomatoes and on a few years I'll pick two movies.
+
+Many of the movies in the early years are in the public domain (archive.org and Library Of Congress are good resources). Here's the list.
+
+- 1899 Cripple Creek Bar-Room Scene
+- 1902 Trip to the moon
+- 1903 Alice in wonderland
+- 1903 The great train robbery
+- 1904 The impossible voyage
+- 1906 The Motorist
+- 1908 The Dreyfus Affair
+- 1909 A corner in wheat
+- 1909 The Devlish Tenant
+- 1910 Frankenstein
+- 1911 Winsor McCay's Moving Comics
+- 1911 Little Nemo
+- 1912 The Invaders
+- 1913 Traffic in Souls
+- 1914 Million Dollar Mystery
+- 1914 Thou Shalt Not Kill/The Avenging Conscience
+- 1915 The birth of a nation
+- 1916 20,000 leagues under the sea
+- 1917 The Poor Little Rich Girl
+- 1918 Tarzan of the apes
+- 1918 Micky
+- 1919 South
+- 1919 Daddy Long Legs
+- 1920 Over the hill to the poorhouse
+- 1920 The mark of zorro
+- 1921 The Shake
+- 1921 The Four Horsemen of the Apocalypse
+- 1922 Robin Hood
+- 1923 The Covered Wagon
+- 1924 The Last Laugh
+- 1924 Der Mude Tod (Destiny)
+- 1925 The Gold Rush
+- 1925 The Big Parade
+- 1926 What Price Glory
+- 1927 Wings
+- 1927 the Jazz singer
+- 1927 Sunrise: song of two humans
+- 1928 The Singing fool
+- 1928 Street Angel
+- 1929 The broadway melody
+- 1929 Un Chien Andalou
+- 1930 Tom Saywer
+- 1930 All quiet on the western front
+- 1931 City Lights
+- 1931 Frankenstein
+- 1932 The Old Dark House
+- 1933 King Kong
+- 1933 Duck Soup
+- 1934 It happened one night
+- 1935 Top Hat
+- 1925 Mutiny on the Bounty
+- 1936 How to become a detective
+- 1937 Snow White and the seven dwarfs
+- 1938 Bringing up baby
+- 1939 Gone with the wind
+- 1939 Wizard of Oz
+- 1939 Mr. Smith goes to washington
+- 1939 Stagecoach
+- 1939 Wuthering Heights
+- 1940 Pinocchio
+- 1940 Grapes of Wrath
+- 1940 Fantasia
+- 1941 Sergeant York
+- 1941 Citzen Kane
+- 1942 Bambi
+- 1942 Casablanca
+- 1943 Watch on the Rhine
+- 1943 This is the army
+- 1944 Going my way
+- 1944 Double Indemnity
+- 1945 The bells of St. Mary’s
+- 1945 The Lost Weekend
+- 1946 Song of the south
+- 1946 It’s a wonderful life
+- 1947 Miracle on 34th street
+- 1947 Gentleman’s agreement
+- 1948 Treasure of Sierra Madre
+- 1948 The Snake Pit
+- 1949 Samson and Delilah
+- 1949 Third man
+- 1950 Cinderella
+- 1950 Sunset boulevard
+- 1951 Quo Vadis
+- 1951 The Day the earth stood still
+- 1951 Streetcar named desire
+- 1951 American in Paris
+- 1951 African Queen
+- 1952 The greatest show on earth
+- 1952 Singin' in the rain
+- 1952 From here to eternity
+- 1951 High Noon
+- 1953 From here to Eternity
+- 1953 Peter Pan
+- 1954 on the waterfront
+- 1954 White Christmas
+- 1955 rebel without a cause
+- 1955 Lady and the tramp
+- 1956 The Ten Commandments
+- 1956 invasion of the body snatchers
+- 1957 Bridge of River Kwai
+- 1957 paths of glory
+- 1958 South Pacific
+- 1958 vertigo
+- 1959 Ben-Hur
+- 1959 Some like it hot
+- 1959 North by Northwest
+- 1960 Spartacus
+- 1960 psycho
+- 1960 The apartment
+- 1961 101 Dalmatians
+- 1961 West side story
+- 1961 breakfast at tiffany’s
+- 1962 Lawrence of Arabia
+- 1962 Kill a mockingbird
+- 1963 Cleopatra
+- 1963 the great escape
+- 1964 Goldfinger
+- 1964 Dr. Strangelove
+- 1964 My Fair Lady
+- 1965 Sound of music
+- 1966 the Bible
+- 1966 Good, bad, ugly
+- 1967 The Jungle book
+- 1967 The Graduate
+- 1968 2001 Space odyssey
+- 1969 Butch Cassidy and the Sundance kid
+- 1969 Midnight Cowboy
+- 1970 Love story
+- 1970 M*A*S*H
+- 1971 Diamonds are forever
+- 1971 Clockwork Orange
+- 1971 Dirty Harry
+- 1972 The Godfather
+- 1973 The exorcist
+- 1974 Towering Inferno
+- 1975 Chinatown
+- 1975 Jaws
+- 1976 Rocky
+- 1976 Taxi Driver
+- 1977 Star Wars A new hope
+- 1977 Close Encounters of the third kind
+- 1978 Grease
+- 1978 Halloween
+- 1979 Moonraker
+- 1979 Apocalypse Now
+- 1979 Alien
+- 1980 Star Wars Strikes back
+- 1980 The Shining
+- 1981 Raiders of lost ark
+- 1982 ET
+- 1982 Blade Runner
+- 1983 Star Wars return of Jedi
+- 1984 Indiana jones temple of doom
+- 1984 Amadeus
+- 1984 Terminator
+- 1985 Back to the future
+- 1986 Top gun
+- 1986 Stand by me
+- 1987 Fatal attraction
+- 1987 Princess Bride
+- 1988 Rain man
+- 1988 Die Hard
+- 1989 Indiana jones last crusade
+- 1989 Glory
+- 1990 Ghost
+- 1990 Dances with Wolves
+- 1990 Goodfellas
+- 1991 Terminator 2
+- 1991 Silence of the lambs
+- 1992 Aladdin
+- 1992 Unforgiven
+- 1993 Jurassic Park
+- 1994 Lion king
+- 1994 Pulp Fiction
+- 1995 Die hard: with a vengeance
+- 1995 Toy Story
+- 1996 Independence Day
+- 1996 Fargo
+- 1997 Titanic
+- 1998 Armageddon
+- 1998 Saving Private Ryan
+- 1999 Star Wars I
+- 1999 The Matrix
+- 2000 Mission impossible 2
+- 2000 Gladiator
+- 2001 Harry Potter 1
+- 2001 Training Day
+- 2002 Lord of rings 2 towers
+- 2002 The Pianist
+- 2003 Lord of rings 3
+- 2004 Shrek 2
+- 2004 Kill Bill vol 2
+- 2005 Harry Potter 4
+- 2005 Brokeback mountain
+- 2006 Pirates dead man’s chest
+- 2006 Pan’s Labyrinth
+- 2007 Pirates at world’s end
+- 2007 There will be blood
+- 2008 Dark knight
+- 2009 Avatar
+- 2010 Inception
+- 2011 Harry potter death hallows part 2
+- 2012 Avengers
+- 2012 Skyfall
+- 2013 12 years a slave
+- 2014 Guardians of the galaxy
+- 2015 Star wars 7
+- 2015 Mad max: fury road
+- 2016 Capt America civil war
+- 2016 Moonlight
+- 2017 Star Wars 8
+- 2017 Get out
+- 2018 Spiderman into the spiderverse
+- 2019 Parasite
+- 2021 Spider man: no way home
+- 2022 Top gun maverick
+
+It's several days of movies. Even just one movie a week is a few years.
+I might start writing about watching these movies and sort of review what I think and why they're culturally significant.
+
+If I'm missing any movies, please let me know.
+
+
+Photo by <a href="https://unsplash.com/@imrickyturner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ricky Turner</a> on <a href="https://unsplash.com/s/photos/old-movie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
