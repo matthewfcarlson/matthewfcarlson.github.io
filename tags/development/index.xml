@@ -6,7 +6,18 @@
     <description>Recent content in development on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2022 15:16:05 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2023 21:20:19 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fighting Distraction With Unit Tests</title>
+      <link>https://matthewc.dev/musings/unit-tests/</link>
+      <pubDate>Sat, 21 Jan 2023 21:20:19 -0600</pubDate>
+      
+      <guid>https://matthewc.dev/musings/unit-tests/</guid>
+      <description>While I won&amp;rsquo;t go so far as to diagnose myself with ADD without consulting a doctor, those who know me know I can be distracted quite easily. So recently, I decided to do something a little different with a personal project I started a few weeks ago (link to come).
+I wrote unit tests.
+That may seem rather uninspired, but I&amp;rsquo;ve always poo-pood the idea of test-driven development (TDD), as it seems wild to me to write a test for something that you don&amp;rsquo;t know what it needs to do yet.</description>
+    </item>
+    
     <item>
       <title>I Love Parsec &#43; HomeKit</title>
       <link>https://matthewc.dev/musings/ode-to-parsec/</link>

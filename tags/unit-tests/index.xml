@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>productivity on Matthew C Dev</title>
-    <link>https://matthewc.dev/tags/productivity/</link>
-    <description>Recent content in productivity on Matthew C Dev</description>
+    <title>unit tests on Matthew C Dev</title>
+    <link>https://matthewc.dev/tags/unit-tests/</link>
+    <description>Recent content in unit tests on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jan 2023 21:20:19 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2023 21:20:19 -0600</lastBuildDate><atom:link href="https://matthewc.dev/tags/unit-tests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fighting Distraction With Unit Tests</title>
       <link>https://matthewc.dev/musings/unit-tests/</link>
@@ -16,19 +16,6 @@
       <description>While I won&amp;rsquo;t go so far as to diagnose myself with ADD without consulting a doctor, those who know me know I can be distracted quite easily. So recently, I decided to do something a little different with a personal project I started a few weeks ago (link to come).
 I wrote unit tests.
 That may seem rather uninspired, but I&amp;rsquo;ve always poo-pood the idea of test-driven development (TDD), as it seems wild to me to write a test for something that you don&amp;rsquo;t know what it needs to do yet.</description>
-    </item>
-    
-    <item>
-      <title>An Ode To Paper Todos</title>
-      <link>https://matthewc.dev/musings/paper-todos/</link>
-      <pubDate>Sun, 10 Apr 2022 14:19:56 -0500</pubDate>
-      
-      <guid>https://matthewc.dev/musings/paper-todos/</guid>
-      <description>I love a todo list. It captures my goals and desires in a semi-succinct and concrete way. There are hundreds if not thousands of todo apps and methods. But to me personally, one stands out above all the others.
-A simple 3x5 notecard.
-This is a how-to or a help article. This is a love letter.
-A love letter to paper.
-The simple idea of writing down your list of things to do on a physical surface with your own hand is something I love.</description>
     </item>
     
   </channel>
