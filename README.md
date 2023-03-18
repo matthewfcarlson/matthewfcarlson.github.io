@@ -7,6 +7,8 @@ matthewc.dev
 
 ```
 hugo new --kind project-bundle projects/my-post
+hugo new --kind blender-bundle blender/my-post
+hugo new --kind musing-bundle musings/my-post
 ```
 
 ## Local Dev Experience
