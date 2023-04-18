@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Matthew C Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Apr 2023 09:40:27 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 22:38:40 -0500</lastBuildDate><atom:link href="https://matthewc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blender</title>
-      <link>https://matthewc.dev/tags/blender/</link>
-      <pubDate>Wed, 05 Apr 2023 09:40:27 -0500</pubDate>
+      <title>comedy</title>
+      <link>https://matthewc.dev/tags/comedy/</link>
+      <pubDate>Mon, 17 Apr 2023 22:38:40 -0500</pubDate>
       
-      <guid>https://matthewc.dev/tags/blender/</guid>
+      <guid>https://matthewc.dev/tags/comedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>funny</title>
+      <link>https://matthewc.dev/tags/funny/</link>
+      <pubDate>Mon, 17 Apr 2023 22:38:40 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/tags/funny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opinion</title>
       <link>https://matthewc.dev/tags/opinion/</link>
-      <pubDate>Sat, 18 Mar 2023 09:08:46 -0500</pubDate>
+      <pubDate>Mon, 17 Apr 2023 22:38:40 -0500</pubDate>
       
       <guid>https://matthewc.dev/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender</title>
+      <link>https://matthewc.dev/tags/blender/</link>
+      <pubDate>Wed, 05 Apr 2023 09:40:27 -0500</pubDate>
+      
+      <guid>https://matthewc.dev/tags/blender/</guid>
       <description></description>
     </item>
     
