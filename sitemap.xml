@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://matthewc.dev/</loc>
-    <lastmod>2023-04-17T23:06:53-05:00</lastmod>
-    <priority>0</priority>
-  </url><url>
     <loc>https://matthewc.dev/tags/comedy/</loc>
     <lastmod>2023-04-17T23:06:53-05:00</lastmod>
   </url><url>
@@ -122,6 +118,9 @@
   </url><url>
     <loc>https://matthewc.dev/musings/great-british-effect/</loc>
     <lastmod>2022-03-06T16:40:16-06:00</lastmod>
+  </url><url>
+    <loc>https://matthewc.dev/</loc>
+    <lastmod>2022-02-19T17:39:01-06:00</lastmod>
   </url><url>
     <loc>https://matthewc.dev/search/</loc>
     <lastmod>2022-02-19T16:45:21-06:00</lastmod>
