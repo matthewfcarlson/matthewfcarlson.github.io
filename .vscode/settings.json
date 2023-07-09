@@ -8,10 +8,5 @@
         "ultrawides",
         "unclip"
     ],
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#09351E",
-        "titleBar.activeBackground": "#0D4A2B",
-        "titleBar.activeForeground": "#F3FDF8"
-    },
     "grammarly.files.include": ["**/*.md", "**/*.txt"]
 }
