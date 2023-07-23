@@ -15,7 +15,7 @@ summary: A custom low-profile mechanical keyboard that has Touch ID. The Hannah 
 
 ## The Build
 
-Like many programmers/engineers/gamers, I've found that I just enjoy mechanical keyboards.
+Like many programmers/engineers/gamers, I've found that I prefer mechanical keyboards.
 
 Maybe it's just the noise.
 
@@ -25,12 +25,10 @@ Maybe it's all in my head.
 Either way, I prefer a mechanical keyboard and am willing to spend some dollars on it.
 Does it make me a better typist?
 I don't think so.
-Does it allow me to type faster? I don't think so. The WPM tests I've done are too varied, even on the same keyboard. I have a 16" Intel MacBook Pro as my portable dev machine from work, and I use it closed in a dock. Unfortunately, this means that the fantastic Touch ID sensor on the MacBook's keyboard is unavailable for authenticating.
-My Apple Watch takes care of a lot of things but not everything.
-Particularly sudo authentication.
+Does it allow me to type faster? I don't think so. The WPM tests I've done are too varied, even on the same keyboard. I have a MacBook Pro as my portable dev machine from work, and I use it closed in a dock. Unfortunately, this means that the fantastic Touch ID sensor on the MacBook's keyboard is unavailable for authenticating, which comes up often.
 
 Apple makes a version of its keyboard known as the [Magic Keyboard with Touch ID](https://www.apple.com/shop/product/MK293LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-us-english).
-It has a Touch ID sensor in it and everything.
+It has a Touch ID sensor in it and it is absolutely fantastic.
 The only problem was that it's a flat chiclet-style keyboard, which I don't care for after using it for a bit.
 It's not bad, it just isn't what I want.
 
@@ -40,7 +38,7 @@ Before we get further into this, I'll put this big old disclosure.
 
 **This represents my own work and opinion _and is _in _no__ way something_ that is endorsed/supported/affiliated with Apple*
 
-After giving it some thought, I cannot release the schematic for the keyboard or connector.
+However, after giving it some thought, I cannot release the schematic for the keyboard or connector.
 I think just putting this write-up is a bit risky so it will focus on the process rather than the actual device itself.
 
 Hopefully, that's enough legalese to cover my butt 🤞 :heart:
@@ -65,8 +63,8 @@ They had a little window to unclip the battery connector (the thing with two lit
 
 ![the black backplate](backplate.png)
 
-I panicked when the keyboard wouldn't respond after plugging it in (since the circuit expects the battery there).
-A bit of research shows that the second-generation Magic Keyboard (the non-touchID one) shares a battery (A1645), and while you can buy the battery online from a sketchy site, I didn't want to pay $30. So using what I learned, I pulled that secondary keyboard apart in a much less destructive way. Unfortunately, the glue on the battery sucked, and I felt terrible slightly bending it, probably shorting its life.
+I panicked when the keyboard wouldn't respond after plugging it in (I thought the circuit might expect the battery there).
+A bit of research shows that the second-generation Magic Keyboard (the non-touchID one) shares a battery (A1645). So using what I learned, I pulled that secondary keyboard apart in a much less destructive way. Unfortunately, the glue on the battery sucked, and I felt terrible slightly bending it, probably shorting its life.
 
 The keyboard turned on just fine with the battery, and I had the logic board (seen below on the right). (Update: a battery isn't required, I'm not sure why it didn't turn on initially)
 
@@ -111,7 +109,7 @@ I really should have noticed it before I soldered it up. Luckily I ordered 6 SX1
 
 # Finding a connector
 
-I ordered about 12 different connectors from Digikey (as mentioned earlier).
+I ordered 12 different connectors to connect to the FPC from Digikey (as mentioned earlier).
 
 Unfortunately, none of them worked very well.
 
@@ -119,6 +117,7 @@ Around this time, [a youtube video](https://www.youtube.com/watch?time_continue=
 So while it was in the same vein as what I was going for, I'm focused on using the keyboard controller board with the keys.
 
 The tape holding down the FPC was unreliable, and connections tended to be flakey at best.
+Additionally, I thought perhaps there was some bridging going on and as I seemed to have trouble determining what some pins were without messing with other pins.
 So I decided to do something more drastic and go down a layer.
 
 # Complete teardown
@@ -126,23 +125,42 @@ So I decided to do something more drastic and go down a layer.
 I decided to teardown the keyboard to the little plastic that controls it all.
 Unfortunately, the keyboard matrix is two sheets glued together with some extra bits thrown in between, so it's hard to measure continuity.
 Other keyboards tend to be one or two sheets with traces on the outside rather than the inside.
+I was able to hold the connector up to the light and determine several traces were just not connected, which explained the floating pins.
 So it looks like I'm back trying to probe from the connector side.
 
-After some probing, I had a way to determine which column lines went to which row lines.
+By analyzing and following traces there was a pattern on which ones were rows and which were columns.
+However, it was dizzyingly complex and being confident about which lines went where was murky at best.
+I made another little PCB, this time built around [the CD74HC4067](https://www.sparkfun.com/products/9056), a 16-channel mux. 
+I love Sparkfun (as this article might make evident) as they include their schematics so you can understand what sort of decisions they made and why. 
+Some other companies (won't name names but it ends in Fruit) tend to be rather stingy about giving away details.
 
+And so MuxExplorer was born!
+![Mux Explorer Board](mux_explorer.jpg)
+
+With that, I had the layout of the switch matrix.
+I need to recreate that in my switch matrix for my custom keyboard.
+As mentioned at the top of this article, I won't be making much of this public due to concerns about my job.
 
 # Keyboard Layout
 
 Whenever you design a mechanical keyboard, the layout of the keys deserves almost as much consideration as the actual construction itself.
 A [great Hackaday article about making a low-profile keyboard](https://hackaday.com/2022/03/16/a-clear-guide-for-a-low-profile-bespoke-keyboard/) lists some great resources.
 
+I recently purchased a low-profile Keychron K1 Pro with Gateron browns and love it.
+For the first version, I'm inclined to just copy that, but I've also considered:
+- Split ortho-linear
+- Alice layout
+- ErgoDox
+- Lefthand numberpad 100%
+
+I'm sure I'll revisit this with future revisions but for now, I'll copy the layout that keychron has with a few more keys stuck in there.
 
 # Designing the PCB
 
 Now that I had the logic board extracted and a plan, it was time to get to work designing a PCB.
 I've traditionally used Eagle and Altium (when someone was willing to pay), but I decided to try [KiCad](https://www.kicad.org).
-While I don't think I love it, as it has some clunkiness and I'm getting better at working around the quirks.
-The 3d viewer in particular (now that I'm much better at blender)
+I don't think I love it, as it has an aspect of clunkiness.
+Though I'm getting better at working around the quirks.
 
 # Ideas
 
