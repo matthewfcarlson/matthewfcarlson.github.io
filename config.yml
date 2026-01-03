@@ -3,7 +3,8 @@ languageCode: 'en-us'
 title: 'Matthew C Dev'
 theme: papermod
 enableEmoji: true
-paginate: 10
+pagination:
+  pagerSize: 10
 enableGitInfo: true
 publishdir: 'docs'
 buildFuture: true
