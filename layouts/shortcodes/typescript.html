@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $id := .Get "id" | default (path.BaseName $src) -}}
+{{- $resource := .Page.Resources.Get $src -}}
+{{- if $resource -}}
+  {{- $opts := dict "targetPath" (printf "js/%s.js" $id) "minify" hugo.IsProduction "target" "es2020" "format" "iife" -}}
+  {{- $script := $resource | js.Build $opts -}}
+  {{- if not $.Site.Params.assets.disableFingerprinting -}}
+    {{- $script = $script | fingerprint -}}
+  {{- end -}}
+  <div id="{{ $id }}" class="ts-interactive"></div>
+  <script defer src="{{ $script.RelPermalink }}"></script>
+{{- else -}}
+  <!-- typescript shortcode: resource "{{ $src }}" not found in page bundle -->
+{{- end -}}

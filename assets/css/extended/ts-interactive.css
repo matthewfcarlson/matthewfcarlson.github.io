@@ -1,0 +1,26 @@
+.ts-interactive {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 1.5rem auto;
+}
+
+.ts-interactive .chart-wrapper {
+  position: relative;
+}
+
+.ts-interactive svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  color: var(--primary);
+}
+
+.ts-interactive svg text {
+  fill: var(--primary);
+}
+
+.ts-interactive svg line,
+.ts-interactive svg path.domain {
+  stroke: var(--secondary);
+}
