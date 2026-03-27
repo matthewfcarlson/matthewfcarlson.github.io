@@ -1,7 +1,7 @@
 .ts-interactive {
   position: relative;
   width: 100%;
-  max-width: 640px;
+  max-width: 900px;
   margin: 1.5rem auto;
 }
 
@@ -23,4 +23,279 @@
 .ts-interactive svg line,
 .ts-interactive svg path.domain {
   stroke: var(--secondary);
+}
+
+/* --- Bump Chart --- */
+
+#bump-chart.ts-interactive {
+  max-width: 900px;
+}
+
+.bump-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bump-search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 140px;
+}
+
+.bump-search {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--theme);
+  color: var(--primary);
+  font-size: 14px;
+  outline: none;
+}
+
+.bump-search:focus {
+  border-color: var(--primary);
+}
+
+.bump-autocomplete {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.bump-ac-item {
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--primary);
+}
+
+.bump-ac-item:hover {
+  background: var(--border);
+}
+
+.bump-preset {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--theme);
+  color: var(--primary);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bump-sex-filter {
+  display: flex;
+  gap: 0;
+}
+
+.bump-filter-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  background: var(--theme);
+  color: var(--secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.bump-filter-btn:first-child {
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.bump-filter-btn:last-child {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.bump-filter-btn:not(:first-child) {
+  border-left: none;
+}
+
+.bump-filter-btn.active {
+  background: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+}
+
+.bump-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+  min-height: 24px;
+}
+
+.name-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: default;
+  line-height: 1.4;
+}
+
+.name-pill.female {
+  background: hsla(340, 70%, 50%, 0.15);
+  color: hsl(340, 70%, 45%);
+}
+
+.name-pill.male {
+  background: hsla(210, 70%, 50%, 0.15);
+  color: hsl(210, 70%, 40%);
+}
+
+.dark .name-pill.female {
+  background: hsla(340, 70%, 50%, 0.2);
+  color: hsl(340, 70%, 70%);
+}
+
+.dark .name-pill.male {
+  background: hsla(210, 70%, 50%, 0.2);
+  color: hsl(210, 70%, 70%);
+}
+
+.name-pill .remove {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.name-pill .remove:hover {
+  opacity: 1;
+}
+
+.bump-line {
+  transition: opacity 0.15s;
+}
+
+.bump-label {
+  font-family: inherit;
+  pointer-events: none;
+}
+
+.bump-info-panel {
+  font-size: 13px;
+  color: var(--secondary);
+  min-height: 2.8em;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.bump-info-panel strong {
+  color: var(--primary);
+}
+
+.bump-info-panel b {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.bump-stat-sex {
+  color: var(--secondary);
+  margin-left: 2px;
+}
+
+.bump-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.bump-stats span {
+  white-space: nowrap;
+}
+
+.bump-stat-sub {
+  color: var(--secondary);
+  font-size: 11px;
+}
+
+.bump-loading {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--secondary);
+  font-size: 14px;
+}
+
+.bump-axis text {
+  font-size: 11px;
+}
+
+.bump-chart-and-list {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.bump-chart-and-list .chart-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.bump-name-list {
+  width: 140px;
+  flex-shrink: 0;
+  font-size: 12px;
+  max-height: 480px;
+  overflow-y: auto;
+  padding-top: 4px;
+}
+
+.bump-list-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 4px 3px 7px;
+  border-left: 3px solid transparent;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  line-height: 1.4;
+  transition: background 0.1s;
+}
+
+.bump-list-item:hover,
+.bump-list-item.hovered {
+  background: var(--border);
+}
+
+.bump-list-item.pinned {
+  background: var(--border);
+  font-weight: 600;
+}
+
+.bump-list-rank {
+  color: var(--secondary);
+  min-width: 30px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.bump-list-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bump-list-sex {
+  color: var(--secondary);
+  font-size: 10px;
+  flex-shrink: 0;
 }
