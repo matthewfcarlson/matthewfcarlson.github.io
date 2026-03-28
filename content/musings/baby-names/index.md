@@ -6,6 +6,8 @@ tags:
   - d3
   - visualization
 description: "Finding the flattest baby names"
+cover:
+    image: "baby name trends.png"
 showtoc: false
 ---
 
