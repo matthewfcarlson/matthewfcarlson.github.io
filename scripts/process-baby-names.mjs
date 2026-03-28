@@ -180,6 +180,9 @@ async function extractAndProcess() {
   // First pass: collect all yearly sorted lists + find top-N names
   const topNKeys = new Set();
   const yearlySorted = []; // [{M: [[name, count], ...], F: [...]}, ...]
+  // Supplement: per-year totals and spotlight name counts
+  const suppMaleTotals = new Array(numYears).fill(0);
+  const suppWilliamCounts = new Array(numYears).fill(0);
 
   for (const file of files) {
     const year = parseInt(file.match(/\d{4}/)[0]);
@@ -199,6 +202,11 @@ async function extractAndProcess() {
       const prev = bySex[sex].get(canonical) || 0;
       bySex[sex].set(canonical, prev + count);
     }
+
+    // Capture supplement data while bySex is still in scope
+    const maleTotal = [...bySex["M"].values()].reduce((a, b) => a + b, 0);
+    suppMaleTotals[yearIndex] = maleTotal;
+    suppWilliamCounts[yearIndex] = bySex["M"].get("William") || 0;
 
     const sorted = { M: null, F: null };
     for (const sex of ["M", "F"]) {
@@ -256,6 +264,20 @@ async function extractAndProcess() {
 
   const sizeKB = (readFileSync(OUT_PATH).length / 1024).toFixed(0);
   console.log(`Wrote ${OUT_PATH} (${sizeKB} KB, ${names.length} names)`);
+
+  // Write supplementary file for "why rank?" illustration
+  const SUPP_PATH = join(OUT_DIR, "names-supplement.json");
+  const williamPct = suppWilliamCounts.map((c, i) =>
+    suppMaleTotals[i] > 0 ? (c / suppMaleTotals[i]) * 100 : 0
+  );
+  const supplement = {
+    startYear,
+    endYear,
+    williamPct,          // William as % of all male births per year
+    williamRank: nameRanks.get("William|M") || new Array(numYears).fill(0),
+  };
+  writeFileSync(SUPP_PATH, JSON.stringify(supplement));
+  console.log(`Wrote ${SUPP_PATH}`);
 
   // Clean up
   execSync(`rm -rf "${tmpDir}"`);

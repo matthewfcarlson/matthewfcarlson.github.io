@@ -1,11 +1,11 @@
 ---
-title: "The Rise and Fall of Baby Names"
+title: "How flat is your name?"
 publishDate: 2026-03-26T12:00:00-06:00
 tags:
   - data
   - d3
   - visualization
-description: "An interactive bump chart showing how the most popular baby names in the USA have shifted from 1880 to present, using Social Security Administration data."
+description: "Finding the flattest baby names"
 showtoc: false
 ---
 
@@ -24,6 +24,18 @@ Are there names like this that:
 
 The data isn't merged extensively (ie, we say that william and will are the same name).
 There are techniques for merging these by converting them to syllables. But I can't be bothered.
+
+## Why rank?
+
+The SSA data includes raw counts — how many babies were given each name every year. But raw counts and percentages are misleading for comparing across eras.
+
+In 1880, roughly **8% of all male babies were named William**. Today it's closer to **1%** — not because William has collapsed, but because naming has diversified enormously. The total pool of names in use has exploded, so every individual name's slice of the pie shrinks, regardless of how popular it actually is relative to other names.
+
+Rank sidesteps this. It measures *relative* popularity: is this name #1, #10, or #100 compared to everything else that year? The charts below show the difference.
+
+{{< typescript src="why-rank.ts" id="why-rank" >}}
+
+Same name, two lenses. Left: William's raw share of male births — looks like a long, steady decline driven by naming diversity, not a real drop in popularity. Right: William's rank — it's been near the top for over a century.
 
 ## The Chart
 
@@ -45,6 +57,20 @@ Here is how I have chosen to calculate the score.
 `score = std + (worstRank - bestRank) * 0.5`
 
 {{< typescript src="flat-names.ts" id="flat-names" >}}
+
+## The Hidden Middle
+
+This brings up my next question.
+Many of the "flat" names are quite popular, which isn't what I'm trying to find.
+What about the second string names? 
+Staying in the middle band, decade after decade, never quite fading to obscurity.
+
+The chart below ranks names by a combination of low standard deviation and lower average rank — steady *and* relatively popular within the 50–2,000 band.
+We filter out anything that peaked about 50 and anything to dropped below 2000.
+
+`score = std_dev × 3 + avg_rank`
+
+{{< typescript src="steady-names.ts" id="steady-names" >}}
 
 ## What the Data Tells Us
 
