@@ -104,13 +104,19 @@ async function main() {
     .filter(d => d.rank > 0);
 
   const maxRank = max(williamPoints, d => d.rank)!;
+  // Pad the domain so the line isn't pinned to the top edge; always show at least rank 25
+  const y2Max = Math.max(maxRank + Math.ceil(maxRank * 0.5), 25);
   const x2 = scaleLinear().domain([startYear, endYear]).range([0, chartW]);
-  const y2 = scaleLinear().domain([1, maxRank]).range([0, chartH]);
+  const y2 = scaleLinear().domain([1, y2Max]).range([0, chartH]);
+
+  // Only include tick values that fall within the domain
+  const candidateTicks = [1, 2, 5, 10, 15, 20, 25, 50];
+  const y2Ticks = candidateTicks.filter(t => t <= y2Max);
 
   g2.append("g").attr("transform", `translate(0,${chartH})`).attr("class", "bump-axis")
     .call(axisBottom(x2).ticks(6).tickFormat(d => String(d)));
   g2.append("g").attr("class", "bump-axis")
-    .call(axisLeft(y2).tickValues([1, 5, 10, 25, 50, maxRank]).tickFormat(d => `#${d}`));
+    .call(axisLeft(y2).tickValues(y2Ticks).tickFormat(d => `#${d}`));
 
   const lineGen2 = line<{ yr: number; rank: number }>()
     .x(d => x2(d.yr))
