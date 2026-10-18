@@ -40,7 +40,7 @@ Fly through the air or clap so hard the world explodes.
 I had started a variation of this project a year or two ago.
 The rough idea was to hoist the game into an emulator environment (often known as recomp) where it would run as a background process.
 Then just render new graphics on top using tracked memory locations to inform the state of all the objects in the game, similar to how they remastered the older Halo games.
-This was ultimately scrapped as this is basically writing a brand new game that derives the game logic from a complex black box.
+I ultimately scrapped it, since it's basically writing a brand new game that derives the game logic from a complex black box.
 
 Going into this project, I started with a local Qwen model (Qwen3.6-35B-A3B) running on an older macbook and a $20/mo claude plan.
 I really thought that local models would be able to do it all, but I was quite wrong.
@@ -50,7 +50,7 @@ I really thought that local models would be able to do it all, but I was quite w
 The basic idea of a decomp is you run a program like [ghidra](https://github.com/NationalSecurityAgency/ghidra) (a decompiling tool from the NSA of all people) that takes in assembly and turns it into very very terrible C.
 It tries to identify functions, classes, vtables, and the like.
 
-Xbox games are x86 as they are built for a pentium 3 so you start with assembly like this:
+Xbox games are x86 because the console runs on a Pentium 3-class CPU, so you start with assembly like this:
 
 ```asm
 sub   esp, 0x8
@@ -82,7 +82,7 @@ mov   [eax], ebp
 ...
 ret   0xc
 ```
-> Note: for this particular example, the assembly shown here does not come from the hulk game but is an example that I have made up.
+> Note: for this particular example, the assembly shown here does not come from the hulk game but is an example I made up.
 
 Which ghidra turns into terrible c:
 
@@ -209,8 +209,8 @@ And I did most of it by directing claude from my phone and spending money.
 ## Why Do It?
 
 There are easier ways to play an old game you love.
-An old xbox at the retro game store by my house is $50 and a copy of a disk can be had on your favorite auction sites for $5-10 USD.
-You can obtain a legal copy of a game iso and play it on an xbox emulator (xemu was used heavily in this project).
+An old xbox at the retro game store by my house is $50 and you can find a copy of a disk on your favorite auction sites for $5-10 USD.
+You can obtain a legal copy of a game iso and play it on an xbox emulator (this project leaned heavily on xemu).
 There are projects that recompile games like [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) which re-compiles xbox360 games into c++.
 They are effectively hoisting the VM into the code itself as it maintains PowerPC CPU state as a variable into functions.
 Games still remain an opaque black box.
@@ -223,12 +223,12 @@ The reality is that we almost never can leave the cave and see what is actually 
 These are proprietary projects with IP and copyright and lawyers.
 But we can explore the cave and see the hints of what was.
 
-It is awesome to look through games I loved and see how they were put together.
+It is awesome to look through games I loved and see how the developers put them together.
 A few things I found:
 
-- **RTTI was left on.** RTTI (run-time type information) is metadata C++ keeps so it can do things like `dynamic_cast`. It means the shipped binary still carries the names of about 4,200 classes, their inheritance, and their virtual functions. That was the single biggest free win of the project.
+- **Radical left RTTI on.** RTTI (run-time type information) is metadata C++ keeps so it can do things like `dynamic_cast`. It means the shipped binary still carries the names of about 4,200 classes, their inheritance, and their virtual functions. That was the single biggest free win of the project.
 - **The game already does 720p and 16:9.** I assumed it was hard-coded to 640x480, but it asks for up to 1280x720 and has a mode table that goes up to 1080i, picking the best one the console's video settings allow. Widescreen is built in.
-- **The missions are scripted in Lua, but not quite the Lua you'd expect.** The VM calls itself `Lua 5.1 (work)`, yet the bytecode is the older Lua 5.0 layout with the version byte changed. Why did they go for 5.1? It wasn't officially released until 2006 (a few months after the game shipped in 2005), so Radical was apparently running a pre-release snapshot.
+- **The missions are scripted in Lua, but not quite the Lua you'd expect.** The VM calls itself `Lua 5.1 (work)`, yet the bytecode is the older Lua 5.0 layout with the version byte changed. Why did they go for 5.1? The Lua team didn't officially release it until 2006 (a few months after the game shipped in 2005), so Radical was apparently running a pre-release snapshot.
 
 There's something to be said about the difference between crawling through the cave yourself vs sending a robot in to look and tell you what it found.
 I will let you personally decide where you land in that particular debate.
