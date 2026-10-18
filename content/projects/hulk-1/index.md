@@ -128,14 +128,20 @@ Once you have every function matching exactly, you have a good starting point to
 ## How AI Does It
 
 The [pi-durable](https://earendil.com/posts/pi-durable/) seemed perfect for this kind of thing where it can spin up resumable conversations to try on each match.
+After collecting a copy of the iso, I analyzed the binary and realized there were roughly 27,477 functions I needed to match.
+That number was different when I started because ghidra sometimes gets confused about where functions start and end, especially with inlining.
+
 Showing that this is something you can do without an expensive cloud subscription was a goal and so I tried Qwen3.6-35B-A3B. 
 The performance of the local model on the macbook was 45 t/s with a fairly terrible match rate.
 Switching to Deepseek v4 was much better but it generated a measly 1-4 matches an hour due to the super slow tokens per second (5-6t/s is what my records say but that seems super slow).
 But it matched 89% of the time, rather than Qwen's ~30%.
 Assuming an average of 2.5/hour that's 457 days straight of running a model.
-Based on recent trends, dozens of new better models would come out in that time frame.
+Assuming we keep up with the pace of the past few months, dozens of new better models would come out in that time frame.
 
+I tried a few other local models but ran into similar issues where if they were smart enough to solve it, they were too slow to be useful.
 Despite my principles, I needed help.
+
+## Putting Money Where My AI Is
 
 My next step was to put $20 into OpenRouter and have the farm start making cheap matches.
 However, when you have 27,477 functions to match, if each one costs on average $0.01 that's $274.
@@ -148,11 +154,55 @@ A friend of mine mentioned paying for tokens directly was probably the least cos
 So, with an OpenAI subscription and a Anthropic subscription in hand, I was ready.
 I plugged it into pi so pi-durable could pick it up.
 
+I started Oct 8th and had 12k/27k matched on the first day.
+
+## Fine Tuning
+
 The upside of using OpenRouter is we had examples with reasoning we could fine-tune a model.
 So instead of running a local model on the laptop, I used unsloth to fine-tune Qwen which claude dubbed ulk-1. 
 
 This was a clear improvement but clearly wasn't a winner, only getting to ~45% pass rate.
-The latter version ulk-2 added equivalence (more on that later) and data from other x86 decomp projects I found on github, 
+The later version ulk-2 added equivalence (more on that later) and data from other x86 decomp projects I found on github, improving the accuracy up to ~60%.
+However, it completely fell apart on larger/longer functions with a 0% success rate on any function over 100 bytes long.
+
+I had longer matches thanks to OpenAI but no reasoning to give the AI.
+Asking AI to provide reasoning often ran afoul of reason extraction guardrails and I had to phrase what I wanted very carefully.
+The reasoning suffers from a few biases and using AI output to fine tune a model may be against terms of service, I'll have to look. 
+These formed the basis of ulk-3 which still falls apart on functions over 300 bytes but gets 75% correct with way fewer tries.
+
+The overall setup has the local model chewing through the backlog and anything it doesn't get after a few tries goes to a smarter model.
+If the slightly smarter chatGPT subscription can't solve it, we wait for claude.
+
+Rather than having sonnet/opus solve each item in the queue, we have it identify what the common thread is.
+Adding that hint to the context often gave these small models what they needed to create a match.
+
+## Shortcuts and Throwing Compute At It
+
+Matching larger functions gets harder and harder, so the AI proposed an alternative: proving functions as equivalent.
+Assembly is lots of register swizzling and stack magic. If a function does x, y, and then returns z does it matter if it does x or y first?
+Sometimes but plenty of times no. 
+
+Rather than try to match perfect, it built a fairly complex tool set it called equivalence.
+It's sort of a mix between a fuzzer and a tester.
+When proving a function as equivalent, it needs to both produce the same or similar effects with a simulated x86/x87 system on a large amount of inputs with a large amount of coverage.
+Similar to a fuzzer trying different inputs, it wants to see all the various paths and jumps gets exercised.
+
+The other helpful piece was a hybrid build where it could patch functions into the game, load it in an emulator with a breakpoint set, check to make sure it got the right input/output and whether that matched the original binary exactly.
+This meant patching functions to remove all sources of randomness, which was fairly easy for this game.
+Without any randomness, I could play the game for 10-20 minutes and have a decent snapshot to replay as we proved more and more functions as equivalent.
+
+Some errors slipped through and it was helpful to throw the checker on another machine I had lying around to do 4-5x more inputs that my local mac was doing.
+
+I reached 100% verified on the 17th, 9 days later.
+These sorts of project used to take a group of volunteers years.
+And I did most of it by directing claude from my phone and spending money.
+
+## Helpful notes
+
+1. Recipes are better than retries. It's worth it to spend one strong-model investigation on a group of problems, write the fix into the brief, then scale with cheap models and scripts. Often understanding how a virtual pointer or compiler quirk works unlocks hundreds of functions.
+2. Match models to size. Cheap models (Luna) work up to about 96 B. Sonnet works for 97–192 B. Past that, the problem is capacity, not feedback.
+3. Restarts beat long chains. Matches level off after about 5 attempts, and two independent 4-attempt runs beat one 8-attempt run.
+4. Aligned diffs are much better than regular diffs for AI context.
 
 ## Why Do It?
 
@@ -174,6 +224,27 @@ But we can explore the cave and see the hints of what was.
 It is awesome to look through games I loved and find a partially complete Lua 5.1 interpreter for missions with a few opcodes missing.
 Why did they go for 5.1? It wasn't officially released until 2006 (two years after the game was released).
 
+There's something to be said about the difference between crawling through the cave yourself vs sending a robot in to look and tell you what it found.
+I will let you personally decide where you land in that particular debate.
+
 ## Can I Do It?
 
+I work as a firmware engineer and have spent a decent amount of time staring at assembly to try and figure out what is going on.
+Every once in a while I have to write a small snippet of assembly for performance or bootstrapping reasons (ie the code to setup main).
 
+While I feel confident about having to roll up my sleeves and jump in there if needed, I never had to.
+I had a single claude session that drove this whole thing through dozens of conversations compactions.
+while there were a few times I pointed out flaws or things it had overlooked, for the vast majority of the time I found myself agreeing with the clanker about the next item on the list to tackle or even how to tackle it.
+
+So yes. While it isn't "press button and game pops out" it also isn't "toil for months or weeks or days".
+That bar will only get lower and lower as time goes on.
+
+## Where Do We Go From Here?
+
+The recent post on [decomp.dev](https://decomp.dev) written by [@encounter](https://github.com/encounter) puts is quite nicely.
+> It is now clear that, with the right guidance, human input, and code reviews, AI can expedite the decompilation process in a significant way. What is also now clear is that the community aspect of decompilation has been broken
+
+> decomp.dev was originally designed to gamify decompilation: watching the progress go up was a fun way to stay motivated when every fraction of a percent took real human effort. Today, that same idea has warped decompilation into a hollow numbers game, exacerbated by folks who just want to burn tokens to make number go up or "port game to PC", all else be damned. 
+
+It's clear that we are in a new era.
+For me personally, I have a few more games to decomp so I can play with my brother again.
